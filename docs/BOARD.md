@@ -7,15 +7,18 @@ Prioridade: P0 base legal · P1 perguntas · P2 interface · P3 extras.
 Status: TODO · DOING · BLOCKED · REVIEW · WAITING-LUAN · DONE
 Regra de bloqueio: 2 falhas na mesma tarefa → para e vai para o Luan com a causa.
 
-## Calendário-alvo (exame até 31/12, escopo completo — D-006)
+## Calendário-alvo (PROVA: 20/12/2026 em Fribourg; escopo completo — D-006)
 | Período | Marco |
 |---|---|
-| 26-28/11 | Fase 0 + currículo oficial mapeado (T-002) + checagem no Actions (T-004) |
-| 28/11-03/12 | Priorité completa (regras + perguntas) e PWA mínimo em paralelo |
-| 04-20/12 | Esteira: as outras 9 categorias, 2 em paralelo, ~3-4 dias cada par. Fase 4 (Erros, revisão espaçada, simulado) entra no meio |
-| 21/12-exame | Congelamento: só correções. Estudo e simulados |
+| 26-27/11 | Fundação, currículo, checagem automática, textos legais no repo |
+| 27/11-01/12 | Priorité validada + perguntas + PWA mínimo no iPhone |
+| 02/12-15/12 | Esteira: categorias A, B, C, E, F, G, H em pares (~3 dias por par) + Erros/revisão espaçada/simulado |
+| 16-17/12 | Últimas correções |
+| 17/12 (noite) | CONGELAMENTO: nada novo, só estudo |
+| 18-19/12 | Simulados (app + iTheorie) |
+| 20/12 | Prova |
 
-Gargalo previsto: validação do Luan (H-02/H-03 de cada tema), ~30-45 min por tema.
+Gargalo previsto: validação do Luan (~30-45 min por tema, ~5-6 h no total até 15/12).
 
 ## Tarefas
 
@@ -32,6 +35,7 @@ Gargalo previsto: validação do Luan (H-02/H-03 de cada tema), ~30-45 min por t
 | T-007 | Revisão independente das perguntas | P1 | REV/Opus | T-006 | docs/reviews/ | Sem ambiguidade nem contradição com regra | TODO |
 | H-03 | Luan aprova amostra de perguntas | P1 | Luan | T-007 | — | status → aprovado | TODO |
 | T-008 | PWA mínimo: Aprender / Praticar / Erros, offline, progresso local | P2 | DEV/Sonnet | T-001 | app/* | Roda no iPhone; testes passam | TODO |
+| T-010 | Workflow fetch-laws: textos completos LCR/OCR/OSR/OAC/OETV em legal/sources/ | P0 | Orquestrador | T-004 | scripts/fetch_laws.py, .github/workflows/fetch-laws.yml | 5 leis salvas com versão e URL | DOING |
 | H-01 | Luan confirma formato da prova em asa.ch ou no OCN Friburgo | P0 | Luan | — | — | SPEC §3 → confirmado | TODO (não bloqueia até o simulador) |
 
 ## Bloqueios abertos

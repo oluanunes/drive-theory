@@ -1,0 +1,22 @@
+name: fetch-laws
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * 1"   # toda segunda: pega alterações da lei
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install pyyaml
+      - run: python scripts/fetch_laws.py
+      - name: Commit se mudou
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add legal/sources
+          if git diff --cached --quiet; then echo "sem mudanças"; else git commit -m "fetch-laws: textos legais atualizados do Fedlex" && git push; fi
