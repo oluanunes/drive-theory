@@ -1,0 +1,22 @@
+# FIXTURE: dict com chave `regras`
+regras:
+  - id: T-FAIL-001            # texto alterado -> FALHA
+    fonte: { rs: "999.01", artigo: "1" }
+    trecho_literal_fr: "Le testeur fictif doit s'arrêter devant le panneau de test."
+  - id: T-FAIL-002            # existe na lei, mas em outro artigo -> FALHA
+    fonte: { rs: "999.01", artigo: "1" }
+    trecho_literal_fr: "La vitesse maximale fictive est de 12 mètres par seconde"
+  - id: T-EMPTY-001           # vazio -> SEM_TRECHO
+    fonte: { rs: "999.01", artigo: "1" }
+    trecho_literal_fr: ""
+  - id: T-EMPTY-002           # ausente -> SEM_TRECHO
+    fonte: { rs: "999.01", artigo: "1" }
+  - id: T-NOART-001           # artigo inexistente no HTML -> OK, artigo nao conferido
+    fonte: { rs: "999.01", artigo: "77" }
+    trecho_literal_fr: "Il vérifie l'état du banc d'essai fictif avant chaque départ."
+  - id: T-FOOT-001            # nota de rodape nao deve aparecer no texto da lei
+    fonte: { rs: "999.01", artigo: "1" }
+    trecho_literal_fr: "Note de bas de page fictive"
+  - id: T-SUP-001             # 1er preservado
+    fonte: { rs: "999.01", artigo: "2a" }
+    trecho_literal_fr: "Le 1er véhicule fictif passe en tête."

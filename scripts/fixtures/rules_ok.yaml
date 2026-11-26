@@ -1,0 +1,13 @@
+# FIXTURE: regras ficticias para teste
+- id: T-OK-001
+  fonte: { lei: FIX, rs: "999.01", artigo: "1", alinea: "1", url: "https://example.invalid/fixture" }
+  trecho_literal_fr: "Le testeur fictif doit s'arrêter devant le panneau d'essai."   # apostrofo reto
+- id: T-OK-002
+  fonte: { lei: FIX, rs: "999.01", artigo: "Art. 2a" }
+  trecho_literal_fr: "La vitesse maximale fictive est de 12 mètres par seconde"
+- id: T-OK-003   # apostrofo tipografico + nbsp na regra, e ’ no HTML
+  fonte: { lei: FIX, rs: "999.01", artigo: "1" }
+  trecho_literal_fr: "Le testeur fictif doit s’arrêter devant le panneau d’essai."
+- id: T-OK-004   # nbsp e espacos multiplos
+  fonte: { lei: FIX, rs: "999.01", artigo: "1" }
+  trecho_literal_fr: "doit s'arrêter  devant le panneau"
