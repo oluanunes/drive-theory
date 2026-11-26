@@ -103,6 +103,7 @@ def strip_notes(text: str) -> str:
     """Variante tolerante: remove numeros de nota colados ao fim de palavra e
     numero de alinea inicial. Usada so como segunda tentativa."""
     text = _GLUED_NOTE.sub("", text)
+    text = text.replace("*", "")  # marcador de nota do Fedlex
     text = _LEADING_NUM.sub("", text)
     return re.sub(r"\s+", " ", text).strip()
 
