@@ -22,8 +22,8 @@ Gargalo previsto: validação do Luan (H-02/H-03 de cada tema), ~30-45 min por t
 | ID | Tarefa | P | Papel/Modelo | Depende | Arquivos permitidos | Aceite | Status |
 |---|---|---|---|---|---|---|---|
 | T-001 | Estrutura, SPEC, BOARD, DECISIONS, SOURCES | P0 | Orquestrador | — | docs/* | Docs existem e Luan aprova | DONE |
-| T-002 | Ler OAC art. 13 + anexo 11 ch. II.1 no Fedlex e mapear competências → categorias A-J | P0 | PESQ/Sonnet | T-001 | docs/CURRICULO.md | Cada competência com link Fedlex | DOING |
-| T-003 | Mapear regras de Priorité (OCR, OSR) com trecho literal | P0 | PESQ/Sonnet | T-002 | legal/rules/priorite.yaml | Schema SPEC §5 completo | TODO |
+| T-002 | Ler OAC art. 13 + anexo 11 ch. II.1 no Fedlex e mapear competências → categorias A-J | P0 | PESQ/Sonnet | T-001 | docs/CURRICULO.md | Cada competência com link Fedlex | DONE parcial: 15/15 itens; lacunas em H, 1.5.1, LCR, OETV |
+| T-003 | Mapear regras de Priorité (OCR, OSR) com trecho literal | P0 | PESQ/Sonnet | T-002 | legal/rules/priorite.yaml | Schema SPEC §5 completo | DOING |
 | T-004 | Script + workflow GitHub Actions que baixa o Fedlex e confere se cada `trecho_literal_fr` existe no texto | P0 | DEV/Haiku | T-001, H-04 | scripts/check_quotes.*, .github/workflows/* | Falha se algum trecho não bater | BLOCKED (H-04) |
 | H-04 | Luan cria o repo vazio oluanunes/drive-theory (a integração do GitHub não tem permissão para criar) | P0 | Luan | — | — | Repo existe e Claude consegue fazer push | WAITING-LUAN |
 | T-005 | Revisão independente das regras de Priorité (exceções, omissões) | P0 | REV/Opus | T-003, T-004 | só comentários em docs/reviews/ | Relatório com veredito por regra | TODO |
@@ -35,7 +35,9 @@ Gargalo previsto: validação do Luan (H-02/H-03 de cada tema), ~30-45 min por t
 | H-01 | Luan confirma formato da prova em asa.ch ou no OCN Friburgo | P0 | Luan | — | — | SPEC §3 → confirmado | TODO (não bloqueia até o simulador) |
 
 ## Bloqueios abertos
-- Nenhum.
+- Trechos literais: WebFetch e shell não leem o Fedlex completo; conferência real só via Actions (T-004, depende de H-04).
+- Categoria H sem artigos confirmados: precisa de pesquisa dedicada (T-009, a criar).
+- Anexo 11 OAC: confirmar se mudou após 01/01/2026.
 
 ## Conflitos abertos
 - Nenhum.
