@@ -40,7 +40,18 @@ def eli_for(rs: str) -> str:
     elis = sorted({r["act"] for r in rows if r.get("act")})
     if not elis:
         raise RuntimeError(f"RS {rs}: ELI consolidado nao encontrado")
-    return elis[0]
+    # Varios atos podem ter carregado o mesmo RS ao longo do tempo:
+    # escolher o que tem a consolidacao FR em HTML mais recente.
+    today_iso = dt.date.today().isoformat()
+    best = None
+    for eli in elis:
+        rows = cq.sparql(cq.QUERY_CONSOLIDATED_HTML % {"eli": eli, "today_iso": today_iso})
+        if rows and (best is None or rows[0]["date"] > best[0]):
+            best = (rows[0]["date"], eli)
+        print(f"  candidato {eli}: {rows[0]['date'] if rows else 'sem consolidacao'}")
+    if not best:
+        raise RuntimeError(f"RS {rs}: nenhum candidato com consolidacao FR")
+    return best[1]
 
 
 def to_text(raw: str) -> str:
@@ -65,7 +76,10 @@ def main() -> int:
             eli = eli_for(rs)
             url = cq.resolve_law_urls(rs, eli, today)[0]
             raw = cq.http_get(url).decode("utf-8", "replace")
-            (OUT / f"{rs}.txt").write_text(to_text(raw), encoding="utf-8")
+            text = to_text(raw)
+            if not text.startswith(rs):
+                raise RuntimeError(f"texto baixado nao comeca com '{rs}' (pagina errada?)")
+            (OUT / f"{rs}.txt").write_text(text, encoding="utf-8")
             index.append(f"| {rs} | {name} | {eli} | {url} | {today} |")
             print(f"OK {rs} {url}")
         except Exception as e:  # noqa: BLE001
