@@ -1,1153 +1,1213 @@
 [
- {
-  "id": "Q-COM-001",
-  "regra_ids": [
-   "R-COM-001"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "dever-geral-de-conduta",
-  "competencia": "Dever geral de não incomodar nem pôr em perigo",
-  "nivel": 1,
-  "enunciado": "Você dirige em uma rua movimentada, onde os outros usuários cumprem as regras de trânsito. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "O dever de conduta no trânsito vale para quem conduz veículo a motor; ciclistas e pedestres ficam fora dele.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 26 al. 1 começa com « Chacun »: o dever é de todos que circulam, não só de condutores de veículos a motor."
-   },
-   {
-    "texto": "Quem tem prioridade fica dispensado de se preocupar em não incomodar os outros, porque a prioridade vem em primeiro lugar.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 26 al. 1 diz « Chacun » e não prevê dispensa para quem tem prioridade."
-   },
-   {
-    "texto": "Todos devem se comportar no trânsito de modo a não incomodar nem pôr em perigo quem usa a via de acordo com as regras estabelecidas.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 26 al. 1: « ne pas gêner ni mettre en danger ceux qui utilisent la route conformément aux règles établies »."
-   },
-   {
-    "texto": "Basta evitar o perigo concreto: incomodar os outros usuários da via é permitido, desde que ninguém chegue a ser posto em perigo de verdade.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 26 al. 1 proíbe duas coisas: « gêner » (incomodar) e « mettre en danger » (pôr em perigo)."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Todos devem se comportar de modo a não incomodar nem pôr em perigo quem usa a via conforme as regras.",
-   "por_que": "LCR art. 26 al. 1: « Chacun doit se comporter, dans la circulation, de manière à ne pas gêner ni mettre en danger ceux qui utilisent la route conformément aux règles établies ».",
-   "como_identificar": "Procure o dever que vale para todos os usuários, com duas proibições: incomodar e pôr em perigo.",
-   "erro_comum": "Achar que só o perigo real conta, ou que ter prioridade apaga o dever de conduta.",
-   "excecao": "Perante crianças, pessoas com deficiência, idosos e quem vai se comportar de forma incorreta, o LCR art. 26 al. 2 exige prudência particular (ver Q-COM-002).",
-   "palavras_fr": [
-    "ne pas gêner ni mettre en danger — não incomodar nem pôr em perigo",
-    "règles établies — regras estabelecidas"
-   ]
+  {
+    "id": "Q-COM-001",
+    "regra_ids": [
+      "R-COM-001"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "dever-geral-de-conduta",
+    "competencia": "Dever geral de não incomodar nem pôr em perigo",
+    "nivel": 1,
+    "enunciado": "Você dirige em uma rua movimentada, onde os outros usuários cumprem as regras de trânsito. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "O dever de conduta no trânsito vale para quem conduz veículo a motor; ciclistas e pedestres ficam fora dele.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 26 al. 1 começa com « Chacun »: o dever é de todos que circulam, não só de condutores de veículos a motor."
+      },
+      {
+        "texto": "Quem tem prioridade fica dispensado de se preocupar em não incomodar os outros, porque a prioridade vem em primeiro lugar.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 26 al. 1 diz « Chacun » e não prevê dispensa para quem tem prioridade."
+      },
+      {
+        "texto": "Todos devem se comportar no trânsito de modo a não incomodar nem pôr em perigo quem usa a via de acordo com as regras estabelecidas.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 26 al. 1: « ne pas gêner ni mettre en danger ceux qui utilisent la route conformément aux règles établies »."
+      },
+      {
+        "texto": "Basta evitar o perigo concreto: incomodar os outros usuários da via é permitido, desde que ninguém chegue a ser posto em perigo de verdade.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 26 al. 1 proíbe duas coisas: « gêner » (incomodar) e « mettre en danger » (pôr em perigo)."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Todos devem se comportar de modo a não incomodar nem pôr em perigo quem usa a via conforme as regras.",
+      "por_que": "LCR art. 26 al. 1: « Chacun doit se comporter, dans la circulation, de manière à ne pas gêner ni mettre en danger ceux qui utilisent la route conformément aux règles établies ».",
+      "como_identificar": "Procure o dever que vale para todos os usuários, com duas proibições: incomodar e pôr em perigo.",
+      "erro_comum": "Achar que só o perigo real conta, ou que ter prioridade apaga o dever de conduta.",
+      "excecao": "Perante crianças, pessoas com deficiência, idosos e quem vai se comportar de forma incorreta, o LCR art. 26 al. 2 exige prudência particular (ver Q-COM-002).",
+      "palavras_fr": [
+        "ne pas gêner ni mettre en danger — não incomodar nem pôr em perigo",
+        "règles établies — regras estabelecidas"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-002",
-  "regra_ids": [
-   "R-COM-002"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "prudencia-particular",
-  "competencia": "Prudência particular perante crianças, deficientes e idosos",
-  "nivel": 2,
-  "enunciado": "Você dirige perto de uma escola, na hora da saída, com crianças e idosos andando na beira da pista. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "A prudência particular perante crianças se impõe quando elas já estão sobre a faixa de pedestres, e não antes disso.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 26 al. 2 não condiciona a prudência particular a nenhum local: ela se impõe perante as crianças."
-   },
-   {
-    "texto": "Perante crianças, pessoas com deficiência (« infirmes ») e idosos, o condutor deve ter prudência particular.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 26 al. 2: « Une prudence particulière s'impose à l'égard des enfants, des infirmes et des personnes âgées »."
-   },
-   {
-    "texto": "A lista do art. 26 al. 2 cita apenas as crianças; para os idosos e para pessoas com deficiência basta o dever geral de não incomodar.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 26 al. 2 cita três grupos: crianças, « infirmes » e idosos (« personnes âgées »)."
-   },
-   {
-    "texto": "Se parecer que outro usuário da via vai se comportar de modo incorreto, a prudência particular também se impõe.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 26 al. 2, final: « et de même s'il apparaît qu'un usager de la route va se comporter de manière incorrecte »."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Crianças, pessoas com deficiência, idosos e quem parece prestes a errar exigem prudência particular.",
-   "por_que": "LCR art. 26 al. 2: « Une prudence particulière s'impose à l'égard des enfants, des infirmes et des personnes âgées, et de même s'il apparaît qu'un usager de la route va se comporter de manière incorrecte ».",
-   "como_identificar": "Veja se perto de você há alguém desses três grupos ou um usuário que dá sinais de que vai errar.",
-   "erro_comum": "Ler a regra como se valesse só para crianças, ou só em frente à escola.",
-   "excecao": "Perante pedestres em passagens para pedestres, o LCR art. 33 al. 2 traz um dever próprio (outra regra do projeto).",
-   "palavras_fr": [
-    "prudence particulière — prudência particular",
-    "infirmes — pessoas com deficiência",
-    "personnes âgées — idosos"
-   ]
+  {
+    "id": "Q-COM-002",
+    "regra_ids": [
+      "R-COM-002"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "prudencia-particular",
+    "competencia": "Prudência particular perante crianças, deficientes e idosos",
+    "nivel": 2,
+    "enunciado": "Você dirige perto de uma escola, na hora da saída, com crianças e idosos andando na beira da pista. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "A prudência particular perante crianças se impõe quando elas já estão sobre a faixa de pedestres, e não antes disso.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 26 al. 2 não condiciona a prudência particular a nenhum local: ela se impõe perante as crianças."
+      },
+      {
+        "texto": "Perante crianças, pessoas com deficiência (« infirmes ») e idosos, o condutor deve ter prudência particular.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 26 al. 2: « Une prudence particulière s'impose à l'égard des enfants, des infirmes et des personnes âgées »."
+      },
+      {
+        "texto": "A lista do art. 26 al. 2 cita apenas as crianças; para os idosos e para pessoas com deficiência basta o dever geral de não incomodar.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 26 al. 2 cita três grupos: crianças, « infirmes » e idosos (« personnes âgées »)."
+      },
+      {
+        "texto": "Se parecer que outro usuário da via vai se comportar de modo incorreto, a prudência particular também se impõe.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 26 al. 2, final: « et de même s'il apparaît qu'un usager de la route va se comporter de manière incorrecte »."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Crianças, pessoas com deficiência, idosos e quem parece prestes a errar exigem prudência particular.",
+      "por_que": "LCR art. 26 al. 2: « Une prudence particulière s'impose à l'égard des enfants, des infirmes et des personnes âgées, et de même s'il apparaît qu'un usager de la route va se comporter de manière incorrecte ».",
+      "como_identificar": "Veja se perto de você há alguém desses três grupos ou um usuário que dá sinais de que vai errar.",
+      "erro_comum": "Ler a regra como se valesse só para crianças, ou só em frente à escola.",
+      "excecao": "Perante pedestres em faixas de pedestres, o LCR art. 33 al. 2 traz um dever próprio (outra regra do projeto).",
+      "palavras_fr": [
+        "prudence particulière — prudência particular",
+        "infirmes — pessoas com deficiência",
+        "personnes âgées — idosos"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-003",
-  "regra_ids": [
-   "R-COM-003",
-   "R-COM-005"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "dominio-do-veiculo",
-  "competencia": "Domínio do veículo e não ser incomodado",
-  "nivel": 2,
-  "enunciado": "Você é o condutor de um carro com três passageiros e uma carga no porta-malas. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "O dever de dominar o veículo é mais leve em baixa velocidade e se torna exigente quando a velocidade é alta ou a estrada é difícil.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 31 al. 1 diz « constamment » (constantemente) e não distingue velocidades."
-   },
-   {
-    "texto": "O condutor deve permanecer constantemente senhor do seu veículo, de modo a poder cumprir os deveres de prudência.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 31 al. 1: « rester constamment maître de son véhicule de façon à pouvoir se conformer aux devoirs de la prudence »."
-   },
-   {
-    "texto": "O condutor deve cuidar para não ser incomodado nem pela carga nem de outro modo.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 31 al. 3: « veiller à n'être gêné ni par le chargement ni d'une autre manière »."
-   },
-   {
-    "texto": "Os passageiros têm o dever de não incomodar nem perturbar o condutor.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 31 al. 3, segunda frase: « Les passagers sont tenus de ne pas le gêner ni le déranger »."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "O condutor domina o veículo constantemente e cuida para não ser incomodado; os passageiros também não podem incomodá-lo.",
-   "por_que": "LCR art. 31 al. 1 (domínio do veículo) e al. 3 (não ser incomodado pela carga nem de outro modo; deveres dos passageiros).",
-   "como_identificar": "Procure o advérbio « constamment » (a todo momento) e a divisão de deveres entre condutor e passageiros.",
-   "erro_comum": "Pensar que o dever do condutor relaxa em baixa velocidade ou que só ele tem deveres dentro do carro.",
-   "excecao": "O texto dessas alíneas não fixa regras de carga em números; não deduza limites que o artigo não traz.",
-   "palavras_fr": [
-    "rester constamment maître de son véhicule — permanecer constantemente senhor do veículo",
-    "gêner — incomodar",
-    "déranger — perturbar"
-   ]
+  {
+    "id": "Q-COM-003",
+    "regra_ids": [
+      "R-COM-003",
+      "R-COM-005"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "dominio-do-veiculo",
+    "competencia": "Domínio do veículo e não ser incomodado",
+    "nivel": 2,
+    "enunciado": "Você é o condutor de um carro com três passageiros e uma carga no porta-malas. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "O dever de dominar o veículo é mais leve em baixa velocidade e se torna exigente quando a velocidade é alta ou a estrada é difícil.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 31 al. 1 diz « constamment » (constantemente) e não distingue velocidades."
+      },
+      {
+        "texto": "O condutor deve permanecer constantemente senhor do seu veículo, de modo a poder cumprir os deveres de prudência.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 31 al. 1: « rester constamment maître de son véhicule de façon à pouvoir se conformer aux devoirs de la prudence »."
+      },
+      {
+        "texto": "O condutor deve cuidar para não ser incomodado nem pela carga nem de outro modo.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 31 al. 3: « veiller à n'être gêné ni par le chargement ni d'une autre manière »."
+      },
+      {
+        "texto": "Os passageiros têm o dever de não incomodar nem perturbar o condutor.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 31 al. 3, segunda frase: « Les passagers sont tenus de ne pas le gêner ni le déranger »."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "O condutor domina o veículo constantemente e cuida para não ser incomodado; os passageiros também não podem incomodá-lo.",
+      "por_que": "LCR art. 31 al. 1 (domínio do veículo) e al. 3 (não ser incomodado pela carga nem de outro modo; deveres dos passageiros).",
+      "como_identificar": "Procure o advérbio « constamment » (a todo momento) e a divisão de deveres entre condutor e passageiros.",
+      "erro_comum": "Pensar que o dever do condutor relaxa em baixa velocidade ou que só ele tem deveres dentro do carro.",
+      "excecao": "O texto dessas alíneas não fixa regras de carga em números; não deduza limites que o artigo não traz.",
+      "palavras_fr": [
+        "rester constamment maître de son véhicule — permanecer constantemente senhor do veículo",
+        "gêner — incomodar",
+        "déranger — perturbar"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-004",
-  "regra_ids": [
-   "R-COM-016",
-   "R-COM-035"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "meia-volta-e-volante",
-  "competencia": "Meia-volta na pista e volante",
-  "nivel": 2,
-  "enunciado": "Você dirige um carro comum, sem sistema de auxílio ao estacionamento, e pensa em fazer meia-volta na pista. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Se houver tráfego intenso, a meia-volta fica permitida desde que você sinalize a manobra com antecedência.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 17 al. 4: é proibido fazer meia-volta quando o tráfego é intenso; o texto não prevê exceção por sinalização."
-   },
-   {
-    "texto": "Em lugares sem visibilidade, fazer meia-volta na pista é proibido.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 17 al. 4: « Il est interdit d'effectuer cette manœuvre aux endroits dépourvus de visibilité »."
-   },
-   {
-    "texto": "Sem placa de proibição, a lei não impõe limite algum à meia-volta na pista; o condutor decide livremente.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 17 al. 4 já manda evitar a meia-volta na pista e a proíbe em dois casos, independentemente de placa."
-   },
-   {
-    "texto": "Durante a manobra você pode soltar o volante, pois a lei proíbe soltá-lo em velocidade alta.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 3 al. 3: condutores de veículos a motor e de ciclos não devem soltar o aparelho de direção (« appareil de direction »), sem distinção de velocidade; a exceção do sistema de auxílio ao estacionamento não se aplica a este carro."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Evite a meia-volta na pista; ela é proibida sem visibilidade e com tráfego intenso. Mantenha o volante em mãos.",
-   "por_que": "OCR art. 17 al. 4 (meia-volta) e OCR art. 3 al. 3 (não soltar o aparelho de direção).",
-   "como_identificar": "Pergunte: há visibilidade? O tráfego é intenso? Se uma das respostas for ruim, a manobra é proibida.",
-   "erro_comum": "Achar que só placa proíbe a meia-volta, ou que soltar o volante é aceitável em baixa velocidade.",
-   "excecao": "Com sistema de auxílio ao estacionamento, o condutor pode soltar o volante durante a manobra e deve vigiá-la (outra regra do projeto, R-ARR-083); este enunciado exclui esse sistema.",
-   "palavras_fr": [
-    "faire demi-tour — fazer meia-volta",
-    "appareil de direction — aparelho de direção (volante)",
-    "dépourvus de visibilité — sem visibilidade"
-   ]
+  {
+    "id": "Q-COM-004",
+    "regra_ids": [
+      "R-COM-016",
+      "R-COM-035"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "meia-volta-e-volante",
+    "competencia": "Meia-volta na pista e volante",
+    "nivel": 2,
+    "enunciado": "Você dirige um carro comum, sem sistema de auxílio ao estacionamento, e pensa em fazer meia-volta na pista. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Se houver tráfego intenso, a meia-volta fica permitida desde que você sinalize a manobra com antecedência.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 17 al. 4: é proibido fazer meia-volta quando o tráfego é intenso; o texto não prevê exceção por sinalização."
+      },
+      {
+        "texto": "Em lugares sem visibilidade, fazer meia-volta na pista é proibido.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 17 al. 4: « Il est interdit d'effectuer cette manœuvre aux endroits dépourvus de visibilité »."
+      },
+      {
+        "texto": "Sem placa de proibição, a lei não impõe limite algum à meia-volta na pista; o condutor decide livremente.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 17 al. 4 já manda evitar a meia-volta na pista e a proíbe em dois casos, independentemente de placa."
+      },
+      {
+        "texto": "Durante a manobra você pode soltar o volante, pois a lei proíbe soltá-lo em velocidade alta.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 3 al. 3: condutores de veículos a motor e de ciclos não devem soltar o aparelho de direção (« appareil de direction »), sem distinção de velocidade; a exceção do sistema de auxílio ao estacionamento não se aplica a este carro."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Evite a meia-volta na pista; ela é proibida sem visibilidade e com tráfego intenso. Mantenha o volante em mãos.",
+      "por_que": "OCR art. 17 al. 4 (meia-volta) e OCR art. 3 al. 3 (não soltar o aparelho de direção).",
+      "como_identificar": "Pergunte: há visibilidade? O tráfego é intenso? Se uma das respostas for ruim, a manobra é proibida.",
+      "erro_comum": "Achar que só placa proíbe a meia-volta, ou que soltar o volante é aceitável em baixa velocidade.",
+      "excecao": "Com sistema de auxílio ao estacionamento, o condutor pode soltar o volante durante o estacionamento (« parcage »), não em outras manobras (OCR art. 3 al. 4; R-ARR-083). Este enunciado exclui esse sistema.",
+      "palavras_fr": [
+        "faire demi-tour — fazer meia-volta",
+        "appareil de direction — aparelho de direção (volante)",
+        "dépourvus de visibilité — sem visibilidade"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-005",
-  "regra_ids": [
-   "R-COM-006"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "velocidade-adaptada",
-  "competencia": "Velocidade adaptada às circunstâncias",
-  "nivel": 2,
-  "enunciado": "Você se aproxima de uma interseção que não consegue abranger com o olhar, com chuva fraca e trânsito moderado. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Respeitando o limite geral da via, a velocidade já está adaptada; reduzir mais por chuva ou por falta de visão da interseção não é exigido pela lei.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 32 al. 1: a velocidade deve ser adaptada às circunstâncias; o limite geral não dispensa essa adaptação."
-   },
-   {
-    "texto": "A velocidade deve estar sempre adaptada às condições da estrada, do trânsito e da visibilidade.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 32 al. 1: « adaptée aux circonstances, notamment […] aux conditions de la route, de la circulation et de la visibilité »."
-   },
-   {
-    "texto": "Onde seu veículo possa atrapalhar a circulação (por exemplo, interseção que você não abrange com o olhar), deve ir devagar e, se preciso, parar completamente.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 32 al. 1, segunda frase: « aux intersections qu'il ne peut embrasser du regard »."
-   },
-   {
-    "texto": "Para adaptar a velocidade, importam apenas as condições da estrada; as particularidades do veículo e da carga não entram.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 32 al. 1 cita « particularités du véhicule et du chargement » entre as circunstâncias."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Adapte a velocidade às circunstâncias e, onde puder atrapalhar, vá devagar e pare se preciso.",
-   "por_que": "LCR art. 32 al. 1: a velocidade « doit toujours être adaptée aux circonstances »; interseções sem visão ampla são citadas expressamente.",
-   "como_identificar": "Olhe para estrada, trânsito, visibilidade, veículo e carga: se algo piora, a velocidade tem de acompanhar.",
-   "erro_comum": "Tratar o limite máximo como a velocidade correta em qualquer situação.",
-   "excecao": "O artigo não fixa números. Os limites gerais estão no OCR art. 4a (ver Q-COM-006).",
-   "palavras_fr": [
-    "adaptée aux circonstances — adaptada às circunstâncias",
-    "intersections qu'il ne peut embrasser du regard — interseções que não consegue abranger com o olhar"
-   ]
+  {
+    "id": "Q-COM-005",
+    "regra_ids": [
+      "R-COM-006"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "velocidade-adaptada",
+    "competencia": "Velocidade adaptada às circunstâncias",
+    "nivel": 2,
+    "enunciado": "Você se aproxima de uma interseção que não consegue abranger com o olhar, com chuva fraca e trânsito moderado. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Respeitando o limite geral da via, a velocidade já está adaptada; reduzir mais por chuva ou por falta de visão da interseção não é exigido pela lei.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 32 al. 1: a velocidade deve ser adaptada às circunstâncias; o limite geral não dispensa essa adaptação."
+      },
+      {
+        "texto": "A velocidade deve estar sempre adaptada às condições da estrada, do trânsito e da visibilidade.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 32 al. 1: « adaptée aux circonstances, notamment […] aux conditions de la route, de la circulation et de la visibilité »."
+      },
+      {
+        "texto": "Onde seu veículo possa atrapalhar a circulação (por exemplo, interseção que você não abrange com o olhar), deve ir devagar e, se preciso, parar completamente.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 32 al. 1, segunda frase: « aux intersections qu'il ne peut embrasser du regard »."
+      },
+      {
+        "texto": "Para adaptar a velocidade, importam apenas as condições da estrada; as particularidades do veículo e da carga não entram.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 32 al. 1 cita « particularités du véhicule et du chargement » entre as circunstâncias."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Adapte a velocidade às circunstâncias e, onde puder atrapalhar, vá devagar e pare se preciso.",
+      "por_que": "LCR art. 32 al. 1: a velocidade « doit toujours être adaptée aux circonstances »; interseções sem visão ampla são citadas expressamente.",
+      "como_identificar": "Olhe para estrada, trânsito, visibilidade, veículo e carga: se algo piora, a velocidade tem de acompanhar.",
+      "erro_comum": "Tratar o limite máximo como a velocidade correta em qualquer situação.",
+      "excecao": "O artigo não fixa números. Os limites gerais estão no OCR art. 4a (ver Q-COM-006).",
+      "palavras_fr": [
+        "adaptée aux circonstances — adaptada às circunstâncias",
+        "intersections qu'il ne peut embrasser du regard — interseções que não consegue abranger com o olhar"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-006",
-  "regra_ids": [
-   "R-COM-022"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "limites-gerais-de-velocidade",
-  "competencia": "Limites gerais de velocidade",
-  "nivel": 1,
-  "enunciado": "Condições da estrada, do trânsito e da visibilidade favoráveis, sem nenhum sinal de limite de velocidade. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "A velocidade máxima geral pode chegar a 50 km/h nas localidades.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 4a al. 1 let. a: 50 km/h nas localidades."
-   },
-   {
-    "texto": "Fora das localidades, exceto em semiautoestradas e autoestradas, a velocidade máxima geral pode chegar a 80 km/h.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 4a al. 1 let. b: 80 km/h fora das localidades, exceto semiautoestradas e autoestradas."
-   },
-   {
-    "texto": "Nas semiautoestradas, a velocidade máxima geral é de 120 km/h, a mesma das autoestradas, desde que as condições sejam favoráveis.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 4a al. 1: 100 km/h nas semiautoestradas (let. c) e 120 km/h nas autoestradas (let. d)."
-   },
-   {
-    "texto": "Nas semiautoestradas, a velocidade máxima geral pode chegar a 100 km/h.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 4a al. 1 let. c: 100 km/h nas semiautoestradas."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Limites gerais: 50 km/h nas localidades, 80 fora delas, 100 nas semiautoestradas, 120 nas autoestradas.",
-   "por_que": "OCR art. 4a al. 1, let. a a d, com a condição de que estrada, trânsito e visibilidade sejam favoráveis.",
-   "como_identificar": "Identifique o tipo de via: localidade, fora de localidade, semiautoestrada ou autoestrada.",
-   "erro_comum": "Trocar os valores de semiautoestrada (100) e autoestrada (120).",
-   "excecao": "Sinais de velocidade máxima e limites de certos tipos de veículo mudam o valor aplicável (ver Q-COM-009 e Q-COM-010).",
-   "palavras_fr": [
-    "localité — localidade",
-    "semi-autoroute — semiautoestrada",
-    "autoroute — autoestrada"
-   ]
+  {
+    "id": "Q-COM-006",
+    "regra_ids": [
+      "R-COM-022"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "limites-gerais-de-velocidade",
+    "competencia": "Limites gerais de velocidade",
+    "nivel": 1,
+    "enunciado": "Condições da estrada, do trânsito e da visibilidade favoráveis, sem nenhum sinal de limite de velocidade. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "A velocidade máxima geral pode chegar a 50 km/h nas localidades.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 4a al. 1 let. a: 50 km/h nas localidades."
+      },
+      {
+        "texto": "Fora das localidades, exceto em semiautoestradas e autoestradas, a velocidade máxima geral pode chegar a 80 km/h.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 4a al. 1 let. b: 80 km/h fora das localidades, exceto semiautoestradas e autoestradas."
+      },
+      {
+        "texto": "Nas semiautoestradas, a velocidade máxima geral é de 120 km/h, a mesma das autoestradas, desde que as condições sejam favoráveis.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 4a al. 1: 100 km/h nas semiautoestradas (let. c) e 120 km/h nas autoestradas (let. d)."
+      },
+      {
+        "texto": "Nas semiautoestradas, a velocidade máxima geral pode chegar a 100 km/h.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 4a al. 1 let. c: 100 km/h nas semiautoestradas."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Limites gerais: 50 km/h nas localidades, 80 fora delas, 100 nas semiautoestradas, 120 nas autoestradas.",
+      "por_que": "OCR art. 4a al. 1, let. a a d, com a condição de que estrada, trânsito e visibilidade sejam favoráveis.",
+      "como_identificar": "Identifique o tipo de via: localidade, fora de localidade, semiautoestrada ou autoestrada.",
+      "erro_comum": "Trocar os valores de semiautoestrada (100) e autoestrada (120).",
+      "excecao": "Sinais de velocidade máxima e limites de certos tipos de veículo mudam o valor aplicável (ver Q-COM-009 e Q-COM-010).",
+      "palavras_fr": [
+        "localité — localidade",
+        "semi-autoroute — semiautoestrada",
+        "autoroute — autoestrada"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-007",
-  "regra_ids": [
-   "R-COM-023"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "limite-50-localidades",
-  "competencia": "Início do limite de 50 km/h na localidade",
-  "nivel": 3,
-  "enunciado": "Você entra numa localidade por uma estrada agrícola de acesso, sem nenhum sinal 2.30.1 à vista, e já existe uma zona construída de forma compacta. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "O limite de 50 km/h vale na rua principal da localidade; nas ruas laterais o limite geral é outro.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 4a: o limite de 50 km/h vale em toda a zona construída de forma compacta no interior da localidade."
-   },
-   {
-    "texto": "Sem o sinal 2.30.1, vale o limite de 80 km/h de fora das localidades até aparecer algum sinal de velocidade ou uma placa de localidade.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 4a: para quem entra por estradas secundárias pouco importantes, o limite de 50 km/h também vale sem sinalização, assim que exista zona construída de forma compacta."
-   },
-   {
-    "texto": "O limite de 50 km/h só começa depois que você passa por um sinal 2.30.1, seja qual for a estrada de entrada.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 4a traz a exceção expressa para as estradas secundárias pouco importantes, onde o limite vale sem sinal."
-   },
-   {
-    "texto": "O limite geral de 50 km/h também vale sem sinalização, assim que exista uma zona construída de forma compacta.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 4a: entrando por estradas secundárias pouco importantes (como estradas agrícolas de acesso), o limite vale sem sinalização."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Na entrada por estrada secundária pouco importante, o limite de 50 km/h vale sem sinal assim que existir zona construída compacta.",
-   "por_que": "OCR art. 4a: o 50 km/h começa no sinal 2.30.1 e termina no 2.53.1, mas também vale sem sinalização para quem entra por estradas secundárias pouco importantes.",
-   "como_identificar": "Veja o tipo de estrada de entrada (agrícola, florestal, de pouca importância) e se já há construções compactas.",
-   "erro_comum": "Esperar um sinal 2.30.1 para só então reduzir a 50 km/h.",
-   "excecao": "O texto não define um critério numérico para « zone bâtie de façon compacte »; use o bom senso do contexto do enunciado.",
-   "palavras_fr": [
-    "Vitesse maximale 50, Limite générale — velocidade máxima 50, limite geral (2.30.1)",
-    "zone bâtie de façon compacte — zona construída de forma compacta"
-   ]
+  {
+    "id": "Q-COM-007",
+    "regra_ids": [
+      "R-COM-023"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "limite-50-localidades",
+    "competencia": "Início do limite de 50 km/h na localidade",
+    "nivel": 3,
+    "enunciado": "Você entra numa localidade por uma estrada agrícola de acesso, sem nenhum sinal 2.30.1 à vista, e já existe uma zona construída de forma compacta. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "O limite de 50 km/h vale na rua principal da localidade; nas ruas laterais o limite geral é outro.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 4a: o limite de 50 km/h vale em toda a zona construída de forma compacta no interior da localidade."
+      },
+      {
+        "texto": "Sem o sinal 2.30.1, vale o limite de 80 km/h de fora das localidades até aparecer algum sinal de velocidade ou uma placa de localidade.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 4a: para quem entra por estradas secundárias pouco importantes, o limite de 50 km/h também vale sem sinalização, assim que exista zona construída de forma compacta."
+      },
+      {
+        "texto": "O limite de 50 km/h só começa depois que você passa por um sinal 2.30.1, seja qual for a estrada de entrada.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 4a traz a exceção expressa para as estradas secundárias pouco importantes, onde o limite vale sem sinal."
+      },
+      {
+        "texto": "Entrando por essa estrada agrícola, o limite de 50 km/h vale mesmo sem sinal, porque já existe zona construída de forma compacta.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 4a: entrando por estradas secundárias pouco importantes (como estradas agrícolas de acesso), o limite vale sem sinalização."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Na entrada por estrada secundária pouco importante, o limite de 50 km/h vale sem sinal assim que existir zona construída compacta.",
+      "por_que": "OCR art. 4a: o 50 km/h começa no sinal 2.30.1 e termina no 2.53.1, mas também vale sem sinalização para quem entra por estradas secundárias pouco importantes.",
+      "como_identificar": "Veja o tipo de estrada de entrada (agrícola, florestal, de pouca importância) e se já há construções compactas.",
+      "erro_comum": "Esperar um sinal 2.30.1 para só então reduzir a 50 km/h.",
+      "excecao": "O texto não define critério numérico para « zone bâtie de façon compacte ». Nesta pergunta, o enunciado já diz que ela existe.",
+      "palavras_fr": [
+        "Vitesse maximale 50, Limite générale — velocidade máxima 50, limite geral (2.30.1)",
+        "zone bâtie de façon compacte — zona construída de forma compacta"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-008",
-  "regra_ids": [
-   "R-COM-024",
-   "R-COM-025",
-   "R-COM-026"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "limites-fim-autoestrada",
-  "competencia": "Início e fim dos limites de autoestrada e semiautoestrada",
-  "nivel": 3,
-  "enunciado": "Você sai de uma autoestrada pelo sinal 4.02 «Fin de l'autoroute» e segue por uma estrada fora de localidade, sem outros sinais de velocidade. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "O limite geral de 120 km/h continua valendo até o sinal 2.53.1 «Fin de la vitesse maximale 50, Limite générale».",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 4a: o limite de 120 km/h termina no sinal 4.02; o 2.53.1 marca o fim do limite de 50 km/h."
-   },
-   {
-    "texto": "Ao sair da autoestrada, a partir do sinal 4.02 vale o limite geral de 80 km/h.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 4a: o limite de 80 km/h vale, ao sair de autoestrada, a partir do sinal « Fin de l'autoroute » (4.02)."
-   },
-   {
-    "texto": "O limite geral de 100 km/h começa no sinal 4.01 «Autoroute».",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 4a: o 4.01 inicia o limite de 120 km/h; o de 100 km/h começa no 4.03 « Semi-autoroute »."
-   },
-   {
-    "texto": "O limite geral de 120 km/h da autoestrada termina no sinal 4.02.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 4a: o limite de 120 km/h vale a partir do sinal 4.01 e termina no 4.02."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Autoestrada: 120 km/h do 4.01 ao 4.02; semiautoestrada: 100 km/h do 4.03 ao 4.04; depois, 80 km/h fora de localidade.",
-   "por_que": "OCR art. 4a: cada limite geral tem um sinal de início e um de fim.",
-   "como_identificar": "Leia o número do sinal: 4.01 e 4.02 são da autoestrada; 4.03 e 4.04, da semiautoestrada.",
-   "erro_comum": "Misturar sinais de fim de autoestrada com o sinal 2.53.1 do limite de 50 km/h.",
-   "excecao": "Sinais de velocidade máxima e limites do OCR art. 5 podem alterar o valor aplicável.",
-   "palavras_fr": [
-    "Fin de l'autoroute — fim da autoestrada (4.02)",
-    "Semi-autoroute — semiautoestrada (4.03)",
-    "Fin de la semi-autoroute — fim da semiautoestrada (4.04)"
-   ]
+  {
+    "id": "Q-COM-008",
+    "regra_ids": [
+      "R-COM-024",
+      "R-COM-025",
+      "R-COM-026"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "limites-fim-autoestrada",
+    "competencia": "Início e fim dos limites de autoestrada e semiautoestrada",
+    "nivel": 3,
+    "enunciado": "Você sai de uma autoestrada pelo sinal 4.02 «Fin de l'autoroute» e segue por uma estrada fora de localidade, sem outros sinais de velocidade. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "O limite geral de 120 km/h continua valendo até o sinal 2.53.1 «Fin de la vitesse maximale 50, Limite générale».",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 4a: o limite de 120 km/h termina no sinal 4.02; o 2.53.1 marca o fim do limite de 50 km/h."
+      },
+      {
+        "texto": "Ao sair da autoestrada, a partir do sinal 4.02 vale o limite geral de 80 km/h.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 4a: o limite de 80 km/h vale, ao sair de autoestrada, a partir do sinal « Fin de l'autoroute » (4.02)."
+      },
+      {
+        "texto": "O limite geral de 100 km/h começa no sinal 4.01 «Autoroute».",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 4a: o 4.01 inicia o limite de 120 km/h; o de 100 km/h começa no 4.03 « Semi-autoroute »."
+      },
+      {
+        "texto": "O limite geral de 120 km/h da autoestrada termina no sinal 4.02.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 4a: o limite de 120 km/h vale a partir do sinal 4.01 e termina no 4.02."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Autoestrada: 120 km/h do 4.01 ao 4.02; semiautoestrada: 100 km/h do 4.03 ao 4.04; depois, 80 km/h fora de localidade.",
+      "por_que": "OCR art. 4a: cada limite geral tem um sinal de início e um de fim.",
+      "como_identificar": "Leia o número do sinal: 4.01 e 4.02 são da autoestrada; 4.03 e 4.04, da semiautoestrada.",
+      "erro_comum": "Misturar sinais de fim de autoestrada com o sinal 2.53.1 do limite de 50 km/h.",
+      "excecao": "Sinais de velocidade máxima e limites do OCR art. 5 podem alterar o valor aplicável.",
+      "palavras_fr": [
+        "Fin de l'autoroute — fim da autoestrada (4.02)",
+        "Semi-autoroute — semiautoestrada (4.03)",
+        "Fin de la semi-autoroute — fim da semiautoestrada (4.04)"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-009",
-  "regra_ids": [
-   "R-COM-027",
-   "R-COM-029",
-   "R-COM-031"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "sinais-versus-limites-gerais",
-  "competencia": "Sinal de velocidade versus limites gerais e de categoria",
-  "nivel": 3,
-  "enunciado": "Numa estrada fora de localidade, o sinal 2.30 «Vitesse maximale» indica 100 km/h. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Onde sinais indicam outras velocidades máximas, elas se aplicam no lugar dos limites gerais.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 4a: quando sinais indicam outras velocidades máximas, estas se aplicam no lugar dos limites gerais."
-   },
-   {
-    "texto": "Um veículo cuja categoria tem limite próprio menor que o do sinal pode seguir o valor do sinal, porque o sinal prevalece sobre os demais limites.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 5: os limites de velocidade por tipo de veículo também devem ser respeitados onde sinais indicam um limite superior."
-   },
-   {
-    "texto": "O sinal 2.30 indica a velocidade que os veículos não devem ultrapassar, mesmo que as condições sejam boas.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 22 al. 1: o 2.30 indica em km/h a velocidade que os veículos não devem ultrapassar, mesmo com boas condições."
-   },
-   {
-    "texto": "Os limites de velocidade que o OCR art. 5 impõe a certos veículos devem ser respeitados também onde um sinal indica um limite superior.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 5: « Les limites de vitesse fixées ci-dessus seront également observées sur les parcours où des signaux indiquent une limite supérieure »."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "O sinal substitui o limite geral, mas não derruba o limite próprio de certos veículos nem vira mera recomendação.",
-   "por_que": "OCR art. 4a (sinais no lugar dos limites gerais), OCR art. 5 (limites por tipo de veículo valem mesmo sob limite superior) e OSR art. 22 al. 1.",
-   "como_identificar": "Compare três valores: limite geral, limite do sinal e limite próprio do seu tipo de veículo.",
-   "erro_comum": "Achar que o sinal 2.30 é uma referência flexível ou que ele vale mais que o limite do tipo de veículo.",
-   "excecao": "O sinal tem validade limitada se não houver sinal de fim (ver Q-COM-012).",
-   "palavras_fr": [
-    "Vitesse maximale — velocidade máxima (2.30)",
-    "signaux indiquent une limite supérieure — sinais indicam um limite superior"
-   ]
+  {
+    "id": "Q-COM-009",
+    "regra_ids": [
+      "R-COM-027",
+      "R-COM-029",
+      "R-COM-031"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "sinais-versus-limites-gerais",
+    "competencia": "Sinal de velocidade versus limites gerais e de categoria",
+    "nivel": 3,
+    "enunciado": "Numa estrada fora de localidade, o sinal 2.30 «Vitesse maximale» indica 100 km/h. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Onde sinais indicam outras velocidades máximas, elas se aplicam no lugar dos limites gerais.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 4a: quando sinais indicam outras velocidades máximas, estas se aplicam no lugar dos limites gerais."
+      },
+      {
+        "texto": "A obrigação desse sinal só é suprimida pelo sinal 2.53.1 «Fin de la vitesse maximale 50, Limite générale».",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 22 al. 1: a obrigação do 2.30 é suprimida pelo sinal 2.53 « Fin de la vitesse maximale »; o 2.53.1 encerra o limite geral de 50 km/h (OSR art. 22 al. 3)."
+      },
+      {
+        "texto": "O sinal 2.30 indica a velocidade que os veículos não devem ultrapassar, mesmo que as condições sejam boas.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 22 al. 1: o 2.30 indica em km/h a velocidade que os veículos não devem ultrapassar, mesmo com boas condições."
+      },
+      {
+        "texto": "Os limites de velocidade que o OCR art. 5 impõe a certos veículos devem ser respeitados também onde um sinal indica um limite superior.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 5: « Les limites de vitesse fixées ci-dessus seront également observées sur les parcours où des signaux indiquent une limite supérieure »."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "O sinal substitui o limite geral, mas não derruba o limite próprio de certos veículos nem vira mera recomendação.",
+      "por_que": "OCR art. 4a (sinais no lugar dos limites gerais), OCR art. 5 (limites por tipo de veículo valem mesmo sob limite superior) e OSR art. 22 al. 1.",
+      "como_identificar": "Compare três valores: limite geral, limite do sinal e limite próprio do seu tipo de veículo.",
+      "erro_comum": "Achar que o sinal 2.30 é uma referência flexível ou que ele vale mais que o limite do tipo de veículo.",
+      "excecao": "O sinal tem validade limitada se não houver sinal de fim (ver Q-COM-012).",
+      "palavras_fr": [
+        "Vitesse maximale — velocidade máxima (2.30)",
+        "signaux indiquent une limite supérieure — sinais indicam um limite superior"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-010",
-  "regra_ids": [
-   "R-COM-028"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "reboque-leve-100-kmh",
-  "competencia": "Automóvel ligeiro com reboque na autoestrada",
-  "nivel": 4,
-  "enunciado": "Você conduz um automóvel ligeiro com reboque, cujo peso total é de 3,0 t, numa autoestrada, com boas condições e sem sinais de velocidade. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Vale o limite geral de 120 km/h, porque o reboque de até 3,5 t não altera o limite do automóvel.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 5 al. 2 let. c: a velocidade é limitada a 100 km/h para automóveis ligeiros com reboque se o peso total deste não excede 3,5 t."
-   },
-   {
-    "texto": "A velocidade é limitada a 100 km/h, mesmo que o limite geral da autoestrada seja 120 km/h.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 5 al. 2 let. c: nas autoestradas e semiautoestradas, 100 km/h para automóveis ligeiros com reboque de peso total até 3,5 t."
-   },
-   {
-    "texto": "O limite de 100 km/h por causa do reboque vale somente quando o reboque pesa mais de 3,5 t.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 5 al. 2 let. c fixa a condição ao contrário: peso total do reboque que não excede 3,5 t."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Automóvel ligeiro com reboque de até 3,5 t: 100 km/h na autoestrada e na semiautoestrada.",
-   "por_que": "OCR art. 5 al. 2 let. c: « voitures automobiles légères avec remorque, si le poids total de cette dernière n'excède pas 3,5 t ».",
-   "como_identificar": "Veja o tipo de veículo (ligeiro com reboque) e o peso total do reboque.",
-   "erro_comum": "Pensar que o limite de 100 km/h exige reboque pesado, ou que o reboque não muda nada.",
-   "excecao": "O limite de 100 km/h do OCR art. 5 vale mesmo onde sinais indicam limite superior (ver Q-COM-009).",
-   "palavras_fr": [
-    "voitures automobiles légères avec remorque — automóveis ligeiros com reboque",
-    "poids total — peso total"
-   ]
+  {
+    "id": "Q-COM-010",
+    "regra_ids": [
+      "R-COM-028",
+      "R-COM-029"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "reboque-leve-100-kmh",
+    "competencia": "Automóvel leve com reboque na autoestrada",
+    "nivel": 4,
+    "enunciado": "Você conduz um automóvel leve com um reboque cujo peso total é de 3,0 t, numa autoestrada, com boas condições e sem sinais de velocidade. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Vale o limite geral de 120 km/h, porque o reboque de até 3,5 t não altera o limite do automóvel.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 5 al. 2 let. c: a velocidade é limitada a 100 km/h para automóveis leves com reboque se o peso total deste não excede 3,5 t."
+      },
+      {
+        "texto": "A velocidade é limitada a 100 km/h, mesmo que o limite geral da autoestrada seja 120 km/h.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 5 al. 2 let. c: nas autoestradas e semiautoestradas, 100 km/h para automóveis leves com reboque de peso total até 3,5 t."
+      },
+      {
+        "texto": "O limite de 100 km/h por causa do reboque vale somente quando o reboque pesa mais de 3,5 t.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 5 al. 2 let. c fixa a condição ao contrário: peso total do reboque que não excede 3,5 t."
+      },
+      {
+        "texto": "Se um sinal indicar 120 km/h, você pode rodar a 120 km/h com esse reboque.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 5 al. 4: os limites do art. 5 também devem ser respeitados onde sinais indicam um limite superior."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Automóvel leve com reboque de até 3,5 t: 100 km/h na autoestrada e na semiautoestrada.",
+      "por_que": "OCR art. 5 al. 2 let. c: « voitures automobiles légères avec remorque, si le poids total de cette dernière n'excède pas 3,5 t ».",
+      "como_identificar": "Veja o tipo de veículo (leve com reboque) e o peso total do reboque.",
+      "erro_comum": "Pensar que o limite de 100 km/h exige reboque pesado, ou que o reboque não muda nada.",
+      "excecao": "O limite de 100 km/h do OCR art. 5 vale mesmo onde sinais indicam limite superior (ver Q-COM-009).",
+      "palavras_fr": [
+        "voitures automobiles légères avec remorque — automóveis leves com reboque",
+        "poids total — peso total"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-011",
-  "regra_ids": [
-   "R-COM-031"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "sinal-velocidade-maxima",
-  "competencia": "Significado do sinal 2.30 e seu fim",
-  "nivel": 2,
-  "enunciado": "Você vê o sinal 2.30 «Vitesse maximale» indicando 60, numa estrada seca, com boa visibilidade e pouco trânsito. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "O limite do sinal pode ser ultrapassado para acompanhar o fluxo, quando os outros veículos andam mais rápido.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 22 al. 1: o sinal indica a velocidade que os veículos não devem ultrapassar; o texto não prevê exceção por fluxo."
-   },
-   {
-    "texto": "O sinal indica em km/h a velocidade que os veículos não devem ultrapassar, mesmo com boas condições de estrada e visibilidade.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 22 al. 1, primeira frase."
-   },
-   {
-    "texto": "Com condições tão boas, o valor do sinal funciona como recomendação, e um pequeno excesso de velocidade é aceito pela lei e pelos controles.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 22 al. 1: o valor não deve ser ultrapassado mesmo com boas condições; o texto não o trata como recomendação."
-   },
-   {
-    "texto": "A obrigação de respeitar a velocidade máxima sinalizada é suprimida pelo sinal 2.53 «Fin de la vitesse maximale».",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 22 al. 1, segunda frase."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "O 2.30 indica um teto, mesmo com boas condições, e o 2.53 encerra a obrigação.",
-   "por_que": "OSR art. 22 al. 1: o sinal indica a velocidade que os veículos não devem ultrapassar e o 2.53 suprime a obrigação.",
-   "como_identificar": "Procure o disco com borda vermelha e o número em km/h (2.30) e o sinal de fim (2.53).",
-   "erro_comum": "Achar que boas condições liberam um valor maior que o do sinal.",
-   "excecao": "Sem sinal de fim, a validade do 2.30 tem um limite no espaço (ver Q-COM-012).",
-   "palavras_fr": [
-    "Vitesse maximale — velocidade máxima (2.30)",
-    "Fin de la vitesse maximale — fim da velocidade máxima (2.53)"
-   ]
+  {
+    "id": "Q-COM-011",
+    "regra_ids": [
+      "R-COM-031"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "sinal-velocidade-maxima",
+    "competencia": "Significado do sinal 2.30 e seu fim",
+    "nivel": 2,
+    "enunciado": "Você vê o sinal 2.30 «Vitesse maximale» indicando 60, numa estrada seca, com boa visibilidade e pouco trânsito. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "O limite do sinal pode ser ultrapassado para acompanhar o fluxo, quando os outros veículos andam mais rápido.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 22 al. 1: o sinal indica a velocidade que os veículos não devem ultrapassar; o texto não prevê exceção por fluxo."
+      },
+      {
+        "texto": "O sinal indica em km/h a velocidade que os veículos não devem ultrapassar, mesmo com boas condições de estrada e visibilidade.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 22 al. 1, primeira frase."
+      },
+      {
+        "texto": "Com condições tão boas, o valor do sinal funciona como recomendação e pode ser um pouco excedido.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 22 al. 1: o valor não deve ser ultrapassado mesmo com boas condições; o texto não o trata como recomendação."
+      },
+      {
+        "texto": "A obrigação de respeitar a velocidade máxima sinalizada é suprimida pelo sinal 2.53 «Fin de la vitesse maximale».",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 22 al. 1, segunda frase."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "O 2.30 indica um teto, mesmo com boas condições, e o 2.53 encerra a obrigação.",
+      "por_que": "OSR art. 22 al. 1: o sinal indica a velocidade que os veículos não devem ultrapassar e o 2.53 suprime a obrigação.",
+      "como_identificar": "Procure o disco com borda vermelha e o número em km/h (2.30) e o sinal de fim (2.53).",
+      "erro_comum": "Achar que boas condições liberam um valor maior que o do sinal.",
+      "excecao": "Sem sinal de fim, a validade do 2.30 tem um limite no espaço (ver Q-COM-012).",
+      "palavras_fr": [
+        "Vitesse maximale — velocidade máxima (2.30)",
+        "Fin de la vitesse maximale — fim da velocidade máxima (2.53)"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-012",
-  "regra_ids": [
-   "R-COM-031",
-   "R-ARR-039"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "validade-placa-2-30",
-  "competencia": "Validade do sinal 2.30 sem sinal de fim",
-  "nivel": 4,
-  "enunciado": "Você passa pelo sinal 2.30 «Vitesse maximale» (80) e depois cruza uma interseção. Mais adiante não há sinal de fim. Não se trata do sinal 2.30.1. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "O sinal 2.30 vale até aparecer o 2.53 ou o 2.58, por mais interseções que você cruze no caminho.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 16 al. 2: o 2.30 deve ser observado até o sinal de fim, mas no máximo até o fim da próxima interseção."
-   },
-   {
-    "texto": "Sem sinal de fim, o 2.30 vale no máximo até o fim da próxima interseção.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 16 al. 2: « mais au plus jusqu'à la fin de la prochaine intersection »."
-   },
-   {
-    "texto": "Para a validade continuar além dessa interseção, o sinal deve ser repetido.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 16 al. 2: « à cet endroit, le signal sera répété si sa validité doit s'étendre au-delà »."
-   },
-   {
-    "texto": "O sinal 2.58 «Libre circulation» está entre os sinais que encerram a validade do 2.30.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 16 al. 2: a lista de sinais de fim do 2.30 e do 2.31 cita 2.53, 2.54, 2.55, 2.56 e 2.58."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "O 2.30 vale até o sinal de fim ou, no máximo, até o fim da próxima interseção; a repetição prolonga a validade.",
-   "por_que": "OSR art. 16 al. 2: regra para os sinais 2.30 e 2.31 (entre outros); o 2.30.1 tem regra própria.",
-   "como_identificar": "Conte as interseções desde o sinal: ao fim da primeira, a validade termina se o sinal não for repetido.",
-   "erro_comum": "Achar que o limite sinalizado continua indefinidamente até um sinal de fim.",
-   "excecao": "O 2.30.1 « Vitesse maximale 50, Limite générale » vale em toda a zona construída de forma compacta da localidade (OSR art. 16 al. 2).",
-   "palavras_fr": [
-    "jusqu'à la fin de la prochaine intersection — até o fim da próxima interseção",
-    "Libre circulation — livre circulação (2.58)",
-    "le signal sera répété — o sinal será repetido"
-   ]
+  {
+    "id": "Q-COM-012",
+    "regra_ids": [
+      "R-COM-031",
+      "R-ARR-039"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "validade-placa-2-30",
+    "competencia": "Validade do sinal 2.30 sem sinal de fim",
+    "nivel": 4,
+    "enunciado": "Você passa pelo sinal 2.30 «Vitesse maximale» (80) e depois cruza uma interseção. Mais adiante não há sinal de fim. Não se trata do sinal 2.30.1. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "O sinal 2.30 vale até aparecer o 2.53 ou o 2.58, por mais interseções que você cruze no caminho.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 16 al. 2: o 2.30 deve ser observado até o sinal de fim, mas no máximo até o fim da próxima interseção."
+      },
+      {
+        "texto": "Sem sinal de fim, o 2.30 vale no máximo até o fim da próxima interseção.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 16 al. 2: « mais au plus jusqu'à la fin de la prochaine intersection »."
+      },
+      {
+        "texto": "Para a validade continuar além dessa interseção, o sinal deve ser repetido.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 16 al. 2: « à cet endroit, le signal sera répété si sa validité doit s'étendre au-delà »."
+      },
+      {
+        "texto": "O sinal 2.58 «Libre circulation» está entre os sinais que encerram a validade do 2.30.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 16 al. 2: o 2.58 está na lista de sinais de fim que encerram o 2.30; OSR art. 32 al. 2: o 2.58 indica o fim de várias restrições impostas aos veículos em movimento."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "O 2.30 vale até o sinal de fim ou, no máximo, até o fim da próxima interseção; a repetição prolonga a validade.",
+      "por_que": "OSR art. 16 al. 2: regra para os sinais 2.30 e 2.31 (entre outros); o 2.30.1 tem regra própria.",
+      "como_identificar": "Conte as interseções desde o sinal: ao fim da primeira, a validade termina se o sinal não for repetido.",
+      "erro_comum": "Achar que o limite sinalizado continua indefinidamente até um sinal de fim.",
+      "excecao": "O 2.30.1 « Vitesse maximale 50, Limite générale » vale em toda a zona construída de forma compacta da localidade (OSR art. 16 al. 2).",
+      "palavras_fr": [
+        "jusqu'à la fin de la prochaine intersection — até o fim da próxima interseção",
+        "Libre circulation — livre circulação (2.58)",
+        "le signal sera répété — o sinal será repetido"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-013",
-  "regra_ids": [
-   "R-COM-032",
-   "R-COM-033"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "zona-30-e-zona-de-encontro",
-  "competencia": "Zone 30 e zona de encontro",
-  "nivel": 2,
-  "enunciado": "Você entra em um bairro residencial sinalizado como «Zone 30» (2.59.1) e mais adiante vê uma «Zone de rencontre» (2.59.5). Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Na «Zone 30» os condutores podem circular sem prudência particular, bastando respeitar os 30 km/h.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 22a: nas Zone 30 os condutores devem circular de maneira particularmente prudente e atenciosa."
-   },
-   {
-    "texto": "Na zona de encontro, a velocidade máxima é a mesma da «Zone 30»: 30 km/h.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 22b al. 2: na zona de encontro a velocidade máxima é fixada em 20 km/h."
-   },
-   {
-    "texto": "Na zona de encontro (2.59.5), a velocidade máxima é fixada em 20 km/h.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 22b al. 2."
-   },
-   {
-    "texto": "Na «Zone 30», a velocidade máxima é de 20 km/h.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 22a: a velocidade máxima na Zone 30 é fixada em 30 km/h; os 20 km/h são da zona de encontro."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Zone 30: 30 km/h; zona de encontro: 20 km/h.",
-   "por_que": "OSR art. 22a (Zone 30, 30 km/h, prudência particular) e art. 22b al. 2 (zona de encontro, 20 km/h).",
-   "como_identificar": "Leia o sinal: 2.59.1 é Zone 30; 2.59.5 é zona de encontro.",
-   "erro_comum": "Trocar os valores das duas zonas.",
-   "excecao": "Na zona de encontro, pedestres podem usar toda a área de circulação e têm prioridade (OSR art. 22b al. 1, outra regra do projeto).",
-   "palavras_fr": [
-    "Zone 30 — zona 30 (2.59.1)",
-    "Zone de rencontre — zona de encontro (2.59.5)"
-   ]
+  {
+    "id": "Q-COM-013",
+    "regra_ids": [
+      "R-COM-032",
+      "R-COM-033",
+      "R-PRIO-054"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "zona-30-e-zona-de-encontro",
+    "competencia": "Zone 30 e zona de encontro",
+    "nivel": 2,
+    "enunciado": "Você entra em um bairro residencial sinalizado como «Zone 30» (2.59.1) e mais adiante vê uma «Zone de rencontre» (2.59.5). Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Na «Zone 30» os condutores podem circular sem prudência particular, bastando respeitar os 30 km/h.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 22a: nas Zone 30 os condutores devem circular de maneira particularmente prudente e atenciosa."
+      },
+      {
+        "texto": "Na zona de encontro, os pedestres podem usar toda a área de circulação e têm prioridade.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 22b al. 1."
+      },
+      {
+        "texto": "Na zona de encontro (2.59.5), a velocidade máxima é fixada em 20 km/h.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 22b al. 2."
+      },
+      {
+        "texto": "Na «Zone 30», a velocidade máxima é de 20 km/h.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 22a: a velocidade máxima na Zone 30 é fixada em 30 km/h; os 20 km/h são da zona de encontro."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Zone 30: 30 km/h; zona de encontro: 20 km/h.",
+      "por_que": "OSR art. 22a (Zone 30, 30 km/h, prudência particular) e art. 22b al. 2 (zona de encontro, 20 km/h).",
+      "como_identificar": "Leia o sinal: 2.59.1 é Zone 30; 2.59.5 é zona de encontro.",
+      "erro_comum": "Trocar os valores das duas zonas.",
+      "excecao": "Na zona de encontro, pedestres podem usar toda a área de circulação e têm prioridade (OSR art. 22b al. 1, outra regra do projeto).",
+      "palavras_fr": [
+        "Zone 30 — zona 30 (2.59.1)",
+        "Zone de rencontre — zona de encontro (2.59.5)"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-014",
-  "regra_ids": [
-   "R-COM-034",
-   "R-ARR-039"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "velocidade-minima",
-  "competencia": "Sinal 2.31 «Vitesse minimale»",
-  "nivel": 4,
-  "enunciado": "Você vê o sinal 2.31 «Vitesse minimale» (40) numa estrada com boas condições de tráfego e visibilidade. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Sem sinal de fim, a velocidade mínima vale até o sinal 2.54, por mais interseções que você cruze pelo caminho com a estrada livre.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 16 al. 2: o 2.31 deve ser observado até o sinal de fim, mas no máximo até o fim da próxima interseção."
-   },
-   {
-    "texto": "O sinal 2.31 indica a velocidade abaixo da qual não se deve circular quando as condições de estrada, trânsito e visibilidade são boas.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 23 al. 1, primeira frase."
-   },
-   {
-    "texto": "A velocidade mínima continua obrigatória mesmo com visibilidade muito reduzida, porque a obrigação não depende das condições.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 23 al. 1 condiciona a velocidade mínima ao caso em que as condições da estrada, do trânsito e da visibilidade são boas."
-   },
-   {
-    "texto": "Veículo com o qual não é possível nem permitido rodar na velocidade indicada não está autorizado a prosseguir a viagem.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 23 al. 1, segunda frase."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "O 2.31 fixa um piso para condições boas; quem não consegue nem pode rodar nessa velocidade não segue viagem.",
-   "por_que": "OSR art. 23 al. 1 (significado do 2.31 e do 2.54) e OSR art. 16 al. 2 (validade até o fim da próxima interseção).",
-   "como_identificar": "Veja se as condições são boas e se seu veículo ou carga permite atingir a velocidade indicada.",
-   "erro_comum": "Ler a velocidade mínima como obrigação válida em qualquer condição.",
-   "excecao": "O sinal 2.54 « Fin de la vitesse minimale » encerra a obrigação; sem ele, vale no máximo até o fim da próxima interseção.",
-   "palavras_fr": [
-    "Vitesse minimale — velocidade mínima (2.31)",
-    "Fin de la vitesse minimale — fim da velocidade mínima (2.54)"
-   ]
+  {
+    "id": "Q-COM-014",
+    "regra_ids": [
+      "R-COM-034",
+      "R-ARR-039"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "velocidade-minima",
+    "competencia": "Sinal 2.31 «Vitesse minimale»",
+    "nivel": 4,
+    "enunciado": "Você vê o sinal 2.31 «Vitesse minimale» (40) numa estrada com boas condições de tráfego e visibilidade. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Sem sinal de fim, a velocidade mínima vale até o sinal 2.54, por mais interseções que você cruze pelo caminho com a estrada livre.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 16 al. 2: o 2.31 deve ser observado até o sinal de fim, mas no máximo até o fim da próxima interseção."
+      },
+      {
+        "texto": "O sinal 2.31 indica a velocidade abaixo da qual não se deve circular quando as condições de estrada, trânsito e visibilidade são boas.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 23 al. 1, primeira frase."
+      },
+      {
+        "texto": "A velocidade mínima continua obrigatória mesmo com visibilidade muito reduzida, porque a obrigação não depende das condições.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 23 al. 1 condiciona a velocidade mínima ao caso em que as condições da estrada, do trânsito e da visibilidade são boas."
+      },
+      {
+        "texto": "Veículo com o qual não é possível nem permitido rodar na velocidade indicada não está autorizado a prosseguir a viagem.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 23 al. 1, segunda frase."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "O 2.31 fixa um piso para condições boas; quem não consegue nem pode rodar nessa velocidade não segue viagem.",
+      "por_que": "OSR art. 23 al. 1 (significado do 2.31 e do 2.54) e OSR art. 16 al. 2 (validade até o fim da próxima interseção).",
+      "como_identificar": "Veja se as condições são boas e se seu veículo ou carga permite atingir a velocidade indicada.",
+      "erro_comum": "Ler a velocidade mínima como obrigação válida em qualquer condição.",
+      "excecao": "O sinal 2.54 « Fin de la vitesse minimale » encerra a obrigação; sem ele, vale no máximo até o fim da próxima interseção.",
+      "palavras_fr": [
+        "Vitesse minimale — velocidade mínima (2.31)",
+        "Fin de la vitesse minimale — fim da velocidade mínima (2.54)"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-015",
-  "regra_ids": [
-   "R-COM-017",
-   "R-COM-019"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "cinto-de-seguranca",
-  "competencia": "Obrigação de usar o cinto",
-  "nivel": 1,
-  "enunciado": "Você conduz um carro equipado com cintos de segurança, levando passageiros e uma criança de 8 anos. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Nos veículos equipados com cintos, o condutor e todos os passageiros devem usar os cintos existentes durante o trajeto.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 3a al. 1, primeira frase."
-   },
-   {
-    "texto": "O condutor deve se assegurar de que as crianças com menos de doze anos estão corretamente presas.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 3a al. 1, segunda frase."
-   },
-   {
-    "texto": "A obrigação de usar o cinto vale para o condutor e para quem vai no banco da frente; atrás, a escolha é de cada passageiro.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 3a al. 1: a obrigação vale para o condutor e os passageiros dos veículos equipados com cintos."
-   },
-   {
-    "texto": "Nos ônibus (« autocars ») e minibus, deve-se chamar a atenção dos passageiros para a obrigação do cinto.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 3a al. 3."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Cinto para condutor e passageiros nos veículos equipados; o condutor cuida das crianças com menos de doze anos.",
-   "por_que": "OCR art. 3a al. 1 (obrigação e dever do condutor quanto às crianças) e al. 3 (aviso em ônibus e minibus).",
-   "como_identificar": "Olhe se o veículo tem cintos e quantos passageiros há, em especial crianças.",
-   "erro_comum": "Achar que o cinto só vale à frente ou que criança é problema só dos pais.",
-   "excecao": "O OCR art. 3a al. 2 lista dispensas específicas (ver Q-COM-016).",
-   "palavras_fr": [
-    "ceinture de sécurité — cinto de segurança",
-    "autocars — ônibus"
-   ]
+  {
+    "id": "Q-COM-015",
+    "regra_ids": [
+      "R-COM-017",
+      "R-COM-019"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "cinto-de-seguranca",
+    "competencia": "Obrigação de usar o cinto",
+    "nivel": 1,
+    "enunciado": "Você conduz um carro equipado com cintos de segurança, levando passageiros e uma criança de 8 anos. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Nos veículos equipados com cintos, o condutor e todos os passageiros devem usar os cintos existentes durante o trajeto.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 3a al. 1, primeira frase."
+      },
+      {
+        "texto": "O condutor deve se assegurar de que as crianças com menos de doze anos estão corretamente presas.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 3a al. 1, segunda frase."
+      },
+      {
+        "texto": "A obrigação de usar o cinto vale para o condutor e para quem vai no banco da frente; atrás, a escolha é de cada passageiro.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 3a al. 1: a obrigação vale para o condutor e os passageiros dos veículos equipados com cintos."
+      },
+      {
+        "texto": "Nos ônibus (« autocars ») e minibus, deve-se chamar a atenção dos passageiros para a obrigação do cinto.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 3a al. 3."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Cinto para condutor e passageiros nos veículos equipados; o condutor cuida das crianças com menos de doze anos.",
+      "por_que": "OCR art. 3a al. 1 (obrigação e dever do condutor quanto às crianças) e al. 3 (aviso em ônibus e minibus).",
+      "como_identificar": "Olhe se o veículo tem cintos e quantos passageiros há, em especial crianças.",
+      "erro_comum": "Achar que o cinto só vale à frente ou que criança é problema só dos pais.",
+      "excecao": "O OCR art. 3a al. 2 lista dispensas específicas (ver Q-COM-016).",
+      "palavras_fr": [
+        "ceinture de sécurité — cinto de segurança",
+        "autocars — ônibus"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-016",
-  "regra_ids": [
-   "R-COM-018"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "cinto-dispensas",
-  "competencia": "Dispensas do cinto de segurança",
-  "nivel": 3,
-  "enunciado": "Considere as dispensas da obrigação de usar o cinto previstas no OCR art. 3a al. 2. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Quem prova com atestado médico que o cinto não lhe pode ser imposto está dispensado; basta a declaração própria, sem atestado.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 3a al. 2 let. a exige atestado médico (« certificat médical »)."
-   },
-   {
-    "texto": "Condutores que manobram em velocidade de passo (« allure du pas ») estão dispensados de usar o cinto.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 3a al. 2 let. d."
-   },
-   {
-    "texto": "Condutor e passageiros de um carro de passeio comum estão dispensados do cinto quando a velocidade não passa de 25 km/h, em vias comuns.",
-    "correta": false,
-    "justificativa": "Errada. As dispensas com 25 km/h valem para casos listados (entregadores, caminhos rurais e florestais, recinto de empresa, automóveis de trabalho etc.), não para qualquer via."
-   },
-   {
-    "texto": "Quem circula a 20 km/h numa rua da cidade está dispensado do cinto, porque a velocidade é baixa.",
-    "correta": false,
-    "justificativa": "Errada. A let. d dispensa quem manobra em velocidade de passo; o texto não dispensa quem circula a 20 km/h."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "As dispensas do cinto são casos listados: atestado médico, entregadores a até 25 km/h, caminhos rurais e florestais, manobra em velocidade de passo, entre outros.",
-   "por_que": "OCR art. 3a al. 2 let. a a g.",
-   "como_identificar": "Procure se o seu caso está literalmente na lista, com a condição de velocidade quando houver.",
-   "erro_comum": "Generalizar uma dispensa (por exemplo, baixa velocidade) para todas as situações.",
-   "excecao": "Mesmo dispensado, o condutor segue com o dever do OCR art. 3a al. 1 quanto às crianças com menos de doze anos (ver Q-COM-017).",
-   "palavras_fr": [
-    "allure du pas — velocidade de passo",
-    "certificat médical — atestado médico"
-   ]
+  {
+    "id": "Q-COM-016",
+    "regra_ids": [
+      "R-COM-018"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "cinto-dispensas",
+    "competencia": "Dispensas do cinto de segurança",
+    "nivel": 3,
+    "enunciado": "Considere as dispensas da obrigação de usar o cinto previstas no OCR art. 3a al. 2. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Quem declara por conta própria que o cinto lhe faz mal à saúde está dispensado, mesmo sem atestado médico.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 3a al. 2 let. a exige atestado médico (« certificat médical »)."
+      },
+      {
+        "texto": "Condutores que manobram em velocidade de passo (« allure du pas ») estão dispensados de usar o cinto.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 3a al. 2 let. d."
+      },
+      {
+        "texto": "Condutor e passageiros de um carro de passeio comum estão dispensados do cinto quando a velocidade não passa de 25 km/h, em vias comuns.",
+        "correta": false,
+        "justificativa": "Errada. As dispensas com 25 km/h valem para casos listados (entregadores, caminhos rurais e florestais, recinto de empresa, automóveis de trabalho etc.), não para qualquer via."
+      },
+      {
+        "texto": "Quem circula a 20 km/h numa rua da cidade está dispensado do cinto, porque a velocidade é baixa.",
+        "correta": false,
+        "justificativa": "Errada. A let. d dispensa quem manobra em velocidade de passo; o texto não dispensa quem circula a 20 km/h."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "As dispensas do cinto são casos listados: atestado médico, entregadores a até 25 km/h, caminhos rurais e florestais, manobra em velocidade de passo, entre outros.",
+      "por_que": "OCR art. 3a al. 2 let. a a g.",
+      "como_identificar": "Procure se o seu caso está literalmente na lista, com a condição de velocidade quando houver.",
+      "erro_comum": "Generalizar uma dispensa (por exemplo, baixa velocidade) para todas as situações.",
+      "excecao": "Mesmo dispensado, o condutor segue com o dever do OCR art. 3a al. 1 quanto às crianças com menos de doze anos (ver Q-COM-017).",
+      "palavras_fr": [
+        "allure du pas — velocidade de passo",
+        "certificat médical — atestado médico"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-017",
-  "regra_ids": [
-   "R-COM-017",
-   "R-COM-020",
-   "R-COM-021"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "retencao-de-criancas",
-  "competencia": "Dispositivo de retenção para crianças",
-  "nivel": 4,
-  "enunciado": "Num carro de passeio comum, em lugares equipados com cintos, vão uma criança de 6 anos com 125 cm e outra de 11 anos com 155 cm. Não há assentos especialmente admitidos para crianças. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Como a criança de 11 anos tem mais de 150 cm, ela também está dispensada de ir presa, e o condutor não precisa verificar nada.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 3a al. 4 dispensa só o dispositivo de retenção; o al. 1 continua exigindo que o condutor se assegure de que crianças com menos de doze anos estão corretamente presas."
-   },
-   {
-    "texto": "A criança de 6 anos deve sempre estar presa por um dispositivo de retenção adequado, como uma cadeirinha.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 3a al. 4: crianças com menos de doze anos devem estar presas por dispositivo adequado; nenhuma das exceções da lista se aplica a este caso."
-   },
-   {
-    "texto": "A criança de 6 anos pode ir presa pelo cinto comum, porque já passou dos quatro anos.",
-    "correta": false,
-    "justificativa": "Errada. A exceção para quatro anos ou mais exige assentos especialmente admitidos para crianças ou ônibus, o que o enunciado exclui."
-   },
-   {
-    "texto": "A criança de 11 anos com 155 cm está dispensada do dispositivo de retenção, mas deve estar corretamente presa pelo cinto do veículo.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 3a al. 4 (crianças com pelo menos 150 cm) e al. 1 (condutor se assegura de que crianças com menos de doze anos estão corretamente presas)."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Menor de doze anos: dispositivo de retenção adequado, salvo as exceções da lista (a partir de 150 cm, certos assentos ou ônibus); a criança continua presa.",
-   "por_que": "OCR art. 3a al. 4 (dispositivo e exceções) e al. 1 (condutor se assegura de que as crianças estão corretamente presas).",
-   "como_identificar": "Cheque idade, altura e tipo de assento: só a combinação listada dispensa o dispositivo.",
-   "erro_comum": "Confundir dispensa do dispositivo de retenção com dispensa de ir presa.",
-   "excecao": "Não é obrigatório o dispositivo: crianças com pelo menos 150 cm; quatro anos ou mais em assentos especialmente admitidos ou em ônibus; sete anos ou mais em assentos com cintos abdominais.",
-   "palavras_fr": [
-    "dispositif de retenue pour enfants — dispositivo de retenção para crianças",
-    "enfants de moins de douze ans — crianças com menos de doze anos"
-   ]
+  {
+    "id": "Q-COM-017",
+    "regra_ids": [
+      "R-COM-017",
+      "R-COM-020",
+      "R-COM-021"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "retencao-de-criancas",
+    "competencia": "Dispositivo de retenção para crianças",
+    "nivel": 4,
+    "enunciado": "Num carro de passeio comum, em lugares equipados com cintos, vão uma criança de 6 anos com 125 cm e outra de 11 anos com 155 cm. Não há assentos especialmente admitidos para crianças. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Como a criança de 11 anos tem mais de 150 cm, ela também está dispensada de ir presa, e o condutor não precisa verificar nada.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 3a al. 4 dispensa só o dispositivo de retenção; o al. 1 continua exigindo que o condutor se assegure de que crianças com menos de doze anos estão corretamente presas."
+      },
+      {
+        "texto": "A criança de 6 anos deve sempre estar presa por um dispositivo de retenção adequado, como uma cadeirinha.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 3a al. 4: crianças com menos de doze anos devem estar presas por dispositivo adequado; nenhuma das exceções da lista se aplica a este caso."
+      },
+      {
+        "texto": "A criança de 6 anos pode ir presa pelo cinto comum, porque já passou dos quatro anos.",
+        "correta": false,
+        "justificativa": "Errada. A exceção para quatro anos ou mais exige assentos especialmente admitidos para crianças ou ônibus, o que o enunciado exclui."
+      },
+      {
+        "texto": "A criança de 11 anos com 155 cm está dispensada do dispositivo de retenção, mas deve estar corretamente presa pelo cinto do veículo.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 3a al. 4 (crianças com pelo menos 150 cm) e al. 1 (condutor se assegura de que crianças com menos de doze anos estão corretamente presas)."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Menor de doze anos: dispositivo de retenção adequado, salvo as exceções da lista (a partir de 150 cm, certos assentos ou ônibus); a criança continua presa.",
+      "por_que": "OCR art. 3a al. 4 (dispositivo e exceções) e al. 1 (condutor se assegura de que as crianças estão corretamente presas).",
+      "como_identificar": "Cheque idade, altura e tipo de assento: só a combinação listada dispensa o dispositivo.",
+      "erro_comum": "Confundir dispensa do dispositivo de retenção com dispensa de ir presa.",
+      "excecao": "Não é obrigatório o dispositivo: crianças com pelo menos 150 cm; quatro anos ou mais em assentos especialmente admitidos ou em ônibus; sete anos ou mais em assentos com cintos abdominais.",
+      "palavras_fr": [
+        "dispositif de retenue pour enfants — dispositivo de retenção para crianças",
+        "enfants de moins de douze ans — crianças com menos de doze anos"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-018",
-  "regra_ids": [
-   "R-COM-036",
-   "R-COM-040"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "luzes-de-circulacao",
-  "competencia": "Luzes em marcha: escuro, túnel e demais veículos",
-  "nivel": 2,
-  "enunciado": "Você dirige um automóvel de passeio entre o anoitecer e o amanhecer e mais tarde entra em um túnel. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Num túnel bem iluminado e curto, os faróis baixos são dispensados, pois a iluminação do túnel já garante a visibilidade.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 30 al. 1 manda usar os faróis baixos nos túneis; o texto não traz dispensa por iluminação do túnel."
-   },
-   {
-    "texto": "Os veículos a motor em marcha devem ser iluminados permanentemente.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 41 al. 1, primeira parte."
-   },
-   {
-    "texto": "Entre o anoitecer e o amanhecer, com má visibilidade e nos túneis, os faróis baixos (« feux de croisement ») devem ser usados durante a marcha.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 30 al. 1."
-   },
-   {
-    "texto": "Os veículos não motorizados só precisam ser iluminados entre o anoitecer e o amanhecer e em caso de má visibilidade.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 41 al. 1, segunda parte: « les autres véhicules ne doivent l'être qu'entre la tombée de la nuit et le lever du jour ainsi qu'en cas de mauvaise visibilité »."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Veículo a motor em marcha: sempre iluminado; faróis baixos no escuro, com má visibilidade e em túneis.",
-   "por_que": "LCR art. 41 al. 1 (iluminação permanente dos veículos a motor) e OCR art. 30 al. 1 (faróis baixos).",
-   "como_identificar": "Veja o momento do dia, a visibilidade e se há túnel; para veículos não motorizados, só o escuro e a má visibilidade contam.",
-   "erro_comum": "Achar que túnel iluminado dispensa os faróis baixos.",
-   "excecao": "Veículos sem faróis baixos usam as luzes prescritas para sua categoria (OCR art. 30 al. 1).",
-   "palavras_fr": [
-    "feux de croisement — faróis baixos",
-    "tombée de la nuit — anoitecer",
-    "lever du jour — amanhecer"
-   ]
+  {
+    "id": "Q-COM-018",
+    "regra_ids": [
+      "R-COM-036",
+      "R-COM-040"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "luzes-de-circulacao",
+    "competencia": "Luzes em marcha: escuro, túnel e demais veículos",
+    "nivel": 2,
+    "enunciado": "Você dirige um automóvel de passeio entre o anoitecer e o amanhecer e mais tarde entra em um túnel. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Num túnel bem iluminado e curto, os faróis baixos são dispensados, pois a iluminação do túnel já garante a visibilidade.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 30 al. 1 manda usar os faróis baixos nos túneis; o texto não traz dispensa por iluminação do túnel."
+      },
+      {
+        "texto": "Os veículos a motor em marcha devem ser iluminados permanentemente.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 41 al. 1, primeira parte."
+      },
+      {
+        "texto": "Entre o anoitecer e o amanhecer, com má visibilidade e nos túneis, os faróis baixos (« feux de croisement ») devem ser usados durante a marcha.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 30 al. 1."
+      },
+      {
+        "texto": "Os veículos não motorizados só precisam ser iluminados entre o anoitecer e o amanhecer e em caso de má visibilidade.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 41 al. 1, segunda parte: « les autres véhicules ne doivent l'être qu'entre la tombée de la nuit et le lever du jour ainsi qu'en cas de mauvaise visibilité »."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Veículo a motor em marcha: sempre iluminado; faróis baixos no escuro, com má visibilidade e em túneis.",
+      "por_que": "LCR art. 41 al. 1 (iluminação permanente dos veículos a motor) e OCR art. 30 al. 1 (faróis baixos).",
+      "como_identificar": "Veja o momento do dia, a visibilidade e se há túnel; para veículos não motorizados, só o escuro e a má visibilidade contam.",
+      "erro_comum": "Achar que túnel iluminado dispensa os faróis baixos.",
+      "excecao": "Veículos sem faróis baixos usam as luzes prescritas para sua categoria (OCR art. 30 al. 1).",
+      "palavras_fr": [
+        "feux de croisement — faróis baixos",
+        "tombée de la nuit — anoitecer",
+        "lever du jour — amanhecer"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-019",
-  "regra_ids": [
-   "R-COM-037"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "luzes-de-dia",
-  "competencia": "Luzes durante o dia",
-  "nivel": 3,
-  "enunciado": "É meio-dia, com céu limpo e boa visibilidade, fora de túnel; você dirige um automóvel de passeio. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "As luzes de dia só são obrigatórias fora das localidades; dentro delas basta andar com as luzes apagadas.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 30 al. 2 não distingue localidade de fora dela: a obrigação vale para os veículos a motor."
-   },
-   {
-    "texto": "Os veículos a motor com velocidade máxima de até 30 km/h estão dispensados de usar as luzes de dia.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 30 al. 2 let. b: a exceção vale para velocidade máxima que não excede 10 km/h."
-   },
-   {
-    "texto": "O uso das luzes de circulação diurna ou dos faróis baixos é obrigatório para o seu veículo.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 30 al. 2: fora dos casos do al. 1, o uso das luzes de circulação diurna ou dos faróis baixos é obrigatório para os veículos a motor."
-   },
-   {
-    "texto": "Veículos a motor colocados em circulação pela primeira vez antes de 1970 também devem usar as luzes de dia, como os demais.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 30 al. 2 let. c: esses veículos estão entre as exceções."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "De dia, veículos a motor usam luzes de circulação diurna ou faróis baixos, salvo as três exceções do texto.",
-   "por_que": "OCR art. 30 al. 2: obrigação para veículos a motor, com exceção de a) conduzidos a pé, b) até 10 km/h e c) em circulação pela primeira vez antes de 1.º de janeiro de 1970.",
-   "como_identificar": "Confirme que o veículo é a motor e se cai numa das três exceções.",
-   "erro_comum": "Achar que a regra depende da localidade ou de um limite de velocidade diferente de 10 km/h.",
-   "excecao": "As exceções são os veículos a motor conduzidos por pessoa a pé, os de velocidade máxima de até 10 km/h e os colocados em circulação pela primeira vez antes de 1.º de janeiro de 1970.",
-   "palavras_fr": [
-    "feux de circulation diurne — luzes de circulação diurna",
-    "feux de croisement — faróis baixos"
-   ]
+  {
+    "id": "Q-COM-019",
+    "regra_ids": [
+      "R-COM-037"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "luzes-de-dia",
+    "competencia": "Luzes durante o dia",
+    "nivel": 3,
+    "enunciado": "É meio-dia, com céu limpo e boa visibilidade, fora de túnel; você dirige um automóvel de passeio. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "As luzes de dia só são obrigatórias fora das localidades; dentro delas basta andar com as luzes apagadas.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 30 al. 2 não distingue localidade de fora dela: a obrigação vale para os veículos a motor."
+      },
+      {
+        "texto": "Os veículos a motor com velocidade máxima de até 30 km/h estão dispensados de usar as luzes de dia.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 30 al. 2 let. b: a exceção vale para velocidade máxima que não excede 10 km/h."
+      },
+      {
+        "texto": "O uso das luzes de circulação diurna ou dos faróis baixos é obrigatório para o seu veículo.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 30 al. 2: fora dos casos do al. 1, o uso das luzes de circulação diurna ou dos faróis baixos é obrigatório para os veículos a motor."
+      },
+      {
+        "texto": "Veículos a motor colocados em circulação pela primeira vez antes de 1970 também devem usar as luzes de dia, como os demais.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 30 al. 2 let. c: esses veículos estão entre as exceções."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "De dia, veículos a motor usam luzes de circulação diurna ou faróis baixos, salvo as três exceções do texto.",
+      "por_que": "OCR art. 30 al. 2: obrigação para veículos a motor, com exceção de a) conduzidos a pé, b) até 10 km/h e c) em circulação pela primeira vez antes de 1.º de janeiro de 1970.",
+      "como_identificar": "Confirme que o veículo é a motor e se cai numa das três exceções.",
+      "erro_comum": "Achar que a regra depende da localidade ou de um limite de velocidade diferente de 10 km/h.",
+      "excecao": "As exceções são os veículos a motor conduzidos por pessoa a pé, os de velocidade máxima de até 10 km/h e os colocados em circulação pela primeira vez antes de 1.º de janeiro de 1970.",
+      "palavras_fr": [
+        "feux de circulation diurne — luzes de circulação diurna",
+        "feux de croisement — faróis baixos"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-020",
-  "regra_ids": [
-   "R-COM-038",
-   "R-COM-039",
-   "R-COM-041"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "faroi-alto-e-neblina",
-  "competencia": "Faróis altos, de neblina e ofuscamento",
-  "nivel": 2,
-  "enunciado": "Você dirige à noite fora da localidade e mais tarde entra em uma região de neblina densa. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Faróis e luzes traseiras de neblina só são autorizados com visibilidade consideravelmente reduzida por neblina, rajada de neve ou chuva forte.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 30 al. 4."
-   },
-   {
-    "texto": "Em circulação em fila, os faróis altos podem permanecer ligados se não houver veículo vindo em sentido contrário.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 30 al. 3 let. b: os faróis altos devem ser apagados em caso de circulação em fila ou de marcha à ré."
-   },
-   {
-    "texto": "As luzes traseiras de neblina podem ser ligadas sempre que estiver escuro, mesmo com boa visibilidade, para o veículo ser visto de longe.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 30 al. 4 liga o uso à visibilidade consideravelmente reduzida, não ao escuro."
-   },
-   {
-    "texto": "Os faróis altos devem ser apagados a tempo, antes de cruzar outro usuário da via.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 30 al. 3 let. a; veja também LCR art. 41: a iluminação deve ser usada de modo a não ofuscar ninguém sem necessidade."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Neblina: luzes de neblina só com visibilidade muito reduzida; faróis altos apagados a tempo ao cruzar e em fila, sem ofuscar ninguém.",
-   "por_que": "OCR art. 30 al. 3 (faróis altos) e al. 4 (neblina); LCR art. 41 (não ofuscar sem necessidade).",
-   "como_identificar": "Pergunte: a visibilidade está consideravelmente reduzida? Há alguém para cruzar ou um veículo à frente em fila?",
-   "erro_comum": "Ligar luzes de neblina só porque está escuro, ou manter os faróis altos em fila.",
-   "excecao": "Se necessário, os faróis altos são permitidos; dentro das localidades deve-se renunciar a eles, se possível (OCR art. 30 al. 3).",
-   "palavras_fr": [
-    "feux de route — faróis altos",
-    "feux de brouillard — faróis de neblina",
-    "éblouir — ofuscar"
-   ]
+  {
+    "id": "Q-COM-020",
+    "regra_ids": [
+      "R-COM-038",
+      "R-COM-039",
+      "R-COM-041"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "faroi-alto-e-neblina",
+    "competencia": "Faróis altos, de neblina e ofuscamento",
+    "nivel": 2,
+    "enunciado": "Você dirige à noite fora da localidade e mais tarde entra em uma região de neblina densa. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Faróis e luzes traseiras de neblina só são autorizados com visibilidade consideravelmente reduzida por neblina, rajada de neve ou chuva forte.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 30 al. 4."
+      },
+      {
+        "texto": "Em circulação em fila, os faróis altos podem permanecer ligados se não houver veículo vindo em sentido contrário.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 30 al. 3 let. b: os faróis altos devem ser apagados em caso de circulação em fila ou de marcha à ré."
+      },
+      {
+        "texto": "As luzes traseiras de neblina podem ser ligadas sempre que estiver escuro, mesmo com boa visibilidade, para o veículo ser visto de longe.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 30 al. 4 liga o uso à visibilidade consideravelmente reduzida, não ao escuro."
+      },
+      {
+        "texto": "Os faróis altos devem ser apagados a tempo, antes de cruzar outro usuário da via.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 30 al. 3 let. a; veja também LCR art. 41: a iluminação deve ser usada de modo a não ofuscar ninguém sem necessidade."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Neblina: luzes de neblina só com visibilidade muito reduzida; faróis altos apagados a tempo ao cruzar e em fila, sem ofuscar ninguém.",
+      "por_que": "OCR art. 30 al. 3 (faróis altos) e al. 4 (neblina); LCR art. 41 (não ofuscar sem necessidade).",
+      "como_identificar": "Pergunte: a visibilidade está consideravelmente reduzida? Há alguém para cruzar ou um veículo à frente em fila?",
+      "erro_comum": "Ligar luzes de neblina só porque está escuro, ou manter os faróis altos em fila.",
+      "excecao": "Se necessário, os faróis altos são permitidos; dentro das localidades deve-se renunciar a eles, se possível (OCR art. 30 al. 3).",
+      "palavras_fr": [
+        "feux de route — faróis altos",
+        "feux de brouillard — faróis de neblina",
+        "éblouir — ofuscar"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-021",
-  "regra_ids": [
-   "R-COM-042",
-   "R-COM-046"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "ruido-e-incomodidades",
-  "competencia": "Ruído e incomodidades evitáveis",
-  "nivel": 1,
-  "enunciado": "Você vai sair de carro cedo, em um bairro residencial. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "A proibição de ruído evitável vale para o condutor; passageiros e auxiliares podem bater as portas à vontade, sem infringir a regra.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 33 al. 1: condutores, passageiros e auxiliares não causarão nenhum ruído que possa ser evitado."
-   },
-   {
-    "texto": "Bater portas, capô do motor ou porta-malas e carregar ou descarregar o veículo sem precauções estão entre os ruídos evitáveis proibidos.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 33 al. 1 let. f e g."
-   },
-   {
-    "texto": "Condutores, passageiros e auxiliares não devem causar nenhum ruído que possa ser evitado.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 33 al. 1, primeira frase."
-   },
-   {
-    "texto": "O condutor deve cuidar para não incomodar usuários da via e moradores com ruído, poeira, fumaça ou odores evitáveis.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 42 al. 1."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Evite todo ruído, poeira, fumaça ou odor que possa ser evitado, e vale também para passageiros e auxiliares.",
-   "por_que": "OCR art. 33 al. 1 (ruído evitável) e LCR art. 42 al. 1 (incomodar usuários e moradores).",
-   "como_identificar": "Antes de agir, pergunte se o ruído ou a incomodidade poderia ser evitado.",
-   "erro_comum": "Achar que o dever vale só para o condutor ou só à noite.",
-   "excecao": "O OCR art. 33 al. 1 dá exemplos de ruído proibido « avant tout » (bater portas, gerar estampidos no escape, entre outros); a regra geral é não causar ruído evitável.",
-   "palavras_fr": [
-    "bruit pouvant être évité — ruído que pode ser evitado",
-    "incommoder — incomodar"
-   ]
+  {
+    "id": "Q-COM-021",
+    "regra_ids": [
+      "R-COM-042",
+      "R-COM-046"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "ruido-e-incomodidades",
+    "competencia": "Ruído e incomodidades evitáveis",
+    "nivel": 1,
+    "enunciado": "Você vai sair de carro cedo, em um bairro residencial. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "A proibição de ruído evitável vale para o condutor; passageiros e auxiliares podem bater as portas à vontade, sem infringir a regra.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 33 al. 1: condutores, passageiros e auxiliares não causarão nenhum ruído que possa ser evitado."
+      },
+      {
+        "texto": "Bater portas, capô do motor ou porta-malas e carregar ou descarregar o veículo sem precauções estão entre os ruídos evitáveis proibidos.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 33 al. 1 let. f e g."
+      },
+      {
+        "texto": "Condutores, passageiros e auxiliares não devem causar nenhum ruído que possa ser evitado.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 33 al. 1, primeira frase."
+      },
+      {
+        "texto": "O condutor deve cuidar para não incomodar usuários da via e moradores com ruído, poeira, fumaça ou odores evitáveis.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 42 al. 1."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Evite todo ruído, poeira, fumaça ou odor que possa ser evitado, e vale também para passageiros e auxiliares.",
+      "por_que": "OCR art. 33 al. 1 (ruído evitável) e LCR art. 42 al. 1 (incomodar usuários e moradores).",
+      "como_identificar": "Antes de agir, pergunte se o ruído ou a incomodidade poderia ser evitado.",
+      "erro_comum": "Achar que o dever vale só para o condutor ou só à noite.",
+      "excecao": "O OCR art. 33 al. 1 dá exemplos de ruído proibido « avant tout » (bater portas, gerar estampidos no escape, entre outros); a regra geral é não causar ruído evitável.",
+      "palavras_fr": [
+        "bruit pouvant être évité — ruído que pode ser evitado",
+        "incommoder — incomodar"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-022",
-  "regra_ids": [
-   "R-COM-047",
-   "R-COM-049",
-   "R-COM-051"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "documentos-do-veiculo",
-  "competencia": "Documentos do veículo e do condutor",
-  "nivel": 2,
-  "enunciado": "Você vai conduzir um automóvel de passeio em estrada pública e a polícia pode controlá-lo. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Basta ter as placas de controle para circular; o permis de circulation é exigido em caso de venda.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 10 al. 1: os veículos a motor só podem ser colocados em circulação se tiverem permis de circulation e placas de controle."
-   },
-   {
-    "texto": "Os condutores devem sempre portar o original do permis de circulation, a menos que lhes tenha sido entregue uma duplicata.",
-    "correta": true,
-    "justificativa": "Correta. OAC art. 71 al. 5, primeira frase."
-   },
-   {
-    "texto": "O permis de conduire precisa ser portado apenas em viagens ao exterior; em território suíço basta que o condutor o tenha em casa ou no trabalho.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 10 al. 4: os condutores devem sempre portar os seus permis e apresentá-los, quando solicitado, aos órgãos de controle."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Carro em circulação: permis de circulation e placas de controle; o condutor porta o permis de circulation e o permis de conduire.",
-   "por_que": "LCR art. 10 al. 1 e al. 4; OAC art. 71 al. 5.",
-   "como_identificar": "Conte os documentos: dois permis ficam com o condutor, as placas ficam no veículo.",
-   "erro_comum": "Achar que o permis de conduire pode ficar em casa em território suíço.",
-   "excecao": "Condutores de veículos agrícolas e florestais em trajeto entre a exploração e o território explorado não precisam portar o permis de circulation (OAC art. 71 al. 5).",
-   "palavras_fr": [
-    "permis de circulation — licenciamento do veículo",
-    "plaques de contrôle — placas de controle",
-    "permis de conduire — carta de condução"
-   ]
+  {
+    "id": "Q-COM-022",
+    "regra_ids": [
+      "R-COM-047",
+      "R-COM-049",
+      "R-COM-051"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "documentos-do-veiculo",
+    "competencia": "Documentos do veículo e do condutor",
+    "nivel": 2,
+    "enunciado": "Você vai conduzir um automóvel de passeio em estrada pública e a polícia pode controlá-lo. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Basta ter as placas de controle para circular; o permis de circulation é exigido em caso de venda.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 10 al. 1: os veículos a motor só podem ser colocados em circulação se tiverem permis de circulation e placas de controle."
+      },
+      {
+        "texto": "Os condutores devem sempre portar o original do permis de circulation, a menos que lhes tenha sido entregue uma duplicata.",
+        "correta": true,
+        "justificativa": "Correta. OAC art. 71 al. 5, primeira frase."
+      },
+      {
+        "texto": "O permis de conduire precisa ser portado apenas em viagens ao exterior; em território suíço basta que o condutor o tenha em casa ou no trabalho.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 10 al. 4: os condutores devem sempre portar os seus permis e apresentá-los, quando solicitado, aos órgãos de controle."
+      },
+      {
+        "texto": "Quando os órgãos de controle pedirem, você deve apresentar os seus permis.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 10 al. 4: os condutores devem sempre portar os seus permis e apresentá-los, quando solicitado, aos órgãos de controle."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Carro em circulação: permis de circulation e placas de controle; o condutor porta o permis de circulation e o permis de conduire.",
+      "por_que": "LCR art. 10 al. 1 e al. 4; OAC art. 71 al. 5.",
+      "como_identificar": "Conte os documentos: dois permis ficam com o condutor, as placas ficam no veículo.",
+      "erro_comum": "Achar que o permis de conduire pode ficar em casa em território suíço.",
+      "excecao": "Condutores de veículos agrícolas e florestais em trajeto entre a exploração e o território explorado não precisam portar o permis de circulation (OAC art. 71 al. 5).",
+      "palavras_fr": [
+        "permis de circulation — licenciamento do veículo",
+        "plaques de contrôle — placas de controle",
+        "permis de conduire — carteira de motorista"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-023",
-  "regra_ids": [
-   "R-COM-048",
-   "R-COM-050"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "permis-de-conduire-e-circulation",
-  "competencia": "Quem pode conduzir e quando pedir novo permis de circulation",
-  "nivel": 3,
-  "enunciado": "Considere as regras sobre permis de conduire e permis de circulation. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Quem faz um trajeto de aprendizagem não precisa de nenhum permis, pois ainda está aprendendo e o trajeto é acompanhado por outra pessoa.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 10 al. 2: quem faz trajeto de aprendizagem deve ser titular de permis d'élève conducteur."
-   },
-   {
-    "texto": "Ninguém pode conduzir um veículo a motor sem permis de conduire ou, em trajeto de aprendizagem, sem permis d'élève conducteur.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 10 al. 2."
-   },
-   {
-    "texto": "Se o veículo muda de cantão de estacionamento, o permis de circulation anterior segue valendo, sem nova solicitação.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 11 al. 3: um novo permis de circulation deve ser pedido quando o veículo muda de « lieu de stationnement » de um cantão para outro."
-   },
-   {
-    "texto": "Um novo permis de circulation deve ser pedido quando o veículo passa a outro detentor.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 11 al. 3."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Conduzir exige permis (de conduire ou d'élève conducteur); novo permis de circulation quando muda o cantão ou o detentor.",
-   "por_que": "LCR art. 10 al. 2 (permis para conduzir) e art. 11 al. 3 (novo permis de circulation).",
-   "como_identificar": "Pergunte: quem conduz tem permis adequado? O veículo mudou de cantão de estacionamento ou de detentor?",
-   "erro_comum": "Achar que aluno condutor não precisa de permis ou que o permis de circulation acompanha o veículo em qualquer mudança.",
-   "excecao": "O OAC art. 5 trata de exceções à obrigação de ter permis; este item não as aborda.",
-   "palavras_fr": [
-    "permis d'élève conducteur — permis de aluno condutor",
-    "lieu de stationnement — termo não definido no artigo (não traduzir como vaga)",
-    "autre détenteur — outro detentor"
-   ]
+  {
+    "id": "Q-COM-023",
+    "regra_ids": [
+      "R-COM-048",
+      "R-COM-050"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "permis-de-conduire-e-circulation",
+    "competencia": "Quem pode conduzir e quando pedir novo permis de circulation",
+    "nivel": 3,
+    "enunciado": "Considere as regras sobre permis de conduire e permis de circulation. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Quem faz um trajeto de aprendizagem não precisa de nenhum permis, pois ainda está aprendendo e o trajeto é acompanhado por outra pessoa.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 10 al. 2: quem faz trajeto de aprendizagem deve ser titular de permis d'élève conducteur."
+      },
+      {
+        "texto": "Ninguém pode conduzir um veículo a motor sem permis de conduire ou, em trajeto de aprendizagem, sem permis d'élève conducteur.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 10 al. 2."
+      },
+      {
+        "texto": "Se o veículo muda de cantão de estacionamento, o permis de circulation anterior segue valendo, sem nova solicitação.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 11 al. 3: um novo permis de circulation deve ser pedido quando o veículo muda de « lieu de stationnement » de um cantão para outro."
+      },
+      {
+        "texto": "Um novo permis de circulation deve ser pedido quando o veículo passa a outro detentor.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 11 al. 3."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Conduzir exige permis (de conduire ou d'élève conducteur); novo permis de circulation quando muda o cantão ou o detentor.",
+      "por_que": "LCR art. 10 al. 2 (permis para conduzir) e art. 11 al. 3 (novo permis de circulation).",
+      "como_identificar": "Pergunte: quem conduz tem permis adequado? O veículo mudou de cantão de estacionamento ou de detentor?",
+      "erro_comum": "Achar que aluno condutor não precisa de permis ou que o permis de circulation acompanha o veículo em qualquer mudança.",
+      "excecao": "O OAC art. 5 trata de exceções à obrigação de ter permis; este item não as aborda.",
+      "palavras_fr": [
+        "permis d'élève conducteur — permis de aluno condutor",
+        "lieu de stationnement — termo não definido no artigo (não traduzir como vaga)",
+        "autre détenteur — outro detentor"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-COM-024",
-  "regra_ids": [
-   "R-COM-052",
-   "R-COM-053",
-   "R-COM-055",
-   "R-COM-056"
-  ],
-  "categoria": "C-Comportement",
-  "subtema": "aprendizagem-ocr-27",
-  "competencia": "Trajeto de aprendizagem (placa L, acompanhante, vias)",
-  "nivel": 3,
-  "enunciado": "Você é aluno condutor e faz um trajeto de aprendizagem num automóvel de passeio (não categoria C), com acompanhante. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "O aluno condutor pode usar autoestradas desde que o acompanhante esteja ao lado, mesmo sem estar pronto para o exame de condução e sem formação suficiente.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 27: os alunos condutores só usam autoestradas ou semiautoestradas se estiverem prontos para o exame de condução."
-   },
-   {
-    "texto": "O veículo deve ter placa com um L branco sobre fundo azul, bem visível por trás, retirada fora do trajeto de aprendizagem.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 27: placa com « L blanc sur fond bleu », bem visível por trás e retirada quando o veículo não é usado para trajeto de aprendizagem."
-   },
-   {
-    "texto": "Em circulação normal na via, o acompanhante senta-se ao lado do condutor e deve poder alcançar facilmente ao menos o freio de mão.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 27: nos trajetos de aprendizagem, o acompanhante senta-se ao lado do condutor (exceto em terrenos de exercício, marcha à ré e estacionar) e deve poder alcançar facilmente ao menos o freio de mão."
-   },
-   {
-    "texto": "Nas vias de tráfego intenso, é proibido ao aluno condutor arrancar em subida, fazer meia-volta na pista e fazer marcha à ré.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 27: nas « chaussées fortement fréquentées » (vias de tráfego intenso) é proibido arrancar em subida, fazer meia-volta na pista, fazer marcha à ré e exercícios semelhantes."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "L visível e retirado fora do trajeto; acompanhante ao lado com acesso ao freio de mão; autoestrada só com preparo para o exame; manobras proibidas em vias intensas.",
-   "por_que": "OCR art. 27 (course d'apprentissage).",
-   "como_identificar": "Confira placa, posição do acompanhante, tipo de via e a manobra pretendida.",
-   "erro_comum": "Achar que acompanhante ao lado basta para entrar em autoestrada.",
-   "excecao": "A exceção do freio de mão é para automóvel de categoria C com condutor pronto para o exame; o enunciado exclui esse caso. O acompanhante pode não ficar ao lado em terrenos de exercício, marcha à ré e estacionar (« parquer »).",
-   "palavras_fr": [
-    "course d'apprentissage — trajeto de aprendizagem",
-    "élève conducteur — aluno condutor",
-    "chaussées fortement fréquentées — vias de tráfego intenso"
-   ]
-  },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- }
+  {
+    "id": "Q-COM-024",
+    "regra_ids": [
+      "R-COM-052",
+      "R-COM-053",
+      "R-COM-055",
+      "R-COM-056"
+    ],
+    "categoria": "C-Comportement",
+    "subtema": "aprendizagem-ocr-27",
+    "competencia": "Trajeto de aprendizagem (placa L, acompanhante, vias)",
+    "nivel": 3,
+    "enunciado": "Você é aluno condutor e faz um trajeto de aprendizagem num automóvel de passeio (não categoria C), com acompanhante. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "O aluno condutor pode usar autoestradas desde que o acompanhante esteja ao lado, mesmo sem estar pronto para o exame de condução e sem formação suficiente.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 27: os alunos condutores só usam autoestradas ou semiautoestradas se estiverem prontos para o exame de condução."
+      },
+      {
+        "texto": "O veículo deve ter placa com um L branco sobre fundo azul, bem visível por trás, retirada fora do trajeto de aprendizagem.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 27: placa com « L blanc sur fond bleu », bem visível por trás e retirada quando o veículo não é usado para trajeto de aprendizagem."
+      },
+      {
+        "texto": "Em circulação normal na via, o acompanhante senta-se ao lado do condutor e deve poder alcançar facilmente ao menos o freio de mão.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 27: nos trajetos de aprendizagem, o acompanhante senta-se ao lado do condutor (exceto em terrenos de exercício, marcha à ré e estacionar) e deve poder alcançar facilmente ao menos o freio de mão."
+      },
+      {
+        "texto": "Num trajeto de aprendizagem, nas vias muito movimentadas, é proibido arrancar em subida, fazer meia-volta na pista e fazer marcha à ré.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 27: nas « chaussées fortement fréquentées » (vias muito movimentadas), é proibido, nos trajetos de aprendizagem, arrancar em subida, fazer meia-volta na pista, fazer marcha à ré e exercícios semelhantes."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "L visível e retirado fora do trajeto; acompanhante ao lado com acesso ao freio de mão; autoestrada só com preparo para o exame; manobras proibidas em vias intensas.",
+      "por_que": "OCR art. 27 (course d'apprentissage).",
+      "como_identificar": "Confira placa, posição do acompanhante, tipo de via e a manobra pretendida.",
+      "erro_comum": "Achar que acompanhante ao lado basta para entrar em autoestrada.",
+      "excecao": "A exceção do freio de mão é para automóvel de categoria C com condutor pronto para o exame; o enunciado exclui esse caso. O acompanhante pode não ficar ao lado em terrenos de exercício, marcha à ré e estacionar (« parquer »).",
+      "palavras_fr": [
+        "course d'apprentissage — trajeto de aprendizagem",
+        "élève conducteur — aluno condutor",
+        "chaussées fortement fréquentées — vias muito movimentadas (não confundir com « trafic intense », OCR art. 17 al. 4)"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
+  }
 ]

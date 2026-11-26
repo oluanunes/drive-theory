@@ -46,7 +46,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-002",
@@ -76,7 +78,7 @@
         "justificativa": "Correta. OCR art. 18 al. 2 let. a: lugares sem visibilidade, em especial nas curvas e no topo das lombadas, e nas proximidades."
       },
       {
-        "texto": "Também é sempre proibido parar voluntariamente diante de um sinal que o veículo poderia encobrir.",
+        "texto": "É proibido parar voluntariamente diante de um sinal que o veículo poderia encobrir.",
         "correta": true,
         "justificativa": "Correta. OCR art. 18 al. 2 let. g."
       }
@@ -95,7 +97,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-003",
@@ -114,7 +118,7 @@
       {
         "texto": "Se a parada durar poucos instantes, pode ser feita onde atrapalhe a circulação, desde que o condutor ligue o pisca-alerta.",
         "correta": false,
-        "justificativa": "Errada. LCR art. 37 al. 2 não prevê exceção por duração: não se para onde se possa atrapalhar ou pôr em perigo a circulação. O pisca-alerta num veículo parado só é permitido como complemento do sinal de pane (OCR art. 23 al. 3 let. a)."
+        "justificativa": "Errada. LCR art. 37 al. 2 não prevê exceção por duração: não se para onde se possa atrapalhar ou pôr em perigo a circulação. Num veículo parado, o pisca-alerta só serve como complemento do sinal de pane ou, em ônibus escolar sinalizado, para embarque e desembarque de alunos (OCR art. 23 al. 3 let. a); ele não autoriza a parada."
       },
       {
         "texto": "Os veículos devem ser estacionados sempre nos locais reservados para isso, sem nenhuma exceção.",
@@ -146,7 +150,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-004",
@@ -166,9 +172,9 @@
         "justificativa": "Errada. OCR art. 18 al. 1 let. c admite a borda esquerda em vias estreitas de pouco tráfego, e não em qualquer via de pouco movimento."
       },
       {
-        "texto": "Ela pode parar na borda esquerda se houver à direita uma via de tramway.",
+        "texto": "Ela pode parar na borda esquerda se houver à direita uma via de tram.",
         "correta": true,
-        "justificativa": "Correta. OCR art. 18 al. 1 let. a (via de tramway ou de chemin de fer routier à direita)."
+        "justificativa": "Correta. OCR art. 18 al. 1 let. a (via de tram ou de chemin de fer routier à direita)."
       },
       {
         "texto": "Ela pode parar na borda esquerda quando a borda direita estiver ocupada por veículos estacionados.",
@@ -182,20 +188,22 @@
       }
     ],
     "explicacao": {
-      "regra_simples": "Na borda esquerda só se para nos quatro casos listados: tramway à direita, proibição de parar ou estacionar à direita, via estreita de pouco tráfego e via de sentido único.",
+      "regra_simples": "Na borda esquerda só se para nos quatro casos listados: tram à direita, proibição de parar ou estacionar à direita, via estreita de pouco tráfego e via de sentido único.",
       "por_que": "OCR art. 18 al. 1 usa « n'est autorisé que »: a lista é fechada. Fora dela, a parada na borda esquerda não é permitida.",
       "como_identificar": "Confira se a situação se encaixa em uma das letras a, b, c ou d. Se não se encaixa em nenhuma, não é permitido.",
       "erro_comum": "Tratar a lista como exemplos e incluir casos parecidos, como borda direita cheia ou via larga com pouco movimento.",
-      "excecao": "Os casos permitidos não anulam as proibições de outros artigos, por exemplo junto a tramway (OCR art. 25 al. 5).",
+      "excecao": "Os casos permitidos não anulam as proibições de outros artigos, por exemplo junto ao tram (OCR art. 25 al. 5).",
       "palavras_fr": [
         "bord gauche de la route — borda esquerda da via",
-        "voie de tramway — via de tramway",
+        "voie de tramway — via de tram",
         "routes étroites à faible trafic — vias estreitas de pouco tráfego",
         "routes à sens unique — vias de sentido único"
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-005",
@@ -215,7 +223,7 @@
         "justificativa": "Errada. OCR art. 18 al. 3: ali a parada só é autorizada para que passageiros subam ou desçam."
       },
       {
-        "texto": "Diante das instalações do serviço de bombeiros, é proibido parar, até para um passageiro descer.",
+        "texto": "Diante das instalações do serviço de bombeiros, é proibido parar, mesmo que seja só para um passageiro descer do carro.",
         "correta": false,
         "justificativa": "Errada. OCR art. 18 al. 3: diante dessas instalações a parada é autorizada para que passageiros subam ou desçam, sem atrapalhar os bombeiros."
       },
@@ -225,7 +233,7 @@
         "justificativa": "Errada. OCR art. 18 al. 3 vale a menos de 10 m das placas, sem condicionar à presença de veículo do transporte público."
       },
       {
-        "texto": "A menos de 10 m das placas de parada de transporte público, só se pode parar para passageiros subirem ou descerem, sem atrapalhar o transporte.",
+        "texto": "A menos de 10 m da placa de parada, só se para para embarque ou desembarque de passageiros.",
         "correta": true,
         "justificativa": "Correta. OCR art. 18 al. 3."
       }
@@ -243,7 +251,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-006",
@@ -256,7 +266,7 @@
     "subtema": "carga-descarga",
     "competencia": "Aplicar as regras de carga e descarga na via",
     "nivel": 3,
-    "enunciado": "Um entregador precisa carregar e descarregar mercadorias numa rua com carros estacionados ao longo da borda da pista. Quais afirmações estão corretas?",
+    "enunciado": "Um entregador precisa carregar e descarregar mercadorias na via, em lugares diferentes. Quais afirmações estão corretas?",
     "imagem": null,
     "alternativas": [
       {
@@ -294,7 +304,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-007",
@@ -309,7 +321,7 @@
     "imagem": null,
     "alternativas": [
       {
-        "texto": "Estacionar sobre uma ponte é sempre proibido.",
+        "texto": "Estacionar sobre uma ponte é proibido.",
         "correta": true,
         "justificativa": "Correta. OCR art. 19 al. 2 let. f."
       },
@@ -343,7 +355,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-008",
@@ -369,7 +383,7 @@
         "justificativa": "Errada. OCR art. 19 al. 2 let. f proíbe estacionar sobre as pontes, sem ressalva para veículo rente à borda."
       },
       {
-        "texto": "Estacionar a 3 m da pista transversal de uma interseção é proibido, porque ali nem parar voluntariamente é permitido.",
+        "texto": "Estacionar a 3 m da pista transversal de uma interseção é proibido.",
         "correta": true,
         "justificativa": "Correta. OCR art. 18 al. 2 let. d (a menos de 5 m da pista transversal, parar é proibido) e OCR art. 19 al. 2 let. a (onde parar é proibido, estacionar também)."
       },
@@ -393,13 +407,16 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-009",
     "regra_ids": [
       "R-ARR-042",
-      "R-ARR-043"
+      "R-ARR-043",
+      "R-ARR-009"
     ],
     "categoria": "B-Arret-Stationnement",
     "subtema": "sinais-2-49-2-50",
@@ -411,7 +428,7 @@
       {
         "texto": "Com o sinal 2.49, o motorista ainda pode parar rapidamente para carregar ou descarregar mercadorias.",
         "correta": false,
-        "justificativa": "Errada. OSR art. 30 al. 1: o 2.49 defende a parada voluntária; como estacionar é a permanência que não serve só a carga e descarga, com o 2.49 nenhuma parada voluntária é permitida."
+        "justificativa": "Errada. OSR art. 30 al. 1: o 2.49 proíbe a parada voluntária (« arrêt volontaire »). Parar para carregar mercadorias é parada voluntária. A exceção de carga e descarga só existe no conceito de « parcage », que é o que o 2.50 proíbe."
       },
       {
         "texto": "Com o sinal 2.50, continua permitido parar apenas para deixar um passageiro descer.",
@@ -443,13 +460,16 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-010",
     "regra_ids": [
       "R-ARR-044",
-      "R-ARR-060"
+      "R-ARR-060",
+      "R-ARR-084"
     ],
     "categoria": "B-Arret-Stationnement",
     "subtema": "placas-proibicao",
@@ -493,7 +513,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-011",
@@ -519,7 +541,7 @@
         "justificativa": "Errada. OSR art. 64 al. 5 let. a: com símbolo ou inscrição correspondente, o sinal se aplica apenas ao tipo de transporte representado."
       },
       {
-        "texto": "Uma placa complementar com «Excepté» ou «Autorisé» junto a um símbolo indica que o sinal não se aplica ao tipo de transporte correspondente.",
+        "texto": "Com «Excepté» ou «Autorisé» junto a um símbolo, o sinal não vale para esse tipo de transporte.",
         "correta": true,
         "justificativa": "Correta. OSR art. 64 al. 5 let. b."
       },
@@ -543,7 +565,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-012",
@@ -564,9 +588,9 @@
         "justificativa": "Correta. OSR art. 31 al. 2."
       },
       {
-        "texto": "Se a alfândega renunciar temporariamente ao controle, o condutor deve parar mesmo assim ao lado do posto.",
+        "texto": "O sinal «Police» (2.52) permite passar a no máximo 20 km/h quando a polícia renuncia ao controle.",
         "correta": false,
-        "justificativa": "Errada. OSR art. 31 al. 1, 2ª frase: nesse caso os condutores atravessam a área da alfândega a no máximo 20 km/h."
+        "justificativa": "Errada. OSR art. 31 al. 2: o 2.52 obriga a parar. A regra dos 20 km/h está na al. 1 e vale para a alfândega, não para a polícia."
       },
       {
         "texto": "O sinal «Arrêt à proximité d'un poste de douane» (2.51) obriga todos os condutores a parar perto da repartição aduaneira.",
@@ -593,7 +617,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-013",
@@ -616,7 +642,7 @@
         "justificativa": "Errada. OSR art. 2a al. 2: a sinalização por zonas só é admitida em vias situadas dentro das localidades."
       },
       {
-        "texto": "Os direitos e obrigações do sinal de zona valem do início da sinalização por zonas até o sinal de fim, que restabelece as regras gerais.",
+        "texto": "O sinal de zona vale até o sinal de fim de zona, que restabelece as regras gerais.",
         "correta": true,
         "justificativa": "Correta. OSR art. 2a al. 3."
       },
@@ -645,7 +671,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-014",
@@ -678,7 +706,7 @@
         "justificativa": "Errada. OSR art. 48 al. 4: é indicada no campo azul do sinal ou numa placa complementar. A marca na vaga é a alternativa na falta disso."
       },
       {
-        "texto": "Com estacionamento limitado no tempo, o veículo deve sair no máximo ao fim da duração autorizada, salvo se o parquímetro permitir nova taxa antes do fim.",
+        "texto": "Com tempo limitado, deve-se sair até o fim do tempo autorizado, salvo se o parquímetro permitir pagar de novo antes.",
         "correta": true,
         "justificativa": "Correta. OSR art. 48 al. 3."
       }
@@ -697,7 +725,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-015",
@@ -707,23 +737,23 @@
     ],
     "categoria": "B-Arret-Stationnement",
     "subtema": "tram-e-portas",
-    "competencia": "Aplicar a proibição de parar junto ao tramway e o cuidado ao abrir portas",
+    "competencia": "Aplicar a proibição de parar junto ao tram e o cuidado ao abrir portas",
     "nivel": 2,
-    "enunciado": "Um condutor para o carro perto dos trilhos de um tramway e depois desce pela porta do lado da rua. Quais afirmações estão corretas?",
+    "enunciado": "Um condutor para o carro perto dos trilhos de um tram e depois desce pela porta do lado da rua. Quais afirmações estão corretas?",
     "imagem": null,
     "alternativas": [
       {
         "texto": "A proibição de ficar a menos de 1 m 50 do trilho vale para estacionar; parar rapidamente é permitido.",
         "correta": false,
-        "justificativa": "Errada. OCR art. 25 al. 5 proíbe parar (« arrêter ») sobre as vias do tramway e a menos de 1 m 50 do trilho mais próximo."
+        "justificativa": "Errada. OCR art. 25 al. 5 proíbe parar (« arrêter ») sobre as vias do tram e a menos de 1 m 50 do trilho mais próximo."
       },
       {
-        "texto": "Ele não pode parar sobre as vias do tramway nem a menos de 1 m 50 do trilho mais próximo.",
+        "texto": "Ele não pode parar sobre as vias do tram nem a menos de 1 m 50 do trilho mais próximo.",
         "correta": true,
         "justificativa": "Correta. OCR art. 25 al. 5."
       },
       {
-        "texto": "Quem desce do veículo não deve pôr em perigo os usuários da via e, antes de abrir as portas, deve prestar particular atenção aos veículos que vêm por trás.",
+        "texto": "Antes de abrir a porta, quem desce deve olhar com atenção os veículos que vêm por trás.",
         "correta": true,
         "justificativa": "Correta. OCR art. 21 al. 1."
       },
@@ -734,25 +764,28 @@
       }
     ],
     "explicacao": {
-      "regra_simples": "Não se para sobre as vias do tramway nem a menos de 1 m 50 do trilho. Quem desce olha os veículos que vêm por trás antes de abrir a porta.",
+      "regra_simples": "Não se para sobre as vias do tram nem a menos de 1 m 50 do trilho. Quem desce olha os veículos que vêm por trás antes de abrir a porta.",
       "por_que": "OCR art. 25 al. 5 fixa a distância mínima do trilho para parar. OCR art. 21 al. 1 impõe cuidado a quem sobe ou desce do veículo.",
       "como_identificar": "Perto de trilhos, meça a distância ao trilho mais próximo. Antes de abrir a porta, olhe para trás.",
       "erro_comum": "Achar que a proibição perto do trilho vale só para estacionar, ou que só o condutor deve olhar para trás ao abrir a porta.",
       "excecao": "OCR art. 25 al. 5 usa o verbo parar, sem distinguir parada de estacionamento. Onde parar é proibido, estacionar também é (OCR art. 19 al. 2 let. a).",
       "palavras_fr": [
-        "voies d'un tramway — vias de um tramway",
+        "voies d'un tramway — vias de um tram",
         "rail le plus proche — trilho mais próximo",
         "portières — portas do veículo",
         "véhicules venant de derrière — veículos que vêm por trás"
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-016",
     "regra_ids": [
-      "R-ARR-061"
+      "R-ARR-061",
+      "R-ARR-017"
     ],
     "categoria": "B-Arret-Stationnement",
     "subtema": "vaga-pessoas-deficientes",
@@ -796,7 +829,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-017",
@@ -809,7 +844,7 @@
     "subtema": "marcas-de-vagas",
     "competencia": "Aplicar as regras das marcas de vagas de estacionamento",
     "nivel": 2,
-    "enunciado": "Um motorista estaciona num pátio com vagas marcadas no chão. Quais afirmações estão corretas?",
+    "enunciado": "Um motorista estaciona num estacionamento público com vagas marcadas no chão. Quais afirmações estão corretas?",
     "imagem": null,
     "alternativas": [
       {
@@ -823,7 +858,7 @@
         "justificativa": "Correta. OSR art. 79 al. 6, 1ª frase."
       },
       {
-        "texto": "As vagas reservadas a certos grupos de usuários são sempre marcadas em amarelo.",
+        "texto": "As vagas reservadas a certos grupos de usuários são marcadas em amarelo.",
         "correta": true,
         "justificativa": "Correta. OSR art. 79 al. 5, 1ª frase."
       },
@@ -847,7 +882,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-018",
@@ -858,7 +895,7 @@
     "subtema": "marcas-linha-6-18",
     "competencia": "Aplicar a linha amarela contínua que proíbe parar antes das faixas de pedestres",
     "nivel": 3,
-    "enunciado": "Antes de uma faixa de pedestres há uma linha que proíbe parar (amarela, contínua; 6.18), paralela à borda da pista. Quais afirmações estão corretas?",
+    "enunciado": "Antes de uma faixa de pedestres há uma linha amarela contínua (6.18), paralela à borda da pista. Quais afirmações estão corretas?",
     "imagem": null,
     "alternativas": [
       {
@@ -867,7 +904,7 @@
         "justificativa": "Errada. OSR art. 77 al. 2: a linha 6.18 proíbe a parada voluntária."
       },
       {
-        "texto": "Em vias de sentido único, ela é traçada na borda direita da pista.",
+        "texto": "Em vias de sentido único, ela é traçada só na borda direita da pista.",
         "correta": false,
         "justificativa": "Errada. OSR art. 77 al. 2, 2ª frase: nas vias de sentido único a linha é traçada nas bordas direita e esquerda."
       },
@@ -896,7 +933,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-019",
@@ -913,9 +952,9 @@
     "imagem": null,
     "alternativas": [
       {
-        "texto": "Nos locais de zigue-zague (6.21), os veículos podem parar para carregar mercadorias, se não atrapalharem ninguém.",
+        "texto": "Na vaga 6.23 sem nenhuma inscrição, estacionar é permitido se for por pouco tempo.",
         "correta": false,
-        "justificativa": "Errada. OSR art. 79a al. 3: nesses locais a parada só é autorizada para passageiros subirem ou descerem."
+        "justificativa": "Errada. OSR art. 79a al. 1: a vaga 6.23 proíbe estacionar no local marcado; a duração não muda isso, porque estacionar se define pela finalidade (OCR art. 19 al. 1)."
       },
       {
         "texto": "No zigue-zague amarelo (6.21), parar só é permitido para passageiros subirem ou descerem, sem atrapalhar o transporte público de linha.",
@@ -947,7 +986,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-020",
@@ -974,7 +1015,7 @@
         "justificativa": "Errada. OCR art. 41 al. 2: o estacionamento dos outros veículos na calçada é proibido, a menos que sinais ou marcas o autorizem expressamente."
       },
       {
-        "texto": "Sem sinal ou marca que autorize, outros veículos só podem parar na calçada para carregar ou descarregar mercadorias ou para passageiros subirem ou descerem.",
+        "texto": "Sem sinal ou marca, outros veículos só param na calçada para carga, descarga ou passageiros.",
         "correta": true,
         "justificativa": "Correta. OCR art. 41 al. 2, 2ª frase."
       },
@@ -998,7 +1039,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-021",
@@ -1048,7 +1091,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-022",
@@ -1076,12 +1121,12 @@
         "justificativa": "Correta. OCR art. 22 al. 1, que detalha o dever de precaução de LCR art. 37 al. 3."
       },
       {
-        "texto": "Num declive, além de apertar o freio, ela deve tomar uma segunda medida, como engatar marcha inferior ou dirigir as rodas para um obstáculo na borda da pista.",
+        "texto": "Num declive, além do freio, ela toma uma segunda medida, como engatar uma marcha inferior.",
         "correta": true,
         "justificativa": "Correta. OCR art. 22 al. 2 (as medidas citadas são exemplos, « notamment »)."
       },
       {
-        "texto": "Ao partir, o condutor deve tirar da pista os objetos que usou como calços.",
+        "texto": "Ao partir, ela deve tirar da pista os objetos que usou como calços.",
         "correta": true,
         "justificativa": "Correta. OCR art. 22 al. 3, última frase."
       }
@@ -1100,7 +1145,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-023",
@@ -1150,7 +1197,9 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
   {
     "id": "Q-ARR-024",
@@ -1167,9 +1216,9 @@
     "imagem": null,
     "alternativas": [
       {
-        "texto": "Num local sinalizado 4.16, o condutor pode estacionar por um tempo se o problema for demorado.",
+        "texto": "Num local sinalizado 4.16, o condutor pode deixar o carro estacionado para descansar, mesmo sem pane.",
         "correta": false,
-        "justificativa": "Errada. OSR art. 47 al. 5: no 4.16 a parada voluntária e o estacionamento são proibidos. O local é para paradas impostas pelas circunstâncias."
+        "justificativa": "Errada. OSR art. 47 al. 5: no 4.16 a parada voluntária e o estacionamento são proibidos; o local serve às paradas impostas pelas circunstâncias (OCR art. 36 al. 3)."
       },
       {
         "texto": "Enquanto espera socorro, os ocupantes podem entrar na pista para sinalizar o veículo.",
@@ -1182,7 +1231,7 @@
         "justificativa": "Correta. OCR art. 36 al. 3, 1ª frase."
       },
       {
-        "texto": "Em túnel, só se pára em caso de necessidade, e o motor deve ser desligado imediatamente.",
+        "texto": "Em túnel, só se para em caso de necessidade, e o motor deve ser desligado imediatamente.",
         "correta": true,
         "justificativa": "Correta. OCR art. 39 al. 3."
       }
@@ -1201,6 +1250,8 @@
       ]
     },
     "etiqueta": "questao_original",
-    "status": "rascunho"
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   }
 ]

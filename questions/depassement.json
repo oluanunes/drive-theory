@@ -1,1178 +1,1228 @@
 [
- {
-  "id": "Q-DEP-001",
-  "regra_ids": [
-   "R-DEP-005"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "lado-do-cruzamento-e-ultrapassagem",
-  "competencia": "Distinguir o lado do cruzamento e o da ultrapassagem",
-  "nivel": 1,
-  "enunciado": "Numa estrada de dois sentidos, sem sinais especiais, bondes nem obstáculos no meio da pista, você vai cruzar com um veículo que vem em sentido contrário e, mais adiante, ultrapassar um veículo mais lento. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Você ultrapassa o veículo lento pela direita, porque ele circula rente à borda direita da pista.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 35 al. 1: as ultrapassagens fazem-se pela esquerda. As exceções (por exemplo, bonde em marcha) estão em outros artigos e o enunciado as exclui."
-   },
-   {
-    "texto": "Você cruza com o veículo que vem em sentido contrário pela direita.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 35 al. 1: os cruzamentos fazem-se pela direita."
-   },
-   {
-    "texto": "Você cruza pela esquerda quando a estrada é larga o bastante para os dois veículos.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 35 al. 1 manda cruzar pela direita; a largura da estrada não muda isso, e o LCR art. 34 al. 1 manda circular na metade direita."
-   },
-   {
-    "texto": "Você ultrapassa o veículo mais lento pela esquerda.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 35 al. 1: as ultrapassagens fazem-se pela esquerda."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Cruza-se pela direita e ultrapassa-se pela esquerda.",
-   "por_que": "LCR art. 35 al. 1: « Les croisements se font à droite, les dépassements à gauche. »",
-   "como_identificar": "Pergunte: o outro veículo vem de frente (cruzamento) ou vai no mesmo sentido que o meu (ultrapassagem)? De frente, ficamos cada um à direita; no mesmo sentido, passo pela esquerda.",
-   "erro_comum": "Achar que, se o veículo da frente anda rente à borda direita, o caminho para ultrapassar é pela direita.",
-   "excecao": "Outros artigos preveem casos próprios: bonde em marcha (LCR art. 38 al. 2), ilhas e obstáculos no meio da pista (OCR art. 7) e vias de mão única (OCR art. 37 al. 2). O enunciado exclui esses casos.",
-   "palavras_fr": [
-    "croisement — cruzamento",
-    "dépassement — ultrapassagem",
-    "à droite / à gauche — pela direita / pela esquerda"
-   ]
+  {
+    "id": "Q-DEP-001",
+    "regra_ids": [
+      "R-DEP-005"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "lado-do-cruzamento-e-ultrapassagem",
+    "competencia": "Distinguir o lado do cruzamento e o da ultrapassagem",
+    "nivel": 1,
+    "enunciado": "Numa estrada de dois sentidos, sem sinais especiais, trams nem obstáculos no meio da pista, você vai cruzar com um veículo que vem em sentido contrário e, mais adiante, ultrapassar um veículo mais lento. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Você ultrapassa o veículo lento pela direita, porque ele circula rente à borda direita da pista.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 35 al. 1: as ultrapassagens fazem-se pela esquerda. As exceções (por exemplo, tram em marcha) estão em outros artigos e o enunciado as exclui."
+      },
+      {
+        "texto": "Você cruza com o veículo que vem em sentido contrário pela direita.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 35 al. 1: os cruzamentos fazem-se pela direita."
+      },
+      {
+        "texto": "Você cruza pela esquerda quando a estrada é larga o bastante para os dois veículos.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 35 al. 1 manda cruzar pela direita; a largura da estrada não muda isso, e o LCR art. 34 al. 1 manda circular na metade direita."
+      },
+      {
+        "texto": "Você ultrapassa o veículo mais lento pela esquerda.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 35 al. 1: as ultrapassagens fazem-se pela esquerda."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Cruza-se pela direita e ultrapassa-se pela esquerda.",
+      "por_que": "LCR art. 35 al. 1: « Les croisements se font à droite, les dépassements à gauche. »",
+      "como_identificar": "Pergunte: o outro veículo vem de frente (cruzamento) ou vai no mesmo sentido que o meu (ultrapassagem)? De frente, ficamos cada um à direita; no mesmo sentido, passo pela esquerda.",
+      "erro_comum": "Achar que, se o veículo da frente anda rente à borda direita, o caminho para ultrapassar é pela direita.",
+      "excecao": "Outros artigos preveem casos próprios: tram em marcha (LCR art. 38 al. 2), ilhas e obstáculos no meio da pista (OCR art. 7) e vias de mão única (OCR art. 37 al. 2). O enunciado exclui esses casos.",
+      "palavras_fr": [
+        "croisement — cruzamento",
+        "dépassement — ultrapassagem",
+        "à droite / à gauche — pela direita / pela esquerda"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-002",
-  "regra_ids": [
-   "R-DEP-006"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "condicoes-para-ultrapassar",
-  "competencia": "Verificar as condições gerais para ultrapassar",
-  "nivel": 1,
-  "enunciado": "Numa estrada de dois sentidos, você segue atrás de um veículo lento e pensa em ultrapassá-lo. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Basta o espaço à frente estar livre no momento; que ele seja bem visível não é exigido.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 35 al. 2: o espaço necessário deve estar livre e bem visível."
-   },
-   {
-    "texto": "Quem vem em sentido contrário pode ser incomodado pela manobra, desde que não haja acidente.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 35 al. 2: a ultrapassagem só é permitida se os usuários que vêm em sentido contrário não são incomodados; não basta evitar o acidente."
-   },
-   {
-    "texto": "A ultrapassagem só é permitida se o espaço necessário está livre e bem visível e ninguém em sentido contrário é incomodado.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 35 al. 2, primeira frase: o espaço necessário livre e bem visível e a ausência de incômodo aos usuários em sentido contrário são as duas condições."
-   },
-   {
-    "texto": "Com o espaço mal visível, a ultrapassagem é permitida se o condutor ultrapassado reduzir a velocidade.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 35 al. 2 exige espaço livre e bem visível; a atitude do condutor ultrapassado não substitui essa condição."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Só se ultrapassa com espaço livre e bem visível e sem incomodar quem vem de frente.",
-   "por_que": "LCR art. 35 al. 2: « Il n'est permis d'exécuter un dépassement [...] que si l'espace nécessaire est libre et bien visible et que si les usagers de la route venant en sens inverse ne sont pas gênés par la manoeuvre. »",
-   "como_identificar": "Antes de sair para a esquerda, confira duas coisas: vejo todo o espaço de que preciso e ele está livre? Alguém que vem de frente será incomodado por minha manobra? Se uma das respostas for ruim, não ultrapasse.",
-   "erro_comum": "Achar que basta o outro veículo estar longe. A lei pede espaço bem visível e ausência de incômodo, não só ausência de colisão.",
-   "excecao": "Proibições específicas (curva sem visibilidade, topo de subida, passagem de nível sem barreiras, sinais de proibição) estão em outros dispositivos e se somam a estas condições (LCR art. 35 al. 4; OSR art. 26).",
-   "palavras_fr": [
-    "dépasser — ultrapassar",
-    "espace libre et bien visible — espaço livre e bem visível",
-    "gêner — incomodar"
-   ]
+  {
+    "id": "Q-DEP-002",
+    "regra_ids": [
+      "R-DEP-006"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "condicoes-para-ultrapassar",
+    "competencia": "Verificar as condições gerais para ultrapassar",
+    "nivel": 1,
+    "enunciado": "Numa estrada de dois sentidos, você segue atrás de um veículo lento e pensa em ultrapassá-lo. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Basta o espaço à frente estar livre no momento; que ele seja bem visível não é exigido.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 35 al. 2: o espaço necessário deve estar livre e bem visível."
+      },
+      {
+        "texto": "Quem vem em sentido contrário pode ser incomodado pela manobra, desde que não haja acidente.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 35 al. 2: a ultrapassagem só é permitida se os usuários que vêm em sentido contrário não são incomodados; não basta evitar o acidente."
+      },
+      {
+        "texto": "Só se ultrapassa com espaço livre e bem visível e sem incomodar quem vem de frente.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 35 al. 2, primeira frase: o espaço necessário livre e bem visível e a ausência de incômodo aos usuários em sentido contrário são as duas condições."
+      },
+      {
+        "texto": "Com o espaço mal visível, a ultrapassagem é permitida se o condutor ultrapassado reduzir a velocidade.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 35 al. 2 exige espaço livre e bem visível; a atitude do condutor ultrapassado não substitui essa condição."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Só se ultrapassa com espaço livre e bem visível e sem incomodar quem vem de frente.",
+      "por_que": "LCR art. 35 al. 2: « Il n'est permis d'exécuter un dépassement [...] que si l'espace nécessaire est libre et bien visible et que si les usagers de la route venant en sens inverse ne sont pas gênés par la manoeuvre. »",
+      "como_identificar": "Antes de sair para a esquerda, confira duas coisas: vejo todo o espaço de que preciso e ele está livre? Alguém que vem de frente será incomodado por minha manobra? Se uma das respostas for ruim, não ultrapasse.",
+      "erro_comum": "Achar que basta o outro veículo estar longe. A lei pede espaço bem visível e ausência de incômodo, não só ausência de colisão.",
+      "excecao": "Proibições específicas (curva sem visibilidade, topo de subida, passagem de nível sem barreiras, sinais de proibição) estão em outros dispositivos e se somam a estas condições (LCR art. 35 al. 4; OSR art. 26).",
+      "palavras_fr": [
+        "dépasser — ultrapassar",
+        "espace libre et bien visible — espaço livre e bem visível",
+        "gêner — incomodar"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-003",
-  "regra_ids": [
-   "R-DEP-006",
-   "R-DEP-028"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "circulacao-em-fila",
-  "competencia": "Ultrapassar na circulação em fila e voltar à direita",
-  "nivel": 3,
-  "enunciado": "Você circula numa fila de veículos numa estrada de dois sentidos e pensa em ultrapassar alguns veículos da fila. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Se você não tem certeza de conseguir voltar à fila, pode ultrapassar mesmo assim, confiando que os outros lhe darão espaço.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 35 al. 2, segunda frase: na circulação em fila, só pode ultrapassar quem tem a certeza de poder retomar lugar cedo o bastante."
-   },
-   {
-    "texto": "Depois de ultrapassar, você pode permanecer na esquerda pelo tempo que quiser, desde que mantenha a velocidade.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 10 al. 2: o condutor volta para a direita assim que puder fazê-lo sem perigo para quem acabou de ultrapassar."
-   },
-   {
-    "texto": "Na circulação em fila, só ultrapassa quem tem a certeza de poder retomar lugar cedo o bastante, sem atrapalhar a circulação dos veículos.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 35 al. 2, segunda frase (« Dans la circulation à la file [...] »)."
-   },
-   {
-    "texto": "Depois de ultrapassar, você volta para a direita assim que puder fazê-lo sem perigo para o veículo que acabou de ultrapassar.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 10 al. 2."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Na fila, só ultrapassa quem tem certeza de voltar a tempo; depois, volta para a direita assim que puder sem perigo.",
-   "por_que": "LCR art. 35 al. 2, segunda frase, e OCR art. 10 al. 2.",
-   "como_identificar": "Antes de sair da fila, pergunte: tenho certeza de que haverá espaço para voltar sem atrapalhar ninguém? Se não, fique na fila.",
-   "erro_comum": "Confiar que alguém vai abrir espaço, ou ficar na esquerda depois de passar.",
-   "excecao": "A lei não fixa distância em metros nem tempo para voltar: o critério é o perigo para quem foi ultrapassado (« sans danger pour celui qu'il vient de dépasser »).",
-   "palavras_fr": [
-    "circulation à la file — circulação em fila",
-    "reprendre place — retomar lugar",
-    "reviendra sur sa droite — voltará para a direita"
-   ]
+  {
+    "id": "Q-DEP-003",
+    "regra_ids": [
+      "R-DEP-006",
+      "R-DEP-028"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "circulacao-em-fila",
+    "competencia": "Ultrapassar na circulação em fila e voltar à direita",
+    "nivel": 3,
+    "enunciado": "Você circula numa fila de veículos numa estrada de dois sentidos e pensa em ultrapassar alguns veículos da fila. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Se você não tem certeza de conseguir voltar à fila, pode ultrapassar mesmo assim, confiando que os outros lhe darão espaço.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 35 al. 2, segunda frase: na circulação em fila, só pode ultrapassar quem tem a certeza de poder retomar lugar cedo o bastante."
+      },
+      {
+        "texto": "Depois de ultrapassar, você pode permanecer na esquerda pelo tempo que quiser, desde que mantenha a velocidade.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 10 al. 2: o condutor volta para a direita assim que puder fazê-lo sem perigo para quem acabou de ultrapassar."
+      },
+      {
+        "texto": "Na circulação em fila, só ultrapassa quem tem a certeza de poder retomar lugar cedo o bastante, sem atrapalhar a circulação dos veículos.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 35 al. 2, segunda frase (« Dans la circulation à la file [...] »)."
+      },
+      {
+        "texto": "Depois de ultrapassar, você volta para a direita assim que puder fazê-lo sem perigo para o veículo que acabou de ultrapassar.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 10 al. 2."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Na fila, só ultrapassa quem tem certeza de voltar a tempo; depois, volta para a direita assim que puder sem perigo.",
+      "por_que": "LCR art. 35 al. 2, segunda frase, e OCR art. 10 al. 2.",
+      "como_identificar": "Antes de sair da fila, pergunte: tenho certeza de que haverá espaço para voltar sem atrapalhar ninguém? Se não, fique na fila.",
+      "erro_comum": "Confiar que alguém vai abrir espaço, ou ficar na esquerda depois de passar.",
+      "excecao": "A lei não fixa distância em metros nem tempo para voltar: o critério é o perigo para quem foi ultrapassado (« sans danger pour celui qu'il vient de dépasser »).",
+      "palavras_fr": [
+        "circulation à la file — circulação em fila",
+        "reprendre place — retomar lugar",
+        "reviendra sur sa droite — voltará para a direita"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-004",
-  "regra_ids": [
-   "R-DEP-007",
-   "R-DEP-016",
-   "R-DEP-017"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "cuidado-ao-ultrapassar",
-  "competencia": "Deveres de quem ultrapassa: consideração e sinalização",
-  "nivel": 2,
-  "enunciado": "Você vai ultrapassar um caminhão lento numa estrada de dois sentidos. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "A consideração especial ao ultrapassar é devida apenas a quem vem em sentido contrário, não ao veículo ultrapassado.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 35 al. 3: a consideração especial é devida aos outros usuários, em especial àqueles que se quer ultrapassar."
-   },
-   {
-    "texto": "Para ultrapassar não é preciso anunciar a manobra; a obrigação de sinalizar vale para virar.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 39 al. 1 let. b: a regra de manifestar a tempo a intenção vale também para ultrapassar."
-   },
-   {
-    "texto": "Se você sinalizou com o pisca, fica dispensado das demais precauções necessárias.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 39 al. 2: quem sinaliza sua intenção não fica por isso dispensado das precauções necessárias."
-   },
-   {
-    "texto": "Quem ultrapassa deve ter consideração especial pelos outros usuários, em especial por quem quer ultrapassar, e anunciar a manobra a tempo.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 35 al. 3 (consideração especial) e LCR art. 39 al. 1 let. b (manifestar a tempo a intenção de ultrapassar)."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Ultrapassar exige anunciar a manobra a tempo e ter consideração especial por quem se ultrapassa; sinalizar não dispensa a prudência.",
-   "por_que": "LCR art. 35 al. 3; LCR art. 39 al. 1 let. b e al. 2.",
-   "como_identificar": "Antes de sair para a esquerda: pisca ligado a tempo, olhar pelo retrovisor e pela frente, e só então a manobra, que continua sob sua responsabilidade.",
-   "erro_comum": "Achar que ligar o pisca dá direito de passar.",
-   "excecao": "Para bicicletas, o OCR art. 28 al. 1 também exige anunciar a intenção de sair da fila para ultrapassar.",
-   "palavras_fr": [
-    "indicateurs de direction — indicadores de direção (pisca)",
-    "avoir particulièrement égard — ter consideração especial",
-    "dépasser — ultrapassar"
-   ]
+  {
+    "id": "Q-DEP-004",
+    "regra_ids": [
+      "R-DEP-007",
+      "R-DEP-016",
+      "R-DEP-017"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "cuidado-ao-ultrapassar",
+    "competencia": "Deveres de quem ultrapassa: consideração e sinalização",
+    "nivel": 2,
+    "enunciado": "Você vai ultrapassar um caminhão lento numa estrada de dois sentidos. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "A consideração especial ao ultrapassar é devida apenas a quem vem em sentido contrário, não ao veículo ultrapassado.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 35 al. 3: a consideração especial é devida aos outros usuários, em especial àqueles que se quer ultrapassar."
+      },
+      {
+        "texto": "Para ultrapassar não é preciso anunciar a manobra; a obrigação de sinalizar vale para virar.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 39 al. 1 let. b: a regra de manifestar a tempo a intenção vale também para ultrapassar."
+      },
+      {
+        "texto": "Se você sinalizou com o pisca, fica dispensado das demais precauções necessárias.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 39 al. 2: quem sinaliza sua intenção não fica por isso dispensado das precauções necessárias."
+      },
+      {
+        "texto": "Você anuncia a ultrapassagem a tempo e tem consideração especial pelo caminhão que vai ultrapassar.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 35 al. 3 (consideração especial) e LCR art. 39 al. 1 let. b (manifestar a tempo a intenção de ultrapassar)."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Ultrapassar exige anunciar a manobra a tempo e ter consideração especial por quem se ultrapassa; sinalizar não dispensa a prudência.",
+      "por_que": "LCR art. 35 al. 3; LCR art. 39 al. 1 let. b e al. 2.",
+      "como_identificar": "Antes de sair para a esquerda: pisca ligado a tempo, olhar pelo retrovisor e pela frente, e só então a manobra, que continua sob sua responsabilidade.",
+      "erro_comum": "Achar que ligar o pisca dá direito de passar.",
+      "excecao": "Para bicicletas, o OCR art. 28 al. 1 também exige anunciar a intenção de sair da fila para ultrapassar.",
+      "palavras_fr": [
+        "indicateurs de direction — indicadores de direção (pisca)",
+        "avoir particulièrement égard — ter consideração especial",
+        "dépasser — ultrapassar"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-005",
-  "regra_ids": [
-   "R-DEP-009",
-   "R-DEP-027"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "proibido-ultrapassar-seta-e-passagem-de-pedestres",
-  "competencia": "Não ultrapassar quem para para pedestres",
-  "nivel": 4,
-  "enunciado": "Na sua frente, um carro pára diante de uma passagem de pedestres para permitir que uma pessoa atravesse a via. Há espaço livre à esquerda e boa visibilidade. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Você pode ultrapassar o carro parado se reduzir a velocidade ao passar pela passagem de pedestres.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 35 al. 5: a ultrapassagem é proibida quando o veículo pára diante da passagem de pedestres para permitir a travessia; reduzir a velocidade não muda isso."
-   },
-   {
-    "texto": "É proibido ultrapassar um veículo que pára diante de uma passagem de pedestres para permitir que os pedestres atravessem a via.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 35 al. 5, segunda parte."
-   },
-   {
-    "texto": "A proibição de ultrapassar só vale se houver no local o sinal 2.44 de proibição de ultrapassar.",
-    "correta": false,
-    "justificativa": "Errada. A proibição vem diretamente do LCR art. 35 al. 5; não depende de sinal."
-   },
-   {
-    "texto": "Como o carro já parou, você pode passar antes que alguém entre na faixa, se ela ainda estiver vazia nesse instante.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 35 al. 5 proíbe ultrapassar o veículo que pára para permitir a travessia, haja ou não alguém já na faixa; e OCR art. 10 al. 1 impede ultrapassar quando há pedestres atravessando diante do veículo que precede."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Quem pára diante da passagem de pedestres para deixar alguém atravessar não pode ser ultrapassado.",
-   "por_que": "LCR art. 35 al. 5: « [...] lorsqu'il s'arrête devant un passage pour piétons afin de permettre à ceux-ci de traverser la route. » Reforço: OCR art. 10 al. 1 (obstáculo como « des piétons traversant la chaussée »).",
-   "como_identificar": "Veja o carro da frente parando perto de uma faixa de pedestres: ele pode estar cedendo a alguém que você não vê. Fique atrás dele.",
-   "erro_comum": "Achar que dá para passar rápido porque a faixa 'está vazia' ou porque o pedestre está do outro lado.",
-   "excecao": "O pedestre que já está na passagem ou espera com intenção visível de usá-la tem prioridade (OCR art. 6 al. 1). Esta pergunta trata só da segunda parte do LCR art. 35 al. 5.",
-   "palavras_fr": [
-    "passage pour piétons — passagem de pedestres",
-    "s'arrêter pour permettre de traverser — parar para permitir a travessia",
-    "dépassement interdit — ultrapassagem proibida"
-   ]
+  {
+    "id": "Q-DEP-005",
+    "regra_ids": [
+      "R-DEP-009",
+      "R-DEP-027"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "proibido-ultrapassar-seta-e-passagem-de-pedestres",
+    "competencia": "Não ultrapassar quem para para pedestres",
+    "nivel": 4,
+    "enunciado": "Na sua frente, um carro para diante de uma faixa de pedestres para deixar uma pessoa atravessar a via. Há espaço livre à esquerda e boa visibilidade. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Você pode ultrapassar o carro parado se reduzir a velocidade ao passar pela faixa de pedestres.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 35 al. 5: a ultrapassagem é proibida quando o veículo para diante da faixa de pedestres para permitir a travessia; reduzir a velocidade não muda isso."
+      },
+      {
+        "texto": "Você deve ficar atrás do carro parado, mesmo com espaço livre à esquerda e boa visibilidade.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 35 al. 5, segunda parte: é proibido ultrapassar o veículo que parou diante da faixa de pedestres para permitir a travessia."
+      },
+      {
+        "texto": "A proibição de ultrapassar só vale se houver no local o sinal 2.44 de proibição de ultrapassar.",
+        "correta": false,
+        "justificativa": "Errada. A proibição vem diretamente do LCR art. 35 al. 5; não depende de sinal."
+      },
+      {
+        "texto": "Como o carro já parou, você pode passar antes que alguém entre na faixa, se ela ainda estiver vazia nesse instante.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 35 al. 5 proíbe ultrapassar o veículo que parou para permitir a travessia; a regra não depende de já haver alguém na faixa."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Quem para diante da faixa de pedestres para deixar alguém atravessar não pode ser ultrapassado.",
+      "por_que": "LCR art. 35 al. 5: « [...] lorsqu'il s'arrête devant un passage pour piétons afin de permettre à ceux-ci de traverser la route. » Reforço: OCR art. 10 al. 1 (obstáculo como « des piétons traversant la chaussée »).",
+      "como_identificar": "Veja o carro da frente parando perto de uma faixa de pedestres: ele pode estar cedendo a alguém que você não vê. Fique atrás dele.",
+      "erro_comum": "Achar que dá para passar rápido porque a faixa 'está vazia' ou porque o pedestre está do outro lado.",
+      "excecao": "O pedestre que já está na passagem ou espera com intenção visível de usá-la tem prioridade (OCR art. 6 al. 1). Esta pergunta trata só da segunda parte do LCR art. 35 al. 5.",
+      "palavras_fr": [
+        "passage pour piétons — faixa de pedestres",
+        "s'arrêter pour permettre de traverser — parar para permitir a travessia",
+        "dépassement interdit — ultrapassagem proibida"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-006",
-  "regra_ids": [
-   "R-DEP-008"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "onde-e-proibido-ultrapassar",
-  "competencia": "Reconhecer lugares onde a ultrapassagem é proibida",
-  "nivel": 2,
-  "enunciado": "Numa estrada de dois sentidos, sem linhas de segurança nem sinais de proibição de ultrapassar, você segue atrás de um caminhão lento. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "A ultrapassagem é proibida ao condutor que entra numa curva sem visibilidade.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 35 al. 4."
-   },
-   {
-    "texto": "Ao se aproximar do topo de uma subida, você pode ultrapassar se a estrada parecer livre do outro lado.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 35 al. 4: a ultrapassagem é proibida a quem se aproxima do topo de uma subida (« sommet d'une côte »)."
-   },
-   {
-    "texto": "A ultrapassagem é proibida ao condutor que cruza ou se prepara para cruzar uma passagem de nível sem barreiras.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 35 al. 4. O enunciado trata de um caminhão: as exceções para ciclistas, pedestres e usuários de engins assimilés (OCR art. 11 al. 3) não se aplicam."
-   },
-   {
-    "texto": "Numa curva sem visibilidade, a ultrapassagem é permitida se você anunciar a manobra com o pisca.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 35 al. 4 proíbe a ultrapassagem; sinalizar não dispensa as precauções (LCR art. 39 al. 2)."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Não se ultrapassa ao entrar numa curva sem visibilidade, ao se aproximar do topo de uma subida nem ao cruzar passagem de nível sem barreiras.",
-   "por_que": "LCR art. 35 al. 4, primeira parte.",
-   "como_identificar": "Pergunte: eu enxergo toda a estrada de que preciso? Em curva fechada, no alto de uma subida ou numa passagem de nível sem barreiras, a resposta é não.",
-   "erro_comum": "Achar que a proibição só vale quando há sinal ou linha no chão.",
-   "excecao": "O OCR art. 11 al. 3 trata de casos particulares (ultrapassagem à direita da linha de segurança; ciclistas e pedestres nas passagens de nível sem barreiras). O enunciado os exclui.",
-   "palavras_fr": [
-    "tournant sans visibilité — curva sem visibilidade",
-    "sommet d'une côte — topo de uma subida",
-    "passage à niveau sans barrières — passagem de nível sem barreiras"
-   ]
+  {
+    "id": "Q-DEP-006",
+    "regra_ids": [
+      "R-DEP-008"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "onde-e-proibido-ultrapassar",
+    "competencia": "Reconhecer lugares onde a ultrapassagem é proibida",
+    "nivel": 2,
+    "enunciado": "Numa estrada de dois sentidos, sem linhas de segurança nem sinais de proibição de ultrapassar, você segue atrás de um caminhão lento. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "A ultrapassagem é proibida ao condutor que entra numa curva sem visibilidade.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 35 al. 4."
+      },
+      {
+        "texto": "Ao se aproximar do topo de uma subida, você pode ultrapassar se a estrada parecer livre do outro lado.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 35 al. 4: a ultrapassagem é proibida a quem se aproxima do topo de uma subida (« sommet d'une côte »)."
+      },
+      {
+        "texto": "A ultrapassagem é proibida ao condutor que cruza ou se prepara para cruzar uma passagem de nível sem barreiras.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 35 al. 4. O enunciado trata de um caminhão: as exceções para ciclistas, pedestres e usuários de engins assimilés (OCR art. 11 al. 3) não se aplicam."
+      },
+      {
+        "texto": "Numa curva sem visibilidade, a ultrapassagem é permitida se você anunciar a manobra com o pisca.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 35 al. 4 proíbe a ultrapassagem; sinalizar não dispensa as precauções (LCR art. 39 al. 2)."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Não se ultrapassa ao entrar numa curva sem visibilidade, ao se aproximar do topo de uma subida nem ao cruzar passagem de nível sem barreiras.",
+      "por_que": "LCR art. 35 al. 4, primeira parte.",
+      "como_identificar": "Pergunte: eu enxergo toda a estrada de que preciso? Em curva fechada, no alto de uma subida ou numa passagem de nível sem barreiras, a resposta é não.",
+      "erro_comum": "Achar que a proibição só vale quando há sinal ou linha no chão.",
+      "excecao": "O OCR art. 11 al. 3 trata de casos particulares (ultrapassagem à direita da linha de segurança; ciclistas e pedestres nas passagens de nível sem barreiras). O enunciado os exclui.",
+      "palavras_fr": [
+        "tournant sans visibilité — curva sem visibilidade",
+        "sommet d'une côte — topo de uma subida",
+        "passage à niveau sans barrières — passagem de nível sem barreiras"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-007",
-  "regra_ids": [
-   "R-DEP-008",
-   "R-DEP-033"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "interseccao-sem-visibilidade",
-  "competencia": "Ultrapassar numa interseção sem visibilidade",
-  "nivel": 4,
-  "enunciado": "Você segue atrás de um carro lento numa via sem sinal de prioridade a seu favor e se aproxima de uma interseção em que não vê o suficiente das desembocaduras das outras vias. Não há semáforo nem policial regulando a circulação. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Como você não está em via prioritária e ninguém regula a circulação ali, não está autorizado a ultrapassar nessa interseção.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 11 al. 4: sem visibilidade suficiente sobre as desembocaduras, só está autorizado a ultrapassar quem está em via prioritária ou onde a circulação é regulada pela polícia ou por sinais luminosos."
-   },
-   {
-    "texto": "Se o carro da frente sinalizou que vai seguir em frente, a ultrapassagem na interseção passa a ser permitida.",
-    "correta": false,
-    "justificativa": "Errada. O sinal do outro condutor não está entre as condições do OCR art. 11 al. 4 nem do LCR art. 35 al. 4."
-   },
-   {
-    "texto": "Basta a visibilidade ser boa para ultrapassar numa interseção; o direito de prioridade dos outros não precisa ser considerado.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 35 al. 4: nas interseções, a ultrapassagem exige boa visibilidade e que não resulte nenhuma ofensa ao direito de prioridade dos outros usuários."
-   },
-   {
-    "texto": "Você pode ultrapassar se reduzir a velocidade ao entrar na interseção.",
-    "correta": false,
-    "justificativa": "Errada. Reduzir a velocidade não é condição prevista no OCR art. 11 al. 4 nem no LCR art. 35 al. 4."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Sem visibilidade sobre as desembocaduras, só ultrapassa quem está em via prioritária ou onde há polícia ou semáforo regulando.",
-   "por_que": "OCR art. 11 al. 4; LCR art. 35 al. 4 (nas interseções, boa visibilidade e respeito ao direito de prioridade).",
-   "como_identificar": "Ao chegar a uma interseção, verifique se você vê as vias que desembocam. Se não vê, pergunte: estou em via prioritária ou há polícia ou semáforo regulando? Se nenhuma resposta for sim, não ultrapasse.",
-   "erro_comum": "Achar que o sinal do carro da frente ou uma redução de velocidade autorizam a manobra.",
-   "excecao": "O enunciado exclui polícia, semáforo e via prioritária. Se uma dessas condições existisse, a restrição do OCR art. 11 al. 4 deixaria de se aplicar, mas o LCR art. 35 al. 4 continuaria exigindo boa visibilidade e respeito ao direito de prioridade.",
-   "palavras_fr": [
-    "intersection — interseção",
-    "droit de priorité — direito de prioridade",
-    "route prioritaire — via prioritária"
-   ]
+  {
+    "id": "Q-DEP-007",
+    "regra_ids": [
+      "R-DEP-008",
+      "R-DEP-033"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "interseccao-sem-visibilidade",
+    "competencia": "Ultrapassar numa interseção sem visibilidade",
+    "nivel": 4,
+    "enunciado": "Você segue atrás de um carro lento e se aproxima de uma interseção em que não vê o suficiente das desembocaduras das outras vias. Sua via não é principal: nenhum sinal lhe dá prioridade. Não há semáforo nem policial regulando a circulação. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Como você não está em via prioritária e ninguém regula a circulação ali, não está autorizado a ultrapassar nessa interseção.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 11 al. 4: sem visibilidade suficiente sobre as desembocaduras, só está autorizado a ultrapassar quem está em via prioritária ou onde a circulação é regulada pela polícia ou por sinais luminosos."
+      },
+      {
+        "texto": "Se o carro da frente estiver muito lento, a ultrapassagem nessa interseção passa a ser permitida.",
+        "correta": false,
+        "justificativa": "Errada. A velocidade do veículo da frente não está entre as condições do OCR art. 11 al. 4 nem do LCR art. 35 al. 4."
+      },
+      {
+        "texto": "Basta a visibilidade ser boa para ultrapassar numa interseção; o direito de prioridade dos outros não precisa ser considerado.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 35 al. 4: nas interseções, a ultrapassagem exige boa visibilidade e que não resulte nenhuma ofensa ao direito de prioridade dos outros usuários."
+      },
+      {
+        "texto": "Você pode ultrapassar se reduzir a velocidade ao entrar na interseção.",
+        "correta": false,
+        "justificativa": "Errada. Reduzir a velocidade não é condição prevista no OCR art. 11 al. 4 nem no LCR art. 35 al. 4."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Sem visibilidade sobre as desembocaduras, só ultrapassa quem está em via prioritária ou onde há polícia ou semáforo regulando.",
+      "por_que": "OCR art. 11 al. 4; LCR art. 35 al. 4 (nas interseções, boa visibilidade e respeito ao direito de prioridade).",
+      "como_identificar": "Ao chegar a uma interseção, verifique se você vê as vias que desembocam. Se não vê, pergunte: estou em via prioritária ou há polícia ou semáforo regulando? Se nenhuma resposta for sim, não ultrapasse.",
+      "erro_comum": "Achar que o sinal do carro da frente ou uma redução de velocidade autorizam a manobra.",
+      "excecao": "O enunciado exclui via prioritária, polícia e semáforo. Esta pergunta não trata do caso em que uma dessas condições existe. Nas interseções, o LCR art. 35 al. 4 exige boa visibilidade e nenhuma ofensa ao direito de prioridade dos outros.",
+      "palavras_fr": [
+        "intersection — interseção",
+        "droit de priorité — direito de prioridade",
+        "route prioritaire — via prioritária"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-008",
-  "regra_ids": [
-   "R-DEP-012",
-   "R-DEP-037",
-   "R-DEP-038"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "preselecao",
-  "competencia": "Colocar-se em présélection para virar à esquerda",
-  "nivel": 1,
-  "enunciado": "Você dirige numa estrada de dois sentidos, com uma faixa por sentido, e vai virar à esquerda numa interseção. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Você encosta na borda direita da pista e só atravessa para a esquerda no meio da interseção.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 36 al. 1: quem quer virar à esquerda mantém-se perto do eixo da pista."
-   },
-   {
-    "texto": "Você se mantém perto do eixo da pista.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 36 al. 1."
-   },
-   {
-    "texto": "Você se coloca a tempo em ordem de présélection.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 13 al. 1: os condutores devem colocar-se a tempo em ordem de présélection quando viram."
-   },
-   {
-    "texto": "Ao se colocar em présélection, você não usa a parte da pista reservada à circulação em sentido contrário.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 13 al. 2, primeira frase. A exceção da segunda frase (faixa central em estradas de três faixas) não se aplica a uma estrada de uma faixa por sentido."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Para virar à esquerda: perto do eixo da pista, a tempo, sem invadir a parte reservada ao sentido contrário.",
-   "por_que": "LCR art. 36 al. 1; OCR art. 13 al. 1 e 2.",
-   "como_identificar": "Vai virar à esquerda? Posicione-se junto ao eixo com antecedência, ainda do seu lado da pista.",
-   "erro_comum": "Encostar à direita para depois cortar para a esquerda.",
-   "excecao": "Nas estradas de três faixas, marcadas ou não, pode-se usar a faixa central com as precauções necessárias (OCR art. 13 al. 2, segunda frase).",
-   "palavras_fr": [
-    "présélection — pré-seleção (posicionar-se antes de virar)",
-    "près de l'axe de la chaussée — perto do eixo da pista",
-    "obliquer à gauche — virar à esquerda"
-   ]
+  {
+    "id": "Q-DEP-008",
+    "regra_ids": [
+      "R-DEP-012",
+      "R-DEP-037",
+      "R-DEP-038"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "preselecao",
+    "competencia": "Colocar-se em présélection para virar à esquerda",
+    "nivel": 1,
+    "enunciado": "Você dirige numa estrada de dois sentidos, com uma faixa por sentido, e vai virar à esquerda numa interseção. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Você encosta na borda direita da pista e só atravessa para a esquerda no meio da interseção.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 36 al. 1: quem quer virar à esquerda mantém-se perto do eixo da pista."
+      },
+      {
+        "texto": "Você se mantém perto do eixo da pista.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 36 al. 1."
+      },
+      {
+        "texto": "Você se coloca a tempo em ordem de présélection.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 13 al. 1: os condutores devem colocar-se a tempo em ordem de présélection quando viram."
+      },
+      {
+        "texto": "Ao se colocar em présélection, você não usa a parte da pista reservada à circulação em sentido contrário.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 13 al. 2, primeira frase. A exceção da segunda frase (faixa central em estradas de três faixas) não se aplica a uma estrada de uma faixa por sentido."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Para virar à esquerda: perto do eixo da pista, a tempo, sem invadir a parte reservada ao sentido contrário.",
+      "por_que": "LCR art. 36 al. 1; OCR art. 13 al. 1 e 2.",
+      "como_identificar": "Vai virar à esquerda? Posicione-se junto ao eixo com antecedência, ainda do seu lado da pista.",
+      "erro_comum": "Encostar à direita para depois cortar para a esquerda.",
+      "excecao": "Nas estradas de três faixas, marcadas ou não, pode-se usar a faixa central com as precauções necessárias (OCR art. 13 al. 2, segunda frase).",
+      "palavras_fr": [
+        "présélection — pré-seleção (posicionar-se antes de virar)",
+        "près de l'axe de la chaussée — perto do eixo da pista",
+        "obliquer à gauche — virar à esquerda"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-009",
-  "regra_ids": [
-   "R-DEP-039"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "trocar-de-faixa-para-ultrapassar-em-preselecao",
-  "competencia": "Mudar de faixa para ultrapassar em trecho de présélection",
-  "nivel": 4,
-  "enunciado": "Você está numa faixa de um trecho de présélection que, pelas indicações de destino, leva à cidade A. Um veículo lento circula à sua frente nessa faixa. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Em trecho de présélection, você pode mudar de faixa para ultrapassar se sinalizar a tempo, sejam quais forem os destinos indicados.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 13 al. 3 proíbe mudar de faixa para ultrapassar nesses trechos, salvo destinos iguais; sinalizar não é a exceção (e não dispensa as precauções, LCR art. 39 al. 2)."
-   },
-   {
-    "texto": "Em trecho de présélection, é proibido mudar para uma faixa que indica outro destino para ultrapassar.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 13 al. 3: proibido mudar de faixa para ultrapassar, a menos que os destinos indicados sejam os mesmos."
-   },
-   {
-    "texto": "Você pode mudar para uma faixa vizinha que também indica a cidade A para ultrapassar o veículo lento.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 13 al. 3: a proibição não vale se os destinos indicados nas faixas do ultrapassado e de quem ultrapassa são os mesmos."
-   },
-   {
-    "texto": "A proibição de mudar de faixa para ultrapassar vale em qualquer trecho da estrada, não só nos que servem à présélection.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 13 al. 3 trata dos trechos que servem à présélection; em outras estradas com várias faixas, o LCR art. 44 al. 1 só exige que a mudança não gere perigo."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Nos trechos de présélection, só se muda de faixa para ultrapassar se os destinos indicados nas duas faixas forem os mesmos.",
-   "por_que": "OCR art. 13 al. 3.",
-   "como_identificar": "Leia as indicações de destino de cada faixa. Destino igual: a mudança para ultrapassar não é proibida por esta regra. Destino diferente: proibida.",
-   "erro_comum": "Achar que a mudança de faixa para ultrapassar é livre em qualquer lugar onde haja várias faixas.",
-   "excecao": "A exceção é só a dos destinos iguais. Em autoestradas há regra própria para passar à frente pela direita nos trechos de présélection (OCR art. 36 al. 5 let. b); ela não é tratada aqui.",
-   "palavras_fr": [
-    "tronçon servant à la présélection — trecho que serve à présélection",
-    "changer de voie — mudar de faixa",
-    "destinations indiquées — destinos indicados"
-   ]
+  {
+    "id": "Q-DEP-009",
+    "regra_ids": [
+      "R-DEP-039"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "trocar-de-faixa-para-ultrapassar-em-preselecao",
+    "competencia": "Mudar de faixa para ultrapassar em trecho de présélection",
+    "nivel": 4,
+    "enunciado": "Você está numa faixa de um trecho de présélection, fora de autoestrada, cuja indicação de destino é só a cidade A. Um veículo lento circula à sua frente nessa faixa. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Em trecho de présélection, você pode mudar de faixa para ultrapassar se sinalizar a tempo, sejam quais forem os destinos indicados.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 13 al. 3 proíbe mudar de faixa para ultrapassar nesses trechos, salvo destinos iguais; sinalizar não é a exceção (e não dispensa as precauções, LCR art. 39 al. 2)."
+      },
+      {
+        "texto": "Em trecho de présélection, é proibido mudar para uma faixa que indica outro destino para ultrapassar.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 13 al. 3: proibido mudar de faixa para ultrapassar, a menos que os destinos indicados sejam os mesmos."
+      },
+      {
+        "texto": "Se a faixa vizinha da esquerda indica só a cidade A, você pode passar para ela e ultrapassar, sem perigo.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 13 al. 3: a proibição não vale se os destinos indicados nas faixas do ultrapassado e de quem ultrapassa são os mesmos. A mudança continua sujeita a não criar perigo (LCR art. 44 al. 1), e a ultrapassagem se faz pela esquerda (LCR art. 35 al. 1)."
+      },
+      {
+        "texto": "A proibição de mudar de faixa para ultrapassar vale em qualquer trecho da estrada, não só nos que servem à présélection.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 13 al. 3 trata dos trechos que servem à présélection; em outras estradas com várias faixas, o LCR art. 44 al. 1 só exige que a mudança não gere perigo."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Nos trechos de présélection, só se muda de faixa para ultrapassar se os destinos indicados nas duas faixas forem os mesmos.",
+      "por_que": "OCR art. 13 al. 3.",
+      "como_identificar": "Leia as indicações de destino de cada faixa. Destino igual: a mudança para ultrapassar não é proibida por esta regra. Destino diferente: proibida.",
+      "erro_comum": "Achar que a mudança de faixa para ultrapassar é livre em qualquer lugar onde haja várias faixas.",
+      "excecao": "A exceção é só a dos destinos iguais. Em autoestradas há regra própria para passar à frente pela direita nos trechos de présélection (OCR art. 36 al. 5 let. b); ela não é tratada aqui.",
+      "palavras_fr": [
+        "tronçon servant à la présélection — trecho que serve à présélection",
+        "changer de voie — mudar de faixa",
+        "destinations indiquées — destinos indicados"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-010",
-  "regra_ids": [
-   "R-DEP-014",
-   "R-DEP-045"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "bonde-parado",
-  "competencia": "Cruzar e ultrapassar bonde parado",
-  "nivel": 2,
-  "enunciado": "Numa rua de dois sentidos, um bonde (tram) está parado numa parada e você se aproxima de carro. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Se existe um refúgio na parada, você ultrapassa o bonde parado pela direita.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 38 al. 3: com refúgio, o bonde parado é ultrapassado pela direita."
-   },
-   {
-    "texto": "Se não existe refúgio, você pode ultrapassar o bonde parado pela direita ou pela esquerda, conforme o espaço.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 38 al. 3: sem refúgio, o bonde parado é ultrapassado « par la gauche exclusivement »."
-   },
-   {
-    "texto": "Você só cruza ou ultrapassa o bonde parado em velocidade moderada.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 38 al. 3, primeira frase."
-   },
-   {
-    "texto": "Numa parada sem refúgio, se os passageiros devem descer do lado da circulação, quem circula na mesma metade da pista para até que eles tenham liberado a pista.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 25 al. 3."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Bonde parado: velocidade moderada; com refúgio, pela direita; sem refúgio, só pela esquerda. Passageiros descendo sem refúgio: pare.",
-   "por_que": "LCR art. 38 al. 3; OCR art. 25 al. 3.",
-   "como_identificar": "Olhe a parada: há refúgio? Se sim, direita. Se não, esquerda, e pare se alguém vai descer do lado da circulação.",
-   "erro_comum": "Usar a regra 'sempre pela direita' do bonde em marcha para o bonde parado.",
-   "excecao": "Regra distinta vale para bonde em marcha (LCR art. 38 al. 2). Esta pergunta trata só do bonde parado.",
-   "palavras_fr": [
-    "tramway à l'arrêt — bonde parado",
-    "refuge — refúgio",
-    "allure modérée — velocidade moderada"
-   ]
+  {
+    "id": "Q-DEP-010",
+    "regra_ids": [
+      "R-DEP-014",
+      "R-DEP-045"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "tram-parado",
+    "competencia": "Cruzar e ultrapassar tram parado",
+    "nivel": 2,
+    "enunciado": "Numa rua de dois sentidos, um tram está parado numa parada e você se aproxima de carro. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Se existe um refúgio na parada, você ultrapassa o tram parado pela direita.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 38 al. 3: com refúgio, o tram parado é ultrapassado pela direita."
+      },
+      {
+        "texto": "Se não existe refúgio, você pode ultrapassar o tram parado pela direita ou pela esquerda, conforme o espaço.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 38 al. 3: sem refúgio, o tram parado é ultrapassado « par la gauche exclusivement »."
+      },
+      {
+        "texto": "Você só cruza ou ultrapassa o tram parado em velocidade moderada.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 38 al. 3, primeira frase."
+      },
+      {
+        "texto": "Sem refúgio, se os passageiros descem do lado da circulação, você para até eles saírem da pista.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 25 al. 3."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Bonde parado: velocidade moderada; com refúgio, pela direita; sem refúgio, só pela esquerda. Passageiros descendo sem refúgio: pare.",
+      "por_que": "LCR art. 38 al. 3; OCR art. 25 al. 3.",
+      "como_identificar": "Olhe a parada: há refúgio? Se sim, direita. Se não, esquerda, e pare se alguém vai descer do lado da circulação.",
+      "erro_comum": "Usar a regra 'sempre pela direita' do tram em marcha para o tram parado.",
+      "excecao": "Regra distinta vale para tram em marcha (LCR art. 38 al. 2). Esta pergunta trata só do tram parado.",
+      "palavras_fr": [
+        "tramway à l'arrêt — tram parado",
+        "refuge — refúgio",
+        "allure modérée — velocidade moderada"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-011",
-  "regra_ids": [
-   "R-DEP-015",
-   "R-DEP-044"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "bonde-em-sentido-contrario",
-  "competencia": "Desviar-se de bonde que vem em sentido contrário",
-  "nivel": 3,
-  "enunciado": "Numa rua estreita, um bonde (tram) vem em sentido contrário e o impede de circular pelo lado direito da estrada. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Você deve parar e recuar até poder passar pelo lado direito, pois o cruzamento com o bonde sempre se faz pela direita.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 38 al. 4: se o condutor é impedido de circular pelo lado direito por um bonde em sentido contrário, ele se desvia para a esquerda."
-   },
-   {
-    "texto": "Se o bonde circula pela esquerda e você segue na mesma direção, pode circular rente a ele, sem deixar espaço aos veículos em sentido contrário.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 25 al. 2: o condutor deve deixar espaço suficiente para que os veículos em sentido contrário cruzem pela esquerda os veículos sobre trilhos."
-   },
-   {
-    "texto": "Você se desvia para a esquerda, pois está impedido de circular pelo lado direito da estrada.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 38 al. 4."
-   },
-   {
-    "texto": "Você aguarda parado até o bonde passar, sem se desviar.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 38 al. 4 manda o condutor se desviar para a esquerda quando é impedido de circular pelo lado direito."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Impedido de circular à direita por bonde em sentido contrário, desvie-se para a esquerda.",
-   "por_que": "LCR art. 38 al. 4; complemento: OCR art. 25 al. 2.",
-   "como_identificar": "O bonde vem de frente e ocupa o seu lado? A lei diz para onde ir: esquerda.",
-   "erro_comum": "Achar que o cruzamento é sempre pela direita (LCR art. 35 al. 1) e tentar recuar ou esperar.",
-   "excecao": "O LCR art. 35 al. 1 (cruzar pela direita) é a regra geral; o art. 38 al. 4 trata do caso específico do bonde que impede a circulação pela direita.",
-   "palavras_fr": [
-    "tramway — bonde (tram)",
-    "s'écarter vers la gauche — desviar-se para a esquerda",
-    "empêché de circuler — impedido de circular"
-   ]
+  {
+    "id": "Q-DEP-011",
+    "regra_ids": [
+      "R-DEP-015",
+      "R-DEP-044"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "tram-em-sentido-contrario",
+    "competencia": "Desviar-se de tram que vem em sentido contrário",
+    "nivel": 3,
+    "enunciado": "Numa rua estreita, um tram vem em sentido contrário e o impede de circular pelo lado direito da estrada. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Você deve parar e recuar até poder passar pelo lado direito, pois o cruzamento com o tram sempre se faz pela direita.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 38 al. 4: se o condutor é impedido de circular pelo lado direito por um tram em sentido contrário, ele se desvia para a esquerda."
+      },
+      {
+        "texto": "Se o tram circula pela esquerda e você segue na mesma direção, pode circular rente a ele, sem deixar espaço aos veículos em sentido contrário.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 25 al. 2: o condutor deve deixar espaço suficiente para que os veículos em sentido contrário cruzem pela esquerda os veículos sobre trilhos."
+      },
+      {
+        "texto": "Você se desvia para a esquerda, pois está impedido de circular pelo lado direito da estrada.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 38 al. 4."
+      },
+      {
+        "texto": "Você aguarda parado até o tram passar, sem se desviar.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 38 al. 4 manda o condutor se desviar para a esquerda quando é impedido de circular pelo lado direito."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Impedido de circular à direita por tram em sentido contrário, desvie-se para a esquerda.",
+      "por_que": "LCR art. 38 al. 4; complemento: OCR art. 25 al. 2.",
+      "como_identificar": "O tram vem de frente e ocupa o seu lado? A lei diz para onde ir: esquerda.",
+      "erro_comum": "Achar que o cruzamento é sempre pela direita (LCR art. 35 al. 1) e tentar recuar ou esperar.",
+      "excecao": "O LCR art. 35 al. 1 (cruzar pela direita) é a regra geral; o art. 38 al. 4 trata do caso específico do tram que impede a circulação pela direita.",
+      "palavras_fr": [
+        "tramway — tram (bonde)",
+        "s'écarter vers la gauche — desviar-se para a esquerda",
+        "empêché de circuler — impedido de circular"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-012",
-  "regra_ids": [
-   "R-DEP-002",
-   "R-DEP-061",
-   "R-DEP-071"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "linhas-continuas",
-  "competencia": "Efeito das linhas de segurança",
-  "nivel": 1,
-  "enunciado": "Numa estrada de dois sentidos, o meio da pista está marcado com uma linha de segurança (linha contínua branca). Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Você pode cruzar a linha de segurança, com a prudência necessária, como se faz com uma linha de aviso.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 73 al. 7 let. a: é proibido cruzar linhas de segurança ou pisar nelas; a permissão com prudência (let. b) vale para linhas de direção e de aviso."
-   },
-   {
-    "texto": "Os veículos circulam sempre à direita da linha de segurança.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 34 al. 2."
-   },
-   {
-    "texto": "A linha de segurança só serve para marcar o meio da pista; nunca delimita faixas de circulação.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 73 al. 1: as linhas de segurança marcam o meio da pista ou delimitam as faixas de circulação."
-   },
-   {
-    "texto": "É proibido aos veículos cruzar a linha de segurança ou pisar nela.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 73 al. 7 let. a."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Linha de segurança: circule à direita dela e não a cruze nem pise nela.",
-   "por_que": "LCR art. 34 al. 2; OSR art. 73 al. 1 e al. 7 let. a.",
-   "como_identificar": "Linha contínua branca no meio da pista = fique do seu lado.",
-   "erro_comum": "Confundir a linha de segurança com a linha de aviso (descontínua), que pode ser cruzada com prudência.",
-   "excecao": "O OSR art. 73 al. 8 prevê um caso de linha curta descontínua paralela à linha de segurança; o enunciado não tem essa marcação.",
-   "palavras_fr": [
-    "ligne de sécurité — linha de segurança",
-    "ligne d'avertissement — linha de aviso",
-    "tenir sa droite — manter-se à direita"
-   ]
+  {
+    "id": "Q-DEP-012",
+    "regra_ids": [
+      "R-DEP-002",
+      "R-DEP-061",
+      "R-DEP-071"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "linhas-continuas",
+    "competencia": "Efeito das linhas de segurança",
+    "nivel": 1,
+    "enunciado": "Numa estrada de dois sentidos, o meio da pista está marcado com uma linha de segurança (linha contínua branca). Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Você pode cruzar a linha de segurança, com a prudência necessária, como se faz com uma linha de aviso.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 73 al. 7 let. a: é proibido cruzar linhas de segurança ou pisar nelas; a permissão com prudência (let. b) vale para linhas de direção e de aviso."
+      },
+      {
+        "texto": "Os veículos circulam sempre à direita da linha de segurança.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 34 al. 2."
+      },
+      {
+        "texto": "A linha de segurança só serve para marcar o meio da pista; nunca delimita faixas de circulação.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 73 al. 1: as linhas de segurança marcam o meio da pista ou delimitam as faixas de circulação."
+      },
+      {
+        "texto": "É proibido aos veículos cruzar a linha de segurança ou pisar nela.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 73 al. 7 let. a."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Linha de segurança: circule à direita dela e não a cruze nem pise nela.",
+      "por_que": "LCR art. 34 al. 2; OSR art. 73 al. 1 e al. 7 let. a.",
+      "como_identificar": "Linha contínua branca no meio da pista = fique do seu lado.",
+      "erro_comum": "Confundir a linha de segurança com a linha de aviso (descontínua), que pode ser cruzada com prudência.",
+      "excecao": "O OSR art. 73 al. 8 prevê um caso de linha curta descontínua paralela à linha de segurança; o enunciado não tem essa marcação.",
+      "palavras_fr": [
+        "ligne de sécurité — linha de segurança",
+        "ligne d'avertissement — linha de aviso",
+        "tenir sa droite — manter-se à direita"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-013",
-  "regra_ids": [
-   "R-DEP-004",
-   "R-DEP-034",
-   "R-DEP-035",
-   "R-DEP-036"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "distancia-entre-veiculos-que-se-seguem",
-  "competencia": "Distância, freadas e parada da circulação",
-  "nivel": 2,
-  "enunciado": "Numa estrada com trânsito intenso, você segue outros veículos e, em certo momento, a fila para. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "A distância em relação ao veículo da frente só é exigida na hora de ultrapassar, não quando os veículos se seguem.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 34 al. 4: a distância suficiente vale em especial ao cruzar, ao ultrapassar, ao circular lado a lado e quando veículos se seguem."
-   },
-   {
-    "texto": "Salvo necessidade, freadas bruscas são admitidas mesmo que haja veículos seguindo logo atrás de você.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 12 al. 2: salvo necessidade, freadas e paradas bruscas só são admitidas se nenhum veículo segue."
-   },
-   {
-    "texto": "Com a circulação parada, você pode parar sobre a passagem de pedestres, desde que não bloqueie a via transversal numa interseção.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 12 al. 3: com a circulação parada, o condutor não deve parar sobre uma passagem de pedestres nem bloquear a via transversal numa interseção; as duas proibições valem."
-   },
-   {
-    "texto": "Você mantém do veículo que o precede distância suficiente para poder parar a tempo em caso de frenagem inesperada.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 12 al. 1."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Mantenha distância suficiente para parar a tempo; não freie bruscamente com alguém atrás; com a fila parada, não bloqueie faixa de pedestres nem interseção.",
-   "por_que": "OCR art. 12 al. 1 a 3; LCR art. 34 al. 4.",
-   "como_identificar": "Pergunte: se o carro da frente frear de repente, eu paro a tempo? E: se a fila parar, vou ficar sobre uma faixa de pedestres ou no meio de uma interseção?",
-   "erro_comum": "Achar que a distância só importa em ultrapassagens, ou que basta não bloquear a interseção.",
-   "excecao": "Freadas e paradas bruscas são admitidas por necessidade (« sauf nécessité »). A lei não fixa distância em metros nem em segundos, só « distance suffisante ».",
-   "palavras_fr": [
-    "distance suffisante — distância suficiente",
-    "freinage brusque — freada brusca",
-    "arrêt de la circulation — parada da circulação"
-   ]
+  {
+    "id": "Q-DEP-013",
+    "regra_ids": [
+      "R-DEP-004",
+      "R-DEP-034",
+      "R-DEP-035",
+      "R-DEP-036"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "distancia-entre-veiculos-que-se-seguem",
+    "competencia": "Distância, freadas e parada da circulação",
+    "nivel": 2,
+    "enunciado": "Numa estrada com trânsito intenso, você segue outros veículos e, em certo momento, a fila para. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "A distância em relação ao veículo da frente só é exigida na hora de ultrapassar, não quando os veículos se seguem.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 34 al. 4: a distância suficiente vale em especial ao cruzar, ao ultrapassar, ao circular lado a lado e quando veículos se seguem."
+      },
+      {
+        "texto": "Salvo necessidade, freadas bruscas são admitidas mesmo que haja veículos seguindo logo atrás de você.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 12 al. 2: salvo necessidade, freadas e paradas bruscas só são admitidas se nenhum veículo segue."
+      },
+      {
+        "texto": "Com a circulação parada, você pode parar sobre a faixa de pedestres, desde que não bloqueie a via transversal numa interseção.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 12 al. 3: com a circulação parada, o condutor não deve parar sobre uma faixa de pedestres nem bloquear a via transversal numa interseção; as duas proibições valem."
+      },
+      {
+        "texto": "Você mantém do veículo que o precede distância suficiente para poder parar a tempo em caso de frenagem inesperada.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 12 al. 1."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Mantenha distância suficiente para parar a tempo; não freie bruscamente com alguém atrás; com a fila parada, não bloqueie faixa de pedestres nem interseção.",
+      "por_que": "OCR art. 12 al. 1 a 3; LCR art. 34 al. 4.",
+      "como_identificar": "Pergunte: se o carro da frente frear de repente, eu paro a tempo? E: se a fila parar, vou ficar sobre uma faixa de pedestres ou no meio de uma interseção?",
+      "erro_comum": "Achar que a distância só importa em ultrapassagens, ou que basta não bloquear a interseção.",
+      "excecao": "Freadas e paradas bruscas são admitidas por necessidade (« sauf nécessité »). A lei não fixa distância em metros nem em segundos, só « distance suffisante ».",
+      "palavras_fr": [
+        "distance suffisante — distância suficiente",
+        "freinage brusque — freada brusca",
+        "arrêt de la circulation — parada da circulação"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-014",
-  "regra_ids": [
-   "R-DEP-058",
-   "R-DEP-059"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "fim-da-interdicao-de-ultrapassar",
-  "competencia": "Duração e exceções do sinal 2.44",
-  "nivel": 3,
-  "enunciado": "Você dirige um automóvel e encontra o sinal 2.44 « Interdiction de dépasser » (proibição de ultrapassar). Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Se nenhum sinal de fim aparecer, a proibição vale no máximo até o fim da próxima interseção.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 26 al. 4 e OSR art. 16 al. 2."
-   },
-   {
-    "texto": "O sinal « Fin de l'interdiction de dépasser » (2.55) suprime a proibição.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 26 al. 4."
-   },
-   {
-    "texto": "Com o 2.44 é proibido ultrapassar até veículos limitados a 30 km/h, como um automotor agrícola, mesmo sem perigo.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 26 al. 3: o 2.44 não impede ultrapassar, se disso não resultar perigo, veículos cuja velocidade máxima é limitada a 30 km/h."
-   },
-   {
-    "texto": "O sinal « Libre circulation » (2.58) também encerra a proibição.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 26 al. 4 (remissão ao OSR art. 16 al. 2)."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "O 2.44 vale até o sinal de fim (2.55) ou, sem ele, no máximo até o fim da próxima interseção; veículos limitados a 30 km/h podem ser ultrapassados se não houver perigo.",
-   "por_que": "OSR art. 26 al. 3 e 4; OSR art. 16 al. 2.",
-   "como_identificar": "Depois de ver o 2.44, observe se há um 2.55 ou 2.58 antes da próxima interseção; passada a interseção, a proibição acabou.",
-   "erro_comum": "Achar que a proibição dura até o fim da estrada ou da localidade.",
-   "excecao": "O 2.44 não impede ultrapassar veículos limitados a 30 km/h (monoeixos, automotores agrícolas etc.) se não houver perigo (OSR art. 26 al. 3).",
-   "palavras_fr": [
-    "interdiction de dépasser — proibição de ultrapassar",
-    "fin de l'interdiction de dépasser — fim da proibição de ultrapassar",
-    "libre circulation — circulação livre"
-   ]
+  {
+    "id": "Q-DEP-014",
+    "regra_ids": [
+      "R-DEP-058",
+      "R-DEP-059",
+      "R-ARR-039"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "fim-da-interdicao-de-ultrapassar",
+    "competencia": "Duração e exceções do sinal 2.44",
+    "nivel": 3,
+    "enunciado": "Você dirige um automóvel e encontra o sinal 2.44 « Interdiction de dépasser » (proibição de ultrapassar). Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Se nenhum sinal de fim aparecer, a proibição vale no máximo até o fim da próxima interseção.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 26 al. 4 e OSR art. 16 al. 2."
+      },
+      {
+        "texto": "O sinal « Fin de l'interdiction de dépasser » (2.55) suprime a proibição.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 26 al. 4."
+      },
+      {
+        "texto": "Com o 2.44 é proibido ultrapassar até veículos limitados a 30 km/h, como um automotor agrícola, mesmo sem perigo.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 26 al. 3: o 2.44 não impede ultrapassar, se disso não resultar perigo, veículos cuja velocidade máxima é limitada a 30 km/h."
+      },
+      {
+        "texto": "O sinal « Libre circulation » (2.58) também encerra a proibição.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 16 al. 2: o 2.58 está na lista de sinais de fim que encerram o 2.44. OSR art. 32 al. 2: o 2.58 indica que várias restrições impostas aos veículos em movimento terminam."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "O 2.44 vale até o sinal de fim (2.55) ou, sem ele, no máximo até o fim da próxima interseção; veículos limitados a 30 km/h podem ser ultrapassados se não houver perigo.",
+      "por_que": "OSR art. 26 al. 3 e 4; OSR art. 16 al. 2.",
+      "como_identificar": "Depois de ver o 2.44, observe se há um 2.55 ou 2.58 antes da próxima interseção; passada a interseção, a proibição acabou.",
+      "erro_comum": "Achar que a proibição dura até o fim da estrada ou da localidade.",
+      "excecao": "O 2.44 não impede ultrapassar veículos limitados a 30 km/h (monoeixos, automotores agrícolas etc.) se não houver perigo (OSR art. 26 al. 3).",
+      "palavras_fr": [
+        "interdiction de dépasser — proibição de ultrapassar",
+        "fin de l'interdiction de dépasser — fim da proibição de ultrapassar",
+        "libre circulation — circulação livre"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-015",
-  "regra_ids": [
-   "R-DEP-057",
-   "R-DEP-058",
-   "R-DEP-059"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "sinal-interdicao-aos-caminhoes-de-ultrapassar",
-  "competencia": "Alcance do sinal 2.45",
-  "nivel": 4,
-  "enunciado": "Você dirige um automóvel de passeio e vê o sinal 2.45 « Interdiction aux camions de dépasser ». Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "O sinal proíbe você, condutor de automóvel de passeio, de ultrapassar.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 26 al. 2: o 2.45 proíbe os condutores de automotores pesados afetados ao transporte de coisas e de automotores de trabalho pesados."
-   },
-   {
-    "texto": "O sinal proíbe os condutores de automotores pesados de transporte de coisas de ultrapassar certos veículos em marcha.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 26 al. 2."
-   },
-   {
-    "texto": "Mesmo com o 2.45, um condutor de automotor pesado pode ultrapassar, se disso não resultar perigo, um veículo limitado a 30 km/h (por exemplo, um automotor agrícola).",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 26 al. 3, primeira frase."
-   },
-   {
-    "texto": "O sinal « Fin de l'interdiction aux camions de dépasser » (2.56) suprime a proibição.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 26 al. 4."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "O 2.45 é dirigido a automotores pesados de transporte de coisas e de trabalho; termina no 2.56.",
-   "por_que": "OSR art. 26 al. 2 a 4.",
-   "como_identificar": "Pergunte: o sinal fala de camiões (automotores pesados). Meu veículo é um deles? Se não, a proibição não é minha.",
-   "erro_comum": "Confundir o 2.45 (só caminhões) com o 2.44 (proibição geral de ultrapassar).",
-   "excecao": "Veículos limitados a 30 km/h podem ser ultrapassados se não houver perigo (OSR art. 26 al. 3). O enunciado não trata dos veículos de rodas lado a lado nem dos bondes.",
-   "palavras_fr": [
-    "camions — caminhões (automotores pesados)",
-    "fin de l'interdiction aux camions de dépasser — fim da proibição aos caminhões de ultrapassar",
-    "voitures automobiles lourdes — automotores pesados"
-   ]
+  {
+    "id": "Q-DEP-015",
+    "regra_ids": [
+      "R-DEP-057",
+      "R-DEP-058",
+      "R-DEP-059"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "sinal-interdicao-aos-caminhoes-de-ultrapassar",
+    "competencia": "Alcance do sinal 2.45",
+    "nivel": 4,
+    "enunciado": "Você dirige um automóvel de passeio e vê o sinal 2.45 « Interdiction aux camions de dépasser ». Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "O sinal proíbe você, condutor de automóvel de passeio, de ultrapassar.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 26 al. 2: o 2.45 proíbe os condutores de automotores pesados afetados ao transporte de coisas e de automotores de trabalho pesados."
+      },
+      {
+        "texto": "O sinal proíbe os condutores de automotores pesados de transporte de coisas de ultrapassar certos veículos em marcha.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 26 al. 2."
+      },
+      {
+        "texto": "Mesmo com o 2.45, o caminhão pode ultrapassar um automotor agrícola limitado a 30 km/h, se não houver perigo.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 26 al. 3, primeira frase."
+      },
+      {
+        "texto": "O sinal « Fin de l'interdiction aux camions de dépasser » (2.56) suprime a proibição.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 26 al. 4."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "O 2.45 é dirigido a automotores pesados de transporte de coisas e de trabalho; termina no 2.56.",
+      "por_que": "OSR art. 26 al. 2 a 4.",
+      "como_identificar": "Pergunte: o sinal fala de caminhões (automotores pesados). Meu veículo é um deles? Se não, a proibição não é minha.",
+      "erro_comum": "Confundir o 2.45 (só caminhões) com o 2.44 (proibição geral de ultrapassar).",
+      "excecao": "Veículos limitados a 30 km/h podem ser ultrapassados se não houver perigo (OSR art. 26 al. 3). O enunciado não trata dos veículos de rodas lado a lado nem dos trams.",
+      "palavras_fr": [
+        "camions — caminhões (automotores pesados)",
+        "fin de l'interdiction aux camions de dépasser — fim da proibição aos caminhões de ultrapassar",
+        "voitures automobiles lourdes — automotores pesados"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-016",
-  "regra_ids": [
-   "R-DEP-029",
-   "R-DEP-011"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "veiculos-pesados-e-lentos-fora-de-localidade",
-  "competencia": "Facilitar a ultrapassagem fora de localidade",
-  "nivel": 2,
-  "enunciado": "Você dirige um automotor pesado numa estrada fora de localidade, e veículos mais rápidos se aproximam atrás de você. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Quando um veículo mais rápido começa a ultrapassá-lo, você acelera para encurtar a manobra.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 35 al. 7: o condutor não acelera no momento em que é ultrapassado."
-   },
-   {
-    "texto": "Você facilita a ultrapassagem mantendo-se à extrema direita.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 10 al. 3."
-   },
-   {
-    "texto": "Com outros automotores pesados, você mantém distância de pelo menos 100 m.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 10 al. 3: « une distance de 100 m au moins »."
-   },
-   {
-    "texto": "Se necessário, você para num local de desvio (« place d'évitement »).",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 10 al. 3."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Automotor pesado fora de localidade: extrema direita, 100 m entre si e, se necessário, parar num local de desvio.",
-   "por_que": "OCR art. 10 al. 3; LCR art. 35 al. 7.",
-   "como_identificar": "Você dirige um automotor pesado fora da localidade e há trânsito mais rápido atrás? Ajude a passar: direita, distância e, se preciso, desvio.",
-   "erro_comum": "Acelerar ao ser ultrapassado, ou ficar no meio da pista.",
-   "excecao": "A regra do OCR art. 10 al. 3 vale também para os outros veículos a motor que circulam lentamente.",
-   "palavras_fr": [
-    "voiture automobile lourde — automotor pesado",
-    "place d'évitement — local de desvio",
-    "faciliter le dépassement — facilitar a ultrapassagem"
-   ]
+  {
+    "id": "Q-DEP-016",
+    "regra_ids": [
+      "R-DEP-029",
+      "R-DEP-011"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "veiculos-pesados-e-lentos-fora-de-localidade",
+    "competencia": "Facilitar a ultrapassagem fora de localidade",
+    "nivel": 2,
+    "enunciado": "Você dirige um automotor pesado numa estrada fora de localidade, e veículos mais rápidos se aproximam atrás de você. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Quando um veículo mais rápido começa a ultrapassá-lo, você acelera para encurtar a manobra.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 35 al. 7: o condutor não acelera no momento em que é ultrapassado."
+      },
+      {
+        "texto": "Você facilita a ultrapassagem mantendo-se à extrema direita.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 10 al. 3."
+      },
+      {
+        "texto": "Com outros automotores pesados, você mantém distância de pelo menos 100 m.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 10 al. 3: « une distance de 100 m au moins »."
+      },
+      {
+        "texto": "Se necessário, você para num local de desvio (« place d'évitement »).",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 10 al. 3."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Automotor pesado fora de localidade: extrema direita, 100 m entre si e, se necessário, parar num local de desvio.",
+      "por_que": "OCR art. 10 al. 3; LCR art. 35 al. 7.",
+      "como_identificar": "Você dirige um automotor pesado fora da localidade e há trânsito mais rápido atrás? Ajude a passar: direita, distância e, se preciso, desvio.",
+      "erro_comum": "Acelerar ao ser ultrapassado, ou ficar no meio da pista.",
+      "excecao": "A regra do OCR art. 10 al. 3 vale também para os outros veículos a motor que circulam lentamente.",
+      "palavras_fr": [
+        "voiture automobile lourde — automotor pesado",
+        "place d'évitement — local de desvio",
+        "faciliter le dépassement — facilitar a ultrapassagem"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-017",
-  "regra_ids": [
-   "R-DEP-020"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "croisement-montanha",
-  "competencia": "Cruzar em estradas de forte declive e de montanha",
-  "nivel": 2,
-  "enunciado": "Numa estrada de montanha de forte declive, você desce e cruza com um veículo que sobe. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "O condutor deve circular de modo a não solicitar excessivamente os freios.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 45 al. 1, primeira frase."
-   },
-   {
-    "texto": "Se o cruzamento se revela difícil, o veículo que sobe deve parar a tempo primeiro.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 45 al. 1: é o veículo que desce que deve parar a tempo primeiro."
-   },
-   {
-    "texto": "Se é impossível cruzar, o veículo que desce deve recuar, mesmo que o outro esteja manifestamente mais perto de um local de desvio.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 45 al. 1: o veículo que desce deve recuar, salvo se o outro veículo se encontra manifestamente mais perto de um local de desvio."
-   },
-   {
-    "texto": "Se o cruzamento se revela difícil, o veículo que desce deve parar a tempo primeiro.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 45 al. 1, segunda frase."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Em declive forte, quem desce para primeiro e, se não dá para cruzar, recua, salvo se o outro estiver manifestamente mais perto de um local de desvio.",
-   "por_que": "LCR art. 45 al. 1.",
-   "como_identificar": "Pergunte: quem está descendo? Esse veículo para primeiro e, se necessário, recua.",
-   "erro_comum": "Achar que quem sobe é quem deve recuar, ou que quem sobe sempre tem prioridade.",
-   "excecao": "Veículos de categorias diferentes seguem o OCR art. 9 al. 2 (primeira frase); para a mesma categoria, o OCR art. 38 al. 1 traz redação própria. Esta pergunta usa só o LCR art. 45 al. 1.",
-   "palavras_fr": [
-    "route de montagne — estrada de montanha",
-    "véhicule descendant — veículo que desce",
-    "place d'évitement — local de desvio"
-   ]
+  {
+    "id": "Q-DEP-017",
+    "regra_ids": [
+      "R-DEP-020"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "croisement-montanha",
+    "competencia": "Cruzar em estradas de forte declive e de montanha",
+    "nivel": 2,
+    "enunciado": "Numa estrada de montanha de forte declive, você desce e cruza com um veículo que sobe. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "O condutor deve circular de modo a não solicitar excessivamente os freios.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 45 al. 1, primeira frase."
+      },
+      {
+        "texto": "Se é impossível cruzar, quem deve recuar é sempre o veículo que sobe.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 45 al. 1: se é impossível cruzar, recua o veículo que desce, salvo se o outro está manifestamente mais perto de um local de desvio."
+      },
+      {
+        "texto": "Se é impossível cruzar, o veículo que desce deve recuar, mesmo que o outro esteja manifestamente mais perto de um local de desvio.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 45 al. 1: o veículo que desce deve recuar, salvo se o outro veículo se encontra manifestamente mais perto de um local de desvio."
+      },
+      {
+        "texto": "Se o cruzamento se revela difícil, o veículo que desce deve parar a tempo primeiro.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 45 al. 1, segunda frase."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Em declive forte, quem desce para primeiro e, se não dá para cruzar, recua, salvo se o outro estiver manifestamente mais perto de um local de desvio.",
+      "por_que": "LCR art. 45 al. 1.",
+      "como_identificar": "Pergunte: quem está descendo? Esse veículo para primeiro e, se necessário, recua.",
+      "erro_comum": "Achar que quem sobe é quem deve recuar, ou que quem sobe sempre tem prioridade.",
+      "excecao": "Veículos de categorias diferentes seguem o OCR art. 9 al. 2 (primeira frase); para a mesma categoria, o OCR art. 38 al. 1 traz redação própria. Esta pergunta usa só o LCR art. 45 al. 1.",
+      "palavras_fr": [
+        "route de montagne — estrada de montanha",
+        "véhicule descendant — veículo que desce",
+        "place d'évitement — local de desvio"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-018",
-  "regra_ids": [
-   "R-DEP-054",
-   "R-DEP-063"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "faixa-ciclavel-tracejada",
-  "competencia": "Circular em faixa ciclável",
-  "nivel": 4,
-  "enunciado": "Uma estrada tem uma faixa ciclável delimitada por uma linha amarela (6.09). Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Com linha amarela contínua, os veículos podem cruzá-la com a prudência necessária, como se faz com uma linha de aviso.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 74a al. 1: os veículos não devem pisar nem cruzar a linha contínua que delimita faixas cicláveis."
-   },
-   {
-    "texto": "Se a faixa é delimitada por linha descontínua, outros veículos podem rodar nela, desde que a circulação dos ciclos não seja estorvada.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 40 al. 3."
-   },
-   {
-    "texto": "Mesmo com linha descontínua, outros veículos nunca podem entrar na faixa ciclável.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 40 al. 3 permite rodar na faixa delimitada por linha descontínua, sem estorvar os ciclos."
-   },
-   {
-    "texto": "Os veículos não devem pisar nem cruzar a linha contínua que delimita uma faixa ciclável.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 74a al. 1, segunda frase."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Linha contínua da faixa ciclável: não pisar nem cruzar. Linha descontínua: pode-se rodar na faixa se os ciclos não forem estorvados.",
-   "por_que": "OCR art. 40 al. 3; OSR art. 74a al. 1.",
-   "como_identificar": "Olhe a linha: contínua ou descontínua? Contínua, nem encostar. Descontínua, só se os ciclistas não forem atrapalhados.",
-   "erro_comum": "Tratar a linha contínua da faixa ciclável como uma linha de aviso.",
-   "excecao": "Esta pergunta não cobre prioridade de ciclistas nem distância lateral: o texto legal só diz « distance suffisante » (LCR art. 34 al. 4).",
-   "palavras_fr": [
-    "bande cyclable — faixa ciclável",
-    "ligne discontinue — linha descontínua",
-    "ligne continue — linha contínua"
-   ]
+  {
+    "id": "Q-DEP-018",
+    "regra_ids": [
+      "R-DEP-054",
+      "R-DEP-063"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "faixa-ciclavel-tracejada",
+    "competencia": "Circular em faixa ciclável",
+    "nivel": 4,
+    "enunciado": "Uma estrada tem faixas cicláveis delimitadas por linha amarela (6.09): em alguns trechos a linha é contínua, em outros é descontínua. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Com linha amarela contínua, os veículos podem cruzá-la com a prudência necessária, como se faz com uma linha de aviso.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 74a al. 1: os veículos não devem pisar nem cruzar a linha contínua que delimita faixas cicláveis."
+      },
+      {
+        "texto": "Se a faixa é delimitada por linha descontínua, outros veículos podem rodar nela, desde que a circulação dos ciclos não seja estorvada.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 40 al. 3."
+      },
+      {
+        "texto": "Mesmo com linha descontínua, outros veículos nunca podem entrar na faixa ciclável.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 40 al. 3 permite rodar na faixa delimitada por linha descontínua, sem estorvar os ciclos."
+      },
+      {
+        "texto": "Os veículos não devem pisar nem cruzar a linha contínua que delimita uma faixa ciclável.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 74a al. 1, segunda frase."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Linha contínua da faixa ciclável: não pisar nem cruzar. Linha descontínua: pode-se rodar na faixa se os ciclos não forem estorvados.",
+      "por_que": "OCR art. 40 al. 3; OSR art. 74a al. 1.",
+      "como_identificar": "Olhe a linha: contínua ou descontínua? Contínua, nem encostar. Descontínua, só se os ciclistas não forem atrapalhados.",
+      "erro_comum": "Tratar a linha contínua da faixa ciclável como uma linha de aviso.",
+      "excecao": "Esta pergunta não cobre prioridade de ciclistas nem distância lateral: o texto legal só diz « distance suffisante » (LCR art. 34 al. 4).",
+      "palavras_fr": [
+        "bande cyclable — faixa ciclável",
+        "ligne discontinue — linha descontínua",
+        "ligne continue — linha contínua"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-019",
-  "regra_ids": [
-   "R-DEP-022"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "contornar-obstaculos",
-  "competencia": "Contornar ilhas e obstáculos em estrada de dois sentidos",
-  "nivel": 3,
-  "enunciado": "Numa estrada de dois sentidos, sem sinais de sentido obrigatório, você encontra ilhas (« îlots ») e obstáculos no meio da pista. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Na estrada de dois sentidos, a ilha pode ser contornada pela direita ou pela esquerda, à escolha do condutor.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 7: os condutores devem contornar pela direita as ilhas, salvo a exceção de quem vira à esquerda. A livre escolha vale em via de mão única (OCR art. 37 al. 2)."
-   },
-   {
-    "texto": "Os obstáculos situados no meio da pista são contornados pela direita.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 7."
-   },
-   {
-    "texto": "Quem vira à esquerda pode contornar pela esquerda as ilhas situadas no meio de interseções.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 7, parte final."
-   },
-   {
-    "texto": "Quem vira à esquerda pode contornar pela esquerda qualquer obstáculo no meio da pista, não só as ilhas.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 7: a exceção de quem vira à esquerda vale para as ilhas situadas no meio de interseções."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Ilhas e obstáculos no meio da pista: pela direita; quem vira à esquerda pode contornar pela esquerda as ilhas no meio de interseções.",
-   "por_que": "OCR art. 7.",
-   "como_identificar": "Obstáculo no meio da pista e você não está virando à esquerda? Direita.",
-   "erro_comum": "Estender a exceção de quem vira à esquerda a qualquer obstáculo.",
-   "excecao": "Com os sinais 2.34 e 2.35 (OSR art. 24 al. 1 let. b) o lado do contorno é indicado pelo sinal; o enunciado exclui esses sinais.",
-   "palavras_fr": [
-    "îlot — ilha",
-    "contourner par la droite — contornar pela direita",
-    "surface interdite au trafic — superfície interditada ao tráfego"
-   ]
+  {
+    "id": "Q-DEP-019",
+    "regra_ids": [
+      "R-DEP-022"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "contornar-obstaculos",
+    "competencia": "Contornar ilhas e obstáculos em estrada de dois sentidos",
+    "nivel": 3,
+    "enunciado": "Numa estrada de dois sentidos, sem sinais de sentido obrigatório, você encontra ilhas (« îlots ») e obstáculos no meio da pista. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Na estrada de dois sentidos, a ilha pode ser contornada pela direita ou pela esquerda, à escolha do condutor.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 7: os condutores devem contornar pela direita as ilhas, salvo a exceção de quem vira à esquerda. A livre escolha vale em via de mão única (OCR art. 37 al. 2)."
+      },
+      {
+        "texto": "Os obstáculos situados no meio da pista são contornados pela direita.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 7."
+      },
+      {
+        "texto": "Quem vira à esquerda pode contornar pela esquerda as ilhas situadas no meio de interseções.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 7, parte final."
+      },
+      {
+        "texto": "Quem vira à esquerda pode contornar pela esquerda qualquer obstáculo no meio da pista, não só as ilhas.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 7: a exceção de quem vira à esquerda vale para as ilhas situadas no meio de interseções."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Ilhas e obstáculos no meio da pista: pela direita; quem vira à esquerda pode contornar pela esquerda as ilhas no meio de interseções.",
+      "por_que": "OCR art. 7.",
+      "como_identificar": "Obstáculo no meio da pista e você não está virando à esquerda? Direita.",
+      "erro_comum": "Estender a exceção de quem vira à esquerda a qualquer obstáculo.",
+      "excecao": "Com os sinais 2.34 e 2.35 (OSR art. 24 al. 1 let. b) o lado do contorno é indicado pelo sinal; o enunciado exclui esses sinais.",
+      "palavras_fr": [
+        "îlot — ilha",
+        "contourner par la droite — contornar pela direita",
+        "surface interdite au trafic — superfície interditada ao tráfego"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-020",
-  "regra_ids": [
-   "R-DEP-073"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "sinais-de-sentido-obrigatorio",
-  "competencia": "Sinais 2.32 a 2.36",
-  "nivel": 1,
-  "enunciado": "Você se aproxima de um obstáculo no meio da pista e vê o sinal 2.35 « Obstacle à contourner par la gauche ». Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "O sinal « Circuler tout droit » (2.36) permite virar à direita, mas proíbe virar à esquerda.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 24 al. 1 let. c: com o 2.36 o condutor não pode virar nem para a direita nem para a esquerda."
-   },
-   {
-    "texto": "Com o 2.35, você contorna pela esquerda o obstáculo diante do qual o sinal está colocado.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 24 al. 1 let. b."
-   },
-   {
-    "texto": "O sinal « Sens obligatoire à gauche » (2.33) deixa o condutor livre para seguir em frente ou virar à esquerda.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 24 al. 1 let. a: com o 2.33 o condutor deve virar, antes do sinal, para a esquerda."
-   },
-   {
-    "texto": "O sinal « Obstacle à contourner par la droite » (2.34) obriga a contornar o obstáculo pela esquerda.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 24 al. 1 let. b: o 2.34 manda contornar pela direita."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "2.34 contorna pela direita; 2.35 pela esquerda; 2.32 e 2.33 obrigam a virar; 2.36 proíbe virar.",
-   "por_que": "OSR art. 24 al. 1.",
-   "como_identificar": "Leia o nome do sinal: « par la droite » é direita, « par la gauche » é esquerda; « tout droit » é seguir em frente.",
-   "erro_comum": "Confundir os sinais de contorno (2.34 e 2.35) com os de sentido obrigatório (2.32 e 2.33).",
-   "excecao": "A regra geral de contornar pela direita (OCR art. 7) cede quando o sinal indica o lado.",
-   "palavras_fr": [
-    "obstacle à contourner — obstáculo a contornar",
-    "sens obligatoire — sentido obrigatório",
-    "circuler tout droit — seguir em frente"
-   ]
+  {
+    "id": "Q-DEP-020",
+    "regra_ids": [
+      "R-DEP-073"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "sinais-de-sentido-obrigatorio",
+    "competencia": "Sinais 2.32 a 2.36",
+    "nivel": 1,
+    "enunciado": "Você se aproxima de um obstáculo no meio da pista e vê o sinal 2.35 « Obstacle à contourner par la gauche ». Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "O sinal « Circuler tout droit » (2.36) permite virar à direita, mas proíbe virar à esquerda.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 24 al. 1 let. c: com o 2.36 o condutor não pode virar nem para a direita nem para a esquerda."
+      },
+      {
+        "texto": "Com o 2.35, você contorna pela esquerda o obstáculo diante do qual o sinal está colocado.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 24 al. 1 let. b."
+      },
+      {
+        "texto": "O sinal « Sens obligatoire à gauche » (2.33) deixa o condutor livre para seguir em frente ou virar à esquerda.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 24 al. 1 let. a: com o 2.33 o condutor deve virar, antes do sinal, para a esquerda."
+      },
+      {
+        "texto": "O sinal « Obstacle à contourner par la droite » (2.34) obriga a contornar o obstáculo pela esquerda.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 24 al. 1 let. b: o 2.34 manda contornar pela direita."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "2.34 contorna pela direita; 2.35 pela esquerda; 2.32 e 2.33 obrigam a virar; 2.36 proíbe virar.",
+      "por_que": "OSR art. 24 al. 1.",
+      "como_identificar": "Leia o nome do sinal: « par la droite » é direita, « par la gauche » é esquerda; « tout droit » é seguir em frente.",
+      "erro_comum": "Confundir os sinais de contorno (2.34 e 2.35) com os de sentido obrigatório (2.32 e 2.33).",
+      "excecao": "A regra geral de contornar pela direita (OCR art. 7) cede quando o sinal indica o lado.",
+      "palavras_fr": [
+        "obstacle à contourner — obstáculo a contornar",
+        "sens obligatoire — sentido obrigatório",
+        "circuler tout droit — seguir em frente"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-021",
-  "regra_ids": [
-   "R-DEP-048",
-   "R-DEP-049"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "autoestrada-faixa-da-esquerda",
-  "competencia": "Faixa da esquerda e corredor de emergência na autoestrada",
-  "nivel": 3,
-  "enunciado": "Você dirige numa autoestrada com três faixas no mesmo sentido. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Se os veículos circulam a passo ou estão parados, devem deixar livre um corredor entre a faixa mais à esquerda e a faixa imediatamente à sua direita, para os serviços de bombeiros, de saúde, da polícia ou da alfândega.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 36 al. 7."
-   },
-   {
-    "texto": "O corredor para os veículos de serviço deve ser formado entre a faixa do meio e a faixa mais à direita.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 36 al. 7: o corredor fica entre a faixa mais à esquerda e a faixa imediatamente à sua direita."
-   },
-   {
-    "texto": "A faixa externa da esquerda só pode ser usada pelos veículos com os quais é permitido rodar a mais de 100 km/h.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 36 al. 6."
-   },
-   {
-    "texto": "A faixa externa da esquerda pode ser usada por qualquer veículo para ultrapassar, mesmo que não possa rodar a mais de 100 km/h.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 36 al. 6 não prevê essa exceção: a faixa externa da esquerda só pode ser usada pelos veículos com os quais é permitido rodar a mais de 100 km/h."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Autoestrada com três faixas: a da esquerda é para veículos autorizados a mais de 100 km/h; com trânsito parado, abra o corredor entre a faixa da esquerda e a vizinha.",
-   "por_que": "OCR art. 36 al. 6 e 7.",
-   "como_identificar": "Conte as faixas: três ou mais? Então a da esquerda tem restrição. Trânsito parado? Abra o corredor à esquerda.",
-   "erro_comum": "Achar que o corredor se forma à direita ou que a faixa da esquerda é livre para qualquer veículo que ultrapassa.",
-   "excecao": "O texto não lista quais veículos podem rodar a mais de 100 km/h; nenhuma lista foi acrescentada.",
-   "palavras_fr": [
-    "autoroute — autoestrada",
-    "voie extérieure de gauche — faixa externa da esquerda",
-    "couloir — corredor"
-   ]
+  {
+    "id": "Q-DEP-021",
+    "regra_ids": [
+      "R-DEP-048",
+      "R-DEP-049"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "autoestrada-faixa-da-esquerda",
+    "competencia": "Faixa da esquerda e corredor de emergência na autoestrada",
+    "nivel": 3,
+    "enunciado": "Você dirige numa autoestrada com três faixas no mesmo sentido. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Com o trânsito a passo ou parado, deixa-se um corredor livre entre a faixa mais à esquerda e a vizinha.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 36 al. 7."
+      },
+      {
+        "texto": "O corredor para os veículos de serviço deve ser formado entre a faixa do meio e a faixa mais à direita.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 36 al. 7: o corredor fica entre a faixa mais à esquerda e a faixa imediatamente à sua direita."
+      },
+      {
+        "texto": "A faixa externa da esquerda só pode ser usada pelos veículos com os quais é permitido rodar a mais de 100 km/h.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 36 al. 6."
+      },
+      {
+        "texto": "A faixa externa da esquerda pode ser usada por qualquer veículo para ultrapassar, mesmo que não possa rodar a mais de 100 km/h.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 36 al. 6 não prevê essa exceção: a faixa externa da esquerda só pode ser usada pelos veículos com os quais é permitido rodar a mais de 100 km/h."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Autoestrada com três faixas: a da esquerda é para veículos autorizados a mais de 100 km/h; com trânsito parado, abra o corredor entre a faixa da esquerda e a vizinha.",
+      "por_que": "OCR art. 36 al. 6 e 7.",
+      "como_identificar": "Conte as faixas: três ou mais? Então a da esquerda tem restrição. Trânsito parado? Abra o corredor à esquerda.",
+      "erro_comum": "Achar que o corredor se forma à direita ou que a faixa da esquerda é livre para qualquer veículo que ultrapassa.",
+      "excecao": "O texto não lista quais veículos podem rodar a mais de 100 km/h; nenhuma lista foi acrescentada.",
+      "palavras_fr": [
+        "autoroute — autoestrada",
+        "voie extérieure de gauche — faixa externa da esquerda",
+        "couloir — corredor"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-022",
-  "regra_ids": [
-   "R-DEP-064",
-   "R-DEP-065"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "voies-de-preselection",
-  "competencia": "Flechas de présélection e de rabattement",
-  "nivel": 3,
-  "enunciado": "Você se aproxima de uma interseção por uma via de circulação marcada com uma flecha branca de présélection (6.06) apontada para a esquerda. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Você pode atravessar a interseção em qualquer direção, pois a flecha apenas recomenda a direção.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 74 al. 3: o condutor só pode atravessar as interseções na direção das flechas de présélection marcadas na sua via."
-   },
-   {
-    "texto": "Você só pode atravessar a interseção na direção das flechas de présélection marcadas na sua via de circulação.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 74 al. 3, segunda frase."
-   },
-   {
-    "texto": "As flechas amarelas são destinadas exclusivamente aos condutores de ônibus públicos em serviço de linha.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 74 al. 3, terceira frase."
-   },
-   {
-    "texto": "As flechas de rabattement (6.07) anunciam ao condutor que ele deve deixar a via de circulação na direção indicada.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 74 al. 4."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Siga a direção da flecha de présélection da sua via; flechas amarelas são só para ônibus de linha; flecha de rabattement anuncia que a via termina.",
-   "por_que": "OSR art. 74 al. 3 e 4.",
-   "como_identificar": "Veja a cor e a posição: branca de présélection (indica a direção da via), amarela (só ônibus de linha), de rabattement (colocada de través, anuncia deixar a via).",
-   "erro_comum": "Achar que a flecha é só uma sugestão e seguir em frente de uma faixa de virar.",
-   "excecao": "O texto legal só dá o número e a cor das flechas; nenhum desenho foi descrito. Ônibus públicos em serviço de linha têm flechas próprias.",
-   "palavras_fr": [
-    "flèche de présélection — flecha de présélection",
-    "flèche de rabattement — flecha de rabattement",
-    "bus publics en trafic de ligne — ônibus públicos em serviço de linha"
-   ]
+  {
+    "id": "Q-DEP-022",
+    "regra_ids": [
+      "R-DEP-064",
+      "R-DEP-065"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "voies-de-preselection",
+    "competencia": "Flechas de présélection e de rabattement",
+    "nivel": 3,
+    "enunciado": "Você se aproxima de uma interseção por uma via de circulação marcada com uma flecha branca de présélection (6.06) apontada para a esquerda. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Você pode atravessar a interseção em qualquer direção, pois a flecha apenas recomenda a direção.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 74 al. 3: o condutor só pode atravessar as interseções na direção das flechas de présélection marcadas na sua via."
+      },
+      {
+        "texto": "Você só pode atravessar a interseção na direção das flechas de présélection marcadas na sua via de circulação.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 74 al. 3, segunda frase."
+      },
+      {
+        "texto": "As flechas amarelas são destinadas exclusivamente aos condutores de ônibus públicos em serviço de linha.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 74 al. 3, terceira frase."
+      },
+      {
+        "texto": "As flechas de rabattement (6.07) anunciam ao condutor que ele deve deixar a via de circulação na direção indicada.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 74 al. 4."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Siga a direção da flecha de présélection da sua via; flechas amarelas são só para ônibus de linha; flecha de rabattement anuncia que a via termina.",
+      "por_que": "OSR art. 74 al. 3 e 4.",
+      "como_identificar": "Veja a cor e a posição: branca de présélection (indica a direção da via), amarela (só ônibus de linha), de rabattement (colocada de través, anuncia deixar a via).",
+      "erro_comum": "Achar que a flecha é só uma sugestão e seguir em frente de uma faixa de virar.",
+      "excecao": "O texto legal só dá o número e a cor das flechas; nenhum desenho foi descrito. Ônibus públicos em serviço de linha têm flechas próprias.",
+      "palavras_fr": [
+        "flèche de présélection — flecha de présélection",
+        "flèche de rabattement — flecha de rabattement",
+        "bus publics en trafic de ligne — ônibus públicos em serviço de linha"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-023",
-  "regra_ids": [
-   "R-DEP-046",
-   "R-DEP-069",
-   "R-DEP-070"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "sinal-de-mudanca-de-direcao",
-  "competencia": "Anunciar a mudança de direção",
-  "nivel": 1,
-  "enunciado": "Você vai mudar de direção numa interseção. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "Toda mudança de direção deve ser anunciada, inclusive virar à direita.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 28 al. 1."
-   },
-   {
-    "texto": "Virar à direita dispensa o anúncio, pois a direita é o lado normal de circulação.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 28 al. 1: toda mudança de direção é anunciada, inclusive para a direita."
-   },
-   {
-    "texto": "Se o veículo não tem indicadores de direção, ou eles não estão visíveis, o condutor ou um passageiro estende o braço na direção que vai tomar.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 28 al. 3."
-   },
-   {
-    "texto": "O sinal dado deve ser interrompido logo que a mudança de direção termina.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 28 al. 2, primeira frase."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Anuncie toda mudança de direção, com o pisca ou com o braço, e interrompa o sinal quando a mudança terminar.",
-   "por_que": "OCR art. 28 al. 1 a 3; LCR art. 39 al. 1.",
-   "como_identificar": "Vai virar, mudar de faixa ou sair da fila? Anuncie antes, sem exceção, mesmo para a direita.",
-   "erro_comum": "Esquecer de anunciar a virada à direita, ou deixar o pisca ligado depois da manobra.",
-   "excecao": "Os ciclistas podem parar de fazer o sinal já durante a mudança de direção (OCR art. 28 al. 2, segunda frase).",
-   "palavras_fr": [
-    "indicateurs de direction — indicadores de direção",
-    "signe de la main — sinal com a mão",
-    "annoncer — anunciar"
-   ]
+  {
+    "id": "Q-DEP-023",
+    "regra_ids": [
+      "R-DEP-046",
+      "R-DEP-069",
+      "R-DEP-070",
+      "R-DEP-016"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "sinal-de-mudanca-de-direcao",
+    "competencia": "Anunciar a mudança de direção",
+    "nivel": 1,
+    "enunciado": "Você vai mudar de direção numa interseção. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Toda mudança de direção deve ser anunciada, inclusive virar à direita.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 28 al. 1."
+      },
+      {
+        "texto": "Basta ligar o pisca no momento em que você começa a virar.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 39 al. 1: a intenção deve ser manifestada a tempo, antes de mudar de direção."
+      },
+      {
+        "texto": "Sem pisca, ou com o pisca invisível, o condutor ou um passageiro estende o braço para o lado em que vai.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 28 al. 3."
+      },
+      {
+        "texto": "O sinal dado deve ser interrompido logo que a mudança de direção termina.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 28 al. 2, primeira frase."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Anuncie toda mudança de direção, com o pisca ou com o braço, e interrompa o sinal quando a mudança terminar.",
+      "por_que": "OCR art. 28 al. 1 a 3; LCR art. 39 al. 1.",
+      "como_identificar": "Vai virar, mudar de faixa ou sair da fila? Anuncie antes, sem exceção, mesmo para a direita.",
+      "erro_comum": "Esquecer de anunciar a virada à direita, ou deixar o pisca ligado depois da manobra.",
+      "excecao": "Os ciclistas podem parar de fazer o sinal já durante a mudança de direção (OCR art. 28 al. 2, segunda frase).",
+      "palavras_fr": [
+        "indicateurs de direction — indicadores de direção",
+        "signe de la main — sinal com a mão",
+        "annoncer — anunciar"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
   },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- },
- {
-  "id": "Q-DEP-024",
-  "regra_ids": [
-   "R-DEP-023",
-   "R-DEP-018"
-  ],
-  "categoria": "E-Depassement",
-  "subtema": "varias-faixas-mesmo-sentido",
-  "competencia": "Faixa externa da direita e mudança de faixa",
-  "nivel": 3,
-  "enunciado": "Numa estrada fora de localidade, marcada com duas faixas para o mesmo sentido, o tráfego é fluido. Quais afirmações estão corretas?",
-  "imagem": null,
-  "alternativas": [
-   {
-    "texto": "A obrigação de seguir a faixa externa da direita vale também enquanto você ultrapassa.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 8 al. 1, segunda frase: essa regra não se aplica quando os condutores ultrapassam."
-   },
-   {
-    "texto": "Os condutores devem seguir a faixa externa da direita.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 8 al. 1, primeira frase."
-   },
-   {
-    "texto": "Você pode mudar de faixa sempre que quiser, desde que acenda o pisca.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 44 al. 1: só se passa de uma faixa a outra se disso não resultar perigo para os outros usuários; sinalizar não dispensa as precauções (LCR art. 39 al. 2)."
-   },
-   {
-    "texto": "Só se pode passar de uma faixa a outra se disso não resultar perigo para os outros usuários da via.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 44 al. 1."
-   }
-  ],
-  "explicacao": {
-   "regra_simples": "Siga a faixa externa da direita; mude de faixa só se não houver perigo para os outros.",
-   "por_que": "OCR art. 8 al. 1; LCR art. 44 al. 1.",
-   "como_identificar": "Estrada com duas ou mais faixas no mesmo sentido? Fique na da direita, e só mude de faixa depois de conferir que não cria perigo.",
-   "erro_comum": "Achar que ligar o pisca basta para mudar de faixa.",
-   "excecao": "A obrigação de seguir a faixa da direita não se aplica quando se ultrapassa, se coloca em présélection, circula em filas paralelas ou dentro das localidades (OCR art. 8 al. 1, segunda frase).",
-   "palavras_fr": [
-    "voie extérieure de droite — faixa externa da direita",
-    "changer de voie — mudar de faixa",
-    "plusieurs voies pour une même direction — várias faixas para o mesmo sentido"
-   ]
-  },
-  "etiqueta": "questao_original",
-  "status": "rascunho"
- }
+  {
+    "id": "Q-DEP-024",
+    "regra_ids": [
+      "R-DEP-023",
+      "R-DEP-018"
+    ],
+    "categoria": "E-Depassement",
+    "subtema": "varias-faixas-mesmo-sentido",
+    "competencia": "Faixa externa da direita e mudança de faixa",
+    "nivel": 3,
+    "enunciado": "Numa estrada fora de localidade, marcada com duas faixas para o mesmo sentido, o tráfego é fluido. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "A obrigação de seguir a faixa externa da direita vale também enquanto você ultrapassa.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 8 al. 1, segunda frase: essa regra não se aplica quando os condutores ultrapassam."
+      },
+      {
+        "texto": "Os condutores devem seguir a faixa externa da direita.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 8 al. 1, primeira frase."
+      },
+      {
+        "texto": "Você pode mudar de faixa sempre que quiser, desde que acenda o pisca.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 44 al. 1: só se passa de uma faixa a outra se disso não resultar perigo para os outros usuários; sinalizar não dispensa as precauções (LCR art. 39 al. 2)."
+      },
+      {
+        "texto": "Só se pode passar de uma faixa a outra se disso não resultar perigo para os outros usuários da via.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 44 al. 1."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Siga a faixa externa da direita; mude de faixa só se não houver perigo para os outros.",
+      "por_que": "OCR art. 8 al. 1; LCR art. 44 al. 1.",
+      "como_identificar": "Estrada com duas ou mais faixas no mesmo sentido? Fique na da direita, e só mude de faixa depois de conferir que não cria perigo.",
+      "erro_comum": "Achar que ligar o pisca basta para mudar de faixa.",
+      "excecao": "A obrigação de seguir a faixa da direita não se aplica quando se ultrapassa, se coloca em présélection, circula em filas paralelas ou dentro das localidades (OCR art. 8 al. 1, segunda frase).",
+      "palavras_fr": [
+        "voie extérieure de droite — faixa externa da direita",
+        "changer de voie — mudar de faixa",
+        "plusieurs voies pour une même direction — várias faixas para o mesmo sentido"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "aprovado",
+    "aprovado_em": "2026-11-26",
+    "aprovado_por": "Claude, delegado por Luan (sem revisão humana; Luan confere pelo app)"
+  }
 ]
