@@ -24,7 +24,7 @@ jobs:
       - run: pip install pyyaml
       - name: Testes do build
         run: python -m unittest scripts/test_build_data.py
-      - name: Gerar dados (modo seguro: só conteúdo validado)
+      - name: "Gerar dados (modo seguro, só conteúdo validado)"
         run: python scripts/build_data.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
