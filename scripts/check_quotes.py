@@ -90,6 +90,7 @@ _INVISIBLE = dict.fromkeys(map(ord, "­​‌‍⁠﻿"), None)
 def normalize(text: str) -> str:
     text = unicodedata.normalize("NFC", text)
     text = text.translate(_INVISIBLE).translate(_APOS).translate(_QUOTES).translate(_DASHES)
+    text = text.replace("*", "")  # marcador de nota de rodape do Fedlex (nos dois lados)
     text = re.sub(r"\s+", " ", text, flags=re.UNICODE)  # \s cobre nbsp/espacos finos
     text = re.sub(r'" (?=\S)|(?<=\S) "', '"', text)  # espacos de guillemets «  »
     return text.strip()
