@@ -1,0 +1,757 @@
+# T-033 PESQ — categoria G (Danger / sécurité: passagens de nível, túneis e autoestradas, descida/subida, pedestres/crianças/vulneráveis, animais, carga e dimensões, passageiros, reboques, tempo adverso e pneus). Todas as regras com status: pendente (só o aluno valida).
+# Fonte única de texto legal: legal/sources/*.txt (Fedlex, baixado 2026-11-26).
+#   LCR (RS 741.01) État le 1er juillet 2026; OCR (RS 741.11), OSR (RS 741.21) e OETV (RS 741.41) État le 1er octobre 2026.
+# trecho_literal_fr = alínea inteira (ou, onde indicado, a primeira frase / frase de abertura) copiada do arquivo, sem número de alínea, sem asterisco de nota e sem número de nota colado; trecho_completo: true quando é a alínea inteira em uma só linha do arquivo.
+#   Alíneas com lista a./b. em linhas separadas: copiada só a primeira frase / frase de abertura, trecho_completo: false; a lista aparece em regra_pt.
+# A numeração das alíneas (alinea) é a ordem dos parágrafos no arquivo extraído; "…" (alínea revogada) conta na posição; títulos marginais e linhas "(art. …)" não contam.
+#   Onde há indício de alínea bis (remissões do próprio texto), foi usado o número legal e a incerteza está na nota da regra (OCR 41 al. 3 e 4: R-DAN-020 e R-DAN-021).
+# versao_lei_em_vigor_desde = data 'État le' do texto consolidado (NÃO é a data de entrada em vigor do artigo).
+# NÃO duplicadas (já em outros YAML): LCR 26 (R-COM-001, 002), LCR 31 al. 3 (R-COM-005), LCR 32 al. 1 (R-COM-006), LCR 33 al. 2 (R-PRIO-023), LCR 35 al. 4 (R-DEP-008), LCR 45 al. 1 (R-DEP-020), OCR 4 al. 1 (R-DEP-021), OCR 6 (R-PRIO-020, 021, 034, 035, 036), OCR 12 (R-DEP-034 a 036), OCR 25 (R-DEP-043 a 045, 066; R-ARR-028), OCR 30 (R-COM-036 a 039, R-ARR-078), OCR 33 e 34 (R-COM-042 a 045), OCR 36 al. 3 a 7 (R-ARR-032, R-PRIO-050, R-DEP-047 a 049), OCR 37 (R-DEP-050, 051, R-ARR-079), OCR 38 (R-DEP-052, 053), OCR 39 al. 3 (R-ARR-033), OCR 40 (R-PRIO-047 a 049, R-DEP-054), OCR 41 al. 1 a 3 (R-ARR-034, 035, 086), OCR 47 al. 2 e 5 (R-PRIO-022, 053), OSR 47 al. 4 e 5 (R-ARR-048, 049), OSR 77 al. 2 (R-ARR-065).
+# Fora do escopo por decisão do Luan: álcool/drogas, telefone, buzina, capacete, condução ecológica. Acidentes e pane (OCR 54 a 56, LCR 51, OETV 90) são da categoria F. Ver docs/reviews/T-033-notas.md.
+rules:
+
+- id: R-DAN-001
+  categoria: G-Danger
+  subtema: passagens-de-nivel
+  regra_pt: "Os usuários da via devem parar diante das passagens de nível (« passages à niveau ») quando as cancelas se fecham ou quando sinais mandam parar; se não há cancelas nem sinais, devem parar quando veículos se aproximam pela via férrea."
+  termos_fr: ["s'arrêteront devant les passages à niveau"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "28", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Les usagers de la route s'arrêteront devant les passages à niveau, lorsque les barrières se ferment ou que des signaux commandent l'arrêt; à défaut de barrières ou de signaux, ils s'arrêteront lorsque des véhicules s'approchent sur la voie ferrée."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): os sinais que significam « arrêt » nas passagens de nível (cancelas fechadas ou se fechando, luzes vermelhas intermitentes, luzes vermelhas, sinais sonoros): OSR 93 al. 2 (R-DAN-004)."
+    - "Regra de outra disposição (não consta desta alínea): nos casos do OSR 93 al. 4 o usuário deve ainda se certificar pessoalmente de que nenhum veículo ferroviário se aproxima (R-DAN-005)."
+    - "Regra de outra disposição (não consta desta alínea): ultrapassar é proibido a quem cruza ou se prepara para cruzar uma passagem de nível sem cancelas (LCR 35 al. 4, R-DEP-008); a velocidade deve ser lenta nas passagens de nível e, se necessário, o condutor deve parar (LCR 32 al. 1, R-COM-006); regra de ficar parado na via férrea de tram: OCR 25 al. 5 (R-ARR-028)."
+  nota: "A LCR 28 tem um só parágrafo, citado como al. 1."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-002
+  categoria: G-Danger
+  subtema: passagens-de-nivel
+  regra_pt: "Quem atravessa uma passagem de nível deve evitar se demorar (« s'attarder »). Exceção do próprio texto: veículos com bandagens ou esteiras metálicas, veículos de tração animal e cavaleiros só atravessam « à l'allure du pas » (a passo)."
+  termos_fr: ["éviter de s'attarder", "à l'allure du pas"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "24", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Celui qui franchit un passage à niveau doit éviter de s'attarder; toutefois, les véhicules munis de bandages ou de chenilles métalliques ainsi que les voitures à traction animale et les cavaliers ne traverseront qu'à l'allure du pas."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): parar quando cancelas se fecham ou sinais mandam parar: LCR 28 (R-DAN-001); velocidade lenta e, se necessário, parada nas passagens de nível: LCR 32 al. 1 (R-COM-006)."
+  nota: "Numeração por posição: o 1.º parágrafo do artigo é « … » (revogado) e conta como al. 1; este é o 2.º parágrafo."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-003
+  categoria: G-Danger
+  subtema: passagens-de-nivel
+  regra_pt: "Os usuários da via não devem abrir as cancelas (« barrières »), incluídas as de aeródromos e instalações semelhantes, nem contorná-las, passar por cima ou por baixo. Meias-cancelas (« demi-barrières ») e cancelas de abertura sob demanda são equiparadas a cancelas; as de abertura sob demanda podem, porém, ser abertas com o comando previsto para isso."
+  termos_fr: ["ne doivent pas ouvrir les barrières", "demi-barrières"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "24", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les usagers de la route ne doivent pas ouvrir les barrières, y compris celles des aérodromes et installations similaires, ni les contourner, passer par-dessus ou par-dessous. Les demi-barrières et les barrières à ouverture sur demande sont assimilées aux barrières, quoique les barrières à ouverture sur demande puissent être ouvertes avec la commande prévue à cet effet."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): parar diante da passagem de nível quando as cancelas se fecham: LCR 28 (R-DAN-001)."
+  nota: "Numeração por posição: 3.º parágrafo; o 1.º e o 4.º são « … » (revogados)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-004
+  categoria: G-Danger
+  subtema: passagens-de-nivel
+  regra_pt: "Cancelas, meias-cancelas ou cancelas de abertura sob demanda fechadas ou em fechamento, luzes vermelhas intermitentes (« feux clignotants rouges »), luzes vermelhas e sinais sonoros significam « arrêt » (parar)."
+  termos_fr: ["feux clignotants rouges", "signifient"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "93", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les barrières, demi-barrières ou barrières à ouverture sur demande qui sont fermées ou qui se ferment, les feux clignotants rouges, les feux rouges, ainsi que les signaux acoustiques signifient\"arrêt\"."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o dever de parar diante da passagem de nível está na LCR 28 (R-DAN-001); não abrir nem contornar cancelas: OCR 24 al. 3 (R-DAN-003)."
+  nota: "Numeração por posição: 2.º parágrafo. A remissão do OSR 68/70 « art. 93, al. 2 » (feu clignotant rouge près des passages à niveau) confere com este parágrafo (741.21.txt, l. 655)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-005
+  categoria: G-Danger
+  subtema: passagens-de-nivel
+  regra_pt: "O usuário da via deve se certificar por si mesmo de que nenhum veículo ferroviário se aproxima e de que a passagem está livre nos seguintes casos: a) diante do sinal « Tramway ou chemin de fer routier » (1.18); b) se a cruz de Santo André (« croix de Saint-André ») não vem acompanhada de sinal de luzes intermitentes nem de sinais luminosos; c) quando a luz amarela de uma instalação de sinais luminosos pisca."
+  termos_fr: ["s'assurer par lui-même"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "93", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "L'usager de la route doit s'assurer par lui-même qu'aucun véhicule ferroviaire ne s'approche et que le passage est libre dans les cas suivants:"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): quando há ordem de « arrêt » (cancelas fechadas ou se fechando, luzes vermelhas): OSR 93 al. 2 (R-DAN-004); parar quando veículos se aproximam, se não há cancelas nem sinais: LCR 28 (R-DAN-001)."
+  nota: "A lista a. a c. está em linhas separadas no arquivo; o trecho copiado é só a frase de abertura (trecho_completo false) e a lista aparece em regra_pt. Numeração por posição: o 3.º parágrafo é « … » (revogado) e conta como al. 3."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-006
+  categoria: G-Danger
+  subtema: tuneis
+  regra_pt: "Nos túneis é proibido dar marcha à ré (« marche arrière ») ou fazer retorno/meia-volta (« demi-tour »)."
+  termos_fr: ["marche arrière ou demi-tour"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "39", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Dans les tunnels, il est interdit de faire marche arrière ou demi-tour."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): parada em túnel só em caso de necessidade, com o motor desligado imediatamente: OCR 39 al. 3 (R-ARR-033); nas autoestradas e semiautoestradas é proibido fazer meia-volta e marcha à ré: OCR 36 al. 1 (R-DAN-008)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-007
+  categoria: G-Danger
+  subtema: tuneis
+  regra_pt: "Nos túneis, as luzes dos veículos devem estar sempre acesas (« toujours allumés »)."
+  termos_fr: ["Les feux des véhicules seront toujours allumés"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "39", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les feux des véhicules seront toujours allumés."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 30 al. 1 (R-COM-036): dentro dos túneis os faróis baixos (« feux de croisement ») devem ser usados na marcha."
+  nota: "O al. 2 diz apenas « feux » (luzes); o tipo de luz vem do OCR 30 al. 1 (R-COM-036). Não duplica R-COM-036: é outra disposição, específica de túneis."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-008
+  categoria: G-Danger
+  subtema: autoestradas
+  regra_pt: "Nas autoestradas e semiautoestradas só é permitido virar (« obliquer ») nos lugares sinalizados para isso. É proibido fazer meia-volta e marcha à ré."
+  termos_fr: ["il n'est permis d'obliquer qu'aux endroits signalés", "demi-tour et marche arrière"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "36", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur les autoroutes et semi-autoroutes, il n'est permis d'obliquer qu'aux endroits signalés à cet effet. Il est interdit de faire demi-tour et marche arrière."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): bande d'arrêt d'urgence e lugares de parada para veículos em pane: OCR 36 al. 3 (R-ARR-032); prioridade dos usuários da autoestrada sobre quem vem da via de acesso: OCR 36 al. 4 (R-PRIO-050); ultrapassagem pela direita, faixa da esquerda e corredor livre para veículos de socorro: OCR 36 al. 5 a 7 (R-DEP-047 a 049)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-009
+  categoria: G-Danger
+  subtema: autoestradas
+  regra_pt: "Só podem usar autoestradas e semiautoestradas os veículos automotores com os quais é possível e permitido rodar a 80 km/h. Exceção do próprio texto: isso não vale para veículos de manutenção da via nem para veículos especiais e transportes excepcionais."
+  termos_fr: ["rouler à 80 km/h"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "35", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Seuls les véhicules automobiles avec lesquels il est possible et permis de rouler à 80 km/h emprunteront les autoroutes et semi-autoroutes. Cette règle ne s'applique pas aux véhicules servant à l'entretien de la route ainsi qu'aux véhicules spéciaux et aux transports exceptionnels."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): proibições específicas de certos veículos nas autoestradas e semiautoestradas: OCR 35 al. 2 (R-DAN-010)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-010
+  categoria: G-Danger
+  subtema: autoestradas
+  regra_pt: "A circulação de tratores, veículos de esteiras, veículos equipados com pneus com cravos (« pneus à clous ») e motocicletas de cilindrada não superior a 50 cm ou de potência de motor não superior a 4 kW é proibida nas autoestradas e semiautoestradas."
+  termos_fr: ["pneus à clous", "interdite sur les autoroutes"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "35", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La circulation des tracteurs, des véhicules à chenilles, des véhicules équipés de pneus à clous et des motocycles dont la cylindrée n'est pas supérieure à 50 cm ou dont la puissance du moteur n'excède pas 4 kW est interdite sur les autoroutes et semi-autoroutes."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): regra geral de veículos admitidos (80 km/h): OCR 35 al. 1 (R-DAN-009); pneus com cravos fora das autoestradas: OETV 62 (R-DAN-050)."
+  nota: "O arquivo extraído diz « 50 cm » (sem o expoente de cm³ perdido na extração); não reescrito: conferir no HTML do Fedlex antes de usar o número em perguntas."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-011
+  categoria: G-Danger
+  subtema: descida-subida
+  regra_pt: "Os sinais « Descente dangereuse » (1.10) e « Forte montée » (1.11) anunciam trechos com inclinação de pelo menos 10 %; a inclinação máxima da descida ou da subida é indicada no sinal."
+  termos_fr: ["Descente dangereuse", "Forte montée", "au moins 10 %"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "8", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les signaux\"Descente dangereuse\"(1.10) et\"Forte montée\"(1.11) annoncent des tronçons ayant une inclinaison d'au moins 10 %; l'inclinaison maximale de la pente ou de la montée sera indiquée sur le signal."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): em estradas de forte declive e de montanha o condutor deve circular sem exigir demais dos freios, e o veículo que desce deve parar a tempo primeiro se o cruzamento é difícil: LCR 45 al. 1 (R-DEP-020); recuar em caso de impossibilidade de cruzar: OCR 38 al. 1 (R-DEP-052); imobilização em declives: OCR 22 al. 2 e 3 (R-ARR-023, R-ARR-024)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-012
+  categoria: G-Danger
+  subtema: descida-subida
+  regra_pt: "O sinal « Chute de pierres » (1.13) adverte os condutores contra queda de pedras ou contra a presença de pedras na pista. O símbolo pode ser invertido lateralmente conforme a configuração do local."
+  termos_fr: ["Chute de pierres"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "8", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Chute de pierres\"(1.13) met en garde les conducteurs contre des chutes de pierres ou contre la présence de pierres sur la chaussée. Le symbole peut être inversé latéralement suivant la configuration des lieux."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o sinal « Gravillon » (1.12), no al. 2 do mesmo artigo, anuncia pequenas pedras na pista (OSR 8 al. 2; sem regra própria neste arquivo)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-013
+  categoria: G-Danger
+  subtema: descida-subida
+  regra_pt: "O sinal « Voie de détresse » (4.24) designa uma pista marcada com um xadrez vermelho e branco, seguida de um leito de parada (« lit d'arrêt »), onde os condutores podem levar o veículo a parar em caso de falha do sistema de freios."
+  termos_fr: ["Voie de détresse", "lit d'arrêt"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "47", alinea: "6", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Voie de détresse\"(4.24) désigne une voie marquée d'un damier rouge et blanc, suivie d'un lit d'arrêt dans lequel les conducteurs peuvent amener leur véhicule à s'arrêter en cas de défaillance du système de freinage."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): a marcação « Voie de détresse » (6.36) designa um leito de parada onde veículos podem parar em caso de falha técnica (OSR 90, 741.21.txt l. 1007; artigo não incluído nesta tarefa); descida de forte declive: OSR 8 al. 1 (R-DAN-011)."
+  nota: "Numeração por posição: 6.º parágrafo do OSR 47 (os al. 4 e 5 já estão em R-ARR-048 e R-ARR-049)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-014
+  categoria: G-Danger
+  subtema: pedestres-criancas
+  regra_pt: "O sinal « Hôpital » (4.14) indica que há nas proximidades um hospital, uma casa de convalescença ou um estabelecimento análogo. O condutor deve circular com consideração particular (« égards particuliers »)."
+  termos_fr: ["Hôpital", "égards particuliers"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "47", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Hôpital\"(4.14) indique qu'un hôpital, une maison de convalescence ou un établissement analogue se trouve dans le voisinage. Le conducteur doit circuler en faisant preuve d'égards particuliers."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): prudência particular perante crianças, « infirmes » e idosos: LCR 26 al. 2 (R-COM-002)."
+  nota: "O texto não fixa velocidade nem outra conduta específica; nada além de « égards particuliers » pode ser afirmado."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-015
+  categoria: G-Danger
+  subtema: pedestres-criancas
+  regra_pt: "O condutor deve facilitar aos pedestres a travessia da pista."
+  termos_fr: ["facilitera aux piétons la traversée de la chaussée"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "33", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Le conducteur facilitera aux piétons la traversée de la chaussée."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): antes das passagens para pedestres: prudência particular e, se necessário, parar para dar prioridade a quem está na passagem ou entra nela: LCR 33 al. 2 (R-PRIO-023); OCR 6 al. 1 a 5 (R-PRIO-020, 021, 034, 035, 036); prudência particular perante crianças, « infirmes » e idosos: LCR 26 al. 2 (R-COM-002)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-016
+  categoria: G-Danger
+  subtema: pedestres-criancas
+  regra_pt: "Nos locais destinados à parada dos veículos de transporte público, o condutor deve ter consideração (« égard ») pelas pessoas que sobem nesses veículos ou descem deles."
+  termos_fr: ["aura égard aux personnes qui montent"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "33", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Aux endroits destinés à l'arrêt des véhicules des transports publics, le conducteur aura égard aux personnes qui montent dans ces véhicules ou qui en descendent."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): ônibus escolar parado e sinalizado como tal com pisca-alerta ligado: só ultrapassar em velocidade reduzida e com prudência particular, parando se necessário: OCR 6 al. 5 (R-PRIO-036); em paradas de tram sem refúgio: OCR 25 al. 3 (R-DEP-045)."
+  nota: "O texto trata de « véhicules des transports publics » em geral; a regra específica do bus escolar está em R-PRIO-036."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-017
+  categoria: G-Danger
+  subtema: pedestres-criancas
+  regra_pt: "Os pedestres devem entrar na pista com circunspecção (« circonspection »), em especial se estiverem perto de um veículo parado, e atravessar a via sem se demorar. Devem usar as passagens para pedestres e as passagens aéreas ou subterrâneas que se encontrem a menos de 50 m."
+  termos_fr: ["avec circonspection", "moins de 50 m"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "47", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les piétons s'engageront avec circonspection sur la chaussée, notamment s'ils se trouvent près d'une voiture à l'arrêt, et traverseront la route sans s'attarder. Ils utiliseront les passages pour piétons ainsi que les passages aménagés au-dessus ou au-dessous de la chaussée qui se trouvent à une distance de moins de 50 m."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): prioridade do pedestre na passagem sem regulação (exceto sobre tram) e perda do direito se o veículo já está perto demais para parar: OCR 47 al. 2 (R-PRIO-022); fora das passagens o pedestre cede aos veículos: OCR 47 al. 5 (R-PRIO-053)."
+  nota: "Este alínea descreve o dever do pedestre; o dever do condutor perante pedestres está em LCR 26 e 33 e OCR 6 (outras regras do projeto)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-018
+  categoria: G-Danger
+  subtema: pedestres-criancas
+  regra_pt: "Nas passagens para pedestres sem regulação do tráfego que um refúgio (« refuge ») divide em dois trechos, cada trecho é considerado uma passagem independente."
+  termos_fr: ["un refuge coupe en deux tronçons", "passage indépendant"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "47", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur les passages pour piétons où le trafic n'est pas réglé et qu'un refuge coupe en deux tronçons, chacun d'eux est considéré comme un passage indépendant."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): prioridade do pedestre e dever do condutor antes da passagem: OCR 47 al. 2 (R-PRIO-022), OCR 6 al. 1 (R-PRIO-020)."
+  nota: "Numeração por posição: 3.º parágrafo; o 4.º e o 6.º são « … » (revogados) e contam."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-019
+  categoria: G-Danger
+  subtema: pedestres-criancas
+  regra_pt: "É permitido usar as áreas de circulação destinadas a pedestres e, em vias secundárias de pouco tráfego (por exemplo em bairros residenciais), toda a superfície da pista para atividades, em especial jogos, que se realizam em espaço limitado, desde que os outros usuários da via não sejam atrapalhados nem postos em perigo."
+  termos_fr: ["notamment des jeux", "ni gênés, ni mis en danger"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "46", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Il est permis d'utiliser les aires de circulation destinées aux piétons et, sur les routes secondaires à faible circulation (p. ex. dans les quartiers d'habitation), toute la surface de la chaussée pour pratiquer des activités, notamment des jeux, qui se déroulent dans un espace limité, ceci pour autant que les autres usagers de la route ne soient ni gênés, ni mis en danger."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): nos bairros residenciais os condutores devem circular de modo particularmente prudente e atencioso: OCR 41a al. 1 (R-DAN-022); prudência particular perante crianças: LCR 26 al. 2 (R-COM-002); zona de encontro e zona de pedestres: OSR 22b e 22c (R-PRIO-054, R-PRIO-055)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-020
+  categoria: G-Danger
+  subtema: pedestres-criancas
+  regra_pt: "As faixas longitudinais para pedestres (« bandes longitudinales pour piétons », 6.19) marcadas na pista só podem ser usadas pelos veículos se a circulação dos pedestres não for atrapalhada."
+  termos_fr: ["bandes longitudinales pour piétons"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "41", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les bandes longitudinales pour piétons (6.19) marquées sur la chaussée ne peuvent être empruntées par les véhicules que si la circulation des piétons ne s'en trouve pas entravée."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): marcação dessas faixas: linhas amarelas contínuas, com a superfície estriada de linhas oblíquas (OSR 77 al. 3, 6.19; sem regra própria neste arquivo); prudência particular ao usar a calçada: OCR 41 al. 3 por posição (R-ARR-086)."
+  nota: "NUMERAÇÃO INCERTA: é o 4.º parágrafo do artigo no arquivo, mas a remissão do OSR 77 al. 3 (« art. 41, al. 3, OCR ») cita ESTE parágrafo como al. 3. Isso indica que o 3.º parágrafo (« Le conducteur qui doit emprunter le trottoir… », hoje R-ARR-086 com alinea \"3\") é na verdade a al. 2bis. Usado o número legal 3; confirmar no HTML do Fedlex e, se for o caso, corrigir R-ARR-086 para 2bis."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-021
+  categoria: G-Danger
+  subtema: pedestres-criancas
+  regra_pt: "Na ausência de ciclovia (« piste cyclable ») ou de faixa ciclável (« bande cyclable »), as crianças de até doze anos de idade podem circular de bicicleta nos caminhos para pedestres e nas calçadas. Devem adaptar a velocidade e a conduta às circunstâncias, ter consideração pelos pedestres e dar-lhes a prioridade."
+  termos_fr: ["jusqu'à l'âge de douze ans", "leur laisser la priorité"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "41", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "En l'absence de piste cyclable ou de bande cyclable, les enfants jusqu'à l'âge de douze ans peuvent circuler à vélo sur les chemins pour piétons et les trottoirs. Ils doivent adapter leur vitesse et leur conduite aux circonstances. Ils doivent notamment faire preuve d'égards envers les piétons et leur laisser la priorité."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): prudência particular perante crianças: LCR 26 al. 2 (R-COM-002); o condutor que precisa usar a calçada deve ter prudência particular e dar prioridade a pedestres e outros usuários: OCR 41 (R-ARR-086)."
+  nota: "NUMERAÇÃO INCERTA: é o 5.º parágrafo do artigo no arquivo; a remissão do OSR 33 (« art. 41, al. 4, 43a, al. 1, 50 et 50a OCR sont réservés » quanto aos chemins pour piétons) aponta este parágrafo como al. 4. Usado o número legal 4 (ver a nota de R-DAN-020: provável al. 2bis no 3.º parágrafo). Confirmar no HTML do Fedlex."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-022
+  categoria: G-Danger
+  subtema: pedestres-criancas
+  regra_pt: "Nas vias secundárias situadas em bairros residenciais e nas vias secundárias em que a circulação de veículos só é permitida de forma limitada, os condutores devem circular de modo particularmente prudente e atencioso (« particulièrement prudente et prévenante »)."
+  termos_fr: ["particulièrement prudente et prévenante"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "41a", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur les routes secondaires situées dans les quartiers d'habitation et sur les routes secondaires sur lesquelles la circulation des véhicules n'est autorisée que dans une mesure limitée, les conducteurs sont tenus de circuler d'une manière particulièrement prudente et prévenante."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): zona 30, zona de encontro e zona de pedestres: OSR 22a, 22b e 22c (R-COM-032, R-PRIO-054, R-PRIO-055); jogos e atividades na pista de vias secundárias de pouco tráfego: OCR 46 al. 3 (R-DAN-019)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-023
+  categoria: G-Danger
+  subtema: pedestres-criancas
+  regra_pt: "O sinal « Enfants » (1.23) indica que é preciso contar frequentemente com a presença de crianças na pista. É colocado nas proximidades de escolas, de áreas de jogos etc."
+  termos_fr: ["Enfants", "écoles"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "11", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Enfants\"(1.23) indique qu'il faut souvent compter avec la présence d'enfants sur la chaussée. Il sera placé aux abords des écoles, des places de jeux, etc."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): prudência particular perante crianças: LCR 26 al. 2 (R-COM-002); ônibus escolar parado e sinalizado com pisca-alerta ligado: OCR 6 al. 5 (R-PRIO-036)."
+  nota: "O texto deste alínea só descreve o sinal; não fixa velocidade nem outra conduta do condutor."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-024
+  categoria: G-Danger
+  subtema: pedestres-criancas
+  regra_pt: "Nas áreas de circulação destinadas a pedestres, as cadeiras de rodas não motorizadas podem ser usadas por todos, enquanto as cadeiras de rodas motorizadas e os giropodes elétricos (« gyropodes électriques ») só podem ser usados ali por pessoas com mobilidade reduzida. As disposições sobre pedestres se aplicam por analogia; velocidade e modo de circular devem ser adaptados às circunstâncias."
+  termos_fr: ["fauteuils roulants non motorisés", "personnes à mobilité réduite"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "43a", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur les aires de circulation affectées aux piétons, les fauteuils roulants non motorisés peuvent être utilisés par tous, tandis que les fauteuils roulants motorisés et les gyropodes électriques ne peuvent y être utilisés que par des personnes à mobilité réduite. Les dispositions relatives aux piétons s'appliquent par analogie. La vitesse et la manière de circuler seront adaptées aux circonstances."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): cadeiras de rodas em áreas de veículos em movimento: OCR 43a al. 2 (aplicam-se por analogia as disposições sobre ciclistas; à noite e com má visibilidade, duas luzes bem visíveis, branca à frente e vermelha atrás; sem regra própria neste arquivo); prudência particular perante « infirmes »: LCR 26 al. 2 (R-COM-002)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-025
+  categoria: G-Danger
+  subtema: animais
+  regra_pt: "O sinal « Passage de gibier » (1.24) indica que é preciso contar com a presença de caça (« gibier ») na pista. Em regra, o comprimento do trecho em que o perigo existe é anunciado pela placa complementar « Longueur du tronçon » (5.03)."
+  termos_fr: ["Passage de gibier", "gibier"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "12", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Passage de gibier\"(1.24) indique qu'il faut compter avec la présence de gibier sur la chaussée. En règle générale, la longueur du tronçon sur lequel ce danger existe sera annoncée au moyen de la plaque complémentaire\"Longueur du tronçon\"(5.03)."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o condutor deve procurar não assustar os animais: LCR 42 al. 1 (R-COM-046); animais não vigiados na pista: OSR 12 al. 2 (R-DAN-026)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-026
+  categoria: G-Danger
+  subtema: animais
+  regra_pt: "O sinal « Animaux » (1.25) anuncia a presença na pista de animais não vigiados; a silhueta do animal indica a espécie principalmente em causa. É colocado em regiões de pastagem que nenhuma prescrição obriga a cercar; também na subida ou descida do alpe (« alpage ») enquanto rebanhos se deslocam na pista e, se necessário, em estradas principais frequentemente usadas por rebanhos."
+  termos_fr: ["Animaux", "non surveillés"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "12", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Animaux\"(1.25) annonce la présence sur la chaussée d'animaux non surveillés; la silhouette de l'animal indique l'espèce d'animaux dont il s'agit principalement. Ce signal sera placé dans les régions de pâturages qu'aucune prescription n'oblige à clôturer; en outre, lors de la montée à l'alpage ou de la descente, il sera placé aussi longtemps que des troupeaux se déplacent sur la chaussée. Au besoin, il sera placé sur les routes principales qu'empruntent souvent des troupeaux."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): é proibido deixar o gado entrar sem vigilância na pista, salvo nas regiões de pastagem sinalizadas: LCR 50 al. 2 (R-DAN-027); não assustar animais: LCR 42 al. 1 (R-COM-046)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-027
+  categoria: G-Danger
+  subtema: animais
+  regra_pt: "É proibido deixar o gado (« bétail ») entrar sem vigilância na pista, salvo nas regiões de pastagem que estão sinalizadas."
+  termos_fr: ["bétail sans surveillance"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "50", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Il est interdit de laisser pénétrer le bétail sans surveillance sur la chaussée, sauf dans les régions de pâturages qui sont signalées."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): sinal « Animaux » (1.25) e sinal « Passage de gibier » (1.24): OSR 12 (R-DAN-026, R-DAN-025); condutor de animal deve permanecer dono dele e animais parados não devem atrapalhar a circulação: OCR 52 al. 1 e 3 (sem regra própria neste arquivo)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-028
+  categoria: G-Danger
+  subtema: carga-seguranca
+  regra_pt: "Os veículos só podem circular se estiverem em perfeito estado de funcionamento e conformes às prescrições. Devem ser construídos e mantidos de modo que as regras de trânsito possam ser observadas, que o condutor, os passageiros e os outros usuários da via não sejam postos em perigo e que a pista não sofra nenhum dano."
+  termos_fr: ["en parfait état de fonctionnement"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "29", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Les véhicules ne peuvent circuler que s'ils sont en parfait état de fonctionnement et répondent aux prescriptions. Ils doivent être construits et entretenus de manière que les règles de la circulation puissent être observées, que le conducteur, les passagers et les autres usagers de la route ne soient pas mis en danger et que la chaussée ne subisse aucun dommage."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o condutor deve se assegurar de que o veículo e o carregamento atendem às prescrições (OCR 57 al. 1); com defeitos pouco graves surgidos em viagem pode prosseguir tomando as precauções necessárias e os reparos devem ser feitos sem demora (OCR 57 al. 3); sem regras próprias neste arquivo."
+    - "Pneus: perfil mínimo de 1,6 mm na OETV 58 al. 4 (R-DAN-049)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-029
+  categoria: G-Danger
+  subtema: passageiros
+  regra_pt: "Os condutores de veículos automotores e de ciclos só devem transportar passageiros nos lugares destinados a eles. O Conselho Federal pode prever exceções e edita prescrições sobre o transporte de pessoas em reboques."
+  termos_fr: ["qu'aux places aménagées"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "30", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Les conducteurs de véhicules automobiles et de cycles ne doivent transporter des passagers qu'aux places aménagées pour ceux-ci. Le Conseil fédéral peut prévoir des exceptions; il édictera des prescriptions sur le transport de personnes au moyen de remorques."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): número de pessoas transportadas não deve exceder o de lugares autorizados: OCR 60 al. 2 (R-DAN-031); cinto de segurança e retenção de crianças: OCR 3a (R-COM-017 a R-COM-021)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-030
+  categoria: G-Danger
+  subtema: carga-seguranca
+  regra_pt: "Os veículos não devem ser sobrecarregados. O carregamento deve ser disposto de modo que não ponha ninguém em perigo nem atrapalhe ninguém e que não possa cair. Todo carregamento que ultrapasse o veículo deve ser sinalizado, de dia e de noite, de maneira particularmente visível."
+  termos_fr: ["ne doivent pas être surchargés", "signalé, de jour et de nuit"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "30", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Les véhicules ne doivent pas être surchargés. Le chargement doit être disposé de telle manière qu'il ne mette en danger ni ne gène personne et qu'il ne puisse tomber. Tout chargement qui dépasse le véhicule doit être signalé, de jour et de nuit, d'une façon particulièrement visible."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o condutor deve cuidar para não ser atrapalhado pelo carregamento: LCR 31 al. 3 (R-COM-005); detalhes de colocação e limites do carregamento: OCR 73 (R-DAN-034, R-DAN-035, R-DAN-036); sinalização da extremidade que ultrapassa a traseira em mais de 1 m: OCR 58 al. 3 (R-DAN-040)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-031
+  categoria: G-Danger
+  subtema: passageiros
+  regra_pt: "O número de pessoas transportadas em veículos automotores e seus reboques não deve exceder o dos lugares autorizados. Durante a viagem, os passageiros devem usar esses lugares; nos ônibus (« autocars ») podem deixar o assento por pouco tempo."
+  termos_fr: ["ne doit pas excéder celui des places autorisées"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "60", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le nombre des personnes transportées dans et sur des véhicules automobiles et leurs remorques ne doit pas excéder celui des places autorisées. Durant le trajet, les passagers sont tenus de les utiliser; dans les autocars, ils peuvent quitter brièvement leur siège."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): transporte de pessoas só nos lugares destinados a elas: LCR 30 al. 1 (R-DAN-029); cinto e retenção de crianças: OCR 3a (R-COM-017 a R-COM-021)."
+    - "Regra de outra disposição (não consta desta alínea): o al. 3 do mesmo artigo (veículos de esteiras, salvamento) e o OCR 61 (veículos de carga, agrícolas e florestais) trazem exceções e regras próprias, não resumidas aqui."
+  nota: "Numeração por posição: o 1.º parágrafo do OCR 60 é « … » (revogado) e conta como al. 1."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-032
+  categoria: G-Danger
+  subtema: passageiros
+  regra_pt: "É proibido transportar pessoas no compartimento de um automóvel que não pode ser aberto por dentro. Exceção do próprio texto: a regra não vale para transportes feitos pela polícia."
+  termos_fr: ["ne peut être ouvert de l'intérieur"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "60", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Il est interdit de transporter des personnes dans le compartiment d'une voiture automobile qui ne peut être ouvert de l'intérieur; cette règle ne s'applique pas aux transports effectués par la police."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): transporte de pessoas só nos lugares destinados a elas: LCR 30 al. 1 (R-DAN-029)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-033
+  categoria: G-Danger
+  subtema: passageiros
+  regra_pt: "Com um veículo automotor, um tram ou um « chemin de fer routier » em marcha, é proibido subir nele, descer dele ou se debruçar para fora."
+  termos_fr: ["il est interdit d'y monter, d'en descendre ou de se pencher au-dehors"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "60", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsqu'un véhicule automobile, un tramway ou un chemin de fer routier est en marche, il est interdit d'y monter, d'en descendre ou de se pencher au-dehors."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): subir e descer do veículo parado sem pôr em perigo os usuários da via: OCR 21 al. 1 (R-ARR-019)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-034
+  categoria: G-Danger
+  subtema: carga-seguranca
+  regra_pt: "O carregamento deve ser colocado de modo que os eixos direcionais (« essieux directeurs ») suportem pelo menos 20 por cento do peso efetivo e, em reboques de eixo central, que o centro de gravidade fique à frente do eixo."
+  termos_fr: ["essieux directeurs", "20 pour cent"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "73", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le chargement doit être placé de manière que les essieux directeurs supportent au moins 20 pour cent du poids effectif et, s'il s'agit de remorques à essieu central, que le centre de gravité se trouve en avant de l'essieu."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): os veículos não devem ser sobrecarregados e o carregamento não deve poder cair: LCR 30 al. 2 (R-DAN-030)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-035
+  categoria: G-Danger
+  subtema: carga-seguranca
+  regra_pt: "O carregamento não deve ultrapassar lateralmente os veículos automotores de várias faixas (« voies multiples ») nem seus reboques. O texto traz exceções (let. a a d): a) engins de sport indivisíveis de largura máxima de 2 m 55 transportados em reboques para engins de sport; b) transportes agrícolas e florestais de fardos de feno ou de palha, ou cargas análogas, que não passem de 2 m 55 de largura; c) transportes agrícolas e florestais de feno ou palha não prensados, ou cargas análogas, desde que nenhum objeto sólido ultrapasse o flanco do veículo; d) ciclos e ciclomotores pendurados na traseira de veículos automotores, desde que o balanço não exceda 20 cm de cada lado e que a largura total não passe de 2 m."
+  termos_fr: ["ne doit pas dépasser latéralement"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "73", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le chargement ne doit pas dépasser latéralement les véhicules automobiles à voies multiples ni leur remorque."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): largura máxima dos veículos: OCR 64 al. 1 (R-DAN-041); se o carregamento ou peças ultrapassam o perfil lateral de modo pouco visível, as partes mais externas devem ser sinalizadas (OCR 58 al. 2; sem regra própria neste arquivo)."
+  nota: "A lista das exceções a. a d. está em linhas separadas no arquivo; o trecho copiado é só a primeira frase (trecho_completo false) e a lista aparece em regra_pt. A let. d remete à OETV 38 al. 1bis (não incluída)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-036
+  categoria: G-Danger
+  subtema: carga-seguranca
+  regra_pt: "Nos veículos automotores, o carregamento não deve ultrapassar mais de 3,00 m à frente, a contar do centro do dispositivo de direção; nos veículos automotores e nos reboques, não deve ultrapassar mais de 5,00 m atrás, a contar do centro do eixo traseiro ou do eixo de rotação dos eixos traseiros, se ultrapassar a superfície de carga."
+  termos_fr: ["3,00 m à l'avant", "5,00 m à l'arrière"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "73", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur les véhicules automobiles, le chargement ne doit pas dépasser de plus de 3,00 m à l'avant, à compter du centre du dispositif de direction; sur les véhicules automobiles et les remorques, le chargement ne doit pas dépasser de plus de 5,00 m à l'arrière, à compter du centre de l'essieu arrière ou de l'axe de rotation des essieux arrière, s'il dépasse la surface de charge."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): sinalização clara da extremidade do carregamento que ultrapassa a traseira em mais de 1 m: OCR 58 al. 3 (R-DAN-040); todo carregamento que ultrapasse o veículo deve ser sinalizado: LCR 30 al. 2 (R-DAN-030)."
+  nota: "Os valores 3,00 m e 5,00 m são medidos a partir dos pontos indicados no texto, não do pára-choque."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-037
+  categoria: G-Danger
+  subtema: carga-seguranca
+  regra_pt: "Os carregamentos e partes de carregamento que o vento pode levar devem ser protegidos por medidas adequadas. Exceção do próprio texto: a regra não vale para veículos cuja velocidade máxima, por construção, não passa de 40 km/h."
+  termos_fr: ["que le vent peut emporter"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "73", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les chargements et les parties de chargement que le vent peut emporter doivent être sécurisés par des mesures appropriées; cette disposition ne s'applique pas aux véhicules dont la vitesse maximale ne dépasse pas 40 km/h de par leur construction."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o carregamento deve ser disposto de modo que não possa cair: LCR 30 al. 2 (R-DAN-030)."
+  nota: "Numeração por posição: a lista a. a d. do al. 2 está em linhas separadas e não conta como alínea; 3.º parágrafo = « Sur les véhicules automobiles… 3,00 m »; 4.º = « Les marchandises… surface de charge »; 5.º = este."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-038
+  categoria: G-Danger
+  subtema: carga-seguranca
+  regra_pt: "Somente podem ser transportados, sobre uma superfície de carga situada diante do condutor ou ao lado dele, objetos que não atrapalhem a visibilidade."
+  termos_fr: ["ne gênent pas la visibilité"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "73", alinea: "6", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Seuls peuvent être transportés, sur une surface de charge située devant le conducteur ou à côté de lui, des objets qui ne gênent pas la visibilité."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o condutor deve cuidar para não ser atrapalhado pelo carregamento: LCR 31 al. 3 (R-COM-005)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-039
+  categoria: G-Danger
+  subtema: carga-seguranca
+  regra_pt: "Quando há perigo de gelo (« verglas »), não se deve transportar nenhum carregamento impregnado de água, como cascalho, areia etc., que possa pingar sobre a via pública."
+  termos_fr: ["danger de verglas", "imprégné d'eau"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "73", alinea: "7", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsqu'il y a danger de verglas, il ne faut transporter aucun chargement imprégné d'eau, tel que du gravier, du sable, etc., qui pourrait s'égoutter sur la voie publique."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o condutor evita sujar a pista: OCR 59 al. 1 (sem regra própria neste arquivo); sinal « Chaussée glissante »: OSR 5 (R-DAN-047)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-040
+  categoria: G-Danger
+  subtema: carga-seguranca
+  regra_pt: "A extremidade de carregamentos ou peças que ultrapassam a traseira do veículo em mais de 1 m deve ser sinalizada claramente."
+  termos_fr: ["de plus de 1 m", "signalée clairement"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "58", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "L'extrémité des chargements ou des pièces qui dépassent l'arrière du véhicule de plus de 1 m doit être signalée clairement."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): todo carregamento que ultrapasse o veículo deve ser sinalizado, de dia e de noite, de maneira particularmente visível: LCR 30 al. 2 (R-DAN-030); limite de 5,00 m atrás: OCR 73 al. 3 (R-DAN-036)."
+    - "Regra de outra disposição (não consta desta alínea): fanions, painéis, luzes e catadióptricos para carregamento ou peças que ultrapassam o perfil lateral estão no OCR 58 al. 2 (sem regra própria neste arquivo)."
+  nota: "O texto deste alínea não diz COMO a extremidade deve ser sinalizada, só que deve ser « clairement »."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-041
+  categoria: G-Danger
+  subtema: dimensoes
+  regra_pt: "A largura dos veículos automotores e dos reboques não deve passar de 2,55 m. Para os veículos climatizados com superestruturas especialmente equipadas para o transporte de mercadorias sob temperatura controlada e com paredes laterais de pelo menos 45 mm de espessura (isolamento incluído), o limite é 2,60 m."
+  termos_fr: ["ne dépassera pas 2,55 m", "2,60 m"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "64", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La largeur des véhicules automobiles et des remorques ne dépassera pas 2,55 m, celle des véhicules climatisés dont les superstructures fixes ou amovibles sont spécialement équipées pour le transport de marchandises sous températures dirigées et dont l'épaisseur de chaque paroi latérale, isolation comprise, est d'au moins 45 mm, ne dépassera pas 2,60 m."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 64 al. 2: veículos de trabalho, de transporte de animais, com velocidade de 30 km/h prescrita, agrícolas e florestais com velocidade máxima de 40 km/h prescrita e de tração animal que têm largura de 2 m 55 também podem circular em vias cujo sinal indica largura máxima de 2 m 30 (sem regra própria neste arquivo); sinal « Largeur maximale » (2.18): OSR 21 al. 1."
+    - "Regra de outra disposição (não consta desta alínea): o carregamento não deve ultrapassar lateralmente os veículos automotores de várias faixas, salvo as exceções listadas: OCR 73 al. 2 (R-DAN-035)."
+  nota: "Trecho = primeira frase do al. 1 (a 2.ª remete ao OCR 73 al. 2). A LCR 9 al. 1 traz os mesmos máximos (2,55 m, 2,6 m para climatizados, 4 m de altura); LCR 9 não foi usada por causa das alíneas 1bis (ver notas T-033)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-042
+  categoria: G-Danger
+  subtema: dimensoes
+  regra_pt: "A altura dos veículos, incluído o carregamento, não deve passar de 4 m."
+  termos_fr: ["chargement compris", "excéder 4 m"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "66", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La hauteur des véhicules, chargement compris, ne doit pas excéder 4 m."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): sinal « Hauteur maximale » (2.19): proíbe a circulação de veículos cuja altura, incluído o carregamento, passa do número indicado; é colocado perto do obstáculo (OSR 21 al. 2; sem regra própria neste arquivo)."
+  nota: "Trecho = primeira frase; o fim do al. 1 no arquivo é « …. » (trecho revogado), deixado de fora. trecho_completo false por isso."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-043
+  categoria: G-Danger
+  subtema: reboques
+  regra_pt: "Só podem ser usados para tracionar reboques ou outros veículos os veículos automotores cuja potência motriz e cujos freios sejam suficientes; o dispositivo de acoplamento deve oferecer todas as garantias de segurança."
+  termos_fr: ["puissance motrice et les freins sont suffisants"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "30", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Ne seront utilisés pour la traction de remorques ou d'autres véhicules que les véhicules automobiles dont la puissance motrice et les freins sont suffisants; le dispositif d'accouplement doit présenter toutes garanties de sécurité."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): antes da partida o condutor deve se assegurar de que o reboque está acoplado de modo seguro, de que seus freios e sua iluminação funcionam e de que os veículos não podem se chocar: OCR 70 al. 1 (R-DAN-044)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-044
+  categoria: G-Danger
+  subtema: reboques
+  regra_pt: "Antes da partida, o condutor deve se assegurar de que o reboque ou semirreboque está acoplado de modo seguro, de que seus freios e sua iluminação funcionam bem e de que, em marcha à frente, em especial nas curvas, os veículos não podem se chocar."
+  termos_fr: ["accouplée de manière sûre"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "70", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Avant le départ, le conducteur s'assurera que la remorque ou la semi-remorque est accouplée de manière sûre, que les freins et l'éclairage de celle-ci fonctionnent convenablement et qu'en marche avant, notamment dans les tournants, les véhicules ne peuvent se heurter."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): potência motriz e freios suficientes e dispositivo de acoplamento seguro: LCR 30 al. 3 (R-DAN-043); iluminação de reboques e de veículos rebocados: OCR 32 al. 1 (sem regra própria neste arquivo)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-045
+  categoria: G-Danger
+  subtema: reboques
+  regra_pt: "O veículo rebocado deve ser conduzido por um titular de permis se o dispositivo de engate não assegurar a direção dele. Ninguém está autorizado a ocupar veículos automotores que repousam total ou parcialmente sobre um dispositivo de engate montado sobre rodas."
+  termos_fr: ["conduit par un titulaire de permis"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "72", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le véhicule remorqué doit être conduit par un titulaire de permis si le dispositif d'attelage n'en assure pas la direction. Personne n'est autorisé à prendre place dans des véhicules automobiles qui reposent totalement ou partiellement sur un dispositif d'attelage monté sur roues."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): barra de reboque, corda e corrente: OCR 72 al. 5 (R-DAN-046); o texto do OCR 72 trata do reboque de veículos automotores; o reboque de motocicletas tem regra própria no al. 4 (sem regra própria neste arquivo)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-046
+  categoria: G-Danger
+  subtema: reboques
+  regra_pt: "O comprimento máximo de uma barra de reboque é de 5 m e o de uma corda, de 8 m. A corda deve ser sinalizada no meio, de modo bem visível. O uso de corrente (« chaîne ») é proibido; também é proibido o uso de cabo (« câble ») para rebocar uma motocicleta."
+  termos_fr: ["barre de remorquage", "8 m"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "72", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La longueur maximale d'une barre de remorquage sera de 5 m, celle d'une corde, de 8 m. La corde sera signalée à son milieu, de façon bien visible. L'emploi d'une chaîne est interdit; de même l'emploi d'un câble pour remorquer un motocycle."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): condutor do veículo rebocado e ocupação: OCR 72 al. 2 (R-DAN-045); freios do veículo rebocado e acoplamento rígido: OCR 72 al. 3 (sem regra própria neste arquivo)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-047
+  categoria: G-Danger
+  subtema: tempo-adverso
+  regra_pt: "O sinal « Chaussée glissante » (1.05) anuncia pistas de superfície especialmente escorregadia, sulcos (« ornières ») ou trechos de estrada particularmente expostos ao gelo."
+  termos_fr: ["Chaussée glissante", "exposés au gel"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "5", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Chaussée glissante\"(1.05) annonce des chaussées présentant une surface spécialement glissante, des ornières ou des tronçons de routes particulièrement exposés au gel."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): quando o sinal anuncia gelo ou neve escorregadia, deve vir com a placa « Chaussée verglacée » (5.13) e é retirado ou coberto quando não há mais risco de gelo ou neve escorregadia: OSR 5 al. 2 (sem regra própria neste arquivo); velocidade adaptada às condições da pista e da visibilidade: LCR 32 al. 1 (R-COM-006); cascalho e carga que pode pingar com perigo de gelo: OCR 73 al. 7 (R-DAN-039)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-048
+  categoria: G-Danger
+  subtema: tempo-adverso
+  regra_pt: "O sinal « Chaînes à neige obligatoires » (2.48) significa que os veículos automotores de várias faixas só podem usar o trecho se pelo menos duas rodas motrizes do mesmo eixo (ou uma por lado, no caso de rodas geminadas) estiverem equipadas com correntes de neve metálicas; isso vale por analogia para triciclos a motor. Dispositivos análogos de outro material autorizados pela OFROU também são admitidos."
+  termos_fr: ["Chaînes à neige obligatoires", "chaînes à neige métalliques"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "29", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Chaînes à neige obligatoires\"(2.48) signifie que les véhicules automobiles à voies multiples ne peuvent emprunter le tronçon en question que si au moins deux roues motrices du même essieu, ou une par côté s'il s'agit de roues jumelées, sont équipées de chaînes à neige métalliques; cette disposition s'applique, par analogie, aux tricycles à moteur. Sont également admis les dispositifs analogues, faits d'une autre matière, qui sont autorisés par l'OFROU."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 29 al. 2 e 3: o sinal é retirado assim que bons pneus bastam para circular no trecho, e a prescrição termina com o sinal « Fin de l'obligation d'utiliser des chaînes à neige » (2.57); sem regra própria neste arquivo."
+    - "Regra de outra disposição (não consta desta alínea): exigências técnicas das correntes: OETV 63 al. 1 (devem garantir arranque, frenagem e guiamento lateral na neve e no gelo e não danificar excessivamente as estradas)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-049
+  categoria: G-Danger
+  subtema: tempo-adverso
+  regra_pt: "A tela dos pneus não deve estar danificada nem aparente. Os pneus devem apresentar um perfil (« profil ») de pelo menos 1,6 mm em toda a superfície da banda de rodagem."
+  termos_fr: ["profil d'au moins 1,6 mm"]
+  fonte: { lei: OETV, rs: "741.41", artigo: "58", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1995/4425_4425_4425/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1995-4425_4425_4425-20261001-fr-html.html" }
+  trecho_literal_fr: "La toile des pneumatiques ne doit être ni abîmée ni apparente. Les pneumatiques doivent présenter un profil d'au moins 1,6 mm sur toute la surface de la bande de roulement."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): a OETV 119 al. 1 let. d dispensa o perfil nos automóveis cuja velocidade máxima não pode passar de 30 km/h; a OETV 138 al. 2 admite perfil inferior a 1,60 mm em motocicletas leves de três rodas, quadriciclos leves a motor, quadriciclos a motor e triciclos a motor cuja velocidade máxima não passe de 45 km/h."
+    - "Regra de outra disposição (não consta desta alínea): os veículos devem estar em perfeito estado de funcionamento: LCR 29 (R-DAN-028); pneus de inverno e pneus com cravos: OETV 59 e 61 a 62 (ver R-DAN-050 e R-DAN-051)."
+  nota: "Numeração por posição: 4.º parágrafo; a remissão da própria OETV 119 « art. 58, al. 4 » para o perfil confere. A OETV tem outros alíneas do art. 58 com possíveis numerações bis (remissões « al. 6 » e « al. 7 » para identificação e marca de recepção não batem com a contagem por posição); este al. 4 não é afetado."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-050
+  categoria: G-Danger
+  subtema: tempo-adverso
+  regra_pt: "Só podem ser equipados com pneus com cravos (« pneus à clous ») os automóveis de peso total que não passe de 7,5 t, as motocicletas, os quadriciclos leves a motor, os quadriciclos a motor e os triciclos a motor, bem como os reboques atrelados a esses veículos. Só podem ser usados entre 1.º de novembro e 30 de abril e, fora desse período, na presença de condições invernais."
+  termos_fr: ["pneus à clous", "1er novembre et le 30 avril"]
+  fonte: { lei: OETV, rs: "741.41", artigo: "62", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1995/4425_4425_4425/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1995-4425_4425_4425-20261001-fr-html.html" }
+  trecho_literal_fr: "Seuls peuvent être équipés de pneus à clous les voitures automobiles dont le poids total n'excède pas 7,5 t, les motocycles, les quadricycles légers à moteur, les quadricycles à moteur et les tricycles à moteur, ainsi que les remorques attelées à de tels véhicules. Ils ne peuvent être utilisés qu'entre le 1er novembre et le 30 avril et, en dehors de cette période, en présence de conditions hivernales."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): pneus com cravos são proibidos nas autoestradas e semiautoestradas: OCR 35 al. 2 (R-DAN-010); disco de 80 km/h na traseira: OETV 62 al. 2 (R-DAN-051); os pneus com cravos e as condições de uso (ex.: todas as rodas, tipo de carcaça) estão nos al. 2 a 4 da OETV 61 (sem regra própria neste arquivo)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DAN-051
+  categoria: G-Danger
+  subtema: tempo-adverso
+  regra_pt: "Um disco que indica a velocidade máxima autorizada de 80 km/h, conforme o anexo 4, deve ser fixado na traseira dos veículos equipados com pneus com cravos. Em derrogação ao ch. 1 do anexo 4, o disco pode ter uma borda preta com um desenho estilizado de pontas metálicas."
+  termos_fr: ["80 km/h", "pneus à clous"]
+  fonte: { lei: OETV, rs: "741.41", artigo: "62", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1995/4425_4425_4425/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1995-4425_4425_4425-20261001-fr-html.html" }
+  trecho_literal_fr: "Un disque indiquant la vitesse maximale autorisée de 80 km/h, selon l'annexe 4, est fixé à l'arrière des véhicules équipés de pneus à clous. En dérogation au ch. 1 de l'annexe 4, le disque peut avoir une bordure noire munie d'un dessin stylisé de pointes métalliques."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OETV 62 al. 3 e 4: o disco deve ser retirado ou riscado de modo bem visível quando o veículo é usado sem pneus com cravos; não são visados os veículos cuja velocidade máxima por construção é menor e o disco indicando a velocidade máxima eventualmente aposto não deve ser retirado (sem regra própria neste arquivo)."
+    - "Regra de outra disposição (não consta desta alínea): o OCR 5 al. 1 let. a ch. 4 também limita a 80 km/h a velocidade máxima de veículos equipados com pneus com cravos (a lista multinível do OCR 5 al. 1 não foi usada como trecho; ver notas T-033); proibição nas autoestradas: OCR 35 al. 2 (R-DAN-010)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente

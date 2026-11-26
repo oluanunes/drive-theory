@@ -1,0 +1,853 @@
+# T-031 PESQ — categoria A (Panneaux: sinais, marcas, sinais luminosos e polícia). Todas as regras com status: pendente (só o aluno valida).
+# Fonte única de texto legal: legal/sources/*.txt (Fedlex, baixado 2026-11-26).
+#   LCR (RS 741.01) État le 1er juillet 2026; OCR (RS 741.11) e OSR (RS 741.21) État le 1er octobre 2026.
+# trecho_literal_fr = alínea (ou uma frase da alínea) copiada do arquivo, sem número de alínea, sem asterisco de nota; trecho_completo: true só quando é a alínea inteira em uma linha.
+#   Alíneas com lista a./b. (linhas separadas no arquivo): copiada só a frase de abertura ou uma única linha da lista, trecho_completo: false; a lista aparece em regra_pt.
+# A numeração das alíneas (alinea) é a ordem dos parágrafos no arquivo extraído ("…" conta; letras a./b. fazem parte do parágrafo). Exceções, com número legal confirmado por remissão: OSR 68 al. 6 e 7 (ver notas das regras e docs/reviews/T-031-notas.md).
+# O Anexo 2 da OSR traz só número e nome dos sinais; nenhuma aparência foi descrita além do que o texto dos artigos diz (forma e cor em OSR 3, 16, 50, 51, 56).
+# NÃO duplicadas (já em outros YAML; danger-securite.yaml e accidents-pannes.yaml: OSR 5 al. 1, 8 al. 1, 11 al. 2, 29 al. 1, 45 al. 3 (túnel), 47 al. 3 e 6, 93 al. 2 e 4, OCR 35, 36 al. 1, 39, LCR 28): OSR 2a al. 1-3 e 5, 16 al. 2, 22 al. 1, 22a-22c, 23, 24 al. 1, 25, 26, 27, 30, 31, 32 al. 1, 35 a 40, 42, 47 al. 4-5, 48 a 48b, 64 al. 3-5, 65 al. 1, 5, 13-14, 16, 66, 67 al. 1, 68 al. 1, 3-4, 73 al. 1, 6-8, 74 al. 3-4, 74a al. 1, 77 al. 2, 79, 79a.
+# Fora do escopo ou lacunas: ver docs/reviews/T-031-notas.md.
+rules:
+
+- id: R-PAN-001
+  categoria: A-Panneaux
+  subtema: validade-dos-sinais
+  regra_pt: "Salvo disposição em contrário, os sinais e as marcas valem para todos os usuários da via."
+  termos_fr: ["Sauf dispositions contraires", "tous les usagers de la route"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "2", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sauf dispositions contraires, les signaux et les marques valent pour tous les usagers de la route."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): cavaleiros e condutores de cavalos ou de outros animais de grande porte também devem observar os sinais e marcas que regem o tráfego em geral (OSR 2 al. 3, R-PAN-002)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-002
+  categoria: A-Panneaux
+  subtema: validade-dos-sinais
+  regra_pt: "Os sinais e as marcas que não regem categorias determinadas de veículos, mas o tráfego em geral, devem ser observados também por cavaleiros e por condutores de cavalos ou de outros animais de grande porte, exceto o sinal « Interdiction générale de circuler dans les deux sens » (2.01)."
+  termos_fr: ["cavaliers", "2.01"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "2", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les signaux et les marques qui régissent non pas des catégories déterminées de véhicules mais le trafic en général doivent aussi être observés par les cavaliers et les conducteurs de chevaux ou d'autres gros animaux, à l'exception du signal\"Interdiction générale de circuler dans les deux sens\"(2.01)."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): regra geral de validade para todos os usuários: OSR 2 al. 1 (R-PAN-001)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-003
+  categoria: A-Panneaux
+  subtema: sinais-de-perigo
+  regra_pt: "Os sinais de perigo (« signaux de danger ») têm, em regra, a forma de um triângulo equilátero com borda vermelha e símbolo preto sobre fundo branco. Nos sinais de matriz (« signaux à matrice »), o fundo pode ser preto e o símbolo branco."
+  termos_fr: ["signaux de danger", "triangle équilatéral"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "3", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "En règle générale, les signaux de danger ont la forme d'un triangle équilatéral à bordure rouge et portent un symbole noir sur fond blanc. Lorsqu'il s'agit de signaux à matrice, le fond peut être noir et le symbole blanc."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): os sinais de prescrição (proibição e obrigação) têm geralmente a forma de disco (OSR 16 al. 1, R-PAN-011)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "A forma e a cor vêm do próprio texto do art. 3; o Anexo 2 só traz número e nome dos sinais, sem descrição."
+
+- id: R-PAN-004
+  categoria: A-Panneaux
+  subtema: sinais-de-perigo
+  regra_pt: "Os sinais de curva (« signaux de virages ») anunciam curvas cuja configuração (por exemplo falta de sobrelevação, curvatura forte ou irregular da pista) exige redução da velocidade."
+  termos_fr: ["signaux de virages", "réduction de la vitesse"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "4", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les signaux de virages annoncent des tournants, dont la conformation (p. ex. manque de dévers, courbure forte ou irrégulière de la chaussée) requiert une réduction de la vitesse."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): os sinais são « Virage à droite » (1.01), « Virage à gauche » (1.02), « Double virage, le premier à droite » (1.03) e « Double virage, le premier à gauche » (1.04) (OSR 4 al. 2)."
+    - "Regra de outra disposição (não consta desta alínea): em regra, nenhum sinal de curva é colocado dentro das localidades (OSR 4 al. 4)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-005
+  categoria: A-Panneaux
+  subtema: sinais-de-perigo
+  regra_pt: "O sinal « Travaux » (1.14) anuncia obras executadas na pista (por exemplo de construção, de medição, de marcação), ou obstáculos delas resultantes (por exemplo depósitos de material, buracos abertos), ou irregularidades ou estreitamentos da pista. A sinalização de canteiros de obras é regida também pelo OSR 80."
+  termos_fr: ["Travaux", "1.14"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "9", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Travaux\"(1.14) annonce soit des travaux exécutés sur la chaussée (p. ex. des travaux de construction, de mensuration, de marquage), soit des obstacles qui en résultent (p. ex. dépôts de matériaux, trous béants), soit des inégalités ou rétrécissements de la chaussée. La signalisation des chantiers est en outre régie par l'art. 80."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o sinal também é colocado para anunciar obras nas imediações da pista, se forem de natureza a atrapalhar a circulação (OSR 9 al. 2)."
+    - "Regra de outra disposição (não consta desta alínea): dispositivos de balizamento de canteiros (balises, cônes, painéis, palette à faces alternantes 7.04): OSR 80 (não coberto neste arquivo; ver notas)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-006
+  categoria: A-Panneaux
+  subtema: sinais-de-perigo
+  regra_pt: "Os sinais « Barrières » (1.15) e « Passage à niveau sans barrières » (1.16) servem para anunciar as passagens de nível sinalizadas conforme os arts. 92 e 93 do OSR."
+  termos_fr: ["Barrières", "1.15", "Passage à niveau sans barrières", "1.16"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "10", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les signaux\"Barrières\"(1.15) et\"Passage à niveau sans barrières\"(1.16) servent à annoncer les passages à niveau signalés selon les art. 92 et 93."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o sinal « Barrières » também pode anunciar o recinto de um aeródromo etc. (OSR 10 al. 2)."
+    - "Regra de outra disposição (não consta desta alínea): com sinais de luz intermitente no passagem de nível, junta-se aos dois sinais a placa « Feux clignotants » (5.12) (OSR 65 al. 3; OSR 92 al. 2)."
+    - "Regra de outra disposição (não consta desta alínea): o condutor deve parar diante de passagens de nível quando as barreiras se fecham ou quando sinais mandam parar (LCR 28, R-DAN-001)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-007
+  categoria: A-Panneaux
+  subtema: sinais-de-perigo
+  regra_pt: "O sinal « Tramway ou chemin de fer routier » (1.18) anuncia a presença de veículos ferroviários na estrada, em especial as interseções percorridas por esses veículos."
+  termos_fr: ["Tramway ou chemin de fer routier", "1.18"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "10", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Tramway ou chemin de fer routier\"(1.18) annonce la présence de véhicules ferroviaires sur la route, notamment les intersections empruntées par de tels véhicules."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): com este sinal, o usuário da via deve verificar por si mesmo que nenhum veículo ferroviário se aproxima e que a passagem está livre (OSR 93, parágrafo de posição 4; ver notas T-031)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "A al. 3 do OSR 10 aparece só como « … » (revogada); a contagem por posição dá al. 4 a este parágrafo."
+
+- id: R-PAN-008
+  categoria: A-Panneaux
+  subtema: sinais-de-perigo
+  regra_pt: "O sinal de perigo « Passage pour piétons » (1.22) anuncia passagens de pedestres que não podem ser vistas a pelo menos 200 m de distância. Só pode ser colocado fora das localidades e perto de passagens de pedestres conformes às normas reconhecidas de segurança viária."
+  termos_fr: ["Passage pour piétons", "1.22", "200 m"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "11", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Passage pour piétons\"(1.22) annonce les passages qui ne peuvent être aperçus à une distance d'au moins 200 m. Il ne peut être placé qu'en dehors des localités et aux abords des passages pour piétons conformes aux normes reconnues de sécurité routière."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o sinal de indicação « Emplacement d'un passage pour piétons » (4.11) é outro sinal e é colocado sempre diante das passagens situadas fora das localidades (OSR 47 al. 1, R-PAN-031)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-009
+  categoria: A-Panneaux
+  subtema: sinais-de-perigo
+  regra_pt: "O sinal de perigo « Signaux lumineux » (1.27) anuncia uma instalação de sinais luminosos diante da qual o condutor deve, se for o caso, parar."
+  termos_fr: ["Signaux lumineux", "1.27", "s'arrêter"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "14", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Signaux lumineux\"(1.27) annonce une installation de signaux lumineux devant laquelle le conducteur doit, le cas échéant, s'arrêter."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o sinal é colocado antes das instalações situadas fora das localidades; dentro das localidades, em vias de tráfego rápido ou quando a instalação não puder ser vista a tempo (OSR 14 al. 1, demais frases)."
+    - "Regra de outra disposição (não consta desta alínea): o mesmo sinal pode anunciar o sistema de sinais luminosos de fechamento temporário de faixas (OSR 69 al. 4; ver R-PAN-046)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-010
+  categoria: A-Panneaux
+  subtema: sinais-de-perigo
+  regra_pt: "O sinal « Autres dangers » (1.30) alerta os condutores para a presença na pista de perigos para os quais não há sinal particular."
+  termos_fr: ["Autres dangers", "1.30"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "15", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Autres dangers\"(1.30) met les conducteurs en garde contre la présence sur la chaussée de dangers pour lesquels aucun signal particulier n'est prévu."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): se necessário, a natureza do perigo é indicada numa placa complementar (OSR 15 al. 1, frase seguinte)."
+    - "Regra de outra disposição (não consta desta alínea): o sinal pode ser colocado antes dos postos de interceptação da polícia e, fora das localidades, anuncia que a circulação é regulada pela polícia (OSR 15 al. 2; ver R-ARR-047)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-011
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "Os sinais de prescrição (« signaux de prescription ») anunciam uma obrigação ou uma proibição e têm geralmente a forma de disco. Os de proibição têm habitualmente borda vermelha e símbolo preto sobre fundo branco (nos sinais de matriz, o fundo pode ser preto e o símbolo branco); os de obrigação têm uma borda branca estreita e símbolo branco sobre fundo azul."
+  termos_fr: ["signaux de prescription", "une obligation ou une interdiction", "fond bleu"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "16", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les signaux de prescription annoncent une obligation ou une interdiction; ils ont généralement la forme d'un disque. Les signaux d'interdiction ont habituellement une bordure rouge et portent un symbole noir sur fond blanc; lorsqu'il s'agit de signaux à matrice, le fond peut être noir et le symbole blanc. Les signaux d'obligation ont une étroite bordure blanche et un symbole blanc sur fond bleu."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): validade e fim da prescrição (até o fim da próxima interseção, salvo sinal de fim para 2.30, 2.31, 2.44, 2.45, 2.49, 2.50): OSR 16 al. 2 (R-ARR-039)."
+    - "Regra de outra disposição (não consta desta alínea): exceções às prescrições são indicadas em placa complementar (OSR 17 al. 1 e 63 a 65)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Forma e cor vêm do texto do art. 16 (o texto só descreve em palavras). Sem desenhos."
+
+- id: R-PAN-012
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "Quando há proibição de circular ou limitação de peso ou de dimensões, a inscrição « Riverains autorisés » significa que é permitido entregar ou buscar mercadorias junto aos moradores ou em imóveis vizinhos, que os moradores e seus visitantes e as pessoas que executam trabalhos em imóveis vizinhos podem ali circular, e que terceiros podem transportar essas pessoas."
+  termos_fr: ["Riverains autorisés", "riverains"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "17", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsqu'il existe une interdiction de circuler ou une limitation du poids ou des dimensions, l'inscription\"Riverains autorisés\"signifie qu'il est permis de livrer ou d'aller chercher des marchandises chez les riverains ou sur des biens-fonds voisins, que les riverains et leurs visiteurs ainsi que les personnes exécutant des travaux sur des biens-fonds voisins peuvent y effectuer des courses et que des tiers peuvent y transporter ces personnes."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): as exceções às prescrições sinalizadas são mencionadas em placa complementar (OSR 17 al. 1)."
+    - "Regra de outra disposição (não consta desta alínea): esta alínea trata de proibições de circular e limitações de peso/dimensões; não define « Riverains autorisés » para proibições de parar ou estacionar."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "A frase « Riverains autorisés » é definida só para proibições de circular e limitações de peso ou dimensões; não ampliar a outros sinais."
+
+- id: R-PAN-013
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "O sinal « Interdiction générale de circuler dans les deux sens » (2.01) indica que a circulação é, em princípio, proibida nos dois sentidos a todos os veículos."
+  termos_fr: ["Interdiction générale de circuler dans les deux sens", "2.01"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "18", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Interdiction générale de circuler dans les deux sens\"(2.01) indique que la circulation est, en principe, interdite dans les deux sens à tous les véhicules."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o sinal 2.01 e o sinal « Accès interdit » (2.02) não valem para as categorias listadas no OSR 18 al. 4 (R-PAN-015)."
+    - "Regra de outra disposição (não consta desta alínea): se uma saída ainda for possível numa interseção (por exemplo para moradores), a prioridade dos veículos que saem é anulada pelos sinais « Stop » ou « Cédez le passage » (OSR 18 al. 2)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-014
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "O sinal « Accès interdit » (2.02) indica que nenhum veículo tem o direito de passar, mas que o tráfego em sentido contrário é permitido. Na outra ponta da via é colocado o sinal « Sens unique » (4.08)."
+  termos_fr: ["Accès interdit", "2.02", "Sens unique", "4.08"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "18", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Accès interdit\"(2.02) indique qu'aucun véhicule n'a le droit de passer mais qu'en revanche le trafic en sens inverse est autorisé. À l'autre bout de la route sera placé le signal\"Sens unique\"(4.08)."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): exceções de 2.01 e 2.02 para certos usuários: OSR 18 al. 4 (R-PAN-015)."
+    - "Regra de outra disposição (não consta desta alínea): a autoridade prevê exceção para cycles e cyclomoteurs, a menos que falta de espaço ou outras razões se oponham, e pode prever outras (por exemplo veículos públicos em serviço de linha) (OSR 18 al. 5)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-015
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "Os sinais « Interdiction générale de circuler dans les deux sens » (2.01) e « Accès interdit » (2.02) não valem para: (a) carrinhos de mão (« voitures à bras ») com largura máxima de 1 m; (b) carrinhos de criança; (c) cadeiras de rodas não motorizadas; (d) cadeiras de rodas motorizadas e gyropodes elétricos, desde que usados por pessoas com mobilidade reduzida; (e) ciclos, desde que sejam empurrados; (f) ciclomotores, desde que o motor esteja parado e sejam empurrados; (g) motocicletas de duas rodas, desde que o motor esteja parado e sejam empurradas."
+  termos_fr: ["ne valent pas pour", "Accès interdit"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "18", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les signaux\"Interdiction générale de circuler dans les deux sens\"et\"Accès interdit\"ne valent pas pour:"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): a regra vale para os sinais 2.01 e 2.02 e não para outras proibições de circular (por exemplo 2.03)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "A lista a. a g. está em linhas separadas no arquivo; o trecho copiado é só a frase de abertura (trecho_completo false) e os itens estão em regra_pt."
+
+- id: R-PAN-016
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "O sinal « Circulation interdite aux voitures automobiles » (2.03) diz respeito a todos os veículos automotores de várias vias (« à voies multiples »), incluindo motocicletas com side-car, com exceção dos ciclomotores."
+  termos_fr: ["Circulation interdite aux voitures automobiles", "2.03", "side-car", "à l'exception des cyclomoteurs"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "19", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "le signal\"Circulation interdite aux voitures automobiles\"(2.03) concerne tous les véhicules automobiles à voies multiples, y compris les motocycles avec side-car, à l'exception des cyclomoteurs;"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): outras proibições parciais de circular (motocicletas 2.04, ciclos e ciclomotores 2.05/2.06, caminhões 2.07 etc.) estão nas demais letras do OSR 19 al. 1."
+    - "Regra de outra disposição (não consta desta alínea): a plaque complémentaire « Excepté » ou « Autorisé » com símbolo exclui da proibição o gênero de transporte indicado (OSR 64 al. 5, R-ARR-085)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "A expressão « à voies multiples » aparece no texto sem definição; o OSR 26 usa « roues placées l'une à côté de l'autre » para o mesmo conceito, mas aqui isso não é afirmado pela lei. O trecho é a letra a da lista (linha separada no arquivo; trecho_completo false)."
+
+- id: R-PAN-017
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "O sinal « Circulation interdite aux cycles et cyclomoteurs » (2.05) proíbe circular com ciclos ou ciclomotores; o sinal « Circulation interdite aux cyclomoteurs » (2.06) proíbe circular com ciclomotores pesados (« cyclomoteurs lourds ») ou ciclomotores rápidos (« cyclomoteurs rapides »)."
+  termos_fr: ["2.05", "2.06", "cyclomoteurs lourds", "cyclomoteurs rapides"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "19", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "le signal\"Circulation interdite aux cycles et cyclomoteurs\"(2.05) interdit de circuler avec des cycles ou des cyclomoteurs; quant au signal\"Circulation interdite aux cyclomoteurs\"(2.06), il interdit de circuler avec des cyclomoteurs lourds ou des cyclomoteurs rapides;"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): sinais 2.01 e 2.02 não valem para ciclos e ciclomotores empurrados (OSR 18 al. 4; R-PAN-015)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Trecho é a letra c da lista (linha separada no arquivo; trecho_completo false)."
+
+- id: R-PAN-018
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "O sinal « Poids maximal » (2.16) proíbe a circulação de veículos e conjuntos de veículos cujo peso efetivo ultrapasse o valor indicado. Peso efetivo é o peso real do veículo ou conjunto, com ocupantes e carga, no momento da pesagem (art. 7 al. 2 OETV, citado no texto)."
+  termos_fr: ["Poids maximal", "2.16", "poids effectif"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "20", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Poids maximal\"(2.16) interdit la circulation des véhicules et des ensembles de véhicules, dont le poids effectif dépasse le chiffre indiqué. Le poids effectif est le poids réel du véhicule ou de l'ensemble de véhicules avec ses occupants et son chargement au moment du pesage (art. 7, al. 2, OETV)."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): se uma placa complementar autorizar peso maior, nos conjuntos de veículos o peso de cada veículo do conjunto não pode exceder o valor do sinal (OSR 20 al. 2)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-019
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "O sinal « Hauteur maximale » (2.19) proíbe a circulação de veículos cuja altura, incluída a carga, ultrapasse o valor indicado. É colocado perto do próprio obstáculo, antes de passagens subterrâneas, túneis, galerias, pontes cobertas, construções que avançam sobre a pista etc., quando veículos com 4 m de altura não podem passar sem perigo no local."
+  termos_fr: ["Hauteur maximale", "2.19", "4 m de hauteur"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "21", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Hauteur maximale\"(2.19) interdit la circulation des véhicules dont la hauteur, compte tenu du chargement, dépasse le chiffre indiqué. Il sera placé près de l'obstacle lui-même avant les passages souterrains, les tunnels, les galeries, les ponts couverts, les constructions qui font saillie sur la chaussée, etc., lorsque les véhicules ayant 4 m de hauteur ne peuvent pas passer sans danger à cet endroit."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-020
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "O início do limite geral de velocidade de 50 km/h (OCR 4a al. 1 let. a) é anunciado pelo sinal « Vitesse maximale 50, Limite générale » (2.30.1) assim que existe zona edificada de modo compacto em um dos dois lados da estrada. O fim do limite geral de 50 km/h é indicado pelo sinal « Fin de la vitesse maximale 50, Limite générale » (2.53.1), colocado a partir do ponto em que nenhum dos dois lados da estrada é edificado de modo compacto."
+  termos_fr: ["Vitesse maximale 50, Limite générale", "2.30.1", "2.53.1"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "22", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le début de la limitation générale de vitesse à 50 km/h (art. 4a, al. 1, let. a, OCR) sera annoncé par le signal\"Vitesse maximale 50, Limite générale\"(2.30.1) dès qu'il existe une zone bâtie de façon compacte sur l'un des deux côtés de la route. La fin de la limitation générale de vitesse à 50 km/h sera indiquée par le signal\"Fin de la vitesse maximale 50, Limite générale\"(2.53.1); ce signal sera placé à partir de l'endroit où ni l'un ni l'autre des côtés de la route n'est bâti d'une façon compacte."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): os sinais de início ou fim do limite de 50 km/h não são necessários em vias secundárias pouco importantes (OSR 22 al. 4)."
+    - "Regra de outra disposição (não consta desta alínea): o sinal 2.30.1 vale em toda a zona edificada de modo compacto dentro das localidades (OSR 16 al. 2, R-ARR-039); regra geral dos sinais 2.30 e 2.30.1: OSR 22 al. 1 (R-COM-031)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-021
+  categoria: A-Panneaux
+  subtema: sinais-de-zona
+  regra_pt: "Os sinais « Zone 30 » (2.59.1), « Zone de rencontre » (2.59.5) e « Zone piétonne » (2.59.3) só são admitidos em vias secundárias não afetadas à circulação geral."
+  termos_fr: ["Zone 30", "Zone de rencontre", "Zone piétonne", "routes secondaires"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "2a", alinea: "6", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les signaux\"Zone 30\"(2.59.1),\"Zone de rencontre\"(2.59.5) et\"Zone piétonne\"(2.59.3) ne sont admis que sur les routes secondaires non affectées à la circulation générale."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): a sinalização por zonas só é admitida dentro das localidades (OSR 2a al. 2, R-ARR-037); efeitos e fim de uma zona: OSR 2a al. 3 (R-ARR-038)."
+    - "Regra de outra disposição (não consta desta alínea): tipos de via: « routes affectées à la circulation générale » são definidas no OSR 1 (al. 9, confirmada pela remissão do OSR 108); « routes secondaires » no OSR 1 al. 8."
+    - "Regra de outra disposição (não consta desta alínea): velocidades e regras de cada zona: OSR 22a (R-COM-032), 22b (R-COM-033, R-PRIO-054, R-ARR-040), 22c (R-PRIO-055, R-ARR-041)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-022
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "Os sinais « Obliquer à droite » (2.37) e « Obliquer à gauche » (2.38) exigem que o condutor vire à direita ou à esquerda no lugar em questão e, nas autoestradas, que passe para a pista oposta, na direção indicada."
+  termos_fr: ["Obliquer à droite", "2.37", "Obliquer à gauche", "2.38"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "24", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les signaux\"Obliquer à droite\"(2.37) et\"Obliquer à gauche\"(2.38) exigent du conducteur qu'il oblique à droite ou à gauche à l'endroit en question et, sur les autoroutes, qu'il passe sur la chaussée opposée, dans la direction indiquée."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): sinais de sentido obrigatório 2.32 a 2.36 (inclui « Circuler tout droit »): OSR 24 al. 1 (R-DEP-073)."
+    - "Regra de outra disposição (não consta desta alínea): os sinais 2.39 a 2.41 exigem tomar, no lugar, uma das direções indicadas (OSR 24 al. 3)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-023
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "O sinal « Carrefour à sens giratoire » (2.41.1) indica o sentido do movimento giratório que os veículos são obrigados a fazer nas rotatórias; é colocado antes da entrada, sob o sinal « Cédez le passage » (3.02), e pode ser repetido na ilha central. Combinado com o sinal 2.41.1, o sinal 3.02 indica ao condutor que deve dar prioridade aos veículos que, à sua esquerda, chegam à rotatória."
+  termos_fr: ["Carrefour à sens giratoire", "2.41.1", "Cédez le passage", "sur sa gauche"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "24", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Carrefour à sens giratoire\"(2.41.1) indique la direction du mouvement giratoire que les véhicules ont l'obligation d'effectuer dans les carrefours à sens giratoire; il est placé avant l'entrée, sous le signal\"Cédez le passage\"(3.02), et peut être répété sur l'îlot central. Combiné avec le signal\"Carrefour à sens giratoire\", le signal\"Cédez le passage\"indique au conducteur qu'il doit accorder la priorité aux véhicules qui, sur sa gauche, surviennent dans le giratoire."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): regras de condução na rotatória (reduzir, dar prioridade, sinalizar a saída): OCR 41b (R-PRIO-018, R-PRIO-019, R-PRIO-037)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-024
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "O sinal « Libre circulation » (2.58) indica que várias restrições de circulação sinalizadas antes e impostas a veículos em movimento terminam e que as regras gerais de circulação voltam a valer. Nas autoestradas, o fim de um canteiro de obras é anunciado por esse sinal, desde que não subsista nem comece nenhuma restrição sinalizada. As restrições que continuam válidas devem ser repetidas."
+  termos_fr: ["Libre circulation", "2.58", "règles générales de circulation"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "32", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Libre circulation\"(2.58) indique que plusieurs restrictions de circulation signalées auparavant et imposées aux véhicules en mouvement prennent fin et que les règles générales de circulation sont de nouveau valables. Sur les autoroutes, la fin d'un chantier est annoncée par ce signal, pour autant que ne subsiste ou ne débute aucune restriction signalée. Il y a lieu de répéter les restrictions qui restent valables."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o OSR 16 al. 2 (R-ARR-039) lista o 2.58 entre os sinais que encerram 2.30, 2.31, 2.44, 2.45, 2.49 e 2.50, no máximo até o fim da próxima interseção."
+    - "Regra de outra disposição (não consta desta alínea): sinais de fim de velocidade máxima e de proibição de ultrapassar: OSR 32 al. 1 (R-DEP-060)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-025
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "O sinal « Piste cyclable » (2.60) obriga os condutores de ciclos e ciclomotores a usar a pista que lhes é indicada pelo sinal. O ponto em que a pista termina pode ser indicado pelo sinal « Fin de la piste cyclable » (2.60.1). Prioridade e uso da pista por outros usuários são regidos pelos arts. 15 al. 3 e 40 do OCR."
+  termos_fr: ["Piste cyclable", "2.60", "cycles et de cyclomoteurs"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "33", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Piste cyclable\"(2.60) oblige les conducteurs de cycles et de cyclomoteurs à emprunter la piste qui leur est indiquée par ce signal. L'endroit où la piste cyclable prend fin peut être indiqué par le signal\"Fin de la piste cyclable\"(2.60.1). Les art. 15, al. 3, et 40, OCR régissent les questions de priorité et l'utilisation de la piste cyclable par d'autres usagers de la route."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): prioridade e travessia de pistas e faixas cicláveis: OCR 40 al. 1, 4 e 5 (R-PRIO-047, R-PRIO-048, R-PRIO-049); veículos de outras categorias em faixas cicláveis de linha descontínua: OCR 40 al. 3 (R-DEP-054); pedestres: OCR 40 al. 2 (R-PAN-056)."
+    - "Regra de outra disposição (não consta desta alínea): placas complementares que alteram a obrigação para ciclomotores pesados e rápidos (OSR 64a): ver notas T-031."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-026
+  categoria: A-Panneaux
+  subtema: sinais-de-prescricao
+  regra_pt: "O sinal « Chaussée réservée aux bus » (2.64) anuncia uma pista reservada a ônibus públicos em serviço de linha (« bus publics en trafic de ligne »), que não deve ser usada por outros veículos; ficam ressalvadas as exceções mencionadas em placas complementares."
+  termos_fr: ["Chaussée réservée aux bus", "2.64", "bus publics en trafic de ligne"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "34", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Chaussée réservée aux bus\"(2.64) annonce une chaussée réservée aux bus publics en trafic de ligne, qui ne doit pas être empruntée par les autres véhicules; sont réservées les exceptions mentionnées sur des plaques complémentaires."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): faixas de ônibus marcadas no pavimento: OSR 74b (R-PAN-050); placa « Excepté » com símbolo « Covoiturage » (5.43) sob o 2.64: OSR 65 al. 15 (ver notas T-031)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-027
+  categoria: A-Panneaux
+  subtema: vias-especiais-autoestrada
+  regra_pt: "Os sinais « Autoroute » (4.01) e « Semi-autoroute » (4.03) designam as vias reservadas à circulação automóvel (OCR 1 al. 3), nas quais valem as regras especialmente previstas para autoestradas e semiautoestradas (OCR 35 e 36); esses sinais suprimem todas as restrições sinalizadas anteriormente."
+  termos_fr: ["Semi-autoroute", "4.03", "règles spécialement prévues", "suppriment toutes les restrictions"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "45", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les signaux\"Autoroutes\"(4.01) et\"Semi-autoroute\"(4.03) désignent les routes réservées à la circulation automobile (art. 1, al. 3, OCR), sur lesquelles sont applicables les règles spécialement prévues pour la circulation sur les autoroutes et les semi-autoroutes (art. 35 et 36 OCR); ces signaux suppriment toutes les restrictions signalées auparavant."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o sinal « Fin de l'autoroute » (4.02) ou « Fin de la semi-autoroute » (4.04) indica que as regras gerais de circulação voltam a valer (OSR 45 al. 1, frase seguinte)."
+    - "Regra de outra disposição (não consta desta alínea): veículos admitidos e regras de circulação nessas vias: OCR 35 (R-DAN-009, R-DAN-010), OCR 36 (R-DAN-008, R-PAN-055, R-ARR-032, R-DEP-047 a 049, R-PRIO-050)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto do OSR grafa « Autoroutes » (plural) antes de « (4.01) »; o trecho segue o arquivo."
+
+- id: R-PAN-028
+  categoria: A-Panneaux
+  subtema: vias-especiais-montanha
+  regra_pt: "O sinal « Route postale de montagne » (4.05) designa as estradas em que os condutores devem observar, quando é difícil cruzar ou ultrapassar, os sinais e indicações dados pelos condutores de veículos públicos em serviço de linha (OCR 38 al. 3)."
+  termos_fr: ["Route postale de montagne", "4.05", "véhicules publics en trafic de ligne"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "45", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Route postale de montagne\"(4.05) désigne les routes sur lesquelles les conducteurs doivent observer, lorsqu'il est difficile de croiser ou de dépasser, les signes et les indications donnés par les conducteurs des véhicules publics en trafic de ligne (art. 38, al. 3, OCR)."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o sinal « Fin de la route postale de montagne » (4.06) é colocado onde a obrigação termina (OSR 45 al. 2, frase seguinte)."
+    - "Regra de outra disposição (não consta desta alínea): cruzamento e ultrapassagem em estradas postais de montanha: OCR 38 al. 3 (R-DEP-053); força obrigatória dos sinais desses condutores: OSR 67 al. 1 let. g (R-PRIO-042)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-029
+  categoria: A-Panneaux
+  subtema: vias-especiais-sentido-unico
+  regra_pt: "O sinal « Sens unique » (4.08) designa as vias em que os veículos só podem circular na direção indicada (OCR 37). Na outra ponta da via é colocado o sinal « Accès interdit » (2.02)."
+  termos_fr: ["Sens unique", "4.08", "dans la direction indiquée"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "46", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Sens unique\"(4.08) désigne les routes sur lesquelles les véhicules ne peuvent circuler que dans la direction indiquée (art. 37 OCR). À l'autre bout de la route sera placé le signal\"Accès interdit\"(2.02)."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): regras de pista de mão única: OCR 37 (R-DEP-050, R-DEP-051, R-ARR-079); sentido único com circulação restrita em sentido contrário: OSR 46 al. 2 (R-PAN-030)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-030
+  categoria: A-Panneaux
+  subtema: vias-especiais-sentido-unico
+  regra_pt: "O sinal « Sens unique avec circulation restreinte en sens inverse » designa vias de mão única em que certos gêneros de veículos podem circular em sentido contrário; um símbolo ou uma inscrição indica o gênero de veículo (por exemplo « Sens unique avec circulation de cyclistes en sens inverse », 4.08.1)."
+  termos_fr: ["Sens unique avec circulation restreinte en sens inverse", "4.08.1"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "46", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Sens unique avec circulation restreinte en sens inverse\"désigne les routes à sens unique sur lesquelles certains genres de véhicules sont autorisés à circuler en sens inverse; un symbole ou une inscription indique le genre de véhicule dont il s'agit (p. ex.\"Sens unique avec circulation de cyclistes en sens inverse\"; 4.08.1)."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): só circulam em sentido contrário os veículos indicados no símbolo ou inscrição; para os demais vale o sinal « Sens unique » (OSR 46 al. 1, R-PAN-029)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-031
+  categoria: A-Panneaux
+  subtema: sinais-de-indicacao
+  regra_pt: "O sinal « Emplacement d'un passage pour piétons » (4.11) destaca a presença de uma passagem de pedestres (OSR 77). É colocado sempre diante das passagens situadas fora das localidades e, dentro das localidades, diante das que não são esperadas ou que são de difícil visibilidade."
+  termos_fr: ["Emplacement d'un passage pour piétons", "4.11", "hors des localités"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "47", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Emplacement d'un passage pour piétons\"(4.11) met en évidence la présence d'un passage pour piétons (art. 77). Il sera toujours placé devant les passages situés hors des localités et, dans les localités, devant ceux auxquels on ne s'attend pas ou qui sont difficilement visibles."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o sinal de perigo « Passage pour piétons » (1.22) é outro sinal (OSR 11 al. 1, R-PAN-008)."
+    - "Regra de outra disposição (não consta desta alínea): prioridade dos pedestres em passagens: OCR 47 al. 2 (R-PRIO-022) e LCR 33 al. 2 (R-PRIO-023); marca das faixas: OSR 77 (R-PAN-054)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-032
+  categoria: A-Panneaux
+  subtema: sinais-de-indicacao
+  regra_pt: "Dentro das localidades é a zona que começa no sinal « Début de localité sur route principale » (4.27) ou « Début de localité sur route secondaire » (4.29) e termina no sinal « Fin de localité sur route principale » (4.28) ou « Fin de localité sur route secondaire » (4.30). Fora das localidades é a zona que começa no sinal de fim de localidade e termina no sinal de início de localidade."
+  termos_fr: ["à l'intérieur des localités", "4.27", "4.29", "4.28", "4.30", "hors des localités"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "1", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "L'expression\"à l'intérieur des localités\"ou\"dans les localités\"désigne une zone qui commence au signal\"Début de localité sur route principale\"(4.27) ou\"Début de localité sur route secondaire\"(4.29) et se termine au signal\"Fin de localité sur route principale\"(4.28) ou\"Fin de localité sur route secondaire\"(4.30). L'expression\"à l'extérieur des localités\"ou\"hors des localités\"désigne une zone qui commence au signal\"Fin de localité sur route principale\"ou\"Fin de localité sur route secondaire\"et se termine au signal\"Début de localité sur route principale\"ou\"Début de localité sur route secondaire\"."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): forma, cor e posição dos painéis de localidade: OSR 50 (R-PAN-033)."
+    - "Regra de outra disposição (não consta desta alínea): o limite geral de 50 km/h dentro das localidades e o sinal 2.30.1: OSR 22 al. 3 (R-PAN-020)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Contagem por posição: al. 1 (objeto), al. 2 (« On entend par: » com lista a. a i.), al. 3 (números entre parênteses), al. 4 (esta). O OSR 108 remete a « art. 1, al. 9 » para as « routes affectées à la circulation générale », o que confere com a contagem por posição."
+
+- id: R-PAN-033
+  categoria: A-Panneaux
+  subtema: sinais-de-indicacao
+  regra_pt: "Os painéis de localidade com inscrição branca sobre fundo azul (« Début de localité sur route principale » 4.27 e « Fin de localité sur route principale » 4.28) são colocados nas vias principais; os com inscrição preta sobre fundo branco (« Début de localité sur route secondaire » 4.29 e « Fin de localité sur route secondaire » 4.30) são colocados nas vias secundárias. Nas autoestradas e semiautoestradas não há painéis de localidade."
+  termos_fr: ["panneaux de localité", "route principale", "route secondaire", "pas de panneaux de localité"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "50", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les panneaux de localité portant une inscription blanche sur fond bleu (\"Début de localité sur route principale\"; 4.27;\"Fin de localité sur route principale\"; 4.28) sont placés sur les routes principales. Les panneaux de localité portant une inscription noire sur fond blanc (\"Début de localité sur route secondaire\"; 4.29;\"Fin de localité sur route secondaire\"; 4.30) sont placés sur les routes secondaires. Sur les autoroutes et les semi-autoroutes, il n'y a pas de panneaux de localité."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): definição de dentro e fora das localidades a partir desses sinais: OSR 1 al. 4 (R-PAN-032)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-034
+  categoria: A-Panneaux
+  subtema: sinais-de-indicacao
+  regra_pt: "Os indicadores de direção com inscrição branca sobre fundo verde mostram a direção para chegar a autoestradas e semiautoestradas (4.31); com inscrição branca sobre fundo azul, indicam que o destino é alcançado sobretudo por vias principais (4.32); com inscrição preta sobre fundo branco, que o destino é alcançado sobretudo por vias secundárias (4.33)."
+  termos_fr: ["fond vert", "fond bleu", "fond blanc", "4.31", "4.32", "4.33"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "51", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les indicateurs de direction portant une inscription blanche sur fond vert montrent la direction à suivre pour parvenir aux autoroutes et aux semi-autoroutes (\"Indicateur de direction pour autoroutes et semi-autoroutes\"; 4.31). Les indicateurs de direction portant une inscription blanche sur fond bleu indiquent que la destination annoncé peut être atteint surtout par des routes principales (\"Indicateur de direction pour routes principales\"; 4.32). Les indicateurs de direction portant une inscription noire sur fond blanc indiquent que la destination annoncé peut être atteint surtout par des routes secondaires (\"Indicateur de direction pour routes secondaires\"; 4.33)."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): nos indicadores de direção avançados, também podem aparecer campos vermelhos (destinos por percursos adequados a ciclos e ciclomotores) e marrons (destinos turísticos): OSR 52 al. 1bis (não coberto neste arquivo; ver notas T-031)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-035
+  categoria: A-Panneaux
+  subtema: sinais-de-indicacao
+  regra_pt: "Nos sinais « État de la route » (4.75) e « Préavis sur l'état de la route » (4.76), as cores têm este significado: campo vermelho = estrada fechada; campo verde = estrada aberta; campo branco com o símbolo do sinal « Chaînes à neige obligatoires » (2.48) = correntes de neve metálicas (ou dispositivos análogos de outro material autorizados pela OFROU) obrigatórias; campo branco com o símbolo « Chaussée glissante » (1.05) e a placa « Chaussée verglacée » (5.13) = neve escorregadia ou pista com gelo."
+  termos_fr: ["les couleurs ont la signification suivante"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "58", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur les signaux, les couleurs ont la signification suivante:"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): os sinais anunciam o estado de passos e vias de acesso a estações de esqui etc. que não são transitáveis temporariamente ou só com correntes (OSR 58 al. 1)."
+    - "Regra de outra disposição (não consta desta alínea): correntes de neve: OSR 29 (R-DAN-048)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "A lista a. a d. está em linhas separadas no arquivo; trecho é só a frase de abertura (trecho_completo false); os itens estão em regra_pt. A alínea refere-se aos « signaux » da al. 1 e 2 do mesmo artigo."
+
+- id: R-PAN-036
+  categoria: A-Panneaux
+  subtema: vias-especiais-autoestrada
+  regra_pt: "O sinal « Ouverture de la bande d'arrêt d'urgence » (4.77.2) indica que é permitido usar a faixa de emergência (« bande d'arrêt d'urgence »)."
+  termos_fr: ["Ouverture de la bande d'arrêt d'urgence", "4.77.2", "bande d'arrêt d'urgence"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "59", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Ouverture de la bande d'arrêt d'urgence\"(4.77.2) indique qu'il est permis d'emprunter la bande d'arrêt d'urgence."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): sem esse sinal, o condutor só usa a faixa de emergência e os locais de parada para veículos avariados em caso de necessidade absoluta: OCR 36 al. 3 (R-ARR-032)."
+    - "Regra de outra disposição (não consta desta alínea): o sinal luminoso 2.65 também pode abrir temporariamente a faixa de emergência (OSR 69 al. 3, R-PAN-046)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O OSR 89a remete a « art. 59, al. 1 et 2ter », o que mostra que o art. 59 tem al. 2bis e 2ter sem número no arquivo; a al. 2 por posição (este sinal) continua certa por vir antes."
+
+- id: R-PAN-037
+  categoria: A-Panneaux
+  subtema: placas-complementares
+  regra_pt: "As injunções (ordens) que constam nas placas complementares são obrigatórias da mesma forma que os sinais."
+  termos_fr: ["injonctions", "plaques complémentaires", "impératives"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "63", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les injonctions figurant sur les plaques complémentaires sont impératives au même titre que les signaux"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): as exceções às prescrições sinalizadas são mencionadas em placa complementar (OSR 17 al. 1); sentido de « Excepté » e « Autorisé »: OSR 64 al. 5 (R-ARR-085)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "No arquivo a alínea termina com « … » (parte revogada) antes do ponto; o trecho copiado para em « les signaux » e trecho_completo é false."
+
+- id: R-PAN-038
+  categoria: A-Panneaux
+  subtema: placas-complementares
+  regra_pt: "O símbolo « Cycle » (5.31), ou uma inscrição correspondente, numa placa complementar vale para ciclos e ciclomotores."
+  termos_fr: ["Cycle", "5.31", "cyclomoteurs"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "64", alinea: "6", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le symbole\"Cycle\"(5.31) ou une inscription correspondante sur une plaque complémentaire vaut pour les cycles et les cyclomoteurs."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o símbolo « Cyclomoteur » (5.30) vale para os ciclomotores pesados e rápidos (OSR 64 al. 7, R-PAN-039); o símbolo « Vélo-cargo » (5.31.1) vale para ciclos e ciclomotores destinados a transportar crianças, passageiros ou coisas, ou com reboque (OSR 64 al. 8)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-039
+  categoria: A-Panneaux
+  subtema: placas-complementares
+  regra_pt: "O símbolo « Cyclomoteur » (5.30), ou uma inscrição correspondente, numa placa complementar vale para os ciclomotores pesados (« cyclomoteurs lourds ») e os ciclomotores rápidos (« cyclomoteurs rapides »)."
+  termos_fr: ["Cyclomoteur", "5.30", "cyclomoteurs lourds", "cyclomoteurs rapides"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "64", alinea: "7", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le symbole\"Cyclomoteur\"(5.30) ou une inscription correspondante sur une plaque complémentaire vaut pour les cyclomoteurs lourds et les cyclomoteurs rapides."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o símbolo « Cycle » (5.31) vale para ciclos e ciclomotores em geral (OSR 64 al. 6, R-PAN-038)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-040
+  categoria: A-Panneaux
+  subtema: placas-complementares
+  regra_pt: "A placa complementar « Chaussée verglacée » (5.13) avisa os condutores de que a pista está com gelo ou coberta de neve escorregadia. É acrescentada em especial ao sinal « Chaussée glissante » (1.05) e deve ser retirada ou coberta assim que não for mais de esperar neve escorregadia ou formação de gelo."
+  termos_fr: ["Chaussée verglacée", "5.13", "neige glissante"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "65", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La plaque complémentaire\"Chaussée verglacée\"(5.13) avertit les conducteurs que la chaussée est verglacée ou recouverte de neige glissante. Elle sera notamment ajoutée au signal\"Chaussée glissante\"(1.05); elle doit être enlevée ou recouverte dès qu'il ne faut plus s'attendre à de la neige glissante ou à la formation de glace."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o sinal 1.05 sozinho anuncia pista escorregadia, sulcos ou trechos expostos ao gelo: OSR 5 al. 1 (R-DAN-047)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-041
+  categoria: A-Panneaux
+  subtema: sinais-da-policia
+  regra_pt: "Os sinais e instruções dados por outras pessoas (que não as listadas no OSR 67 al. 1) devem ser observados quando destinados a prevenir um perigo ou a regular a circulação numa situação difícil."
+  termos_fr: ["d'autres personnes", "prévenir un danger", "situation difficile"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "67", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les signes et instructions donnés par d'autres personnes doivent être observés lorsqu'ils sont destinés à prévenir un danger ou à régler la circulation dans une situation difficile."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): lista das pessoas cujos sinais e instruções os usuários são obrigados a seguir (agentes uniformizados da polícia, patrulheiros escolares, pessoal de obras etc.): OSR 67 al. 1 (R-PRIO-042); sinais de mão da polícia: OSR 66 (R-PRIO-041); ordens da polícia prevalecem sobre sinais: LCR 27 al. 1 (R-PRIO-031)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-042
+  categoria: A-Panneaux
+  subtema: sinais-luminosos
+  regra_pt: "A luz vermelha significa « Arrêt » (parar). Quando o contorno de uma seta aparece em preto dentro da luz vermelha, a ordem de parar vale só no sentido indicado."
+  termos_fr: ["feu rouge", "Arrêt", "flèche"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "68", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le feu rouge signifie\"Arrêt\". Lorsque les contours d'une flèche apparaissent en noir dans le feu rouge, l'ordre de s'arrêter ne vaut que dans le sens indiqué."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): a luz vermelha intermitente só é usada perto de passagens de nível (OSR 68 al. 2, última frase; OSR 93 al. 2, R-DAN-004)."
+    - "Regra de outra disposição (não consta desta alínea): luz verde e setas verdes: OSR 68 al. 3 e 4 (R-PRIO-044); os sinais luminosos prevalecem sobre as regras gerais de prioridade, sinais de prioridade e marcas: OSR 68 al. 1 (R-PRIO-043)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-043
+  categoria: A-Panneaux
+  subtema: sinais-luminosos
+  regra_pt: "A luz amarela significa: (a) se sucede à verde: parar, para os veículos que ainda podem parar antes da interseção; (b) se aparece ao mesmo tempo que a vermelha: ficar pronto para partir e esperar até que a verde indique que a via está livre."
+  termos_fr: ["feu jaune"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "68", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le feu jaune signifie:"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): quando o contorno de uma seta aparece em preto dentro da luz amarela, essa luz vale só no sentido indicado (OSR 68, parágrafo seguinte; ver notas T-031)."
+    - "Regra de outra disposição (não consta desta alínea): a luz amarela intermitente exige prudência particular: ver R-PAN-044."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Letras a. e b. em linhas separadas no arquivo; o trecho é só a frase de abertura (trecho_completo false)."
+
+- id: R-PAN-044
+  categoria: A-Panneaux
+  subtema: sinais-luminosos
+  regra_pt: "A luz amarela intermitente (« feu jaune clignotant ») incita os condutores a ter prudência particular."
+  termos_fr: ["feu jaune clignotant", "prudence particulière"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "68", alinea: "6", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le feu jaune clignotant (art. 70, al. 1) incite les conducteurs à faire preuve d'une prudence particulière."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): casos em que a luz amarela intermitente de aviso é admitida: OSR 70 al. 1 (por exemplo em relação com seta verde, quando as instalações estão desligadas, perto de obras); com seta verde, os que viram dão prioridade (OSR 68 al. 4, R-PRIO-044)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Número legal: al. 6, conforme a remissão do OSR 70 al. 1 (« art. 68, al. 6 »). Por posição no arquivo este parágrafo é o 7.º, porque o parágrafo sobre « contours d'une flèche … dans le feu jaune » (6.º por posição) deve ser uma al. 5bis sem número."
+
+- id: R-PAN-045
+  categoria: A-Panneaux
+  subtema: sinais-luminosos
+  regra_pt: "As luzes com a silhueta de um pedestre destinam-se aos pedestres. Eles só podem entrar na pista ou pisar a via se a luz que lhes é destinada estiver verde. Se a luz começa a piscar, se aparece uma luz amarela intermediária ou se a vermelha acende sem transição, os pedestres que já estão na pista ou na via devem deixá-la sem demora."
+  termos_fr: ["silhouette d'un piéton", "piétons", "sans délai"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "68", alinea: "7", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les feux portant la silhouette d'un piéton sont destinés aux piétons. Ceux-ci ne peuvent emprunter la chaussée ou pénétrer sur la voie que si le feu qui leur est réservé est vert. S'il commence à clignoter ou si un feu intermédiaire jaune apparaît, ou que le feu rouge s'allume sans transition, les piétons se trouvant déjà sur la chaussée ou la voie doivent la quitter sans délai."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): as luzes com a silhueta de um ciclo valem para condutores de ciclos e ciclomotores, e o significado das luzes segue as al. 1 a 4 (OSR 68, parágrafo seguinte)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Número legal: al. 7, conforme as remissões do OSR 70 al. 8 e do OSR 71 (« art. 68, al. 7 »). Por posição no arquivo este parágrafo é o 8.º (ver nota de R-PAN-044)."
+
+- id: R-PAN-046
+  categoria: A-Panneaux
+  subtema: sinais-luminosos
+  regra_pt: "Para regular a circulação em estradas de várias faixas, fechar temporariamente certas faixas ou abrir temporariamente a faixa de emergência, usa-se o sistema de sinais luminosos colocado acima da pista « Système de signaux lumineux pour la régulation temporaire des voies de circulation » (2.65): (a) setas verdes dirigidas verticalmente para baixo = a circulação é permitida na faixa que indicam (apagam-se assim que acendem, no mesmo lugar, duas barras vermelhas oblíquas em cruz ou setas amarelas intermitentes); (b) setas amarelas intermitentes dirigidas obliquamente para baixo = o condutor deve, assim que possível, deixar a faixa em que está e tomar a direção indicada; (c) duas barras vermelhas oblíquas em cruz = a faixa está fechada à circulação; o condutor deve deixá-la e seguir por uma faixa em que a circulação é permitida por seta verde."
+  termos_fr: ["2.65", "signaux lumineux", "voies de circulation"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "69", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Pour régler la circulation sur les routes à plusieurs voies et pour fermer temporairement certaines voies à la circulation ou pour ouvrir temporairement la bande d'arrêt d'urgence, il y a lieu d'utiliser le système suivant de signaux lumineux placés au-dessus de la chaussée (\"Système de signaux lumineux pour la régulation temporaire des voies de circulation\"; 2.65):"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o painel « Signaux lumineux » (1.27) pode ser usado para anunciar a aproximação do sistema de fechamento temporário de faixas (OSR 69 al. 4; OSR 14 al. 1)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Lista a. a c. em linhas separadas no arquivo; o trecho é só a frase de abertura (trecho_completo false)."
+
+- id: R-PAN-047
+  categoria: A-Panneaux
+  subtema: sinais-luminosos
+  regra_pt: "Se o sinal « Autorisation d'obliquer à droite pour les cyclistes » (5.18) está colocado ao lado da luz vermelha, ciclistas e condutores de ciclomotores podem virar à direita com a luz vermelha. A combinação da luz vermelha com esse sinal equivale a um « Cédez le passage » (OSR 36 al. 2) para as pessoas autorizadas a virar à direita."
+  termos_fr: ["Autorisation d'obliquer à droite pour les cyclistes", "5.18", "Cédez le passage"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "69a", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Si le signal\"Autorisation d'obliquer à droite pour les cyclistes\"(5.18) est placé à côté du feu rouge, les cyclistes et les conducteurs de cyclomoteurs peuvent tourner à droite lorsque le feu est rouge. La combinaison du feu rouge et du signal équivaut à un\"Cédez le passage\"(art. 36, al. 2) pour les personnes autorisées à obliquer à droite."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o sinal só é colocado se a segurança viária estiver garantida; a faixa deve ter faixa ciclável e linha de parada amarela para ciclistas após a linha de parada branca (OSR 69a al. 2)."
+    - "Regra de outra disposição (não consta desta alínea): o sinal vale para ciclistas e ciclomotores, não para os demais condutores, que seguem a luz vermelha (OSR 68 al. 2, R-PAN-042)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-048
+  categoria: A-Panneaux
+  subtema: marcas-no-pavimento
+  regra_pt: "Estradas com pelo menos três faixas de circulação e, se necessidades específicas de segurança o exigirem, estradas com apenas duas faixas podem ser marcadas com uma dupla linha de segurança (« double ligne de sécurité », 6.02) que separa os dois sentidos de circulação."
+  termos_fr: ["double ligne de sécurité", "6.02"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "73", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les chaussées comprenant au moins trois voies de circulation et, si les besoins spécifiques en matière de sécurité l'exigent, les chaussées n'en comprenant que deux, peuvent être marquées d'une double ligne de sécurité (6.02) servant à séparer les deux sens de circulation."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): é proibido aos veículos cruzar as linhas de segurança e as duplas linhas de segurança ou pisar nelas: OSR 73 al. 7 let. a (R-DEP-061); definição da linha de segurança: OSR 73 al. 1 (R-DEP-071)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-049
+  categoria: A-Panneaux
+  subtema: marcas-no-pavimento
+  regra_pt: "As linhas de direção (descontínuas, de cor branca; 6.03) marcam o meio da pista ou delimitam as faixas de circulação."
+  termos_fr: ["lignes de direction", "6.03"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "73", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les lignes de direction (discontinues, de couleur blanche; 6.03) marquent le milieu de la chaussée ou délimitent les voies de circulation."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): é permitido aos veículos cruzar as linhas de direção e as linhas de aviso, ou pisar nelas, com a prudência necessária: OSR 73 al. 7 let. b (R-DEP-061); linhas de aviso: OSR 73 al. 6 (R-DEP-072)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-050
+  categoria: A-Panneaux
+  subtema: marcas-no-pavimento
+  regra_pt: "As faixas reservadas a ônibus, delimitadas por linhas amarelas contínuas ou descontínuas e com a inscrição amarela « BUS » (6.08), só podem ser usadas por ônibus públicos em serviço de linha e, se for o caso, por bondes ou « chemins de fer routiers »; fica ressalvada qualquer derrogação indicada por marca ou sinal. Os demais veículos não devem usar essas faixas; se necessário (por exemplo para virar), podem cruzá-las quando delimitadas por linha amarela descontínua."
+  termos_fr: ["voies réservées aux bus", "BUS", "6.08", "ligne jaune discontinue"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "74b", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les voies réservées aux bus, qui sont délimitées par des lignes jaunes continues ou discontinues et qui portent l'inscription jaune\"BUS\"(6.08), ne peuvent être utilisées que par des bus publics en trafic de ligne et, le cas échéant, par des trams ou chemins de fer routiers; est réservée toute dérogation indiquée par une marque ou un signal. Les autres véhicules ne doivent pas emprunter les voies réservées aux bus; au besoin (p. ex. pour obliquer), ils peuvent toutefois les franchir lorsqu'elles sont délimitées par une ligne jaune discontinue."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): pista reservada a ônibus indicada por sinal: OSR 34 al. 1 (R-PAN-026); a linha amarela contínua não pode ser pisada nem cruzada: OSR 74a al. 1 (R-DEP-063), regra expressa para bandas cicláveis (o OSR 74b não repete a regra para a linha contínua; ver notas T-031)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Para a linha amarela contínua que delimita a faixa de ônibus, o OSR 74b só diz que os outros veículos podem cruzar quando a linha é descontínua; a proibição de cruzar a contínua não está escrita neste artigo."
+
+- id: R-PAN-051
+  categoria: A-Panneaux
+  subtema: marcas-no-pavimento
+  regra_pt: "A linha de parada (« ligne d'arrêt », branca, contínua e perpendicular à pista, 6.10) indica o local onde os veículos devem parar junto a um sinal « Stop » (3.01) e, se for o caso, junto a sinais luminosos, antes de uma passagem de nível e no fim das faixas destinadas a veículos que viram. A parte da frente do veículo não deve ultrapassar a linha de parada."
+  termos_fr: ["ligne d'arrêt", "6.10", "Stop", "ne doit pas dépasser la ligne d'arrêt"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "75", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La ligne d'arrêt (blanche, continue et perpendiculaire à la chaussée; 6.10) indique l'endroit où les véhicules doivent s'arrêter près d'un signal\"Stop\"(3.01) et, le cas échéant, près des signaux lumineux, avant un passage à niveau et au bout des voies de circulation destinées aux véhicules qui obliquent (art. 74, al. 2), etc. La partie frontale du véhicule ne doit pas dépasser la ligne d'arrêt."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): sinal « Stop » e linha de parada: OSR 36 al. 1 (R-PRIO-005); linha de espera para « Cédez le passage »: OSR 75 al. 3 (R-PAN-052)."
+    - "Regra de outra disposição (não consta desta alínea): linhas de parada e de espera exclusivas de ciclistas e de ônibus podem ser amarelas (OSR 75 al. 6)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-052
+  categoria: A-Panneaux
+  subtema: marcas-no-pavimento
+  regra_pt: "A linha de espera (« ligne d'attente », série de triângulos brancos transversais à pista, 6.13) indica o local onde os veículos devem parar, se for o caso, junto a um sinal « Cédez le passage » (3.02), para dar prioridade. A parte da frente do veículo não deve ultrapassar a linha de espera."
+  termos_fr: ["ligne d'attente", "6.13", "Cédez le passage", "ne doit pas dépasser la ligne d'attente"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "75", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La ligne d'attente (série de triangles blancs en travers de la chaussée; 6.13) indique l'endroit où les véhicules doivent s'arrêter, le cas échéant, près d'un signal\"Cédez le passage\"(3.02), pour accorder la priorité (art. 36, al. 2). La partie frontale du véhicule ne doit pas dépasser la ligne d'attente."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): sinal « Cédez le passage »: OSR 36 al. 2 (R-PRIO-006); a linha de espera não é traçada nas vias de acesso a autoestradas e semiautoestradas (OSR 75 al. 4; OSR 88 al. 1, R-PAN-057)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-053
+  categoria: A-Panneaux
+  subtema: marcas-no-pavimento
+  regra_pt: "Na área do « sas pour cyclistes » (6.26), diante de sinais luminosos, ciclistas e condutores de ciclomotores podem se colocar lado a lado quando a luz está vermelha. Os demais condutores devem parar antes da primeira linha de parada (branca)."
+  termos_fr: ["cyclistes", "les uns à côté des autres", "première ligne d'arrêt (blanche)"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "75", alinea: "7", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Dans ce secteur, les cyclistes et les conducteurs de cyclomoteurs sont autorisés à se placer les uns à côté des autres lorsque le feu est rouge. Les autres conducteurs doivent eux s'arrêter avant la première ligne d'arrêt (blanche)."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o sas é marcado com linhas de parada amarelas em toda a largura da faixa, após as linhas de parada brancas, e só é admitido quando uma faixa ciclável desemboca nos setores em questão (OSR 75 al. 7, frases anteriores e seguintes)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O trecho copiado omite, de propósito, a primeira frase da alínea (a que descreve as linhas amarelas) e a lista a. b. final; trecho_completo false."
+
+- id: R-PAN-054
+  categoria: A-Panneaux
+  subtema: marcas-no-pavimento
+  regra_pt: "As passagens de pedestres são marcadas por uma série de faixas amarelas (ou brancas, quando se trata de pavimentos de pedra), paralelas à borda da pista (6.17)."
+  termos_fr: ["passages pour piétons", "bandes jaunes", "6.17"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "77", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les passages pour piétons sont marqués par une série de bandes jaunes, le cas échéant de bandes blanches lorsqu'il s'agit de pavages, parallèles au bord de la chaussée (6.17)."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): antes da passagem de pedestres, linha amarela contínua que proíbe parar: OSR 77 al. 2 (R-ARR-065); prioridade dos pedestres: OCR 47 al. 2 (R-PRIO-022) e LCR 33 al. 2 (R-PRIO-023)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-055
+  categoria: A-Panneaux
+  subtema: vias-especiais-autoestrada
+  regra_pt: "A berma central (« berme centrale ») das autoestradas não deve ser atravessada, nem nos locais preparados como passagens. Exceção: os casos em que faixas de circulação formadas por marcas amarelo-alaranjadas ou por pontos luminosos acesos de luzes embutidas atravessam a passagem."
+  termos_fr: ["berme centrale", "marques jaune-orange", "feux encastrés"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "36", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La berme centrale des autoroutes ne doit pas être franchie, même aux emplacements aménagés comme passages. Font exception les cas dans lesquels des voies de circulation formées par des marques jaune-orange ou par des points lumineux de feux encastrés allumés traversent le passage."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): luzes embutidas acesas tornam sem efeito as marcas brancas (OSR 72b al. 2); sinal 4.77.4 « Déviation de voies de circulation »: OSR 59 (ver notas T-031)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "A exceção está na mesma alínea (segunda frase) e está em regra_pt; o trecho copiado é a alínea inteira."
+
+- id: R-PAN-056
+  categoria: A-Panneaux
+  subtema: vias-especiais-ciclovia
+  regra_pt: "Os pedestres são admitidos na pista ciclável quando não dispõem de calçada nem de caminho para pedestres."
+  termos_fr: ["piétons", "piste cyclable", "trottoir"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "40", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les piétons sont admis sur la piste cyclable lorsqu'ils ne disposent pas d'un trottoir ou d'un chemin pour piétons."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o sinal « Piste cyclable » (2.60) obriga ciclistas e ciclomotores a usar a pista; os pedestres só entram na pista se não houver calçada nem caminho para pedestres (OSR 33 al. 1, R-PAN-025)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-PAN-057
+  categoria: A-Panneaux
+  subtema: vias-especiais-autoestrada
+  regra_pt: "O sinal « Cédez le passage » (3.02) é colocado na via de acesso, imediatamente no ponto de entrada da autoestrada ou semiautoestrada. Não se traça linha de espera (6.13)."
+  termos_fr: ["Cédez le passage", "3.02", "voie d'accès", "ligne d'attente"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "88", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Cédez le passage\"(3.02) sera placé sur la voie d'accès, immédiatement au point d'entrée sur l'autoroute ou la semi-autoroute. Il ne faut pas tracer une ligne d'attente (6.13)."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): os usuários de autoestradas e semiautoestradas têm prioridade sobre os veículos que vêm de via de acesso (OCR 36 al. 4, R-PRIO-050)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente

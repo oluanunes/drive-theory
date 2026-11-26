@@ -1,0 +1,586 @@
+# T-032 PESQ — categoria F (Accidents & pannes: dever em caso de acidente, socorro, polícia, panne e sinalização do veículo parado, túneis). Todas as regras com status: pendente (só o aluno valida).
+# Fonte única de texto legal: legal/sources/*.txt (Fedlex, baixado 2026-11-26).
+#   LCR (RS 741.01) État le 1er juillet 2026; OCR (RS 741.11), OSR (RS 741.21) e OETV (RS 741.41) État le 1er octobre 2026.
+# trecho_literal_fr = uma frase (ou uma linha) copiada do arquivo, sem número de alínea, sem asterisco de nota e sem número de nota colado. trecho_completo: true quando o trecho é a alínea inteira ou quando as demais frases da alínea estão em regras irmãs citadas em `excecoes`; false quando parte da alínea não está em nenhuma regra.
+# A numeração das alíneas (alinea) é a ordem dos parágrafos no arquivo extraído; "…" (alínea revogada) conta na posição; linhas só com títulos e linhas "(art. …)" não contam. Quando há dúvida (bis/ter ou "et …"), a nota da regra diz.
+#   LCR 51 (4 alíneas) confere com as remissões do OCR 54 a 56 (« art. 51, al. 1 et 4 », « al. 1 et 2 », « al. 2 et 3, LCR »).
+# versao_lei_em_vigor_desde = data 'État le' do texto consolidado (NÃO é a data de entrada em vigor do artigo).
+# NÃO duplicadas (já em outros YAML; citadas em excecoes): OCR 21 al. 3 (R-ARR-021), OCR 22 (R-ARR-022 a 024), OCR 23 al. 1 a 3 (R-ARR-025 a 027), OCR 36 al. 3 (R-ARR-032), OCR 39 al. 3 (R-ARR-033), OSR 47 al. 5 (R-ARR-049), LCR 27 al. 2 (R-PRIO-038), OCR 16 (R-PRIO-027, 028, 039), OCR 30 al. 1 (R-COM-036), OCR 39 al. 1 e 2 (R-DAN-006, R-DAN-007), OSR 47 al. 6 (R-DAN-013), OSR 68 al. 6 (R-PAN-044).
+# Ids REMOVIDOS na revisão T-034/T-036 (não reutilizar): R-ACC-030 (duplicata de R-DAN-013, OSR 47 al. 6), R-ACC-031 (duplicata de R-DAN-006, OCR 39 al. 1), R-ACC-032 (duplicata de R-DAN-007, OCR 39 al. 2), R-ACC-037 (OSR 70 al. 1 let. f: regra para a autoridade que instala a luz, não de conduta; o conteúdo útil ao aluno é OSR 68 al. 6, já em R-PAN-044).
+# Fora de escopo (decisão do Luan): álcool/drogas (inclui o alcootest após acidente, LCR 55 al. 1), telefone, buzina, capacete, condução ecológica. Normas de primeiros socorros não constam das fontes (ver docs/reviews/T-032-notas.md).
+rules:
+
+- id: R-ACC-001
+  categoria: F-Accidents
+  subtema: dever-de-parar
+  regra_pt: "Em caso de acidente em que estejam em causa veículos a motor ou ciclos (« cycles »), todas as pessoas envolvidas devem parar imediatamente."
+  termos_fr: ["s'arrêter immédiatement", "personnes impliquées", "véhicules automobiles ou des cycles"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "51", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "En cas d'accident où sont en cause des véhicules automobiles ou des cycles, toutes les personnes impliquées devront s'arrêter immédiatement."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): os deveres seguintes do mesmo artigo estão em R-ACC-002 a R-ACC-009; a violação das obrigações em acidente é punida pela LCR 92 (R-ACC-010, R-ACC-011)."
+    - "Âmbito: o texto fala de acidente « où sont en cause des véhicules automobiles ou des cycles »; esta regra não diz o que vale para acidentes sem esses veículos."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "« Cycles » aparece no texto da LCR; não traduzir aqui por 'bicicleta' apenas, porque o texto não define o termo nesta alínea."
+
+- id: R-ACC-002
+  categoria: F-Accidents
+  subtema: seguranca-no-local
+  regra_pt: "As pessoas envolvidas no acidente devem assegurar, na medida do possível, a segurança da circulação."
+  termos_fr: ["la sécurité de la circulation", "dans la mesure du possible"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "51", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Elles sont tenues d'assurer, dans la mesure du possible, la sécurité de la circulation."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 54 al. 1 detalha: as pessoas envolvidas, passageiros incluídos, tomam imediatamente as medidas de segurança apropriadas (R-ACC-013)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "« Elles » retoma « toutes les personnes impliquées » da frase anterior da al. 1. A expressão « dans la mesure du possible » limita o dever; o texto não diz quais medidas."
+
+- id: R-ACC-003
+  categoria: F-Accidents
+  subtema: socorro
+  regra_pt: "Havendo feridos, todas as pessoas envolvidas no acidente devem prestar-lhes socorro; as outras pessoas (não envolvidas) o fazem na medida em que se possa exigir delas."
+  termos_fr: ["blessés", "porter secours", "dans la mesure qu'on peut exiger d'elles"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "51", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "S'il y a des blessés, toutes les personnes impliquées dans l'accident devront leur porter secours; quant aux autres personnes, elles le feront dans la mesure qu'on peut exiger d'elles."
+  trecho_completo: true
+  excecoes:
+    - "Distinção do texto: envolvidos no acidente = dever pleno de socorro; « les autres personnes » = só « dans la mesure qu'on peut exiger d'elles »."
+    - "Regra de outra disposição (não consta desta alínea): quem tem de avisar a polícia quando há feridos: LCR 51 al. 2, frase seguinte (R-ACC-004) e OCR 55 (R-ACC-016 a R-ACC-018)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "As fontes não dizem COMO prestar socorro (técnicas de primeiros socorros, ordem de ações, número de emergência). Nenhuma regra desse tipo foi criada; ver docs/reviews/T-032-notas.md."
+
+- id: R-ACC-004
+  categoria: F-Accidents
+  subtema: avisar-policia
+  regra_pt: "Num acidente com feridos (LCR 51 al. 2, que começa com « S'il y a des blessés »), os envolvidos, mas em primeiro lugar os condutores de veículos, devem avisar a polícia. Acidente só com danos materiais: avisar o lesado e, se for impossível, a polícia (al. 3, R-ACC-007 e R-ACC-008). Ferimentos leves em que não é preciso avisar a polícia: OCR 55 al. 2 (R-ACC-017 e R-ACC-018)."
+  termos_fr: ["avertiront la police", "en premier lieu les conducteurs de véhicules"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "51", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Ceux qui sont impliqués dans l'accident, mais en premier lieu les conducteurs de véhicules, avertiront la police."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 55 al. 1 e 2 (R-ACC-016 a R-ACC-018) diz quando a polícia deve ser avisada imediatamente em caso de feridos e quando não é preciso (arranhões, pequenas contusões, ferimentos insignificantes do condutor ou de familiares sem terceiros)."
+    - "Regra de outra disposição (não consta desta alínea): OCR 54 al. 2 (R-ACC-014): aviso à polícia sem demora quando um perigo não pode ser afastado de imediato."
+    - "Regra de outra disposição (não consta desta alínea): acidente só com danos materiais: LCR 51 al. 3 (R-ACC-007, R-ACC-008)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "Esta frase está no parágrafo (al. 2) que começa com « S'il y a des blessés ». Para acidente só com danos materiais, a al. 3 manda avisar o lesado e, se impossível, a polícia; não afirmar que todo acidente exige chamar a polícia."
+
+- id: R-ACC-005
+  categoria: F-Accidents
+  subtema: colaboracao-constatacao
+  regra_pt: "Num acidente com feridos (LCR 51 al. 2), todas as pessoas envolvidas, passageiros incluídos, devem colaborar na reconstituição dos fatos (« reconstitution des faits »)."
+  termos_fr: ["y compris les passagers", "reconstitution des faits"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "51", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Toutes les personnes impliquées, y compris les passagers, doivent prêter leur concours à la reconstitution des faits."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 56 (R-ACC-019 a R-ACC-024) detalha a constatação dos fatos: estado das coisas, polícia, participação até a liberação."
+    - "Regra de outra disposição (não consta desta alínea): se um lesado chama a polícia sem que haja obrigação de avisá-la, os demais envolvidos participam da constatação até serem liberados (OCR 56 al. 3, R-ACC-022)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+
+- id: R-ACC-006
+  categoria: F-Accidents
+  subtema: nao-deixar-o-local
+  regra_pt: "Num acidente com feridos (LCR 51 al. 2), as pessoas envolvidas, passageiros incluídos, não podem deixar o local sem autorização da polícia, salvo se precisarem de socorro, se tiverem de buscar socorro ou de ir chamar a polícia (« quérir la police »)."
+  termos_fr: ["quitter les lieux", "l'autorisation de la police", "quérir la police"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "51", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Ces personnes ne pourront quitter les lieux sans l'autorisation de la police, sauf si elles ont besoin de secours, si elles doivent en chercher ou quérir la police."
+  trecho_completo: true
+  excecoes:
+    - "Exceções previstas na própria frase (« sauf si »): precisar de socorro; ter de buscar socorro; ter de chamar a polícia."
+    - "Regra de outra disposição (não consta desta alínea): OCR 56 al. 3 (R-ACC-022): se um lesado quer chamar a polícia sem haver obrigação de avisá-la, os demais participam da constatação até serem liberados pela polícia; OCR 56 al. 4 (R-ACC-023): viaturas de urgência."
+    - "Regra de outra disposição (não consta desta alínea): OCR 55 al. 2 (R-ACC-017, R-ACC-018): casos em que não é preciso avisar a polícia."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "A frase está na al. 2, que começa com « S'il y a des blessés ». O acidente só com danos materiais é regido pela al. 3 (R-ACC-007, R-ACC-008), que não contém essa exigência de autorização, mas obriga a avisar o lesado ou, se impossível, a polícia. Para os ferimentos leves do OCR 55 al. 2 (R-ACC-017, R-ACC-018) o texto não diz como esta frase se aplica: nenhuma pergunta deve cobrar esse caso-limite. Se um lesado chamar a polícia, os demais ficam até serem liberados (OCR 56 al. 3, R-ACC-022)."
+
+- id: R-ACC-007
+  categoria: F-Accidents
+  subtema: danos-materiais
+  regra_pt: "Se o acidente causou apenas danos materiais, o autor dos danos deve avisar imediatamente o lesado, indicando seu nome e endereço."
+  termos_fr: ["dommages matériels", "le lésé", "son nom et son adresse"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "51", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Si l'accident n'a causé que des dommages matériels, leur auteur en avertira tout de suite le lésé en indiquant son nom et son adresse."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): se isso for impossível: R-ACC-008 (aviso sem demora à polícia)."
+    - "Regra de outra disposição (não consta desta alínea): deveres de LCR 51 al. 1 (parar, assegurar a segurança) valem para acidentes em geral (R-ACC-001, R-ACC-002)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "« Tout de suite » no texto: não há minutos nem horas fixados. « Auteur » = quem causou os danos; a alínea não define 'lésé'."
+
+- id: R-ACC-008
+  categoria: F-Accidents
+  subtema: danos-materiais
+  regra_pt: "Se não for possível avisar o lesado, o autor dos danos informa a polícia sem demora."
+  termos_fr: ["En cas d'impossibilité", "sans délai la police"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "51", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "En cas d'impossibilité, il en informera sans délai la police."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): a obrigação principal desta alínea está em R-ACC-007 (avisar o lesado, com nome e endereço)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "« Il » = o autor dos danos da frase anterior. O texto não diz o que conta como « impossibilité » nem fixa prazo além de « sans délai ». O texto não menciona bilhete ou recado deixado no veículo. Perguntas não devem apresentá-lo como forma de cumprir a al. 3 nem como substituto do aviso à polícia."
+
+- id: R-ACC-009
+  categoria: F-Accidents
+  subtema: passagem-de-nivel
+  regra_pt: "Em caso de acidentes em passagens de nível, as pessoas envolvidas avisam sem demora a administração da ferrovia (« administration du chemin de fer »)."
+  termos_fr: ["passages à niveau", "l'administration du chemin de fer", "sans délai"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "51", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "En cas d'accidents aux passages à niveau, les personnes qui y sont impliquées avertiront sans délai l'administration du chemin de fer."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 54 al. 2, 2.ª frase (R-ACC-015): avisar imediatamente a administração ferroviária quando a exploração ferroviária é prejudicada, por exemplo por veículo ou carga caído nos trilhos."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "Numeração: a LCR 51 tem quatro parágrafos; as remissões do OCR 54 (« art. 51, al. 1 et 4, LCR ») confirmam este como al. 4."
+
+- id: R-ACC-010
+  categoria: F-Accidents
+  subtema: sancoes
+  regra_pt: "Quem viola, em um acidente, as obrigações que a LCR lhe impõe é punido com multa (« amende »)."
+  termos_fr: ["lors d'un accident", "les obligations", "amende"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "92", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Est puni de l'amende quiconque viole, lors d'un accident, les obligations que lui impose la présente loi."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): fuga após ter matado ou ferido uma pessoa: LCR 92 al. 2 (R-ACC-011), com pena mais grave."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "O texto não fixa o valor da multa. « Les obligations que lui impose la présente loi » remete, no tema, sobretudo à LCR 51 (R-ACC-001 a R-ACC-009); esta regra não lista quais obrigações."
+
+- id: R-ACC-011
+  categoria: F-Accidents
+  subtema: sancoes
+  regra_pt: "O condutor que foge depois de ter matado ou ferido uma pessoa em um acidente de trânsito é punido com pena privativa de liberdade de até três anos ou com pena pecuniária."
+  termos_fr: ["prend la fuite", "tué ou blessé", "trois ans au plus"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "92", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Est puni d'une peine privative de liberté de trois ans au plus ou d'une peine pécuniaire le conducteur qui prend la fuite après avoir tué ou blessé une personne lors d'un accident de la circulation."
+  trecho_completo: true
+  excecoes:
+    - "Âmbito: a regra vale para o condutor que foge « après avoir tué ou blessé une personne ». Para outras violações em acidente, a al. 1 prevê multa (R-ACC-010)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "« Trois ans au plus » é o máximo da pena privativa de liberdade; o texto não diz mais nada sobre medida da pena."
+
+- id: R-ACC-012
+  categoria: F-Accidents
+  subtema: obstaculos-sinalizacao
+  regra_pt: "É proibido criar, sem motivos imperiosos, obstáculos à circulação; os obstáculos devem ser suficientemente sinalizados e removidos o mais cedo possível."
+  termos_fr: ["obstacles à la circulation", "motifs impérieux", "signalés de façon suffisante"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "4", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Il est interdit de créer, sans motifs impérieux, des obstacles à la circulation; ils doivent être signalés de façon suffisante et seront supprimés aussi tôt que possible."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 23 (cuja base legal indicada no cabeçalho é o art. 4 al. 1 LCR) detalha o sinal de pane: onde fica (R-ARR-025) e onde e a que distância é colocado (R-ARR-026); uso dos pisca-alertas: R-ARR-027."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "Regra geral sobre obstáculos, não limitada a veículos em pane; incluída por ser a base legal do OCR 23. O texto não fixa distâncias nem prazo de remoção."
+
+- id: R-ACC-013
+  categoria: F-Accidents
+  subtema: medidas-de-seguranca
+  regra_pt: "Quando obstáculos ou outros perigos resultam de um acidente, de uma pane de veículo, de mercadorias ou óleo derramados na pista, etc., as pessoas envolvidas, passageiros incluídos, tomam imediatamente as medidas de segurança apropriadas."
+  termos_fr: ["mesures de sécurité appropriées", "passagers compris", "panne de véhicule"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "54", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsque des obstacles ou d'autres dangers résultent d'un accident, d'une panne de véhicule, de marchandises ou d'huile répandues sur la chaussée, etc., les personnes impliquées, passagers compris, prendront immédiatement les mesures de sécurité appropriées."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): base legal: LCR 51 al. 1 e 4 (R-ACC-002, R-ACC-009), conforme o cabeçalho do OCR 54."
+    - "Regra de outra disposição (não consta desta alínea): sinal de pane e pisca-alertas: OCR 23 al. 1 a 3 (R-ARR-025 a R-ARR-027) e última alínea do OCR 23 (R-ACC-025). Autoestradas e semiautoestradas: faixa de emergência só em necessidade absoluta e ocupantes não entram na pista (OCR 36 al. 3, R-ARR-032); sinal de pane a pelo menos 100 m nas « routes à trafic rapide » e na borda direita da faixa de emergência (OCR 23 al. 2, R-ARR-026)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "O texto não lista as « mesures de sécurité appropriées »; as medidas concretas do sinal de pane estão no OCR 23. A nota de arret-stationnement deixou o OCR 54 al. 1 para esta categoria."
+
+- id: R-ACC-014
+  categoria: F-Accidents
+  subtema: avisar-policia
+  regra_pt: "A polícia deve ser avisada sem demora quando um perigo não puder ser afastado imediatamente, em especial sempre que o escoamento de um líquido possa poluir um rio, um lago ou águas subterrâneas."
+  termos_fr: ["avisée sans délai", "danger ne peut être immédiatement écarté", "eaux souterraines"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "54", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La police doit être avisée sans délai lorsqu'un danger ne peut être immédiatement écarté, notamment chaque fois que l'écoulement d'un liquide pourrait polluer une rivière, un lac ou des eaux souterraines."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): aviso à administração ferroviária (2.ª frase desta alínea): R-ACC-015."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "« Notamment » no texto: o líquido que polui águas é exemplo, não lista fechada."
+
+- id: R-ACC-015
+  categoria: F-Accidents
+  subtema: passagem-de-nivel
+  regra_pt: "Se a exploração ferroviária é prejudicada, por exemplo quando um veículo ou uma carga caiu nos trilhos ou nas instalações da ferrovia, a administração da ferrovia deve ser informada imediatamente."
+  termos_fr: ["exploitation ferroviaire est entravée", "l'administration du chemin de fer", "immédiatement informée"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "54", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Si l'exploitation ferroviaire est entravée, par exemple lorsqu'un véhicule ou un chargement est tombé sur les voies ou ses installations, l'administration du chemin de fer doit en être immédiatement informée."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): LCR 51 al. 4 (R-ACC-009): acidentes em passagens de nível."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "No arquivo, depois da al. 2 vem uma linha « … » (al. 3 revogada)."
+
+- id: R-ACC-016
+  categoria: F-Accidents
+  subtema: ferimentos-e-policia
+  regra_pt: "A polícia deve ser avisada imediatamente sempre que um acidente tenha causado ferimentos externos ou quando se deva esperar ferimentos internos."
+  termos_fr: ["blessures externes", "blessures internes", "immédiatement avisée"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "55", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La police doit être immédiatement avisée chaque fois qu'un accident a causé des blessures externes ou qu'il faut s'attendre à des blessures internes."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): exceções na al. 2 do mesmo artigo (R-ACC-017, R-ACC-018); base legal: LCR 51 al. 1 e 2 (R-ACC-004)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "O texto não define 'blessures externes/internes' nem dá critério médico; não criar critério além do texto."
+
+- id: R-ACC-017
+  categoria: F-Accidents
+  subtema: ferimentos-e-policia
+  regra_pt: "Não é preciso avisar a polícia em caso de simples arranhões e pequenas contusões; o responsável deve, porém, dar seu nome e endereço ao ferido."
+  termos_fr: ["simples éraflures", "petites contusions", "son nom et son adresse au blessé"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "55", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Il n'est pas nécessaire d'aviser la police en cas de simples éraflures et de petites contusions; le responsable est cependant tenu de donner son nom et son adresse au blessé."
+  trecho_completo: true
+  excecoes:
+    - "Exceção à regra da al. 1 (R-ACC-016): só vale para « simples éraflures » e « petites contusions »; a dispensa de avisar a polícia não dispensa o responsável de dar nome e endereço ao ferido."
+    - "Regra de outra disposição (não consta desta alínea): 2.ª frase da al. 2 (R-ACC-018): condutor e familiares."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "« Éraflures » traduzido por 'arranhões'. O texto não define até onde vai uma « petite contusion »."
+
+- id: R-ACC-018
+  categoria: F-Accidents
+  subtema: ferimentos-e-policia
+  regra_pt: "Também não há obrigação de chamar a polícia quando só o condutor, seus próximos ou membros de sua família sofreram ferimentos insignificantes e nenhuma terceira pessoa está envolvida no acidente."
+  termos_fr: ["seuls le conducteur", "blessures insignifiantes", "aucune tierce personne"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "55", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "De même, il n'y a pas obligation d'appeler la police lorsque seuls le conducteur, ses proches ou les membres de sa famille ont subi des blessures insignifiantes et qu'aucune tierce personne n'est impliquée dans l'accident."
+  trecho_completo: true
+  excecoes:
+    - "Condições cumulativas do texto: ferimentos « insignifiantes »; só do condutor, de próximos ou de familiares; nenhuma terceira pessoa envolvida. Se houver terceiro envolvido, esta dispensa não se aplica (leitura do texto)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "O texto não define 'blessures insignifiantes'. No arquivo, depois da al. 2 vem uma linha « … » (al. 3 revogada)."
+
+- id: R-ACC-019
+  categoria: F-Accidents
+  subtema: estado-das-coisas
+  regra_pt: "No local do acidente, o estado das coisas não deve ser modificado antes da chegada da polícia, a menos que a proteção de feridos ou a segurança do tráfego o exija."
+  termos_fr: ["l'état des choses", "avant l'arrivée de la police", "la sécurité du trafic"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "56", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur les lieux de l'accident, l'état des choses ne sera pas modifié avant l'arrivée de la police, à moins que la protection de blessés ou la sécurité du trafic ne l'exige."
+  trecho_completo: true
+  excecoes:
+    - "Exceção do próprio texto (« à moins que »): proteção de feridos ou segurança do tráfego."
+    - "Regra de outra disposição (não consta desta alínea): 2.ª frase da al. 1 (R-ACC-020): antes de deslocar vítimas ou coisas, marcar a posição; medidas de segurança do OCR 54 al. 1 (R-ACC-013)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "Leitura combinada (não é frase expressa): as medidas de segurança do OCR 54 al. 1 e a manutenção do estado das coisas aplicam-se juntas; a exceção desta frase cobre a proteção de feridos e a segurança do tráfego."
+
+- id: R-ACC-020
+  categoria: F-Accidents
+  subtema: estado-das-coisas
+  regra_pt: "Antes de deslocar vítimas ou coisas, convém marcar a posição delas na pista."
+  termos_fr: ["déplacer des victimes", "marquer leur position"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "56", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Avant de déplacer des victimes ou des choses, il convient de marquer leur position sur la route."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): 1.ª frase da al. 1 (R-ACC-019): o estado das coisas não é modificado antes da polícia, salvo proteção de feridos ou segurança do tráfego."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "O texto diz « il convient de » (convém), não « doit ». O texto não diz como marcar a posição (giz, objetos, etc.); não inventar método."
+
+- id: R-ACC-021
+  categoria: F-Accidents
+  subtema: constatacao-policia
+  regra_pt: "A polícia faz a constatação dos fatos nos acidentes de trânsito que devem ser declarados nos termos do art. 51 LCR; nos demais casos, deve fazê-lo se uma pessoa envolvida o pedir."
+  termos_fr: ["constatation des faits", "art. 51 LCR", "une personne impliquée le demande"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "56", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La police procède à la constatation des faits lors d'accidents de la circulation qui doivent être déclarés en vertu de l'art. 51 LCR; dans les autres cas, elle devra le faire si une personne impliquée le demande."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): deveres das pessoas envolvidas: LCR 51 (R-ACC-004 a R-ACC-006) e OCR 56 al. 3 (R-ACC-022)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "A alínea tem uma 2.ª frase (« La poursuite pénale est réservée. ») não copiada. Quais acidentes « doivent être déclarés » remete à LCR 51; esta regra não os lista além do que consta de R-ACC-003 a R-ACC-008."
+
+- id: R-ACC-022
+  categoria: F-Accidents
+  subtema: colaboracao-constatacao
+  regra_pt: "Se um lesado quer chamar a polícia sem que haja obrigação de avisá-la, as demais pessoas envolvidas devem participar da constatação dos fatos até serem liberadas pela polícia."
+  termos_fr: ["un lésé veut appeler la police", "participer à la constatation des faits", "libérées par la police"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "56", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Si un lésé veut appeler la police sans qu'il y ait obligation de l'aviser, les autres personnes impliquées doivent participer à la constatation des faits jusqu'à ce qu'elles soient libérées par la police."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): LCR 51 al. 2, 3.ª e 4.ª frases (R-ACC-005, R-ACC-006); OCR 55 al. 2 (R-ACC-017, R-ACC-018): casos em que não é obrigatório chamar a polícia."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+
+- id: R-ACC-023
+  categoria: F-Accidents
+  subtema: veiculos-de-urgencia
+  regra_pt: "Os condutores de viaturas do corpo de bombeiros, do serviço de saúde, da polícia ou da alfândega que fazem uma corrida urgente, bem como os condutores de veículos de transporte público sujeitos a horário, podem seguir viagem se forem tomadas medidas para socorrer os feridos e constatar os fatos."
+  termos_fr: ["service du feu", "course urgente", "soumis à un horaire", "secourir les blessés"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "56", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les conducteurs des voitures du service du feu, du service de santé, de la police ou de la douane qui effectuent une course urgente ainsi que les conducteurs de véhicules des transports publics soumis à un horaire peuvent poursuivre leur route si des mesures sont prises pour secourir les blessés et constater les faits."
+  trecho_completo: true
+  excecoes:
+    - "Condição do texto: só podem seguir viagem « si des mesures sont prises » para socorrer os feridos e constatar os fatos."
+    - "Regra de outra disposição (não consta desta alínea): prioridade e uso da luz azul e do avisador: R-PRIO-027, R-PRIO-028 e R-PRIO-039 (OCR 16); pista liberada quando funcionam os avisadores especiais: R-PRIO-038 (LCR 27 al. 2)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "O texto não diz quem toma as medidas para socorrer os feridos e constatar os fatos; não generalizar para outros veículos além dos listados."
+
+- id: R-ACC-024
+  categoria: F-Accidents
+  subtema: retorno-ao-local
+  regra_pt: "O condutor que só depois fica sabendo que esteve envolvido em um acidente, ou que pode ter estado, deve voltar sem demora ao local do acidente ou apresentar-se ao posto de polícia mais próximo."
+  termos_fr: ["apprend par la suite", "retourner sans délai", "poste de police le plus proche"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "56", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsqu'un conducteur apprend par la suite seulement qu'il a été impliqué dans un accident ou qu'il a pu l'être, il doit retourner sans délai sur les lieux de l'accident ou s'annoncer au poste de police le plus proche."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): deveres no local do acidente: LCR 51 (R-ACC-001 a R-ACC-006)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "O texto dá duas opções (« ou »): voltar ao local OU apresentar-se ao posto de polícia mais próximo; « sans délai » não é fixado em tempo."
+
+- id: R-ACC-025
+  categoria: F-Accidents
+  subtema: sinal-de-pane
+  regra_pt: "O sinal de pane também deve ser colocado na parte de trás dos veículos rebocados."
+  termos_fr: ["signal de panne", "véhicules remorqués"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "23", alinea: "6", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal de panne doit aussi être placé à l'arrière des véhicules remorqués."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): onde fica o sinal de pane no veículo, onde e a que distância é colocado e uso dos pisca-alertas: R-ARR-025, R-ARR-026, R-ARR-027 (OCR 23 al. 1 a 3)."
+    - "Regra de outra disposição (não consta desta alínea): reboque na autoestrada: OCR 35 al. 3 (R-ACC-029)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "NUMERAÇÃO NÃO CONFIRMADA. Última alínea do OCR 23: 5.º parágrafo do arquivo, depois da linha « et … ». As al. 1 a 3 estão confirmadas (o OCR 6 al. 5 cita « art. 23, al. 3, let. a »). Se « et … » for « 4 et 5 … », esta é a al. 6 (hipótese usada); nenhuma remissão nas fontes decide. No app, mostrar 'OCR 23 (última alínea)' até conferir no HTML do Fedlex."
+
+- id: R-ACC-026
+  categoria: F-Accidents
+  subtema: equipamento-sinal-de-pane
+  regra_pt: "Um triângulo de pane (« triangle de panne ») homologado, com marca de identificação conforme o regulamento CEE-ONU n.º 150 ou 27, deve estar a bordo dos veículos a motor com mais de um metro de largura (exceto motocicletas, motocicletas com sidecar, carrinhos de mão com motor e veículos de esteiras) e nos reboques atrelados a monoeixos."
+  termos_fr: ["triangle de panne homologué", "plus d'un mètre de largeur", "monoaxes"]
+  fonte: { lei: OETV, rs: "741.41", artigo: "90", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1995/4425_4425_4425/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1995-4425_4425_4425-20261001-fr-html.html" }
+  trecho_literal_fr: "Un triangle de panne homologué et muni d'une marque d'identification conformément au règlement CEE-ONU no 150 ou 27 doit se trouver à bord des véhicules automobiles de plus d'un mètre de largeur, à l'exception des motocycles, des motocycles avec side-car, des voitures à bras équipées d'un moteur et des véhicules à chenilles, ainsi que dans les remorques attelées à des monoaxes."
+  trecho_completo: true
+  excecoes:
+    - "Exceções do próprio texto (« à l'exception de »): motocycles, motocycles avec side-car, voitures à bras équipées d'un moteur, véhicules à chenilles."
+    - "Regra de outra disposição (não consta desta alínea): OCR 23 al. 1 (R-ARR-025): o sinal de pane deve estar em lugar de fácil acesso; OCR 57 al. 1 (R-ACC-027): o condutor verifica que dispõe dos acessórios necessários, como o sinal de pane."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "Numeração: al. 2 confirmada pelas remissões internas da OETV: cales = « art. 90, al. 3 » (OETV 114 al. 1, l. 1688; l. 2558) e palette = « art. 90, al. 1 » (anexo, l. 3761). O OCR 23 al. 1 cita « art. 90, al. 3, OETV » para o sinal de pane; essa remissão não bate com a OETV (R-ARR-025 repete-a)."
+
+- id: R-ACC-027
+  categoria: F-Accidents
+  subtema: equipamento-sinal-de-pane
+  regra_pt: "O condutor deve assegurar-se de que o veículo e a carga cumprem as prescrições e de que dispõe dos acessórios necessários, como o sinal de pane."
+  termos_fr: ["accessoires nécessaires", "signal de panne"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "57", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le conducteur s'assurera que le véhicule et son chargement répondent aux prescriptions et qu'il dispose des accessoires nécessaires tels que le signal de panne."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): equipamento obrigatório do sinal de pane: OETV 90 al. 2 (R-ACC-026); lugar do sinal no veículo: OCR 23 al. 1 (R-ARR-025)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "« Tels que le signal de panne »: o texto dá o sinal de pane como exemplo de acessório necessário; não lista outros acessórios."
+
+- id: R-ACC-028
+  categoria: F-Accidents
+  subtema: defeitos-em-rota
+  regra_pt: "Quando surgem defeitos pouco graves durante o trajeto, o condutor pode continuar a viagem tomando as precauções necessárias; os reparos devem ser feitos sem demora."
+  termos_fr: ["défectuosités peu graves", "poursuivre sa course", "sans retard"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "57", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsque des défectuosités peu graves apparaissent en cours de route, le conducteur pourra poursuivre sa course en prenant les précautions nécessaires; les réparations seront effectuées sans retard."
+  trecho_completo: true
+  excecoes:
+    - "Âmbito: só « défectuosités peu graves ». Esta alínea não diz o que fazer com defeitos graves; não generalizar para eles."
+    - "Regra de outra disposição (não consta desta alínea): pane com parada na pista: sinal de pane (OCR 23, R-ARR-026) e medidas de segurança (OCR 54 al. 1, R-ACC-013)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "O texto não define 'défectuosités peu graves'."
+
+- id: R-ACC-029
+  categoria: F-Accidents
+  subtema: reboque-autoestrada
+  regra_pt: "Os veículos em pane só são rebocados até a próxima saída da autoestrada ou semiautoestrada."
+  termos_fr: ["véhicules en panne", "remorqués", "prochaine sortie"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "35", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les véhicules en panne ne seront remorqués que jusqu'à la prochaine sortie de l'autoroute ou de la semi-autoroute."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): em reboque nas autoestradas e semiautoestradas, o pisca-alertas é permitido (OCR 23 al. 3 let. b, R-ARR-027); sinal de pane na parte de trás do veículo rebocado: R-ACC-025; uso da faixa de emergência e dos locais para veículos em pane: R-ARR-032 e R-ARR-049."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "« Remorquer » = rebocar um veículo; não confundir com puxar um reboque. O texto não diz quem faz o reboque nem exige veículo de socorro."
+
+- id: R-ACC-033
+  categoria: F-Accidents
+  subtema: tunel
+  regra_pt: "O sinal « Tunnel » (4.07) designa um trecho que passa por um túnel e no qual se aplicam as regras especialmente previstas para a circulação em túneis (art. 39 OCR e art. 13 al. 3 SDR)."
+  termos_fr: ["Tunnel", "règles spécialement prévues", "art. 39 OCR"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "45", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Tunnel\"(4.07) désigne un tronçon qui passe dans un tunnel et sur lequel sont applicables les règles spécialement prévues pour la circulation dans les tunnels (art. 39 OCR et art. 13, al. 3 SDR)."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): regras de túnel do OCR 39: R-DAN-006, R-DAN-007 e R-ARR-033."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "A alínea tem uma 2.ª frase sobre a colocação do sinal (não copiada). A SDR (art. 13 al. 3) não consta de legal/sources; não afirmar seu conteúdo."
+
+- id: R-ACC-034
+  categoria: F-Accidents
+  subtema: sinais-de-emergencia
+  regra_pt: "O sinal « Direction et distance vers l'issue de secours la plus proche » (4.94) informa sobre a saída de emergência mais próxima; nos túneis, é colocado na parede pelo menos a cada 50 m, a uma altura de 1 a 1,5 m acima da pista."
+  termos_fr: ["issue de secours la plus proche", "4.94", "50 m"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "62", alinea: "7", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Direction et distance vers l'issue de secours la plus proche\"(4.94) informe sur l'issue de secours la plus proche; dans les tunnels, il est placé sur la paroi au moins tous les 50 m à une hauteur de 1 à 1,5 m au-dessus de la chaussée."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): 2.ª frase desta alínea: sinal « Issue de secours » (4.95), R-ACC-035."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "NUMERAÇÃO NÃO CONFIRMADA: 7.º parágrafo do OSR 62 por posição. O anexo só diz « (art. 62) ». A contagem por posição falha no OSR 68 e no OSR 70 (remissões do próprio OSR), e o parágrafo depois de uma lista a./b. pode pertencer à alínea da lista. Confirmar no HTML do Fedlex; no app, mostrar 'OSR 62'. Os valores 50 m e 1 a 1,5 m estão no texto."
+
+- id: R-ACC-035
+  categoria: F-Accidents
+  subtema: sinais-de-emergencia
+  regra_pt: "O sinal « Issue de secours » (4.95) indica o local de uma saída de emergência e é colocado imediatamente ao lado dela."
+  termos_fr: ["Issue de secours", "4.95", "proximité immédiate"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "62", alinea: "7", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Issue de secours\"(4.95) indique l'emplacement d'une issue de secours et est placé à proximité immédiate de celle-ci."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): 1.ª frase da mesma alínea: sinal 4.94, R-ACC-034."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "NUMERAÇÃO NÃO CONFIRMADA: 7.º parágrafo do OSR 62 por posição. O anexo só diz « (art. 62) ». A contagem por posição falha no OSR 68 e no OSR 70 (remissões do próprio OSR), e o parágrafo depois de uma lista a./b. pode pertencer à alínea da lista. Confirmar no HTML do Fedlex; no app, mostrar 'OSR 62'. « À proximité immédiate » não é traduzido em metros."
+
+- id: R-ACC-036
+  categoria: F-Accidents
+  subtema: sinais-de-emergencia
+  regra_pt: "O sinal « Poste d'appel d'urgence » (4.80) indica a presença de um telefone acessível ao público e diretamente ligado aos serviços de chamada de emergência."
+  termos_fr: ["Poste d'appel d'urgence", "4.80", "services d'appel d'urgence"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "62", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Poste d'appel d'urgence\"(4.80) indique la présence d'un téléphone accessible au public et directement relié aux services d'appel d'urgence."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): 2.ª frase desta alínea (não copiada): pode ser completado pelo símbolo « Extincteur » se não houver espaço suficiente nos túneis."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
+  nota: "NUMERAÇÃO NÃO CONFIRMADA: 3.º parágrafo do OSR 62 por posição; pode ser al. 2 se o parágrafo « Le cas échéant… » for continuação da al. 1 (depois da lista). Confirmar no HTML do Fedlex; no app, mostrar 'OSR 62'. O texto não traz número de telefone de emergência."
+
