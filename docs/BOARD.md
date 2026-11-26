@@ -38,8 +38,8 @@ Gargalo previsto: validação do Luan (~30-45 min por tema, ~5-6 h no total até
 | T-011 | Corrigir/completar regras de Priorité com o texto completo de legal/sources/ | P0 | PESQ/Sonnet | T-012 | Aplicar revisão do T-005: 10 correções, 1 realocação, 10 regras novas (047-056) | P0 | PESQ/Sonnet | T-005 | legal/rules/priorite.yaml | 56 regras, 0 trechos não encontrados | DONE |
 | H-02b | Luan valida as 56 regras de Priorité (bloco 1: ver docs/VALIDACAO-PRIORITE-1.md) | P0 | Luan | T-012 | — | status → validado | DONE (56 regras, 'Ok para todos', 26/11 03:3x) |
 | T-013 | Regras de Arrêt & stationnement (B): 74 regras R-ARR-001..074 | P0 | PESQ/Sonnet | T-010 | legal/rules/arret-stationnement.yaml | 0 trechos não encontrados | DONE (Actions: 130 OK no total) |
-| T-014 | Regras de Dépassement (E) | P0 | PESQ/Sonnet | T-010 | legal/rules/depassement.yaml | 0 trechos não encontrados | DOING |
-| T-015 | Revisão independente de B (Opus) → correções → validação do Luan | P0 | REV/Opus | T-013 | docs/reviews/ | veredito por regra | TODO |
+| T-014 | Regras de Dépassement (E) | P0 | PESQ/Sonnet | T-010 | legal/rules/depassement.yaml | 0 trechos não encontrados | DONE (63 regras, pendentes; revisão Opus T-020 em curso) |
+| T-015 | Revisão independente de B (Opus) → correções → validação do Luan | P0 | REV/Opus | T-013 | docs/reviews/ | veredito por regra | Revisão Opus DONE; correções aplicadas (T-018: 88 regras); aguarda validação do Luan + decisões em docs/reviews/T-018-pendencias.md |
 | H-05 | Luan ativa o GitHub Pages: repo → Settings → Pages → Source: GitHub Actions | P2 | Luan | T-008 | — | App abre em https://oluanunes.github.io/drive-theory/ | DONE (Pages ativado; instalado no iPhone) |
 | T-005b | T-005 retomada após limite de uso (Opus) | P0 | REV/Opus | T-011 | docs/reviews/T-005-priorite.md | Relatório completo | DONE (35 OK, 10 corrigir, 1 mover, lacunas) |
 | T-010 | legal/rules/priorite.yaml | 0 trechos não encontrados | DONE (46 regras, 46 OK no Actions) |
