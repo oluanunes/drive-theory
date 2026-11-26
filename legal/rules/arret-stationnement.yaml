@@ -5,9 +5,9 @@
 #   Alíneas com letras (a., b., ...) aparecem na mesma linha ("a. ...; b. ...").
 # A numeração das alíneas (alinea) é a ordem dos parágrafos no arquivo extraído (o arquivo não traz o número da alínea).
 # versao_lei_em_vigor_desde = data 'État le' do texto consolidado (NÃO é a data de entrada em vigor do artigo).
-# Fora do escopo por falta de texto no arquivo: anexos da OSR (desenho dos sinais 2.49, 2.50, 4.17, 4.18, 4.20; modelo do disco de
-#   estacionamento, anexo 3 ch. 1; modelo do cartão para deficientes, anexo 3 ch. 2) — só aparecem com número/nome, sem descrição usada aqui.
-#   Duração máxima da zona azul sem placa, e dimensões de vagas, não constam do texto: nenhuma regra foi criada.
+# Anexo 2 da OSR: os sinais (2.49, 2.50, 4.17, 4.18, 4.20) aparecem só com número e nome, sem descrição.
+#   Anexo 3, ch. 1 (disco): o texto e a tabela de horários ESTÃO no arquivo e geram R-ARR-075 a 077 (T-018).
+#   Anexo 3, ch. 2 (cartão): só dimensões e cores. Dimensões de vagas não constam do texto: nenhuma regra foi criada.
 rules:
 
 - id: R-ARR-001
@@ -88,7 +88,7 @@ rules:
   categoria: B-Arret-Stationnement
   subtema: arret-interdit
   regra_pt: "É proibido parar voluntariamente: a) em lugares sem visibilidade, em especial nas curvas e no topo das lombadas, bem como nas proximidades; b) em lugares estreitos e ao lado de um obstáculo que esteja na pista; c) nos trechos de pré-seleção e ao lado de linhas de segurança, linhas longitudinais contínuas e linhas duplas quando não resta uma passagem de pelo menos 3 m de largura; d) nas interseções, e antes e depois das interseções a menos de 5 m da pista transversal; e) nas faixas de pedestres e, no seu prolongamento, na superfície contígua, e, quando não há linha que proíba parar, a menos de 5 m antes da faixa, na pista e na calçada contígua; f) nas passagens de nível e nas passagens sob vias (« passages sous voies »); g) diante de um sinal que o veículo poderia encobrir."
-  termos_fr: ["arrêt volontaire", "aux endroits dépourvus de visibilité", "ligne de sécurité", "3 m", "intersections", "5 m", "passages pour piétons", "passages à niveau", "signal que le véhicule pourrait masquer"]
+  termos_fr: ["arrêt volontaire", "aux endroits dépourvus de visibilité", "lignes de sécurité", "3 m", "intersections", "5 m", "passages pour piétons", "passages à niveau", "signal que le véhicule pourrait masquer"]
   fonte: { lei: OCR, rs: "741.11", artigo: "18", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
   trecho_literal_fr: "L'arrêt volontaire est interdit: a. aux endroits dépourvus de visibilité, notamment dans les tournants et au sommet des côtes ainsi qu'à leurs abords; b. aux endroits resserrés et à côté d'un obstacle se trouvant sur la chaussée; c. sur les tronçons servant à la présélection ainsi qu'à côté des lignes de sécurité, des lignes longitudinales continues et des lignes doubles lorsqu'il ne reste pas un passage d'une largeur de 3 m au moins; d. aux intersections, ainsi qu'avant et après les intersections à moins de 5 m de la chaussée transversale; e. sur les passages pour piétons et, dans leur prolongement, sur la surface contiguë ainsi que, lorsque aucune ligne interdisant l'arrêt n'est marquée, à moins de 5 m avant le passage, sur la chaussée et sur le trottoir contigu; f. aux passages à niveau et aux passages sous voies; g. devant un signal que le véhicule pourrait masquer."
   trecho_completo: true
@@ -97,6 +97,7 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 77 al. 2 prevê a linha contínua 6.18 antes das faixas de pedestres, que proíbe a parada voluntária na pista e na calçada adjacente (R-ARR-065)."
     - "Regra de outra disposição (não consta desta alínea): OSR 79a al. 2: linhas 6.25 à beira da pista proíbem a parada voluntária no local indicado (R-ARR-073)."
     - "Regra de outra disposição (não consta desta alínea): onde parar não é permitido, estacionar também é proibido (OCR 19 al. 2 let. a, R-ARR-010)."
+    - "Regra de outra disposição (não consta desta alínea): esta alínea trata só da parada voluntária. Numa parada da circulação vale OCR 12 al. 3: « Lors d'un arrêt de la circulation, le conducteur ne doit ni s'arrêter sur un passage pour piétons ni barrer, à une intersection, la voie aux véhicules circulant dans le sens transversal. » (R-DEP-036)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
@@ -105,8 +106,8 @@ rules:
 - id: R-ARR-007
   categoria: B-Arret-Stationnement
   subtema: arret-interdit
-  regra_pt: "A menos de 10 m das placas que indicam uma parada de transporte público, e diante dos locais e lojas do corpo de bombeiros, parar só é permitido para que passageiros subam no veículo ou desçam dele; o transporte público e os bombeiros não devem ser atrapalhados."
-  termos_fr: ["panneaux indiquant un arrêt des transports publics", "service du feu", "10 m", "monter dans le véhicule ou en descendre"]
+  regra_pt: "A menos de 10 m das placas que indicam uma parada de transporte público, e diante de instalações e depósitos do serviço de bombeiros (« locaux et magasins du service du feu »), parar só é permitido para que passageiros subam no veículo ou desçam dele; o transporte público e os bombeiros não devem ser atrapalhados."
+  termos_fr: ["panneaux indiquant un arrêt des transports publics", "service du feu", "10 m", "monter dans le véhicule ou d'en descendre"]
   fonte: { lei: OCR, rs: "741.11", artigo: "18", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
   trecho_literal_fr: "À moins de 10 m des panneaux indiquant un arrêt des transports publics ainsi que devant des locaux et magasins du service du feu, l'arrêt n'est autorisé que pour permettre à des passagers de monter dans le véhicule ou d'en descendre; les transports publics et les services du feu ne doivent pas être gênés."
   trecho_completo: true
@@ -133,7 +134,7 @@ rules:
 - id: R-ARR-009
   categoria: B-Arret-Stationnement
   subtema: definicao-parcage
-  regra_pt: "Parcar (« parcage ») é um estacionamento que não serve unicamente para deixar subir ou descer passageiros ou para carregar ou descarregar mercadorias."
+  regra_pt: "Estacionar (« parcage ») é uma permanência do veículo (« stationnement ») que não serve unicamente para deixar subir ou descer passageiros ou para carregar ou descarregar mercadorias."
   termos_fr: ["parcage du véhicule", "stationnement"]
   fonte: { lei: OCR, rs: "741.11", artigo: "19", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
   trecho_literal_fr: "Le parcage du véhicule est un stationnement qui ne sert pas uniquement à laisser monter ou descendre des passagers ou à charger ou décharger des marchandises."
@@ -426,7 +427,7 @@ rules:
   trecho_literal_fr: "Sur les véhicules à voies multiples stationnés en dehors des localités, il faut utiliser les feux de position ou les feux de stationnement du côté de la circulation. Pour les véhicules dépourvus de feux de ce type, il faut utiliser les feux prescrits pour la catégorie de véhicules concernée."
   trecho_completo: true
   excecoes:
-    - "Exceção: os catadióptricos bastam dentro das localidades e em veículos com largura de no máximo 1,00 m (OCR 31 al. 3, R-ARR-031)."
+    - "Exceção: em veículos com largura de no máximo 1,00 m, os catadióptricos bastam (OCR 31 al. 3, R-ARR-031). Dentro das localidades a al. 1 não se aplica; ali os catadióptricos bastam (OCR 31 al. 3)."
     - "Regra de outra disposição (não consta desta alínea): LCR 41 al. 2 trata de quando os veículos parados devem estar iluminados e da exceção dos locais de estacionamento/zonas bem iluminadas (R-ARR-004)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
@@ -436,7 +437,7 @@ rules:
 - id: R-ARR-030
   categoria: B-Arret-Stationnement
   subtema: luzes-veiculo-parado
-  regra_pt: "Para os veículos de várias vias sem motor, basta uma luz amarela não ofuscante, colocada do lado da circulação e visível pela frente e por trás."
+  regra_pt: "Veículo estacionado (OCR 31, « Utilisation des feux en cas de parcage »): para os veículos de várias vias sem motor, basta uma luz amarela não ofuscante, colocada do lado da circulação e visível pela frente e por trás."
   termos_fr: ["voies multiples sans moteur", "feu jaune non éblouissant"]
   fonte: { lei: OCR, rs: "741.11", artigo: "31", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
   trecho_literal_fr: "Pour les véhicules à voies multiples sans moteur, un feu jaune non éblouissant, placé du côté de la circulation et visible de l'avant et de l'arrière suffit."
@@ -449,7 +450,7 @@ rules:
 - id: R-ARR-031
   categoria: B-Arret-Stationnement
   subtema: luzes-veiculo-parado
-  regra_pt: "Os catadióptricos bastam dentro das localidades e nos veículos cuja largura não excede 1,00 m."
+  regra_pt: "Veículo estacionado (OCR 31, « Utilisation des feux en cas de parcage »): os catadióptricos bastam dentro das localidades e nos veículos cuja largura não excede 1,00 m. Ao circular vale o OCR 30 (luzes de cruzamento ou de circulação diurna)."
   termos_fr: ["catadioptres", "à l'intérieur des localités", "1,00 m"]
   fonte: { lei: OCR, rs: "741.11", artigo: "31", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
   trecho_literal_fr: "Les catadioptres sont suffisants à l'intérieur des localités et sur les véhicules dont la largeur n'excède pas 1,00 m."
@@ -462,7 +463,7 @@ rules:
 - id: R-ARR-032
   categoria: B-Arret-Stationnement
   subtema: arret-autoroute
-  regra_pt: "O condutor só usará a faixa de emergência (« bande d'arrêt d'urgence ») e os locais de parada previstos para veículos em pane e sinalizados como tais em caso de necessidade absoluta; nos outros casos, só parará nos locais de estacionamento indicados por sinais. Os ocupantes do veículo não entrarão na pista."
+  regra_pt: "Nas autoestradas e semiautoestradas (OCR 36), o condutor só usará a faixa de emergência (« bande d'arrêt d'urgence ») e os locais de parada previstos para veículos em pane e sinalizados como tais em caso de necessidade absoluta; nos outros casos, só parará nos locais de estacionamento indicados por sinais. Os ocupantes do veículo não entrarão na pista."
   termos_fr: ["bande d'arrêt d'urgence", "places d'arrêt prévues pour les véhicules en panne", "nécessité absolue", "emplacements de parcage indiqués par des signaux"]
   fonte: { lei: OCR, rs: "741.11", artigo: "36", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
   trecho_literal_fr: "Le conducteur n'utilisera la bande d'arrêt d'urgence et les places d'arrêt prévues pour les véhicules en panne et signalées comme telles qu'en cas de nécessité absolue; dans les autres cas, il s'arrêtera uniquement sur les emplacements de parcage indiqués par des signaux. Les occupants du véhicule ne s'engageront pas sur la chaussée."
@@ -504,8 +505,8 @@ rules:
 - id: R-ARR-035
   categoria: B-Arret-Stationnement
   subtema: parcage-trottoir
-  regra_pt: "O estacionamento dos outros veículos na calçada é proibido, a menos que sinais ou marcas o autorizem expressamente. Na falta dessa sinalização, eles só podem parar na calçada para carregar ou descarregar mercadorias ou para deixar passageiros subir ou descer; um espaço de pelo menos 1 m 50 deve sempre ficar livre para os pedestres e as operações devem ser feitas sem demora."
-  termos_fr: ["trottoir", "signaux ou marques", "1 m 50", "sans délai"]
+  regra_pt: "O estacionamento dos outros veículos (isto é, os que não são ciclos; ver OCR 41 al. 1, R-ARR-034) na calçada é proibido, a menos que sinais ou marcas o autorizem expressamente. Na falta dessa sinalização, eles só podem parar na calçada para carregar ou descarregar mercadorias ou para deixar passageiros subir ou descer; um espaço de pelo menos 1 m 50 deve sempre ficar livre para os pedestres e as operações devem ser feitas sem demora."
+  termos_fr: ["trottoir", "signaux ou des marques", "1 m 50", "sans délai"]
   fonte: { lei: OCR, rs: "741.11", artigo: "41", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
   trecho_literal_fr: "Le parcage des autres véhicules sur le trottoir est interdit, à moins que des signaux ou des marques ne l'autorisent expressément. À défaut d'une telle signalisation, ils ne peuvent s'arrêter sur le trottoir que pour charger ou décharger des marchandises ou pour laisser monter ou descendre des passagers; un espace d'au moins 1 m 50 doit toujours rester libre pour les piétons et les opérations doivent s'effectuer sans délai."
   trecho_completo: true
@@ -521,7 +522,7 @@ rules:
   categoria: B-Arret-Stationnement
   subtema: zonas-de-estacionamento
   regra_pt: "Os sinais de indicação « Parcage autorisé » (4.17), « Parcage avec disque de stationnement » (4.18) e « Parcage contre paiement » (4.20), assim como os sinais de prescrição, podem figurar como sinais de zona (2.59.1) num painel retangular branco com a inscrição « ZONE »."
-  termos_fr: ["signalisation par zones", "signal de zone", "ZONE", "Parcage autorisé (4.17)", "Parcage avec disque de stationnement (4.18)", "Parcage contre paiement (4.20)"]
+  termos_fr: ["signaux de zone", "ZONE", "Parcage autorisé (4.17)", "Parcage avec disque de stationnement (4.18)", "Parcage contre paiement (4.20)"]
   fonte: { lei: OSR, rs: "741.21", artigo: "2a", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "Les signaux d'indication\"Parcage autorisé\"(4.17),\"Parcage avec disque de stationnement\"(4.18) et\"Parcage contre paiement\"(4.20) ainsi que les signaux de prescription peuvent figurer, à titre de signaux de zone (2.59.1), sur un panneau rectangulaire blanc portant l'inscription\"ZONE\"."
   trecho_completo: true
@@ -561,12 +562,12 @@ rules:
   categoria: B-Arret-Stationnement
   subtema: validade-sinais-proibicao
   regra_pt: "Salvo disposições derrogatórias para certos sinais de prescrição, a prescrição anunciada vale no lugar ou a partir do lugar onde o sinal está, até o fim da próxima interseção; nesse ponto o sinal será repetido se a validade deve se estender além. Os sinais « Interdiction de s'arrêter » (2.49) e « Interdiction de parquer » (2.50) devem ser observados até o sinal correspondente que indica o fim da prescrição, mas no máximo até o fim da próxima interseção."
-  termos_fr: ["signaux de prescription", "Interdiction de s'arrêter (2.49)", "Interdiction de parquer (2.50)", "fin de la prochaine intersection", "plaque de rappel"]
+  termos_fr: ["signaux de prescription", "Interdiction de s'arrêter (2.49)", "Interdiction de parquer (2.50)", "fin de la prochaine intersection"]
   fonte: { lei: OSR, rs: "741.21", artigo: "16", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "Sous réserve de dispositions dérogatoires concernant certains signaux de prescription, la prescription annoncée vaut à l'endroit ou à partir de l'endroit où le signal est placé, jusqu'à la fin de la prochaine intersection; à cet endroit, le signal sera répété si sa validité doit s'étendre au-delà. Les signaux\"Vitesse maximale\"(2.30),\"Vitesse minimale\"(2.31),\"Interdiction de dépasser\"(2.44),\"Interdiction aux camions de dépasser\"(2.45),\"Interdiction de s'arrêter\"(2.49) et\"Interdiction de parquer\"(2.50) doivent être observés jusqu'au signal correspondant indiquant la fin de la prescription (2.53, 2.54, 2.55, 2.56, 2.58) mais au plus jusqu'à la fin de la prochaine intersection. Le signal\"Vitesse maximale 50, Limite générale\"(2.30.1) s'applique dans toute la zone bâtie de façon compacte à l'intérieur des localités (art. 22, al. 3; art. 4a, al. 2, OCR)."
   trecho_completo: true
   excecoes:
-    - "A alínea lista os sinais de fim 2.53, 2.54, 2.55, 2.56 e 2.58 em conjunto, sem dizer qual corresponde a 2.49 e 2.50 (OSR 16 al. 2)."
+    - "Os sinais de fim listados (2.53, 2.54, 2.55, 2.56, 2.58) não encerram 2.49/2.50: OSR 32 al. 1 diz que 2.53 a 2.56 encerram limites de velocidade (máxima e mínima) e proibições de ultrapassar; OSR 32 al. 2 diz que o 2.58 encerra restrições « imposées aux véhicules en mouvement ». Para 2.49/2.50, o fim é indicado pela « Plaque indiquant la fin d'une prescription » (5.06) (OSR 30 al. 3; OSR 64 al. 3) ou, no máximo, pelo fim da próxima interseção. (Combinação de textos; não é frase expressa.)"
     - "Regra de outra disposição (não consta desta alínea): OSR 30 al. 3: início, lembrança e fim da proibição são indicados pelas placas 5.05, 5.04 e 5.06 (R-ARR-044)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
@@ -575,14 +576,15 @@ rules:
 
 - id: R-ARR-040
   categoria: B-Arret-Stationnement
-  subtema: zonas-de-estacionamento
-  regra_pt: "O estacionamento só é permitido nos locais designados por sinais ou marcas. As regras do estacionamento em geral aplicam-se ao estacionamento de ciclos e ciclomotores."
-  termos_fr: ["zone de rencontre", "stationnement", "endroits désignés par des signaux ou des marques"]
+  subtema: zona-de-encontro
+  regra_pt: "Na zona de encontro (« zone de rencontre », sinal 2.59.5), o estacionamento só é permitido nos locais designados por sinais ou marcas. Ao estacionamento de ciclos e ciclomotores aplicam-se as regras gerais de estacionamento."
+  termos_fr: ["zone de rencontre", "stationnement", "endroits désignés par des signaux ou des marques", "Les règles régissant le parcage en général"]
   fonte: { lei: OSR, rs: "741.21", artigo: "22b", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "Le stationnement n'est autorisé qu'aux endroits désignés par des signaux ou des marques. Les règles régissant le parcage en général s'appliquent au stationnement des cycles et des cyclomoteurs."
   trecho_completo: true
   excecoes:
     - "Regra de outra disposição (não consta desta alínea): facilidades das pessoas com mobilidade reduzida nas zonas de encontro (até 2 h também fora dos locais indicados): OCR 20a al. 1 let. c (R-ARR-014)."
+    - "Ver R-PRIO-054 (OSR 22b al. 1: prioridade dos pedestres)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
@@ -590,14 +592,15 @@ rules:
 
 - id: R-ARR-041
   categoria: B-Arret-Stationnement
-  subtema: zonas-de-estacionamento
-  regra_pt: "O estacionamento só é permitido nos locais designados por sinais ou marcas. As regras do estacionamento em geral aplicam-se ao estacionamento de ciclos e ciclomotores."
-  termos_fr: ["zone piétonne", "stationnement", "endroits désignés par des signaux ou des marques"]
+  subtema: zona-de-pedestres
+  regra_pt: "Na zona de pedestres (« zone piétonne », sinal 2.59.3), o estacionamento só é permitido nos locais designados por sinais ou marcas. Ao estacionamento de ciclos e ciclomotores aplicam-se as regras gerais de estacionamento."
+  termos_fr: ["zone piétonne", "stationnement", "endroits désignés par des signaux ou des marques", "Les règles régissant le parcage en général"]
   fonte: { lei: OSR, rs: "741.21", artigo: "22c", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "Le stationnement n'est autorisé qu'aux endroits désignés par des signaux ou des marques. Les règles régissant le parcage en général s'appliquent au stationnement des cycles et des cyclomoteurs."
   trecho_completo: true
   excecoes:
     - "Regra de outra disposição (não consta desta alínea): facilidades das pessoas com mobilidade reduzida nas zonas de pedestres onde o acesso de veículos é excepcionalmente autorizado (até 2 h): OCR 20a al. 1 let. c (R-ARR-014)."
+    - "Ver R-PRIO-055 (OSR 22c al. 1: veículos autorizados no máximo a passo)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
@@ -606,13 +609,13 @@ rules:
 - id: R-ARR-042
   categoria: B-Arret-Stationnement
   subtema: sinais-2-49-2-50
-  regra_pt: "Os sinais « Interdiction de s'arrêter » (2.49) e « Interdiction de parquer » (2.50) proíbem, respectivamente, a parada voluntária dos veículos ou o seu estacionamento no lado da via provido desse sinal. Por estacionamento (« parcage ») de um veículo entende-se uma permanência que não serve unicamente para deixar subir ou descer passageiros ou para carregar ou descarregar mercadorias (art. 19 al. 1 OCR)."
+  regra_pt: "Os sinais « Interdiction de s'arrêter » (2.49) e « Interdiction de parquer » (2.50) proíbem, respectivamente, a parada voluntária dos veículos ou o seu estacionamento no lado da via provido desse sinal. Por estacionamento (« parcage ») de um veículo entende-se uma permanência que não serve unicamente para deixar subir ou descer passageiros ou para carregar ou descarregar mercadorias (art. 19 al. 1 OCR). Consequência da definição: com o 2.50 continua permitido parar só para deixar subir ou descer passageiros ou para carregar ou descarregar; com o 2.49, nenhuma parada voluntária é permitida."
   termos_fr: ["Interdiction de s'arrêter (2.49)", "Interdiction de parquer (2.50)", "arrêt volontaire", "parcage"]
   fonte: { lei: OSR, rs: "741.21", artigo: "30", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "Les signaux\"Interdiction de s'arrêter\"(2.49) et\"Interdiction de parquer\"(2.50) défendent respectivement l'arrêt volontaire des véhicules ou leur parcage sur le côté de la route muni d'un tel signal. Par parcage d'un véhicule on entend un stationnement qui ne sert pas uniquement à laisser monter ou descendre des passagers ou encore à charger ou décharger des marchandises (art. 19, al. 1 OCR)."
   trecho_completo: true
   excecoes:
-    - "Regra de outra disposição (não consta desta alínea): portadores do cartão de deficiente podem estacionar até 3 h em locais com proibição de estacionar (OCR 20a al. 1 let. a, R-ARR-014)."
+    - "OCR 20a al. 1 let. a: com o cartão de estacionamento para pessoas com deficiência, até 3 h em locais com proibição de ESTACIONAR (2.50), respeitando sempre o art. 19 al. 2 a 4. Como o art. 19 al. 2 let. a proíbe estacionar « partout où l'arrêt n'est pas permis », a facilidade não vale sob o 2.49 (inferência; ver R-ARR-014)."
     - "Regra de outra disposição (não consta desta alínea): derrogações temporárias: OSR 30 al. 4 (R-ARR-045)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
@@ -791,18 +794,19 @@ rules:
 - id: R-ARR-055
   categoria: B-Arret-Stationnement
   subtema: disco-zona-azul
-  regra_pt: "O sinal tem o seguinte significado: a) sem indicação complementar de limitação horária (zona azul): nos dias úteis, a duração do estacionamento é limitada para os veículos entre 8 e 19 horas. Se a limitação vale também aos domingos e feriados, isso deve ser indicado numa placa complementar. As durações de estacionamento são reguladas no disco de estacionamento do anexo 3 n. 1; b) com indicação complementar de limitação horária: os veículos podem ser estacionados no máximo pelo tempo indicado na placa complementar. O tempo de estacionamento limitado deve ser de pelo menos meia hora."
-  termos_fr: ["zone bleue", "limitation horaire", "8 et 19 heures", "jours ouvrables", "dimanche et jours fériés", "demi-heure"]
+  regra_pt: "O sinal tem o seguinte significado: a) sem indicação complementar de limitação horária (zona azul): nos dias úteis (« jours ouvrables »; o texto não define se o sábado está incluído), a duração do estacionamento é limitada para os veículos entre 8 e 19 horas. Se a limitação vale também aos domingos e feriados, isso deve ser indicado numa placa complementar. As durações de estacionamento são reguladas no disco de estacionamento do anexo 3 n. 1; b) com indicação complementar de limitação horária: os veículos podem ser estacionados no máximo pelo tempo indicado na placa complementar. O tempo de estacionamento limitado deve ser de pelo menos meia hora."
+  termos_fr: ["zone bleue", "limitation horaire", "8 et 19 heures", "jours ouvrables", "le dimanche et les jours fériés", "demi-heure"]
   fonte: { lei: OSR, rs: "741.21", artigo: "48a", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "Le signal a la signification suivante: a. sans indication complémentaire d'une limitation horaire (zone bleue): les jours ouvrables, la durée du stationnement est limitée pour les véhicules entre 8 et 19 heures. Si la limitation est valable également le dimanche et les jours fériés, il faut l'indiquer sur une plaque complémentaire. Les durées de stationnement sont réglées sur le disque de stationnement prévu à l'annexe 3, ch. 1; b. avec l'indication complémentaire d'une limitation horaire: les véhicules peuvent être garés au maximum durant le temps indiqué sur la plaque complémentaire. Le temps de parcage limité devra être d'une demi-heure au moins."
   trecho_completo: true
   excecoes:
     - "Domingos e feriados: a limitação só vale neles se indicado numa placa complementar (OSR 48a al. 2 let. a)."
     - "Regra de outra disposição (não consta desta alínea): as vagas na zona azul são marcadas em azul, e o início e o fim da zona azul podem ser indicados pela marca 6.24 (OSR 79 al. 2-3, R-ARR-067, R-ARR-068)."
+    - "Anexo 3, ch. 1, OSR: « Entre 19.00 et 07.59, il n'est pas nécessaire d'apposer le disque de stationnement, pour autant que le véhicule soit de nouveau engagé dans la circulation avant 08.00. » (R-ARR-077)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "O texto não fixa a duração máxima do estacionamento na zona azul sem placa (diz apenas que é 'limitada' e regulada no disco); nenhum número foi inventado. Meia hora é o mínimo do tempo limitado quando há placa (let. b)."
+  nota: "A duração na zona azul está regulada no disco do anexo 3, ch. 1, da OSR, que está no arquivo-fonte (seção 'Annexe 3' / '1 Disque de stationnement (art. 48a)'); ver R-ARR-075, R-ARR-076 e R-ARR-077. 'jours ouvrables' não é definido no texto: não traduzir como 'segunda a sexta'. Meia hora é o mínimo do tempo limitado quando há placa (let. b)."
 
 - id: R-ARR-056
   categoria: B-Arret-Stationnement
@@ -891,20 +895,21 @@ rules:
   subtema: vagas-recarga-carona
   regra_pt: "A placa complementar composta do símbolo « Station de recharge » (5.42), acrescentada aos sinais « Parcage autorisé » (4.17), « Parcage avec disque de stationnement » (4.18) e « Parcage contre paiement » (4.20), indica que a superfície em questão só pode ser usada para a recarga de veículos de propulsão elétrica."
   termos_fr: ["Station de recharge (5.42)", "véhicules à propulsion électrique"]
-  fonte: { lei: OSR, rs: "741.21", artigo: "65", alinea: "12", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  fonte: { lei: OSR, rs: "741.21", artigo: "65", alinea: "13", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "La plaque complémentaire constituée du symbole\"Station de recharge\"(5.42) et ajoutée aux signaux\"Parcage autorisé\"(4.17),\"Parcage avec disque de stationnement\"(4.18) et\"Parcage contre paiement\"(4.20) indique que la surface concernée ne peut être utilisée que pour la recharge de véhicules à propulsion électrique."
   trecho_completo: true
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
+  nota: "Contagem por posição, com a linha '…' contada como al. 8."
 
 - id: R-ARR-063
   categoria: B-Arret-Stationnement
   subtema: vagas-recarga-carona
   regra_pt: "A placa complementar « autorisée », acrescentada ao sinal « Interdiction de parquer » (2.50), indica que a superfície em questão pode ser usada para a recarga de veículos de propulsão elétrica."
   termos_fr: ["Interdiction de parquer (2.50)", "autorisée", "recharge de véhicules à propulsion électrique"]
-  fonte: { lei: OSR, rs: "741.21", artigo: "65", alinea: "13", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  fonte: { lei: OSR, rs: "741.21", artigo: "65", alinea: "14", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "La plaque complémentaire\"autorisée\"ajoutée au signal\"Interdiction de parquer\"(2.50) indique que la surface concernée peut être utilisée pour la recharge de véhicules à propulsion électrique."
   trecho_completo: true
   excecoes: []
@@ -917,7 +922,7 @@ rules:
   subtema: vagas-recarga-carona
   regra_pt: "A placa complementar com o símbolo « Covoiturage » (5.43), acrescentada aos sinais « Parcage autorisé » (4.17), « Parcage avec disque de stationnement » (4.18) e « Parcage contre paiement » (4.20), indica que a superfície em questão só pode ser usada por veículos que transportem, na chegada, um número de pessoas pelo menos igual ao inscrito no símbolo."
   termos_fr: ["Covoiturage (5.43)", "nombre de personnes"]
-  fonte: { lei: OSR, rs: "741.21", artigo: "65", alinea: "15", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  fonte: { lei: OSR, rs: "741.21", artigo: "65", alinea: "16", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "La plaque complémentaire avec le symbole\"Covoiturage\"(5.43) ajoutée aux signaux\"Parcage autorisé\"(4.17),\"Parcage avec disque de stationnement\"(4.18) et\"Parcage contre paiement\"(4.20) indique que la surface concernée ne peut être utilisée que par des véhicules transportant, à l'arrivée, un nombre de personnes au moins équivalent à celui inscrit sur le symbole."
   trecho_completo: true
   excecoes: []
@@ -1062,3 +1067,200 @@ rules:
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
+
+- id: R-ARR-075
+  categoria: B-Arret-Stationnement
+  subtema: disco-zona-azul
+  regra_pt: "Na zona azul (sinal « Parcage avec disque de stationnement »), a flecha do disco de estacionamento deve ser colocada no traço que segue o da hora de chegada efetiva."
+  termos_fr: ["disque de stationnement", "flèche", "heure d'arrivée effective"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "Annexe 3, ch. 1", alinea: "Réglage du disque de stationnement", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La flèche doit être placée sur le trait qui suit celui de l'heure d'arrivée effective."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 48a al. 3 repete a regra de ajuste da flecha (R-ARR-056)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O anexo 3 não numera alíneas; a frase é a primeira sob o título « Réglage du disque de stationnement sur toutes les aires de circulation indiquées par le signal Parcage avec disque de stationnement »."
+
+- id: R-ARR-076
+  categoria: B-Arret-Stationnement
+  subtema: disco-zona-azul
+  regra_pt: "Duração de estacionamento autorizada na zona azul, segundo a tabela do anexo 3, ch. 1, OSR (nos dias úteis; aos domingos e feriados só se isso for expressamente indicado). Chegada efetiva → hora a indicar no disco → hora de saída: 08.00-08.29 → 08.30 → 09.30; 08.30-08.59 → 09.00 → 10.00; (a tabela continua com « etc. », linhas não reproduzidas no texto); 11.00-11.29 → 11.30 → 12.30; 11.30-13.29 → « sur le trait suivant A » → 14.30; 13.30-13.59 → 14.00 → 15.00; (« etc. »); 17.30-17.59 → 18.00 → 19.00; 18.00-07.59 → « sur le trait suivant A » → 09.00."
+  termos_fr: ["zone bleue", "jours ouvrables", "heure d'arrivée effective", "heure d'arrivée à indiquer", "heure de départ", "sur le trait suivant"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "Annexe 3, ch. 1", alinea: "Durée de stationnement autorisée dans la zone bleue", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les jours ouvrables - ainsi que les dimanches et jours fériés, pour autant que cela soit expressément indiqué - les véhicules ne peuvent être parqués que comme suit:"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 48a al. 2 let. a (R-ARR-055): sem placa, a limitação vale nos dias úteis entre 8 e 19 horas e só vale aos domingos e feriados se indicado em placa complementar."
+    - "O trecho literal cobre apenas a frase introdutória; os horários vêm das células da tabela, que não são frase corrida (trecho_completo: false)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "tabela com colunas desalinhadas na extração — confirmar no Fedlex. A extração traz as células em sequência (chegada, hora a indicar, hora de saída) e a leitura em trios é consistente linha a linha, mas isso é leitura, não frase do texto. As linhas « etc. » não foram preenchidas e nenhum horário foi extrapolado. O significado de « A » em « sur le trait suivant A » não é explicado na extração. 'jours ouvrables' não é definido no texto."
+
+- id: R-ARR-077
+  categoria: B-Arret-Stationnement
+  subtema: disco-zona-azul
+  regra_pt: "Entre 19h00 e 07h59 não é necessário colocar o disco de estacionamento, desde que o veículo volte a circular antes das 08h00."
+  termos_fr: ["disque de stationnement", "entre 19.00 et 07.59", "avant 08.00"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "Annexe 3, ch. 1", alinea: "Remarque sous la table", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Entre 19.00 et 07.59, il n'est pas nécessaire d'apposer le disque de stationnement, pour autant que le véhicule soit de nouveau engagé dans la circulation avant 08.00."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O anexo 3 não numera alíneas; a frase fecha a tabela de durações da zona azul (ver R-ARR-076)."
+
+- id: R-ARR-078
+  categoria: B-Arret-Stationnement
+  subtema: luzes-veiculo-parado
+  regra_pt: "Em caso de parada prolongada, é permitido passar para as luzes de posição."
+  termos_fr: ["arrêt prolongé", "feux de position"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "30", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "En cas d'arrêt prolongé, il est autorisé de passer aux feux de position."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): luzes de veículos estacionados em OCR 31 (R-ARR-029 a 031) e LCR 41 al. 2 (R-ARR-004)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-ARR-079
+  categoria: B-Arret-Stationnement
+  subtema: manobras-estacionamento
+  regra_pt: "Numa via de sentido único, o condutor não deve dar marcha à ré, salvo para estacionar o veículo, para engatar um reboque e situações semelhantes (« etc. »)."
+  termos_fr: ["chaussée à sens unique", "marche arrière", "en parquant son véhicule"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "37", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur une chaussée à sens unique, le conducteur ne fera pas marche arrière sauf en parquant son véhicule, en y attelant une remorque, etc."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-ARR-080
+  categoria: B-Arret-Stationnement
+  subtema: manobras-estacionamento
+  regra_pt: "Antes de partir, o condutor deve se certificar de que não coloca em perigo nenhuma criança ou outro usuário da via. Quando o veículo tapa a visão para trás, o condutor não dará marcha à ré sem ajuda de uma terceira pessoa, a menos que todo perigo esteja excluído."
+  termos_fr: ["avant de démarrer", "enfant", "sans l'aide d'une tierce personne"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "17", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Avant de démarrer, le conducteur s'assurera qu'il ne met en danger aucun enfant ou autre usager de la route. Lorsque le véhicule masque la vue vers l'arrière, le conducteur ne reculera pas sans l'aide d'une tierce personne, à moins que tout danger ne soit exclu."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-ARR-081
+  categoria: B-Arret-Stationnement
+  subtema: manobras-estacionamento
+  regra_pt: "A marcha à ré só pode ser feita a passo. É proibido atravessar de marcha à ré interseções sem visibilidade e passagens de nível."
+  termos_fr: ["marche arrière", "allure du pas", "intersections sans visibilité"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "17", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La marche arrière ne doit s'effectuer qu'à l'allure du pas. Il est interdit de traverser en marche arrière les intersections sans visibilité et les passages à niveau."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-ARR-082
+  categoria: B-Arret-Stationnement
+  subtema: manobras-estacionamento
+  regra_pt: "Num percurso de certa extensão, a marcha à ré só é admitida se for impossível continuar ou fazer retorno."
+  termos_fr: ["marche arrière", "parcours d'une certaine longueur"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "17", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur un parcours d'une certaine longueur, la marche arrière n'est admise que s'il est impossible de continuer ou de faire demi-tour."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-ARR-083
+  categoria: B-Arret-Stationnement
+  subtema: sistema-ajuda-estacionamento
+  regra_pt: "Ao usar um sistema de ajuda ao estacionamento, o condutor pode soltar o volante durante a manobra de estacionamento e até sair do veículo, se o sistema o permitir. Ele deve vigiar a manobra e interrompê-la se necessário."
+  termos_fr: ["système d'aide au stationnement", "lâcher l'appareil de direction", "surveiller la manœuvre"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "3", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsqu'il utilise un système d'aide au stationnement, le conducteur peut lâcher l'appareil de direction durant le parcage et même quitter le véhicule si le système le permet. Il est tenu de surveiller la manœuvre et de l'interrompre au besoin."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O currículo (CURRICULO.md) aponta a categoria H (sistemas de assistência) para este tema; mantida em B por estar neste arquivo, com decisão de categoria pendente (ver docs/reviews/T-018-pendencias.md)."
+
+- id: R-ARR-084
+  categoria: B-Arret-Stationnement
+  subtema: placas-complementares
+  regra_pt: "A placa de direção (5.07), com seta para a esquerda ou para a direita, indica o lugar que apresenta perigo, onde uma prescrição se aplica ou onde uma indicação deve ser observada. É usada em especial: a) sob os sinais « Piste cyclable » (2.60), « Chemin pour piétons » (2.61) e « Allée d'équitation » (2.62) quando se deve usar esse caminho do outro lado da pista (art. 33); b) sob os sinais « Interdiction de parquer » (2.50) e « Parcage autorisé » (4.17), para indicar em que direção se estende um lugar proibido ou reservado ao estacionamento."
+  termos_fr: ["Plaque de direction (5.07)", "Interdiction de parquer (2.50)", "Parcage autorisé (4.17)"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "64", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La\"Plaque de direction\"(5.07) portant une flèche dirigée vers la gauche ou vers la droite indique l'endroit qui présente un danger, celui où une prescription est applicable, ou encore celui où une indication doit être observée. Elle est utilisée notamment: a. sous les signaux\"Piste cyclable\"(2.60),\"Chemin pour piétons\"(2.61) et\"Allée d'équitation\"(2.62) lorsqu'un tel chemin se trouvant de l'autre côté de la chaussée doit être emprunté (art. 33); b. sous les signaux\"Interdiction de parquer\"(2.50) et\"Parcage autorisé\"(4.17) pour indiquer dans quelle direction s'étend une place interdite ou réservée au stationnement."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 30 al. 3 também menciona a placa de direção 5.07 para indicar o campo de aplicação de uma proibição (R-ARR-044)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-ARR-085
+  categoria: B-Arret-Stationnement
+  subtema: placas-complementares
+  regra_pt: "Uma placa complementar com símbolo ou inscrição significa que o sinal ao qual foi acrescentada se aplica apenas ao tipo de transporte representado (ressalvados os art. 15 al. 1 e 46 al. 2). Uma placa com a palavra « Excepté » ou « Autorisé » junto a uma inscrição ou símbolo significa que o sinal ao qual foi acrescentada não se aplica ao tipo de transporte correspondente."
+  termos_fr: ["plaque complémentaire", "Excepté", "Autorisé", "genre de transport"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "64", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le champ d'application de signaux peut être matérialisé au moyen d'une plaque complémentaire. Une plaque complémentaire comprenant: a. un symbole ou une inscription correspondante signifie que le signal auquel la plaque a été ajoutée s'applique uniquement au genre de transport représenté; les art. 15, al. 1, et 46, al. 2, sont réservés; b. le mot\"Excepté\"ou\"Autorisé\"en relation avec une inscription ou un symbole signifie que le signal auquel la plaque a été ajoutée ne s'applique pas au genre de transport correspondant."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 17 al. 1: as exceções às prescrições indicadas por sinais são mencionadas em placa complementar."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "A alínea fala de sinais em geral; o relatório T-015 a aponta como útil para placas como « excepté riverains » sob o 2.50, mas o texto da alínea não cita o 2.50."
+
+- id: R-ARR-086
+  categoria: B-Arret-Stationnement
+  subtema: parcage-trottoir
+  regra_pt: "O condutor que precisa usar a calçada com seu veículo deve ter prudência especial em relação aos pedestres, aos usuários de engins assimilés à des véhicules e aos demais usuários com direito de passagem, e deve lhes dar a prioridade."
+  termos_fr: ["trottoir", "prudence particulière", "accorder la priorité"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "41", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le conducteur qui doit emprunter le trottoir avec son véhicule est tenu de faire preuve d'une prudence particulière à l'égard des piétons, des utilisateurs d'engins assimilés à des véhicules et des autres ayants droit; il doit leur accorder la priorité."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): parar ou estacionar na calçada: OCR 41 al. 1 e 2 (R-ARR-034, R-ARR-035)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-ARR-087
+  categoria: B-Arret-Stationnement
+  subtema: calcada-base-legal
+  regra_pt: "A calçada é reservada aos pedestres e a ciclovia (« piste cyclable ») aos ciclistas. O Conselho Federal pode prever exceções."
+  termos_fr: ["trottoir", "piste cyclable", "Conseil fédéral"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "43", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Le trottoir est réservé aux piétons, la piste cyclable aux cyclistes. Le Conseil fédéral peut prévoir des exceptions."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 41 (R-ARR-034, R-ARR-035) regula o parcage e a parada na calçada."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-ARR-088
+  categoria: B-Arret-Stationnement
+  subtema: zonas-de-estacionamento
+  regra_pt: "Um sinal de zona pode indicar no máximo três regulamentações do tráfego."
+  termos_fr: ["signal de zone", "trois réglementations du trafic"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "2a", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Un signal de zone peut indiquer tout au plus trois réglementations du trafic."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 2a al. 1 (R-ARR-036): sinais de estacionamento como sinais de zona."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
