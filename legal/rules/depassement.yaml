@@ -5,12 +5,13 @@
 #   exceto R-DEP-052 (ver nota da regra). Alíneas com letras (a., b., ...) aparecem na mesma linha ("a. ...; b. ...").
 # A numeração das alíneas (alinea) é a ordem dos parágrafos no arquivo extraído (o arquivo não traz o número da alínea).
 #   Linhas só com títulos (ex.: "Croisement et dépassement" no fim do LCR 34) e linhas de nota ("* ...") não contam como alínea.
-#   Alíneas revogadas aparecem como "…" e contam na posição (confere com as remissões: OSR 47 cita « art. 10, al. 3, OCR » e OSR 45 cita « art. 38, al. 3, OCR »).
+#   Alíneas revogadas aparecem como "…" e contam na posição (confere com as remissões: OSR 45 cita « art. 38, al. 3, OCR » e OCR 8 al. 4 cita « art. 74a, al. 7, let. e, OSR »). Atenção: « et … » isolado pode representar DUAS alíneas (« 2 et 3 … »); ver R-DEP-021.
+#   R-DEP-052 (T-021): trecho copiado sem o marcador de nota « *3*3 » depois de « catégorie », conforme a convenção acima (check_quotes.py aceita na variante sem_notas).
 #   OCR 10 al. 2: no arquivo a alínea termina com " …" (trecho omitido); o " …" foi deixado fora do trecho.
 # versao_lei_em_vigor_desde = data 'État le' do texto consolidado (NÃO é a data de entrada em vigor do artigo).
 # NÃO duplicadas (já em priorite.yaml / arret-stationnement.yaml): LCR 36 al. 2-4 (R-PRIO-001, 029, 030); LCR 38 al. 1 (R-PRIO-024); LCR 33 al. 2 e OCR 6 al. 1-5 (R-PRIO-023, 020, 021, 034-036);
 #   OCR 8 al. 5 zíper (R-PRIO-051); OCR 9 al. 1-2 (R-PRIO-032, 040); OCR 36 al. 4 (R-PRIO-050); OCR 40 al. 1, 4, 5 (R-PRIO-047-049); OCR 25 al. 5 (arret-stationnement); OSR 47 al. 4 / sinal 4.15 (R-ARR-048).
-# Fora do escopo: OCR 45 al. 1 última frase (regra para condutor de bonde); OCR 43 (ciclos lado a lado), OCR 85 (transportes especiais); OSR 73 al. 1-6 (descrevem cor/finalidade das linhas, não comportamento);
+# Fora do escopo: OCR 45 al. 1 última frase (regra para condutor de bonde); OCR 43 (ciclos lado a lado), OCR 85 (transportes especiais); OSR 73 al. 2-5 (comprimento mínimo, linha dupla, linha de direção, linha dupla de segurança; só OSR 73 al. 1 e 6 entraram no T-021, R-DEP-071 e 072);
 #   OSR 45 al. 2 (sinal 4.05) citado só dentro do R-DEP do OCR 38 al. 3; OSR 47 al. 4 (sinal 4.15) já em R-ARR-048; desenho de qualquer sinal ou linha (só aparecem número e nome no texto).
 rules:
 
@@ -87,7 +88,7 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): veículos em présélection para virar à esquerda só podem ser ultrapassados pela direita (LCR 35 al. 6, R-DEP-010)."
     - "Regra de outra disposição (não consta desta alínea): bondes e chemins de fer routiers em marcha são ultrapassados pela direita; se isso não for possível, é permitido pela esquerda (LCR 38 al. 2, R-DEP-013)."
     - "Regra de outra disposição (não consta desta alínea): ilhas, superfícies interditas ao tráfego e obstáculos no meio da pista são contornados pela direita (OCR 7, R-DEP-022)."
-    - "Regra de outra disposição (não consta desta alínea): passar à frente (« devancer ») pela direita em filas paralelas e dentro das localidades (OCR 8 al. 3, R-DEP-025); ultrapassar pela direita à direita da linha de segurança (OCR 11 al. 3, R-DEP-032); regras de autoestrada (OCR 36 al. 5, R-DEP-047)."
+    - "Regra de outra disposição (não consta desta alínea): passar à frente (« devancer ») pela direita é permitido na circulação em filas paralelas e, dentro das localidades, nas estradas marcadas com várias faixas para o mesmo sentido, salvo se esses veículos param para dar prioridade a pedestres ou a usuários de engins assimilés; contornar veículos pela direita para ultrapassá-los continua proibido (OCR 8 al. 3, R-DEP-025). Autoestradas e semiautoestradas: OCR 36 al. 5 (R-DEP-047)."
     - "Regra de outra disposição (não consta desta alínea): cruzamento de veículos em interseções onde ambos viram à esquerda: « ils se croiseront à gauche » (OCR 13 al. 4, R-DEP-040)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
@@ -103,6 +104,7 @@ rules:
   trecho_completo: true
   excecoes:
     - "Regra de outra disposição (não consta desta alínea): depois da ultrapassagem, voltar à direita assim que for possível sem perigo para o ultrapassado (OCR 10 al. 2, R-DEP-028)."
+    - "Ver R-PRIO-032 (OCR 9 al. 1): obstáculo na própria metade da pista → prioridade ao tráfego em sentido contrário."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
   status: pendente
@@ -115,7 +117,8 @@ rules:
   fonte: { lei: LCR, rs: "741.01", artigo: "35", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
   trecho_literal_fr: "Celui qui dépasse doit avoir particulièrement égard aux autres usagers de la route, notamment à ceux qu'il veut dépasser."
   trecho_completo: true
-  excecoes: []
+  excecoes:
+    - "Ver R-PRIO-036 (OCR 6 al. 5): ônibus escolar parado com pisca-alerta: só ultrapassar em velocidade reduzida e com prudência particular; se necessário, parar."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
   status: pendente
@@ -134,7 +137,7 @@ rules:
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "O cabeçalho do OCR 11 remete a « art. 35, al. 4, LCR ». O texto do OCR 11 al. 3 permite expressamente ultrapassar « à droite de la ligne de sécurité » mesmo em curva ou perto do topo de uma subida; o texto não explica como isso se combina com a proibição desta alínea em curva sem visibilidade. Nenhuma conciliação foi afirmada: cada texto está registrado como está escrito (ver R-DEP do OCR 11 al. 3)."
+  nota: "O OCR 11 al. 3 (R-DEP-032) só permite, em curva ou perto do topo de subida, a ultrapassagem feita à direita da linha de segurança, isto é, sem cruzá-la (LCR 34 al. 2; OSR 73 al. 7 let. a). Não autoriza usar a metade esquerda numa curva sem visibilidade. (Leitura combinada de textos; ver T-020 §4, ponto 1.)"
 
 - id: R-DEP-009
   categoria: E-Depassement
@@ -147,7 +150,7 @@ rules:
   excecoes:
     - "Regra de outra disposição (não consta desta alínea): o condutor deve dar prioridade ao pedestre que já está na passagem ou espera com intenção visível de usá-la, reduzir a velocidade a tempo e parar se necessário (OCR 6 al. 1, R-PRIO-020)."
     - "Regra de outra disposição (não consta desta alínea): veículos em présélection para virar à esquerda só podem ser ultrapassados pela direita (LCR 35 al. 6, R-DEP-010)."
-    - "Regra de outra disposição (não consta desta alínea): passar à frente pela direita em filas paralelas ou dentro de localidades não é permitido se os veículos páram para dar prioridade a pedestres (OCR 8 al. 3, R-DEP-025)."
+    - "Regra de outra disposição (não consta desta alínea): passar à frente (« devancer ») pela direita na circulação em filas paralelas e, dentro das localidades, nas estradas com várias faixas marcadas para o mesmo sentido não é permitido se os veículos páram para dar prioridade a pedestres (OCR 8 al. 3, R-DEP-025)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
   status: pendente
@@ -288,7 +291,7 @@ rules:
 - id: R-DEP-019
   categoria: E-Depassement
   subtema: filas-paralelas
-  regra_pt: "O mesmo princípio vale por analogia quando filas de veículos paralelas circulam na mesma direção em estradas largas cujas faixas não são marcadas."
+  regra_pt: "O princípio da LCR 44 al. 1 (só passar de uma faixa a outra se disso não resultar perigo para os outros usuários) vale por analogia quando filas de veículos paralelas circulam na mesma direção em estradas largas cujas faixas não são marcadas."
   termos_fr: ["files de véhicules placées parallèlement", "voies ne sont pas marquées"]
   fonte: { lei: LCR, rs: "741.01", artigo: "44", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
   trecho_literal_fr: "Le même principe est applicable par analogie lorsque des files de véhicules placées parallèlement circulent dans la même direction sur des routes larges dont les voies ne sont pas marquées."
@@ -308,7 +311,7 @@ rules:
   trecho_literal_fr: "Sur les routes à forte déclivité et sur les routes de montagne, le conducteur doit circuler de manière à ne pas mettre excessivement les freins à contribution. Si un croisement se révèle difficile, le véhicule descendant doit s'arrêter à temps le premier. S'il est impossible de croiser, le véhicule descendant devra reculer, sauf si l'autre véhicule se trouve manifestement plus près d'une place d'évitement."
   trecho_completo: true
   excecoes:
-    - "Regra de outra disposição (não consta desta alínea): OCR 38 al. 1 (R-DEP-052) repete a regra do recuo do veículo que desce para veículos da mesma categoria; veículos de categorias diferentes: OCR 9 al. 2, primeira frase (R-PRIO-040)."
+    - "Regra de outra disposição (não consta desta alínea): OCR 38 al. 1 (R-DEP-052) trata de veículos da mesma categoria, com redação própria (« sauf si l'autre véhicule se trouve près d'une place d'évitement », sem o « manifestement plus près » desta alínea); veículos de categorias diferentes: OCR 9 al. 2, primeira frase (R-PRIO-040)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
   status: pendente
@@ -325,7 +328,7 @@ rules:
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "Regra geral de adaptação de velocidade (art. 32 al. 1 LCR, indicado no cabeçalho do OCR 4); incluída aqui só pela cláusula do cruzamento difícil. A alínea 2 do artigo no arquivo é só « et … » e a al. 3 só « … » (trechos revogados/omitidos); nenhuma regra foi criada para elas."
+  nota: "Regra geral de adaptação de velocidade (art. 32 al. 1 LCR, indicado no cabeçalho do OCR 4); incluída aqui só pela cláusula do cruzamento difícil. No arquivo, depois da al. 1 vêm as linhas « et … » e « … » e depois « Il est tenu de ne pas diminuer la fluidité du trafic… ». « et … » provavelmente corresponde a « 2 et 3 … » (duas alíneas revogadas); nesse caso a última alínea é a al. 5. Confirmar no HTML do Fedlex."
 
 - id: R-DEP-022
   categoria: E-Depassement
@@ -338,6 +341,7 @@ rules:
   excecoes:
     - "Os condutores que viram à esquerda podem contornar pela esquerda as ilhas situadas no meio de interseções (OCR 7, parte final)."
     - "Regra de outra disposição (não consta desta alínea): em vias de mão única é permitido contornar pela direita ou pela esquerda as ilhas e os obstáculos, bem como bondes e chemins de fer routiers em marcha (OCR 37 al. 2, R-DEP-051)."
+    - "Regra de outra disposição (não consta desta alínea): OSR 24 al. 1 let. b (R-DEP-073): com os sinais « Obstacle à contourner par la droite » (2.34) e « Obstacle à contourner par la gauche » (2.35), « le conducteur doit contourner par la droite ou par la gauche l'obstacle devant lequel est placé le signal »."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
@@ -383,7 +387,7 @@ rules:
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "O texto usa dois verbos: « devancer » (passar à frente, permitido nas condições da alínea) e « dépasser » (ultrapassar); é « contourner [...] par la droite pour les dépasser » que é proibido. Os termos foram mantidos em francês; nenhuma diferença adicional foi afirmada."
+  nota: "O texto usa dois verbos: « devancer » (passar à frente, permitido nas condições da alínea) e « dépasser » (ultrapassar); é « contourner [...] par la droite pour les dépasser » que é proibido. Os termos foram mantidos em francês; nenhuma diferença adicional foi afirmada. Na explicação ao aluno, usar sempre 'passar à frente pela direita' para « devancer » (permitido nas condições da alínea) e 'contornar pela direita para ultrapassar' para a manobra proibida."
 
 - id: R-DEP-026
   categoria: E-Depassement
@@ -475,7 +479,7 @@ rules:
 - id: R-DEP-032
   categoria: E-Depassement
   subtema: ultrapassar-a-direita-da-linha-de-seguranca-e-passagem-de-nivel
-  regra_pt: "É permitido ultrapassar à direita da linha de segurança, mesmo numa curva ou ao se aproximar do topo de uma subida, se a manobra puder ser feita sem incomodar quem usa a mesma metade da pista. Nas passagens de nível sem barreiras, o condutor só pode ultrapassar ciclistas, usuários de engins assimilés à veículos e pedestres, desde que a visibilidade seja boa."
+  regra_pt: "É permitido ultrapassar à direita da linha de segurança (« à droite de la ligne de sécurité »), isto é, sem cruzar nem pisar essa linha (LCR 34 al. 2; OSR 73 al. 7 let. a), mesmo numa curva ou ao se aproximar do topo de uma subida, se a manobra puder ser feita sem incomodar quem usa a mesma metade da pista. Isso não autoriza ultrapassar pela direita do veículo ultrapassado nem usar a metade esquerda da pista. Nas passagens de nível sem barreiras, o condutor só pode ultrapassar ciclistas, usuários de engins assimilés à veículos e pedestres, desde que a visibilidade seja boa."
   termos_fr: ["à droite de la ligne de sécurité", "tournant", "sommet d'une côte", "passages à niveau sans barrières", "cyclistes", "piétons", "visibilité soit bonne"]
   fonte: { lei: OCR, rs: "741.11", artigo: "11", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
   trecho_literal_fr: "Il est permis de dépasser à droite de la ligne de sécurité, même dans un tournant ou à l'approche du sommet d'une côte, si cette manœuvre peut être effectuée sans gêner ceux qui empruntent la même moitié de la chaussée. Aux passages à niveau sans barrières, le conducteur ne pourra dépasser que des cyclistes, des utilisateurs d'engins assimilés à des véhicules et des piétons, à condition que la visibilité soit bonne."
@@ -487,7 +491,7 @@ rules:
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "Alínea de duas frases. O texto fala em ultrapassar « à droite de la ligne de sécurité » (isto é, no lado direito dessa linha); nenhuma interpretação adicional sobre quando isto é aplicável foi acrescentada. A relação com a LCR 35 al. 4 está descrita na nota do R-DEP correspondente."
+  nota: "Alínea de duas frases. O texto fala em ultrapassar « à droite de la ligne de sécurité » (isto é, no lado direito dessa linha); nenhuma interpretação adicional sobre quando isto é aplicável foi acrescentada. A relação com a LCR 35 al. 4 está descrita na nota do R-DEP correspondente. Leitura marcada: 'sem cruzar nem pisar a linha' vem da combinação com LCR 34 al. 2 e OSR 73 al. 7 let. a; não é frase expressa do OCR 11 al. 3 (ver T-020 §4, ponto 1)."
 
 - id: R-DEP-033
   categoria: E-Depassement
@@ -533,12 +537,13 @@ rules:
 - id: R-DEP-036
   categoria: E-Depassement
   subtema: parada-da-circulacao
-  regra_pt: "Numa parada da circulação, o condutor não deve parar sobre uma passagem de pedestres nem bloquear, numa interseção, a via aos veículos que circulam no sentido transversal."
+  regra_pt: "Quando a circulação fica parada (« arrêt de la circulation »), o condutor não deve parar sobre uma passagem de pedestres nem bloquear, numa interseção, a via aos veículos que circulam no sentido transversal."
   termos_fr: ["arrêt de la circulation", "passage pour piétons", "barrer, à une intersection", "sens transversal"]
   fonte: { lei: OCR, rs: "741.11", artigo: "12", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
   trecho_literal_fr: "Lors d'un arrêt de la circulation, le conducteur ne doit ni s'arrêter sur un passage pour piétons ni barrer, à une intersection, la voie aux véhicules circulant dans le sens transversal."
   trecho_completo: true
-  excecoes: []
+  excecoes:
+    - "Ver R-ARR-006 (OCR 18 al. 2: parada voluntária)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
@@ -758,16 +763,17 @@ rules:
   categoria: E-Depassement
   subtema: croisement-montanha-mesma-categoria
   regra_pt: "Quando, numa estrada de forte declive ou de montanha, veículos da mesma categoria não podem se cruzar, o veículo que desce é quem deve recuar, salvo se o outro veículo estiver perto de um local de desvio (« place d'évitement »). O cruzamento de veículos de categorias diferentes é regido pelo OCR art. 9 al. 2, primeira frase."
-  termos_fr: []
+  termos_fr: ["de même catégorie", "véhicule descendant qui doit reculer", "près d'une place d'évitement", "catégories différentes"]
   fonte: { lei: OCR, rs: "741.11", artigo: "38", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
-  trecho_completo: false
+  trecho_literal_fr: "Lorsque, sur une route à forte déclivité ou sur une route de montagne, des véhicules de même catégorie ne peuvent pas se croiser, c'est le véhicule descendant qui doit reculer, sauf si l'autre véhicule se trouve près d'une place d'évitement. Le croisement de véhicules de catégories différentes est régi par l'art. 9, al. 2, première phrase."
+  trecho_completo: true
   excecoes:
     - "Regra de outra disposição (não consta desta alínea): categorias diferentes: OCR 9 al. 2, primeira frase (R-PRIO-040)."
     - "Regra de outra disposição (não consta desta alínea): base legal: LCR 45 al. 1 (R-DEP-020)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "trecho_literal_fr omitido de propósito: no arquivo baixado, a expressão « de même catégorie » vem com marcador de nota colado (« catégorie*3*3 »); com o número da nota retirado o trecho não coincidiria literalmente com o arquivo. Regra pt, alínea e artigo conferidos no arquivo (741.11, art. 38, 1.º parágrafo). Só o aluno pode confirmar no HTML do Fedlex."
+  nota: "Marcador de nota « *3*3 » depois de « catégorie » retirado, conforme o cabeçalho; o check_quotes.py aceita o trecho na variante sem_notas (testado no T-020 e no T-021)."
 
 - id: R-DEP-053
   categoria: E-Depassement
@@ -815,7 +821,7 @@ rules:
 - id: R-DEP-056
   categoria: E-Depassement
   subtema: sinal-interdicao-de-ultrapassar
-  regra_pt: "O sinal « Interdiction de dépasser » (2.44) proíbe os condutores de veículos automotores de ultrapassar veículos de rodas dispostas lado a lado (« roues placées l'une à côté de l'autre »), bondes e chemins de fer routiers, quando esses veículos estão em marcha."
+  regra_pt: "O sinal « Interdiction de dépasser » (2.44) proíbe os condutores de veículos automotores de ultrapassar veículos de rodas dispostas lado a lado (« roues placées l'une à côté de l'autre »), bondes e chemins de fer routiers, quando esses veículos estão em marcha. Consequência da definição (leitura do texto, não frase expressa): o 2.44 não proíbe ultrapassar veículos de rodas uma atrás da outra (« roues … placées l'une derrière l'autre », expressão do OSR 42 al. 1), por exemplo bicicletas e motos."
   termos_fr: ["Interdiction de dépasser", "2.44", "roues placées l'une à côté de l'autre", "en marche"]
   fonte: { lei: OSR, rs: "741.21", artigo: "26", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "Le signal\"Interdiction de dépasser\"(2.44) interdit aux conducteurs de véhicules automobiles de dépasser des véhicules ayant les roues placées l'une à côté de l'autre, les tramways et les chemins de fer routiers, lorsque ces véhicules sont en marche."
@@ -823,10 +829,11 @@ rules:
   excecoes:
     - "Exceção do próprio artigo: veículos limitados a 30 km/h podem ser ultrapassados se disso não resultar perigo (OSR 26 al. 3, R-DEP-058)."
     - "Bondes e chemins de fer routiers em marcha podem ser « devancés » pela direita (OSR 26 al. 3, última frase, R-DEP-058)."
+    - "Regra de outra disposição (não consta desta alínea): OSR 16 al. 2 (R-ARR-039): o 2.44 « doivent être observés » até o sinal de fim (2.55 ou 2.58), « mais au plus jusqu'à la fin de la prochaine intersection ». (A citação literal da frase toda está em R-DEP-059.)"
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "O texto não descreve o desenho do sinal; só o número (2.44) e o nome. Nenhuma descrição visual foi acrescentada. « Roues placées l'une à côté de l'autre » é mantido no francês porque o texto não explica o termo."
+  nota: "O texto não descreve o desenho do sinal; só o número (2.44) e o nome. Nenhuma descrição visual foi acrescentada. « Roues placées l'une à côté de l'autre » é mantido no francês: nenhum artigo define o termo (o OSR 42 al. 1 usa a expressão oposta, « l'une derrière l'autre »). A consequência para veículos de rodas uma atrás da outra é leitura, não frase expressa (T-020 §4, ponto 7)."
 
 - id: R-DEP-057
   categoria: E-Depassement
@@ -838,6 +845,7 @@ rules:
   trecho_completo: true
   excecoes:
     - "Exceção do próprio artigo: veículos limitados a 30 km/h podem ser ultrapassados se disso não resultar perigo (OSR 26 al. 3, R-DEP-058)."
+    - "Regra de outra disposição (não consta desta alínea): OSR 16 al. 2 (R-ARR-039): o 2.45 « doivent être observés » até o sinal de fim (2.56 ou 2.58), « mais au plus jusqu'à la fin de la prochaine intersection ». (A citação literal da frase toda está em R-DEP-059.)"
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
@@ -846,7 +854,7 @@ rules:
 - id: R-DEP-058
   categoria: E-Depassement
   subtema: excecoes-aos-sinais-de-ultrapassar
-  regra_pt: "Esses dois sinais não impedem os condutores de ultrapassar, se disso não resultar perigo, veículos cuja velocidade máxima é limitada a 30 km/h (monoeixos, carrinhos de mão equipados com motor, chariots à moteur, chariots de travail, veículos automotores agrícolas; art. 11 al. 2 let. g, 13 al. 3 let. b, 17 e 161 a 166 OETV). Os bondes e chemins de fer routiers em marcha podem ser ultrapassados (« devancés ») pela direita."
+  regra_pt: "Os sinais « Interdiction de dépasser » (2.44) e « Interdiction aux camions de dépasser » (2.45) não impedem os condutores de ultrapassar, se disso não resultar perigo, veículos cuja velocidade máxima é limitada a 30 km/h (monoeixos, carrinhos de mão equipados com motor, chariots à moteur, chariots de travail, veículos automotores agrícolas; art. 11 al. 2 let. g, 13 al. 3 let. b, 17 e 161 a 166 OETV). Os bondes e chemins de fer routiers em marcha podem ser passados à frente pela direita (« devancés par la droite »)."
   termos_fr: ["30 km/h", "monoaxes", "véhicules automobiles agricoles", "devancés par la droite"]
   fonte: { lei: OSR, rs: "741.21", artigo: "26", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "Ces deux signaux n'empêchent pas les conducteurs de dépasser, s'il n'en résulte aucun danger, des véhicules dont la vitesse maximale est limitée à 30 km/h (monoaxes, voitures à bras équipées d'un moteur, chariots à moteur, chariots de travail, véhicules automobiles agricoles; art. 11, al. 2, let. g, 13, al. 3, let. b, 17 et 161 à 166, OETV). Les tramways et chemins de fer routiers en marche peuvent être devancés par la droite."
@@ -862,12 +870,14 @@ rules:
 - id: R-DEP-059
   categoria: E-Depassement
   subtema: fim-da-interdicao-de-ultrapassar
-  regra_pt: "As proibições de ultrapassar sinalizadas são suprimidas pelos sinais « Fin de l'interdiction de dépasser » (2.55) e « Fin de l'interdiction aux camions de dépasser » (2.56)."
+  regra_pt: "As proibições de ultrapassar sinalizadas são suprimidas pelos sinais « Fin de l'interdiction de dépasser » (2.55) e « Fin de l'interdiction aux camions de dépasser » (2.56). Sem sinal de fim, a proibição vale no máximo até o fim da próxima interseção; o sinal « Libre circulation » (2.58) também a encerra (OSR 16 al. 2)."
   termos_fr: ["Fin de l'interdiction de dépasser", "2.55", "Fin de l'interdiction aux camions de dépasser", "2.56"]
   fonte: { lei: OSR, rs: "741.21", artigo: "26", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "Les interdictions de dépasser signalées seront supprimées par les signaux\"Fin de l'interdiction de dépasser\"(2.55) et\"Fin de l'interdiction aux camions de dépasser\"(2.56)."
   trecho_completo: true
-  excecoes: []
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 16 al. 2 (R-ARR-039): os sinais 2.44 e 2.45 « doivent être observés jusqu'au signal correspondant indiquant la fin de la prescription (2.53, 2.54, 2.55, 2.56, 2.58) mais au plus jusqu'à la fin de la prochaine intersection »."
+    - "Ver R-DEP-060 (OSR 32 al. 1)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
@@ -881,11 +891,12 @@ rules:
   fonte: { lei: OSR, rs: "741.21", artigo: "32", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "Les signaux\"Fin de la vitesse maximale\"(2.53),\"Fin de la vitesse maximale 50, Limite générale\"(2.53.1),\"Fin de la vitesse minimale\"(2.54),\"Fin de l'interdiction de dépasser\"(2.55) et\"Fin de l'interdiction aux camions de dépasser\"(2.56) indiquent que l'interdiction signalée auparavant est supprimée."
   trecho_completo: true
-  excecoes: []
+  excecoes:
+    - "Ver R-DEP-059 (OSR 26 al. 4) e R-ARR-039 (OSR 16 al. 2)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "Alínea 2 (« Libre circulation », 2.58), 3, 4 e 5 do mesmo artigo não foram usadas: o texto da al. 2 não menciona a proibição de ultrapassar expressamente."
+  nota: "Al. 2 do OSR 32 (« Libre circulation », 2.58) não menciona a proibição de ultrapassar, mas o OSR 16 al. 2 (R-ARR-039) lista o 2.58 entre os sinais de fim do 2.44/2.45 e limita a validade ao fim da próxima interseção (ver R-DEP-059). Al. 3 a 5 não tratam de ultrapassagem."
 
 - id: R-DEP-061
   categoria: E-Depassement
@@ -902,7 +913,7 @@ rules:
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "Os números 6.01, 6.03, 6.04, 6.05 só aparecem no texto das alíneas anteriores do artigo (al. 1, 4, 5, 6), que descrevem cor e finalidade das linhas e não foram usadas como regra de comportamento. Nenhum desenho de linha foi descrito."
+  nota: "Os números 6.01, 6.03, 6.04, 6.05 só aparecem no texto das alíneas anteriores do artigo (al. 1, 4, 5, 6), que descrevem cor e finalidade das linhas (al. 1 e 6 foram acrescentadas no T-021 como R-DEP-071 e R-DEP-072; al. 4 e 5 não foram usadas). Nenhum desenho de linha foi descrito."
 
 - id: R-DEP-062
   categoria: E-Depassement
@@ -932,3 +943,155 @@ rules:
   verificado_em: "2026-11-26"
   status: pendente
   nota: "Alínea de três frases; só a segunda frase trata de comportamento sobre a linha contínua."
+
+- id: R-DEP-064
+  categoria: E-Depassement
+  subtema: voies-de-preselection
+  regra_pt: "As vias de circulação destinadas aos veículos que viram à esquerda, que viram à direita ou que seguem em frente são designadas por flechas brancas de présélection (6.06) apontadas no sentido correspondente. O condutor só pode atravessar as interseções na direção das flechas de présélection marcadas na sua via de circulação. As flechas amarelas são destinadas exclusivamente aos condutores de ônibus públicos em serviço de linha (« bus publics en trafic de ligne »); elas os autorizam a circular na direção indicada."
+  termos_fr: ["flèches blanches de présélection", "6.06", "ne peut traverser les intersections que dans la direction des flèches de présélection", "flèches jaunes", "bus publics en trafic de ligne"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "74", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les voies de circulation destinées aux véhicules obliquant à gauche, aux véhicules obliquant à droite ou à ceux qui continuent tout droit seront désignées par des flèches blanches de présélection (6.06) dirigées dans le sens correspondant. Le conducteur ne peut traverser les intersections que dans la direction des flèches de présélection marquées sur sa voie de circulation. Les flèches jaunes sont destinées exclusivement aux conducteurs des bus publics en trafic de ligne; elles les autorisent à circuler dans la direction indiquée."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 74 al. 4 (R-DEP-065): flechas de rabattement."
+    - "Regra de outra disposição (não consta desta alínea): LCR 34 al. 3 (R-DEP-003): quem quer se colocar em ordem de présélection deve ter consideração pelos usuários que vêm em sentido contrário e pelos veículos que o seguem."
+    - "Regra de outra disposição (não consta desta alínea): OCR 25 al. 4 (R-DEP-066): condutores que viram à esquerda podem entrar nos trilhos para se colocar em ordem de présélection quando nenhum bonde se aproxima."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto só dá o número (6.06) e a cor das flechas; nenhum desenho foi descrito. Fonte: lacuna L-02 do T-020."
+
+- id: R-DEP-065
+  categoria: E-Depassement
+  subtema: fleches-de-rabattement
+  regra_pt: "As flechas de rabattement (« flèches de rabattement », brancas, colocadas de través; 6.07) anunciam ao condutor que ele deve deixar a via de circulação na direção indicada."
+  termos_fr: ["flèches de rabattement", "6.07", "quitter la voie de circulation"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "74", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les flèches de rabattement (blanches, placées de biais; 6.07) annoncent au conducteur qu'il doit quitter la voie de circulation dans la direction indiquée."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 74 al. 3 (R-DEP-064): flechas de présélection."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "« Placées de biais » (colocadas de través) é a descrição que o próprio texto dá; nenhum desenho foi acrescentado. Fonte: lacuna L-03 do T-020."
+
+- id: R-DEP-066
+  categoria: E-Depassement
+  subtema: bonde-presselecao-sobre-trilhos
+  regra_pt: "Quando nenhum bonde ou chemin de fer routier se aproxima, os condutores que viram à esquerda podem entrar nos trilhos para se colocar em ordem de présélection."
+  termos_fr: ["aucun tramway ou chemin de fer routier ne s'approche", "obliquent à gauche", "ordre de présélection"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "25", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsque aucun tramway ou chemin de fer routier ne s'approche, les conducteurs qui obliquent à gauche peuvent s'engager sur les rails pour se mettre en ordre de présélection."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 25 al. 5 (arret-stationnement): proibido parar sobre os trilhos ou a menos de 1 m 50 do trilho mais próximo."
+    - "Regra de outra disposição (não consta desta alínea): OSR 74 al. 3 (R-DEP-064): flechas de présélection."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Fonte: lacuna L-05 do T-020."
+
+- id: R-DEP-067
+  categoria: E-Depassement
+  subtema: sinais-interdicao-de-obliquer
+  regra_pt: "Os sinais « Interdiction d'obliquer à droite » (2.42) e « Interdiction d'obliquer à gauche » (2.43) significam que é proibido virar à direita ou à esquerda no lugar em questão."
+  termos_fr: ["Interdiction d'obliquer à droite", "2.42", "Interdiction d'obliquer à gauche", "2.43"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "25", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les signaux\"Interdiction d'obliquer à droite\"(2.42) et\"Interdiction d'obliquer à gauche\"(2.43) signifient qu'il est interdit d'obliquer à droite ou à gauche à l'endroit en question."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto não descreve o desenho dos sinais; só números e nomes. A al. 2 do artigo (regra para quem coloca os sinais) não foi usada. Fonte: lacuna L-07 do T-020."
+
+- id: R-DEP-068
+  categoria: E-Depassement
+  subtema: sinal-interdicao-de-meia-volta
+  regra_pt: "O sinal « Interdiction de faire demi-tour » (2.46) proíbe os veículos de dar meia-volta (« tourner sur route ») no lugar indicado."
+  termos_fr: ["Interdiction de faire demi-tour", "2.46", "tourner sur route"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "27", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Interdiction de faire demi-tour\"(2.46) interdit aux véhicules de tourner sur route à l'endroit indiqué."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto diz « tourner sur route »; « meia-volta » vem do nome do sinal. Nenhum desenho foi descrito. Fonte: lacuna L-07 do T-020."
+
+- id: R-DEP-069
+  categoria: E-Depassement
+  subtema: interromper-o-sinal-de-direcao
+  regra_pt: "O sinal dado deve ser interrompido logo que a mudança de direção termina. Os ciclistas podem parar de fazer o sinal já durante a mudança de direção."
+  termos_fr: ["interrompu sitôt terminé", "changement de direction", "cyclistes peuvent cesser"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "28", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signe donné doit être interrompu sitôt terminé le changement de direction. Les cyclistes peuvent cesser de faire le signe déjà pendant le changement de direction."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 28 al. 1 (R-DEP-046): anunciar toda mudança de direção, inclusive para a direita."
+    - "Regra de outra disposição (não consta desta alínea): LCR 39 al. 1 (R-DEP-016): sinalizar a tempo a intenção de mudar de direção."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Fonte: lacuna L-08 do T-020. Contagem da alínea por posição no arquivo; o OCR 28 não tem linhas « … »."
+
+- id: R-DEP-070
+  categoria: E-Depassement
+  subtema: sinal-com-o-braco
+  regra_pt: "Quando um veículo não tem indicadores de direção, ou quando eles não estão visíveis, o condutor ou um passageiro estende o braço na direção que vai tomar. Se isso não for possível, o condutor deve virar com muita prudência."
+  termos_fr: ["dépourvu d'indicateurs de direction", "pas visibles", "tendra le bras", "très prudemment"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "28", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsqu'un véhicule est dépourvu d'indicateurs de direction, ou lorsque ceux-ci ne sont pas visibles, le conducteur ou un passager tendra le bras dans la direction qu'il va prendre. Si cela n'est pas possible, il obliquera très prudemment."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 28 al. 1 (R-DEP-046) e LCR 39 al. 1 (R-DEP-016): dever de anunciar a mudança de direção."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Fonte: lacuna L-08 do T-020. Contagem da alínea por posição no arquivo; o OCR 28 não tem linhas « … »."
+
+- id: R-DEP-071
+  categoria: E-Depassement
+  subtema: linhas-de-seguranca-funcao
+  regra_pt: "As linhas de segurança (« lignes de sécurité »; contínuas, brancas; 6.01) marcam o meio da pista ou delimitam as faixas de circulação. Servem também para delimitar a pista ou as faixas em relação às vias férreas."
+  termos_fr: ["lignes de sécurité", "6.01", "milieu de la chaussée", "voies de circulation", "voies ferrées"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "73", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les lignes de sécurité (continues, de couleur blanche; 6.01) marquent le milieu de la chaussée ou délimitent les voies de circulation. Elles servent aussi à délimiter la chaussée ou les voies de circulation par rapport aux voies ferrées."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): LCR 34 al. 2 (R-DEP-002): circular sempre à direita das linhas de segurança; OSR 73 al. 7 let. a (R-DEP-061): proibido cruzá-las ou pisar nelas."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto só dá número (6.01), cor e tipo; nenhum desenho foi descrito. Fonte: lacuna L-09 do T-020."
+
+- id: R-DEP-072
+  categoria: E-Depassement
+  subtema: linhas-de-aviso
+  regra_pt: "As linhas de aviso (« lignes d'avertissement »; brancas, descontínuas; 6.05) servem para anunciar linhas de segurança e linhas duplas. Sua marcação é obrigatória fora das localidades e facultativa dentro delas."
+  termos_fr: ["lignes d'avertissement", "6.05", "lignes de sécurité", "lignes doubles", "hors des localités"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "73", alinea: "6", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les lignes d'avertissement (blanches, discontinues; 6.05) servent à annoncer des lignes de sécurité et des lignes doubles. Leur marquage est obligatoire hors des localités et facultatif à l'intérieur de celles-ci."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 73 al. 7 let. b (R-DEP-061): as linhas de aviso podem ser cruzadas ou pisadas, com a prudência necessária."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto só dá número (6.05), cor e tipo; nenhum desenho foi descrito. Fonte: lacuna L-09 do T-020."
+
+- id: R-DEP-073
+  categoria: E-Depassement
+  subtema: sinais-de-sentido-obrigatorio
+  regra_pt: "Para indicar aos condutores o sentido a seguir obrigatoriamente, usam-se os sinais: a) « Sens obligatoire à droite » (2.32) e « Sens obligatoire à gauche » (2.33): o condutor deve virar, antes do sinal, para a direita ou para a esquerda; b) « Obstacle à contourner par la droite » (2.34) e « Obstacle à contourner par la gauche » (2.35): o condutor deve contornar pela direita ou pela esquerda o obstáculo diante do qual o sinal está colocado; c) « Circuler tout droit » (2.36): o condutor não pode virar nem para a direita nem para a esquerda."
+  termos_fr: ["Sens obligatoire à droite", "2.32", "Obstacle à contourner par la droite", "2.34", "2.35", "Circuler tout droit", "2.36"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "24", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Pour indiquer aux conducteurs le sens à suivre obligatoirement, on emploiera les signaux suivants: a. \"Sens obligatoire à droite\"(2.32),\"Sens obligatoire à gauche\"(2.33): le conducteur doit obliquer, avant le signal, vers la droite ou vers la gauche; b. \"Obstacle à contourner par la droite\"(2.34),\"Obstacle à contourner par la gauche\"(2.35): le conducteur doit contourner par la droite ou par la gauche l'obstacle devant lequel est placé le signal; c. \"Circuler tout droit\"(2.36): le conducteur ne peut obliquer ni à droite ni à gauche."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 7 al. 1 (R-DEP-022): obstáculos situados no meio da pista são contornados pela direita."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto não descreve o desenho dos sinais; só números e nomes. Fonte: lacuna L-06 do T-020."
