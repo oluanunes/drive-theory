@@ -1,0 +1,721 @@
+# T-022 PESQ — categoria C (Comportement au volant: dever de conduta, atenção e distração, velocidade, ebriedade e drogas, cinto e retenção de crianças, luzes, incomodidades, documentos do veículo/item 1.5.1). Todas as regras com status: pendente (só o aluno valida).
+# Fonte única de texto legal: legal/sources/*.txt (Fedlex, baixado 2026-11-26).
+#   LCR (RS 741.01) État le 1er juillet 2026; OCR (RS 741.11) e OSR (RS 741.21) État le 1er octobre 2026; OAC (RS 741.51) État le 1er janvier 2026.
+# trecho_literal_fr = alínea inteira copiada do arquivo, sem número de alínea, sem asterisco de nota e sem número de nota colado; trecho_completo: true quando a alínea é uma única linha copiada inteira.
+#   Alíneas com lista a./b. (linhas separadas no arquivo): copiada só a frase de abertura (ou uma única linha da lista), trecho_completo: false; a lista aparece em regra_pt.
+# A numeração das alíneas (alinea) é a ordem dos parágrafos no arquivo extraído; "…" (alínea revogada) conta na posição; linhas só com títulos e linhas "(art. …)" não contam.
+#   Única exceção: LCR 31, alinea "3" (5.º parágrafo do arquivo), por causa das al. 2bis e 2ter (ver nota da regra R-COM-005).
+# versao_lei_em_vigor_desde = data 'État le' do texto consolidado (NÃO é a data de entrada em vigor do artigo).
+# NÃO duplicadas (já em outros YAML): OCR 4 al. 1 (R-DEP-021), OCR 12 (R-DEP-034 a 036), OCR 28 (R-DEP-046, 069, 070), LCR 27 (R-PRIO-031, 038), LCR 33 al. 2 (R-PRIO-023), OCR 3 al. 4 (R-ARR-083), OCR 17 al. 1 a 3 (R-ARR-080 a 082), OCR 17 al. 5 (R-PRIO-026), OCR 30 al. 5 (R-ARR-078), OCR 31 (R-ARR-029 a 031), LCR 41 al. 2 (R-ARR-004), OSR 22b al. 1 (R-PRIO-054).
+# Fora do escopo desta tarefa (ver docs/reviews/T-022-notas.md): OCR 3b (capacete), OCR 5 al. 1 e 2 let. a e b (listas multinível/veículos pesados), OCR 29 e LCR 40 (sinais de aviso), OCR 3 al. 2 e 5 a 7 (ônibus, tacógrafo), OCR 2a al. 2 (exceções, só resumidas), OCR 2 al. 3, LCR 31 al. 2bis e 2ter, LCR 55 (procedimento de prova).
+rules:
+
+- id: R-COM-001
+  categoria: C-Comportement
+  subtema: dever-geral-de-conduta
+  regra_pt: "Todos devem se comportar no trânsito de modo a não incomodar nem pôr em perigo quem usa a via de acordo com as regras estabelecidas."
+  termos_fr: ["ne pas gêner ni mettre en danger"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "26", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Chacun doit se comporter, dans la circulation, de manière à ne pas gêner ni mettre en danger ceux qui utilisent la route conformément aux règles établies."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): prudência particular perante crianças, pessoas com deficiência e idosos, e perante quem vai se comportar de forma incorreta: LCR 26 al. 2 (R-COM-002)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-002
+  categoria: C-Comportement
+  subtema: prudencia-particular
+  regra_pt: "É exigida prudência particular perante crianças, pessoas inválidas/com deficiência (« infirmes ») e idosos, e também quando parece que outro usuário da via vai se comportar de modo incorreto."
+  termos_fr: ["Une prudence particulière", "des enfants", "des personnes âgées"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "26", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Une prudence particulière s'impose à l'égard des enfants, des infirmes et des personnes âgées, et de même s'il apparaît qu'un usager de la route va se comporter de manière incorrecte."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): perante pedestres em passagens para pedestres: LCR 33 al. 2 (R-PRIO-023)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-003
+  categoria: C-Comportement
+  subtema: dominio-do-veiculo
+  regra_pt: "O condutor deve permanecer constantemente senhor (« maître ») do seu veículo, de modo a poder cumprir os deveres de prudência."
+  termos_fr: ["rester constamment maître de son véhicule"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "31", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Le conducteur devra rester constamment maître de son véhicule de façon à pouvoir se conformer aux devoirs de la prudence."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-004
+  categoria: C-Comportement
+  subtema: incapacidade-de-conduzir
+  regra_pt: "Quem não tem as capacidades físicas e psíquicas necessárias para conduzir um veículo, porque está sob a influência de álcool, estupefacientes, medicamentos ou por outras razões, é considerado incapaz de conduzir enquanto durar essa situação e deve abster-se de conduzir."
+  termos_fr: ["sous l'influence de l'alcool, de stupéfiants, de médicaments", "incapable de conduire", "doit s'en abstenir"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "31", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Toute personne qui n'a pas les capacités physiques et psychiques nécessaires pour conduire un véhicule parce qu'elle est sous l'influence de l'alcool, de stupéfiants, de médicaments ou pour d'autres raisons, est réputée incapable de conduire pendant cette période et doit s'en abstenir."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 2 al. 1 repete o dever de se abster de conduzir (R-COM-007) e OCR 2 al. 2 fixa as substâncias que bastam para presumir incapacidade (R-COM-008)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-005
+  categoria: C-Comportement
+  subtema: nao-ser-incomodado-ao-conduzir
+  regra_pt: "O condutor deve cuidar para não ser incomodado nem pela carga nem de outro modo. Os passageiros devem não o incomodar nem perturbar."
+  termos_fr: ["gêné ni par le chargement", "Les passagers sont tenus de ne pas le gêner ni le déranger"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "31", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Le conducteur doit veiller à n'être gêné ni par le chargement ni d'une autre manière. Les passagers sont tenus de ne pas le gêner ni le déranger."
+  trecho_completo: true
+  excecoes: []
+  nota: "Numeração: este é o 5.º parágrafo do artigo no arquivo extraído; no texto legal ele é a al. 3, porque os parágrafos 3.º e 4.º do arquivo são as al. 2bis e 2ter (confirmado pela remissão « art. 31, al. 2bis et 2ter, LCR » no cabeçalho do OCR 2a). Usado o número legal."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-006
+  categoria: C-Comportement
+  subtema: velocidade-adaptada
+  regra_pt: "A velocidade deve estar sempre adaptada às circunstâncias, em especial às particularidades do veículo e da carga e às condições da estrada, do trânsito e da visibilidade. Onde o veículo possa atrapalhar a circulação, o condutor deve circular devagar e, se for preciso, parar, em especial onde a visibilidade não é boa, nas interseções que não consegue abranger com o olhar e nas passagens de nível."
+  termos_fr: ["La vitesse doit toujours être adaptée aux circonstances", "circuler lentement", "passages à niveau"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "32", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "La vitesse doit toujours être adaptée aux circonstances, notamment aux particularités du véhicule et du chargement, ainsi qu'aux conditions de la route, de la circulation et de la visibilité. Aux endroits où son véhicule pourrait gêner la circulation, le conducteur est tenu de circuler lentement et, s'il le faut, de s'arrêter, notamment aux endroits où la visibilité n'est pas bonne, aux intersections qu'il ne peut embrasser du regard, ainsi qu'aux passages à niveau."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 4 al. 1 (R-DEP-021): não circular a uma velocidade que impeça parar na distância a que alcança a visibilidade; no cruzamento difícil, poder parar na metade dessa distância."
+    - "Regra de outra disposição (não consta desta alínea): os limites máximos gerais estão no OCR 4a (R-COM-022 a 027); o texto desta alínea não fixa números."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-007
+  categoria: C-Comportement
+  subtema: abster-se-de-conduzir
+  regra_pt: "Deve abster-se de conduzir quem não é capaz disso por estar esgotado (« surmené »), sob o efeito de álcool, de medicamento, de estupefaciente ou por qualquer outra razão."
+  termos_fr: ["s'abstenir de conduire", "surmené", "sous l'effet de l'alcool"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "2", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Est tenu de s'abstenir de conduire quiconque n'en est pas capable parce qu'il est surmené, sous l'effet de l'alcool, d'un médicament, d'un stupéfiant ou pour toute autre raison."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-008
+  categoria: C-Comportement
+  subtema: drogas-incapacidade-presumida
+  regra_pt: "Um condutor é considerado incapaz de conduzir sempre que se prove que o seu sangue contém: tetra-hidrocanabinol (cannabis); morfina livre (heroína/morfina); cocaína; anfetamina; metanfetamina; MDEA; ou MDMA."
+  termos_fr: ["réputé incapable de conduire", "son sang contient"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "2", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Un conducteur est réputé incapable de conduire chaque fois qu'il est prouvé que son sang contient:"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 2 al. 4 (R-COM-009): a presença atestada de uma dessas substâncias não basta, por si só, para estabelecer a incapacidade de quem prove que a consome sob prescrição médica."
+  nota: "A lista das substâncias (let. a a g) está em linhas separadas no arquivo; o trecho copiado é só a frase de abertura (trecho_completo false). A lista em regra_pt reproduz as let. a a g na ordem do texto. O texto não fixa concentração mínima no sangue; remete a diretivas do OFROU (OCR 2 al. 3, não incluída)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-009
+  categoria: C-Comportement
+  subtema: drogas-prescricao-medica
+  regra_pt: "A presença atestada de uma das substâncias do al. 2 (cannabis, morfina livre, cocaína, anfetamina, metanfetamina, MDEA, MDMA) não basta, por si só, para estabelecer a incapacidade de conduzir de uma pessoa que consiga provar que consome uma ou mais delas sob prescrição médica."
+  termos_fr: ["sur prescription médicale", "ne suffit pas, à elle seule"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "2", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La présence attestée d'une des substances mentionnées à l'al. 2 ne suffit pas, à elle seule, à établir l'incapacité de conduire d'une personne à même de prouver qu'elle en consomme une ou plusieurs sur prescription médicale."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): sem essa prova de consumo sob prescrição médica, vale OCR 2 al. 2 (R-COM-008). OCR 2 al. 1 e LCR 31 al. 2 continuam exigindo abster-se de conduzir quando a pessoa não é capaz de conduzir (R-COM-007, R-COM-004)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-010
+  categoria: C-Comportement
+  subtema: nao-confiar-veiculo
+  regra_pt: "Ninguém deve confiar um veículo a um condutor que não está em condições de conduzir."
+  termos_fr: ["Personne ne doit confier un véhicule"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "2", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Personne ne doit confier un véhicule à un conducteur qui n'est pas en état de conduire."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-011
+  categoria: C-Comportement
+  subtema: alcool-proibicao-por-grupos
+  regra_pt: "É proibido conduzir sob a influência do álcool: a) nos transportes rodoviários de passageiros sujeitos a concessão ou internacionais; b) no transporte profissional de pessoas; c) para condutores de caminhões, tratores de sela pesados e tratores cujo peso total excede 3,5 t; d) no transporte de mercadorias perigosas com unidades de transporte que devem ser sinalizadas; e) para instrutores de condução no exercício da profissão; f) para condutores de veículos em cursos de aprendizagem (« courses d'apprentissage ») e de exercício; g) para acompanhantes em cursos de aprendizagem; h) para titulares de carta de condução à prova (« permis de conduire à l'essai »), salvo em corridas com veículos das categorias especiais F, G e M."
+  termos_fr: ["interdite"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "2a", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La conduite sous l'influence de l'alcool est interdite:"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 2a al. 2 prevê exceções à proibição só para a let. c (bombeiros, polícia e serviços em intervenções urgentes nas condições do texto, veículos com velocidade máxima de construção até 45 km/h e veículos assimilados a automóveis de trabalho)."
+  nota: "A lista (let. a a h) está em linhas separadas no arquivo; o trecho copiado é só a frase de abertura (trecho_completo false). Este artigo proíbe o álcool para os grupos listados; o texto não diz aqui qual é o limite para os demais condutores (ver T-022-notas.md)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-012
+  categoria: C-Comportement
+  subtema: alcool-influencia-ar-expirado
+  regra_pt: "Segundo o OCR 2a al. 3, há influência do álcool quando o condutor apresenta, entre outros casos, uma concentração de álcool no ar expirado de 0,05 mg/l ou mais."
+  termos_fr: ["0,05 mg/l ou plus"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "2a", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "une concentration d'alcool dans l'air expiré de 0,05 mg/l ou plus;"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 2a al. 3 let. b e c (R-COM-013, R-COM-014): taxa no sangue de 0,10 por mil ou mais, ou quantidade de álcool no organismo que leve a essa taxa."
+  nota: "Este valor consta do artigo que trata da proibição para os grupos do OCR 2a al. 1 (R-COM-011). O limite aplicável a outros condutores não está nas fontes carregadas (ver T-022-notas.md)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-013
+  categoria: C-Comportement
+  subtema: alcool-influencia-sangue
+  regra_pt: "Segundo o OCR 2a al. 3, há influência do álcool quando o condutor apresenta, entre outros casos, uma taxa de álcool no sangue de 0,10 por mil ou mais."
+  termos_fr: ["0,10 pour mille ou plus"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "2a", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "un taux d'alcool dans le sang de 0,10 pour mille ou plus, ou"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 2a al. 3 let. a e c (R-COM-012, R-COM-014): concentração de 0,05 mg/l ou mais no ar expirado, ou quantidade de álcool no organismo que leve à taxa do sangue da let. b."
+  nota: "Este valor consta do artigo que trata da proibição para os grupos do OCR 2a al. 1 (R-COM-011). O limite aplicável a outros condutores não está nas fontes carregadas (ver T-022-notas.md)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-014
+  categoria: C-Comportement
+  subtema: alcool-influencia-quantidade-no-organismo
+  regra_pt: "Segundo o OCR 2a al. 3, há influência do álcool quando o condutor apresenta, entre outros casos, uma quantidade de álcool no organismo que leva a uma taxa de álcool no sangue como a da let. b (0,10 por mil ou mais)."
+  termos_fr: ["une quantité d'alcool dans l'organisme"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "2a", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "une quantité d'alcool dans l'organisme entraînant un taux d'alcool dans le sang tel que celui visé à la let b."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 2a al. 3 let. a e b (R-COM-012, R-COM-013)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-015
+  categoria: C-Comportement
+  subtema: atencao-e-distracao
+  regra_pt: "O condutor deve dedicar a atenção à estrada e ao trânsito. Deve evitar qualquer ocupação que torne a condução mais difícil. Deve também cuidar para que a atenção não seja distraída, em especial, nem por um aparelho reprodutor de som nem por qualquer sistema de informação ou de comunicação."
+  termos_fr: ["vouera son attention à la route et à la circulation", "appareil reproducteur de son", "système d'information ou de communication"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "3", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le conducteur vouera son attention à la route et à la circulation. Il évitera toute occupation qui rendrait plus difficile la conduite du véhicule. Il veillera en outre à ce que son attention ne soit distraite, notamment, ni par un appareil reproducteur de son ni par un quelconque système d'information ou de communication."
+  trecho_completo: true
+  excecoes: []
+  nota: "O texto não nomeia « téléphone » nem « téléphone portable »; fala de « système d'information ou de communication ». Não se afirma aqui nada além disso (ver T-022-notas.md)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-016
+  categoria: C-Comportement
+  subtema: maos-no-volante
+  regra_pt: "Os condutores de veículos a motor e de ciclos não devem soltar o aparelho de direção (« appareil de direction »)."
+  termos_fr: ["ne lâcheront pas l'appareil de direction"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "3", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les conducteurs de véhicules automobiles et de cycles ne lâcheront pas l'appareil de direction."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 3 al. 4 (R-ARR-083): com sistema de auxílio ao estacionamento, o condutor pode soltar o aparelho de direção durante a manobra de estacionamento, e até sair do veículo se o sistema permitir, devendo vigiar a manobra e interrompê-la se necessário."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-017
+  categoria: C-Comportement
+  subtema: cinto-de-seguranca
+  regra_pt: "Nos veículos equipados com cintos de segurança, o condutor e os passageiros devem usar, durante o trajeto, os cintos existentes. Os condutores devem se assegurar de que as crianças com menos de doze anos estão corretamente presas."
+  termos_fr: ["doivent porter, pendant le trajet, les ceintures de sécurité existantes", "enfants de moins de douze ans"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "3a", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Dans les véhicules équipés de ceintures de sécurité, le conducteur et les passagers doivent porter, pendant le trajet, les ceintures de sécurité existantes. Les conducteurs doivent s'assurer que les enfants de moins de douze ans sont correctement attachés."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 3a al. 2 (R-COM-018) lista as dispensas do cinto; OCR 3a al. 4 (R-COM-020, R-COM-021) trata do dispositivo de retenção para crianças."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-018
+  categoria: C-Comportement
+  subtema: cinto-dispensas
+  regra_pt: "Estão dispensados da obrigação de usar o cinto (al. 1): a) quem prove, com atestado médico, que o uso do cinto não lhe pode ser imposto (para viagens ao exterior, a autoridade cantonal emite um atestado médico de isenção nos termos da diretiva 91/671/CEE); b) entregadores que vão de casa em casa no bairro que atendem, desde que a velocidade não passe de 25 km/h; c) condutores e passageiros em caminhos rurais, caminhos florestais e no recinto de uma empresa, desde que a velocidade não passe de 25 km/h; d) condutores que manobram em velocidade de passo (« allure du pas »); e) condutores e passageiros de automóveis afetados ao tráfego regional operado por horário por empresas de transporte concessionárias; f) acompanhantes de pessoas que precisam de assistência particular nos veículos dos serviços de saúde e de transporte de pessoas com deficiência; g) condutores e passageiros de automóveis de trabalho, tratores e carros a motor (« chariots à moteur »), desde que a velocidade não passe de 25 km/h."
+  termos_fr: ["dispensées de l'obligation de porter la ceinture"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "3a", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sont dispensées de l'obligation de porter la ceinture selon l'al. 1:"
+  trecho_completo: false
+  excecoes: []
+  nota: "A lista (let. a a g) está em linhas separadas no arquivo; o trecho copiado é só a frase de abertura (trecho_completo false). Dispensa caso a caso: não generalizar (por exemplo, a let. d vale para quem manobra em velocidade de passo, não para quem circula)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-019
+  categoria: C-Comportement
+  subtema: cinto-onibus-e-minibus
+  regra_pt: "Deve-se chamar devidamente a atenção dos passageiros de ônibus (« autocars ») e minibus para a obrigação de usar o cinto de segurança."
+  termos_fr: ["passagers des autocars et des minibus", "obligation de porter la ceinture de sécurité"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "3a", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Il convient d'attirer dûment l'attention des passagers des autocars et des minibus sur l'obligation de porter la ceinture de sécurité."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-020
+  categoria: C-Comportement
+  subtema: retencao-de-criancas
+  regra_pt: "Nos lugares equipados com cintos de segurança, as crianças com menos de doze anos devem sempre estar presas por um dispositivo de retenção para crianças adequado, por exemplo uma cadeirinha, autorizado nos termos do regulamento CEE-ONU n.º 44 ou 129 indicado no anexo 2 da OETV."
+  termos_fr: ["enfants de moins de douze ans", "dispositif de retenue pour enfants"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "3a", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Aux places équipées de ceintures de sécurité, les enfants de moins de douze ans doivent toujours être attachés par un dispositif de retenue pour enfants approprié, par exemple un siège pour enfants, qui est autorisé en vertu du règlement CEE-ONU no 44 ou 129 visé à l'annexe 2 OETV."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 3a al. 4, frase seguinte (R-COM-021): lista os casos em que não é obrigatório usar dispositivo de retenção."
+  nota: "Só a primeira frase da alínea foi copiada (trecho_completo false). A segunda frase (art. 222r al. 3 OETV, dispositivos conformes ao regulamento CEE-ONU n.º 44) não foi traduzida."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-021
+  categoria: C-Comportement
+  subtema: retencao-de-criancas-excecoes
+  regra_pt: "Não é obrigatório usar dispositivo de retenção: a) para crianças com pelo menos 150 cm; b) para crianças de quatro anos ou mais sentadas em assentos especialmente admitidos para crianças; c) para crianças de quatro anos ou mais sentadas em ônibus (« autocars »); d) para crianças de sete anos ou mais sentadas em assentos equipados com cintos abdominais."
+  termos_fr: ["pas obligatoire d'utiliser un dispositif de retenue"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "3a", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Il n'est pas obligatoire d'utiliser un dispositif de retenue:"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): a regra geral continua sendo OCR 3a al. 4, primeira frase (R-COM-020), e OCR 3a al. 1 exige que o condutor se assegure de que as crianças com menos de doze anos estão corretamente presas (R-COM-017)."
+  nota: "A lista (let. a a d) está em linhas separadas no arquivo; o trecho copiado é só a frase de abertura da exceção (trecho_completo false). O texto não diz que essas crianças ficam dispensadas do cinto; não se afirma isso."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-022
+  categoria: C-Comportement
+  subtema: limites-gerais-de-velocidade
+  regra_pt: "A velocidade máxima geral dos veículos pode chegar, quando as condições da estrada, do trânsito e de visibilidade são favoráveis, a: a) 50 km/h nas localidades; b) 80 km/h fora das localidades, exceto nas semiautoestradas e autoestradas; c) 100 km/h nas semiautoestradas; d) 120 km/h nas autoestradas."
+  termos_fr: ["vitesse maximale générale", "favorables"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "4a", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La vitesse maximale générale des véhicules peut atteindre, lorsque les conditions de la route, de la circulation et de visibilité sont favorables:"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): onde sinais indicam outras velocidades máximas, estas se aplicam no lugar dos limites gerais: OCR 4a al. 6 (R-COM-027). Velocidades menores para certos tipos de veículo: OCR 5 (R-COM-028 a 030)."
+  nota: "A lista (let. a a d) está em linhas separadas no arquivo; o trecho copiado é só a frase de abertura (trecho_completo false). Os valores constam das let. a a d e se repetem nos trechos de OCR 4a al. 2 a 5."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-023
+  categoria: C-Comportement
+  subtema: limite-50-localidades
+  regra_pt: "O limite geral de 50 km/h (al. 1 let. a) vale em toda a zona construída de forma compacta no interior da localidade; começa no sinal « Vitesse maximale 50, Limite générale » (2.30.1) e termina no sinal « Fin de la vitesse maximale 50, Limite générale » (2.53.1). Para quem entra numa localidade por estradas secundárias pouco importantes (como estradas que não ligam diretamente localidades ou bairros externos, estradas agrícolas de acesso, caminhos florestais etc.), o limite também vale sem sinalização, assim que exista uma zona construída de forma compacta."
+  termos_fr: ["50 km/h", "zone bâtie de façon compacte", "2.30.1", "2.53.1"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "4a", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La limitation générale de vitesse à 50 km/h (al. 1, let. a) s'applique dans toute la zone bâtie de façon compacte à l'intérieur de la localité; cette limitation commence au signal\"Vitesse maximale 50, Limite générale\"(2.30.1) et se termine au signal\"Fin de la vitesse maximale 50, Limite générale\"(2.53.1). Pour les conducteurs qui entrent dans une localité par des routes secondaires peu importantes (telles que routes qui ne relient pas directement entre eux des localités ou des quartiers extérieurs, routes agricoles de desserte, chemins forestiers, etc.), la limitation est aussi valable en l'absence de signalisation, dès qu'il existe une zone bâtie de façon compacte."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-024
+  categoria: C-Comportement
+  subtema: limite-80-fora-das-localidades
+  regra_pt: "O limite geral de 80 km/h (al. 1 let. b) vale a partir do sinal « Fin de la vitesse maximale 50, Limite générale » (2.53.1) ou « Fin de la vitesse maximale » (2.53) e, ao sair de uma semiautoestrada ou autoestrada, a partir do sinal « Fin de la semi-autoroute » (4.04) ou « Fin de l'autoroute » (4.02)."
+  termos_fr: ["80 km/h", "2.53.1", "2.53", "4.04", "4.02"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "4a", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La limitation générale de vitesse à 80 km/h (al. 1, let. b) est valable à partir du signal\"Fin de la vitesse maximale 50, Limite générale\"(2.53.1) ou\"Fin de la vitesse maximale\"(2.53) et, lorsqu'on quitte une semi-autoroute ou une autoroute, à partir du signal\"Fin de la semi-autoroute\"(4.04) ou du signal\"Fin de l'autoroute\"(4.02)."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-025
+  categoria: C-Comportement
+  subtema: limite-100-semiautoestrada
+  regra_pt: "O limite geral de 100 km/h (al. 1 let. c) vale a partir do sinal « Semi-autoroute » (4.03) e termina no sinal « Fin de la semi-autoroute » (4.04)."
+  termos_fr: ["100 km/h", "4.03", "4.04"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "4a", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La limitation générale de vitesse à 100 km/h (al. 1, let. c) est valable à partir du signal\"Semi-autoroute\"(4.03) et se termine au signal\"Fin de la semi-autoroute\"(4.04)."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-026
+  categoria: C-Comportement
+  subtema: limite-120-autoestrada
+  regra_pt: "O limite geral de 120 km/h (al. 1 let. d) vale a partir do sinal « Autoroute » (4.01) e termina no sinal « Fin de l'autoroute » (4.02)."
+  termos_fr: ["120 km/h", "4.01", "4.02"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "4a", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La limitation générale de vitesse à 120 km/h (al. 1, let. d) est valable à partir du signal\"Autoroute\"(4.01) et se termine au signal\"Fin de l'autoroute\"(4.02)."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-027
+  categoria: C-Comportement
+  subtema: limites-gerais-versus-sinais
+  regra_pt: "Quando sinais indicam outras velocidades máximas, estas se aplicam no lugar dos limites gerais (al. 1); o mesmo vale para as velocidades menores impostas a certos tipos de veículo pelo art. 5 ou a certos veículos por decisão da autoridade competente."
+  termos_fr: ["d'autres vitesses maximales", "en lieu et place des limitations générales de vitesse"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "4a", alinea: "6", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsque des signaux indiquent d'autres vitesses maximales, celles-ci sont applicables en lieu et place des limitations générales de vitesse (al. 1); il en va de même des vitesses inférieures imposées à certains genres de véhicules par l'art. 5 ou à certains véhicules par décision de l'autorité compétente."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 22 al. 1 (R-COM-031): o sinal de velocidade máxima indica a velocidade que os veículos não devem ultrapassar mesmo com boas condições."
+    - "Regra de outra disposição (não consta desta alínea): OCR 5 al. 4 (R-COM-029): os limites do art. 5 também valem onde sinais indicam um limite superior."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-028
+  categoria: C-Comportement
+  subtema: velocidade-100-reboque-leve
+  regra_pt: "Nas autoestradas e semiautoestradas, a velocidade é limitada a 100 km/h para os automóveis ligeiros com reboque, se o peso total do reboque não excede 3,5 t."
+  termos_fr: ["voitures automobiles légères avec remorque"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "5", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "pour les voitures automobiles légères avec remorque, si le poids total de cette dernière n'excède pas 3,5 t."
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): limites gerais de 120 km/h (autoestradas) e 100 km/h (semiautoestradas): OCR 4a (R-COM-026, R-COM-025)."
+  nota: "O trecho copiado é só a let. c do OCR 5 al. 2 (trecho_completo false); a frase de abertura do al. 2 (« La vitesse est limitée, sur les autoroutes et semi-autoroutes, à 100 km/h: ») está em outra linha e dá o limite de 100 km/h e o contexto (autoestradas e semiautoestradas)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-029
+  categoria: C-Comportement
+  subtema: limites-do-art-5-versus-sinais
+  regra_pt: "Os limites de velocidade do art. 5 também devem ser respeitados nos trechos em que sinais indicam um limite superior."
+  termos_fr: ["seront également observées", "limite supérieure"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "5", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les limites de vitesse fixées ci-dessus seront également observées sur les parcours où des signaux indiquent une limite supérieure."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 4a al. 6 (R-COM-027): onde sinais indicam outras velocidades máximas, estas se aplicam no lugar dos limites gerais."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-030
+  categoria: C-Comportement
+  subtema: infracao-por-excesso-de-velocidade
+  regra_pt: "Comete infração a uma regra de trânsito o condutor que ultrapassa a velocidade máxima prescrita para a categoria a que pertence o seu veículo, salvo se se tratar de ciclomotor."
+  termos_fr: ["Commet une infraction à une règle de la circulation", "cyclomoteur"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "5", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Commet une infraction à une règle de la circulation le conducteur qui dépasse la vitesse maximale prescrite pour la catégorie à laquelle appartient son véhicule, sauf s'il s'agit d'un cyclomoteur."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-031
+  categoria: C-Comportement
+  subtema: sinal-velocidade-maxima
+  regra_pt: "Os sinais « Vitesse maximale » (2.30) e « Vitesse maximale 50, Limite générale » (2.30.1) indicam em km/h a velocidade que os veículos não devem ultrapassar, mesmo que as condições da estrada, do trânsito e da visibilidade sejam boas. A obrigação de respeitar a velocidade máxima sinalizada é suprimida pelo sinal « Fin de la vitesse maximale » (2.53) ou « Fin de la vitesse maximale 50, Limite générale » (2.53.1)."
+  termos_fr: ["Vitesse maximale", "2.30", "2.53"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "22", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les signaux\"Vitesse maximale\"(2.30) et\"Vitesse maximale 50, Limite générale\"(2.30.1) indiquent en km/h la vitesse que les véhicules ne doivent pas dépasser même si les conditions de la route, de la circulation et de la visibilité sont bonnes. L'obligation de respecter la vitesse maximale signalée est supprimée par le signal\"Fin de la vitesse maximale\"(2.53) ou\"Fin de la vitesse maximale 50, Limite générale\"(2.53.1)."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-032
+  categoria: C-Comportement
+  subtema: zona-30
+  regra_pt: "O sinal « Zone 30 » (2.59.1) designa estradas, situadas em bairros ou loteamentos, nas quais os condutores devem circular de maneira particularmente prudente e atenciosa. A velocidade máxima é fixada em 30 km/h."
+  termos_fr: ["Zone 30", "30 km/h"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "22a", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Zone 30\"(2.59.1) désigne des routes, situées dans des quartiers ou des lotissements, sur lesquelles les conducteurs sont tenus de circuler d'une manière particulièrement prudente et prévenante. La vitesse maximale est fixée à 30 km/h."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-033
+  categoria: C-Comportement
+  subtema: zona-de-encontro-velocidade
+  regra_pt: "Na zona de encontro (« Zone de rencontre », sinal 2.59.5), a velocidade máxima é fixada em 20 km/h."
+  termos_fr: ["La vitesse maximale est fixée à 20 km/h"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "22b", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "La vitesse maximale est fixée à 20 km/h."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 22b al. 1 (R-PRIO-054): pedestres e usuários de engins assimilés podem usar toda a área de circulação e têm prioridade, sem incomodar inutilmente os veículos."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-034
+  categoria: C-Comportement
+  subtema: velocidade-minima
+  regra_pt: "O sinal « Vitesse minimale » (2.31) indica em km/h a velocidade abaixo da qual os veículos não devem circular quando as condições da estrada, do trânsito e da visibilidade são boas. Os veículos com os quais não é possível nem permitido rodar na velocidade indicada (por exemplo, por particularidades do veículo ou da carga) não estão autorizados a prosseguir a viagem. A obrigação de respeitar a velocidade mínima sinalizada é suprimida pelo sinal « Fin de la vitesse minimale » (2.54)."
+  termos_fr: ["Vitesse minimale", "2.31", "2.54"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "23", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Vitesse minimale\"(2.31) indique en km/h la vitesse au dessous de laquelle les véhicules ne doivent pas circuler lorsque les conditions de la route, de la circulation et de la visibilité sont bonnes. Les véhicules avec lesquels il n'est pas possible ni permis de rouler à la vitesse indiquée (p. ex. en raison des particularités du véhicule ou du chargement) ne sont pas autorisés à poursuivre leur course. L'obligation de respecter la vitesse minimale signalée est supprimée par le signal\"Fin de la vitesse minimale\"(2.54)."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-035
+  categoria: C-Comportement
+  subtema: meia-volta
+  regra_pt: "O condutor deve evitar fazer meia-volta na pista. É proibido fazer essa manobra em lugares sem visibilidade e quando o tráfego é intenso."
+  termos_fr: ["évitera de faire demi-tour", "dépourvus de visibilité", "trafic est intense"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "17", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le conducteur évitera de faire demi-tour sur la chaussée. Il est interdit d'effectuer cette manœuvre aux endroits dépourvus de visibilité et lorsque le trafic est intense."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 17 al. 1 a 3 (R-ARR-080 a 082): antes de arrancar, marcha à ré e marcha à ré em trecho longo."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-036
+  categoria: C-Comportement
+  subtema: luzes-de-cruzamento-noite-tunel
+  regra_pt: "Entre o anoitecer e o amanhecer, em caso de má visibilidade e nos túneis, os faróis baixos (« feux de croisement ») devem ser usados durante a marcha. Para veículos sem faróis baixos, devem ser usadas as luzes prescritas para a categoria de veículo em questão."
+  termos_fr: ["feux de croisement", "tombée de la nuit", "dans les tunnels"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "30", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Entre la tombée de la nuit et le lever du jour, en cas de mauvaise visibilité et dans les tunnels, les feux de croisement doivent être utilisés lors de la marche. Pour les véhicules dépourvus de feux de croisement, il faut utiliser les feux prescrits pour la catégorie de véhicules concernée."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 30 al. 5 (R-ARR-078): em parada prolongada é permitido passar às luzes de posição."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-037
+  categoria: C-Comportement
+  subtema: luzes-de-dia
+  regra_pt: "Quanto ao resto, o uso das luzes de circulação diurna ou dos faróis baixos é obrigatório para os veículos a motor; os que não as têm devem usar as luzes prescritas para a categoria de veículo em questão. Fazem exceção: a) os veículos a motor conduzidos por uma pessoa a pé; b) os veículos a motor cuja velocidade máxima não excede 10 km/h; c) os veículos a motor colocados em circulação pela primeira vez antes de 1.º de janeiro de 1970."
+  termos_fr: ["feux de circulation diurne ou des feux de croisement est obligatoire"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "30", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Pour le reste, l'utilisation des feux de circulation diurne ou des feux de croisement est obligatoire pour les véhicules automobiles; ceux qui en sont dépourvus doivent utiliser les feux prescrits pour la catégorie de véhicules concernée. Font exception:"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): LCR 41 al. 1 (R-COM-040): os automóveis em marcha devem ser iluminados permanentemente."
+  nota: "As exceções (let. a a c) estão em linhas separadas no arquivo; o trecho copiado é só a frase que enuncia a obrigação e a abertura da lista (trecho_completo false)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-038
+  categoria: C-Comportement
+  subtema: luzes-de-estrada
+  regra_pt: "Se necessário, é permitido usar os faróis altos (« feux de route »); mas deve-se renunciar a eles, se possível, dentro das localidades. Os faróis altos devem ser apagados: a) a tempo, antes de cruzar outro usuário da via ou uma ferrovia que acompanha a estrada em sentido contrário; b) em caso de circulação em fila ou de marcha à ré."
+  termos_fr: ["feux de route", "dans les localités", "Les feux de route doivent être éteints"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "30", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Au besoin, il est autorisé d'utiliser les feux de route; il faut toutefois y renoncer si possible dans les localités. Les feux de route doivent être éteints:"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): LCR 41 al. 5 (R-COM-041): a iluminação deve ser usada de modo a não ofuscar ninguém sem necessidade."
+  nota: "As alíneas a e b estão em linhas separadas no arquivo; o trecho copiado é só a primeira frase e a abertura da lista (trecho_completo false)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-039
+  categoria: C-Comportement
+  subtema: luzes-de-neblina
+  regra_pt: "O uso dos faróis de neblina e das luzes traseiras de neblina só é autorizado se a visibilidade estiver consideravelmente reduzida por neblina, rajada de neve ou chuva forte."
+  termos_fr: ["feux de brouillard", "considérablement réduite"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "30", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "L'utilisation des feux de brouillard et des feux arrière de brouillard n'est autorisée que si la visibilité est considérablement réduite pour cause de brouillard, de bourrasque de neige ou de forte pluie."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-040
+  categoria: C-Comportement
+  subtema: iluminacao-dos-veiculos
+  regra_pt: "Os veículos a motor em marcha devem ser iluminados permanentemente; os outros veículos só precisam ser iluminados entre o anoitecer e o amanhecer e em caso de má visibilidade."
+  termos_fr: ["éclairés en permanence", "tombée de la nuit et le lever du jour"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "41", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Les véhicules automobiles en marche doivent être éclairés en permanence; les autres véhicules ne doivent l'être qu'entre la tombée de la nuit et le lever du jour ainsi qu'en cas de mauvaise visibilité."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 30 al. 1 e 2 (R-COM-036, R-COM-037): faróis baixos no escuro, com má visibilidade e em túneis; luzes de circulação diurna ou faróis baixos nos demais casos para veículos a motor, com as exceções do texto."
+    - "Regra de outra disposição (não consta desta alínea): veículos a motor parados: LCR 41 al. 2 (R-ARR-004)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-041
+  categoria: C-Comportement
+  subtema: nao-ofuscar
+  regra_pt: "A iluminação deve ser usada de modo a não ofuscar ninguém sem necessidade."
+  termos_fr: ["n'éblouir personne sans nécessité"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "41", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "L'éclairage sera utilisé de manière à n'éblouir personne sans nécessité."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-042
+  categoria: C-Comportement
+  subtema: ruido-evitavel
+  regra_pt: "Condutores, passageiros e auxiliares não devem causar nenhum ruído que possa ser evitado. É proibido, antes de tudo: a) aquecer e fazer girar inutilmente o motor de um veículo parado; b) fazer o motor girar em vazio em alta rotação ou circular em alta rotação em marcha baixa; c) acelerar rápido demais, em especial na partida; d) fazer idas e vindas ou voltas inúteis dentro de uma localidade; e) gerar ruído evitável com o dispositivo de escape, em especial estampidos ao trocar de marcha ou ao desacelerar bruscamente; f) carregar ou descarregar veículos sem precauções; g) bater portas, capô do motor, tampa do porta-malas etc.; h) incomodar a vizinhança fazendo funcionar aparelhos de som instalados ou transportados no veículo."
+  termos_fr: ["ne causeront aucun bruit pouvant être évité", "Il est interdit avant tout"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "33", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les conducteurs, les passagers et les auxiliaires ne causeront aucun bruit pouvant être évité. Il est interdit avant tout:"
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): LCR 42 al. 1 (R-COM-046) e OCR 34 (R-COM-043 a 045) tratam de outras incomodidades a evitar."
+  nota: "A lista (let. a a h) está em linhas separadas no arquivo; o trecho copiado é só a primeira frase e a abertura da lista (trecho_completo false)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-043
+  categoria: C-Comportement
+  subtema: fumaca-evitavel
+  regra_pt: "Os veículos a motor devem ser mantidos e usados de modo a não soltar fumaça que seja possível evitar."
+  termos_fr: ["ne pas dégager de la fumée"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "34", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les véhicules automobiles doivent être entretenus et utilisés de manière à ne pas dégager de la fumée qu'il est possible d'éviter."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-044
+  categoria: C-Comportement
+  subtema: motor-desligado-em-paradas-curtas
+  regra_pt: "Mesmo numa parada curta, o motor do veículo deve ser desligado, salvo se houver risco de a partida ser retardada."
+  termos_fr: ["courte halte", "doit être arrêté", "démarrage risque d'en être retardé"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "34", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Même lors d'une courte halte, le moteur du véhicule doit être arrêté, sauf si le démarrage risque d'en être retardé."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-045
+  categoria: C-Comportement
+  subtema: pista-poeirenta-ou-molhada
+  regra_pt: "Em pistas poeirentas, lamacentas ou molhadas, e sobretudo em neve derretida, o condutor deve circular de modo a não incomodar os outros usuários da via nem os moradores."
+  termos_fr: ["poussiéreuses, boueuses ou mouillées", "neige fondante"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "34", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur les chaussées poussiéreuses, boueuses ou mouillées et surtout dans la neige fondante, le conducteur circulera de manière à ne pas incommoder les autres usagers de la route et les riverains."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-046
+  categoria: C-Comportement
+  subtema: incomodidades-a-evitar
+  regra_pt: "O condutor deve cuidar para não incomodar os usuários da via e os moradores, em especial provocando ruído, poeira, fumaça ou odores que possa evitar; deve também cuidar o máximo possível para não assustar animais."
+  termos_fr: ["ne pas incommoder", "bruit, de la poussière, de la fumée ou des odeurs"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "42", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Le conducteur doit veiller à ne pas incommoder les usagers de la route et les riverains, notamment en provoquant du bruit, de la poussière, de la fumée ou des odeurs qu'il peut éviter; il devra veiller le plus possible à ne pas effrayer les animaux."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-047
+  categoria: C-Comportement
+  subtema: permis-de-circulation-e-placas
+  regra_pt: "Os veículos a motor e seus reboques só podem ser colocados em circulação se tiverem permis de circulation (licenciamento) e placas de controle."
+  termos_fr: ["permis de circulation", "plaques de contrôle"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "10", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Les véhicules automobiles et leurs remorques ne peuvent être mis en circulation que s'ils sont pourvus d'un permis de circulation et de plaques de contrôle."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OAC 71 al. 5 (R-COM-051): o condutor deve sempre portar o original do permis de circulation."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-048
+  categoria: C-Comportement
+  subtema: permis-de-conduire-obrigatorio
+  regra_pt: "Ninguém pode conduzir um veículo a motor sem ser titular de um permis de conduire (carta de condução) ou, se faz um curso de aprendizagem, de um permis d'élève conducteur."
+  termos_fr: ["permis de conduire", "permis d'élève conducteur"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "10", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Nul ne peut conduire un véhicule automobile sans être titulaire d'un permis de conduire ou, s'il effectue une course d'apprentissage, d'un permis d'élève conducteur."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o OAC 5 (« Exceptions à l'obligation de posséder un permis ») trata das exceções à obrigação de ter permis; não foi lido para esta regra (ver T-022-notas.md)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-049
+  categoria: C-Comportement
+  subtema: portar-os-permis
+  regra_pt: "Os condutores devem sempre portar os seus permis e apresentá-los, quando solicitado, aos órgãos encarregados do controle; o mesmo vale para as autorizações especiais."
+  termos_fr: ["porteurs de leurs permis", "autorisations spéciales"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "10", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Les conducteurs devront toujours être porteurs de leurs permis et les présenteront, sur demande, aux organes chargés du contrôle; il en va de même des autorisations spéciales."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OAC 24g: ao fazerem trajetos entre a exploração e o território explorado, os condutores de veículos a motor agrícolas e florestais não são obrigados a portar o permis de conduire ou o atestado de inscrição em curso reconhecido de condução de tratores."
+  nota: "A al. 3 do artigo aparece revogada (« … ») no arquivo e conta na posição; esta é a al. 4."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-050
+  categoria: C-Comportement
+  subtema: novo-permis-de-circulation
+  regra_pt: "Deve-se pedir um novo permis de circulation quando o veículo muda de local de estacionamento de um cantão para outro ou passa a outro detentor."
+  termos_fr: ["nouveau permis de circulation", "d'un canton dans un autre"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "11", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Un nouveau permis de circulation doit être demandé lorsque le véhicule change de lieu de stationnement d'un canton dans un autre ou qu'il passe à un autre détenteur."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-COM-051
+  categoria: C-Comportement
+  subtema: portar-permis-de-circulation
+  regra_pt: "Os condutores devem sempre portar o original do permis de circulation, a menos que lhes tenha sido entregue uma duplicata. Os condutores de veículos a motor agrícolas e florestais não são obrigados a portar o permis de circulation quando fazem trajetos entre a exploração e o território explorado; o mesmo vale para os condutores de reboques dos serviços de bombeiros ou da proteção civil que fazem trajetos no território do município."
+  termos_fr: ["porteurs de l'original du permis de circulation"]
+  fonte: { lei: OAC, rs: "741.51", artigo: "71", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1976/2423_2423_2423/20260101/fr/html/fedlex-data-admin-ch-eli-cc-1976-2423_2423_2423-20260101-fr-html-3.html" }
+  trecho_literal_fr: "Les conducteurs doivent toujours être porteurs de l'original du permis de circulation, à moins qu'un duplicata ne leur ait été délivré. Les conducteurs de véhicules automobiles agricoles et forestiers ne sont pas tenus d'être porteurs du permis de circulation lorsqu'ils effectuent des courses entre l'exploitation et le territoire exploité; il en va de même des conducteurs de remorques des services du feu ou de la protection civile qui effectuent des courses sur le territoire de la commune."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): LCR 10 al. 4 (R-COM-049): obrigação de portar os permis (permis de conduire) e apresentá-los quando solicitado."
+  versao_lei_em_vigor_desde: "2026-01-01"
+  verificado_em: "2026-11-26"
+  status: pendente
