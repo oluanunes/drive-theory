@@ -21,7 +21,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-002
   categoria: B-Arret-Stationnement
@@ -35,7 +37,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): os lugares concretos onde é proibido parar e estacionar estão em OCR 18 al. 2 (R-ARR-006) e OCR 19 al. 2 (R-ARR-010)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-003
   categoria: B-Arret-Stationnement
@@ -49,7 +53,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 22 (cuja base legal indicada no cabeçalho é o art. 37 al. 3 LCR) detalha: motor desligado e proteção contra movimento fortuito ou uso ilícito (R-ARR-022); freio e segunda medida em declives (R-ARR-023); calços (R-ARR-024)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-004
   categoria: B-Arret-Stationnement
@@ -65,7 +71,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 31 diz quais luzes usar em veículo estacionado (R-ARR-029, R-ARR-030, R-ARR-031)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto não define aqui 'éclairage suffisant' nem 'places de stationnement'; não afirmo quando um local conta como tal. A alínea fala de veículos a motor 'arrêtés' (parados), sem distinguir parada de estacionamento."
 
 - id: R-ARR-005
@@ -81,7 +89,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): parar junto a vias de tramway: OCR 25 al. 5 (R-ARR-028); parar em túnel: OCR 39 al. 3 (R-ARR-033) (remissões da nota do art. 18)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto não escreve 'borda direita' nas duas primeiras frases; que a regra geral é a borda direita é interpretação a partir da 3ª frase (que restringe a borda esquerda)."
 
 - id: R-ARR-006
@@ -100,7 +110,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): esta alínea trata só da parada voluntária. Numa parada da circulação vale OCR 12 al. 3: « Lors d'un arrêt de la circulation, le conducteur ne doit ni s'arrêter sur un passage pour piétons ni barrer, à une intersection, la voie aux véhicules circulant dans le sens transversal. » (R-DEP-036)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "A proibição é do arrêt 'volontaire' (palavra do texto). O texto desta alínea não diz qual é a distância 'avant/après' além do que consta na let. d (5 m da pista transversal) e na let. e (5 m antes da faixa)."
 
 - id: R-ARR-007
@@ -115,7 +127,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 79a al. 3: linhas em zigue-zague amarelas (6.21) designam locais reservados às paradas do transporte público de linha; nesses locais parar só é permitido para passageiros subirem ou descerem, desde que o transporte público de linha não seja atrapalhado (R-ARR-074)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-008
   categoria: B-Arret-Stationnement
@@ -128,7 +142,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto diz 'sur demande' sem indicar quem pode pedir."
 
 - id: R-ARR-009
@@ -143,7 +159,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 30 al. 1 repete essa definição ao tratar dos sinais 2.49 e 2.50 (R-ARR-042)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-010
   categoria: B-Arret-Stationnement
@@ -160,7 +178,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 37 al. 1 cita o art. 19 OCR como exemplo de regra que se aplica às vias sinalizadas com o sinal 3.03 'Route principale' (ver R-PRIO-002)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto de OCR 19 al. 2 let. b e c diz 'routes principales' sem definir o termo aqui; não afirmo equivalência com o sinal 3.03 além do que OSR 37 al. 1 diz."
 
 - id: R-ARR-011
@@ -174,7 +194,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-012
   categoria: B-Arret-Stationnement
@@ -187,7 +209,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-013
   categoria: B-Arret-Stationnement
@@ -202,7 +226,9 @@ rules:
     - "Exceção: a autoridade competente pode conceder exceções em casos especiais (OCR 20 al. 1, 2ª frase)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-014
   categoria: B-Arret-Stationnement
@@ -218,7 +244,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): as facilidades só podem ser usadas nas condições de OCR 20a al. 2 (R-ARR-015); não valem em áreas de estacionamento privadas (al. 3, R-ARR-016); o cartão deve estar bem visível atrás do para-brisa (al. 4, R-ARR-017)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Na let. b o texto diz 'sur les places de parc' sem detalhar; não afirmo se isso inclui vagas com disco ou pagamento (interpretação não feita). Ler junto com a al. 2 (condições)."
 
 - id: R-ARR-015
@@ -232,7 +260,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-016
   categoria: B-Arret-Stationnement
@@ -245,7 +275,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-017
   categoria: B-Arret-Stationnement
@@ -259,7 +291,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 65 al. 5 também exige o cartão bem visível atrás do para-brisa nas vagas reservadas (R-ARR-061)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-018
   categoria: B-Arret-Stationnement
@@ -272,7 +306,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-019
   categoria: B-Arret-Stationnement
@@ -285,7 +321,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-020
   categoria: B-Arret-Stationnement
@@ -299,7 +337,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): parar para carregar ou descarregar ao lado de veículo estacionado só se a circulação não for entravada (OCR 18 al. 4, R-ARR-008)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-021
   categoria: B-Arret-Stationnement
@@ -312,7 +352,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto desta alínea não fixa distância para o sinal de pane; a distância de OCR 23 al. 2 é para outro caso (veículo parado contrariamente às prescrições) e não é aplicada aqui."
 
 - id: R-ARR-022
@@ -327,7 +369,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): LCR 37 al. 3: o condutor não pode deixar o veículo sem tomar as precauções que as circunstâncias exigem (R-ARR-003)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-023
   categoria: B-Arret-Stationnement
@@ -341,7 +385,9 @@ rules:
     - "'Notamment' no texto: engatar marcha inferior e dirigir as rodas para um obstáculo são exemplos de segunda medida, não uma lista fechada (OCR 22 al. 2)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto não define 'déclivité' nem fixa inclinação em percentagem."
 
 - id: R-ARR-024
@@ -356,7 +402,9 @@ rules:
     - "Calços sob as rodas de automóveis pesados, comboios rodoviários e reboques desengatados quando estacionados: vale mesmo em declives fracos (OCR 22 al. 3, 2ª frase)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto não define 'forte déclivité' nem 'faible déclivité' (sem percentagem). A 1ª frase fala em 'voitures'; a 2ª em 'voitures automobiles lourdes, trains routiers et remorques dételées'."
 
 - id: R-ARR-025
@@ -370,7 +418,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "A remissão ao OETV art. 90 al. 3 é feita pelo próprio texto do OCR; o conteúdo do OETV não foi usado aqui."
 
 - id: R-ARR-026
@@ -386,7 +436,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): o sinal 4.16 (« Place d'arrêt pour véhicules en panne »), nas autoestradas e semiautoestradas sem faixa de emergência, designa os locais para paradas impostas pelas circunstâncias; parar voluntariamente e estacionar ali são proibidos (OSR 47 al. 5, R-ARR-049)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto não define aqui 'routes à trafic rapide'; não afirmo quais vias são. A 50 m é a regra geral desta alínea; 100 m nas vias de tráfego rápido."
 
 - id: R-ARR-027
@@ -401,7 +453,9 @@ rules:
     - "Veículo parado: só como complemento do sinal de pane, ou ônibus escolar sinalizado para embarque e desembarque de escolares (OCR 23 al. 3 let. a; OCR 6 al. 5)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O arquivo traz depois da let. b um marcador '…' (let. suprimidas); ele não faz parte do trecho citado."
 
 - id: R-ARR-028
@@ -416,7 +470,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): onde parar não é permitido, estacionar também é proibido (OCR 19 al. 2 let. a, R-ARR-010)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-029
   categoria: B-Arret-Stationnement
@@ -431,7 +487,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): LCR 41 al. 2 trata de quando os veículos parados devem estar iluminados e da exceção dos locais de estacionamento/zonas bem iluminadas (R-ARR-004)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto de OCR 31 al. 1 não repete o horário; a base legal indicada no cabeçalho do art. 31 é o art. 41 LCR. Não afirmo regra de horário além do que consta de LCR 41 al. 2."
 
 - id: R-ARR-030
@@ -445,7 +503,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-031
   categoria: B-Arret-Stationnement
@@ -458,7 +518,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-032
   categoria: B-Arret-Stationnement
@@ -472,7 +534,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 47 al. 5: o sinal 4.16 designa os locais para paradas impostas pelas circunstâncias nas autoestradas e semiautoestradas sem faixa de emergência; parar voluntariamente e estacionar ali são proibidos (R-ARR-049)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto da al. 3 não repete a expressão 'autoroutes et semi-autoroutes'; a limitação a essas vias decorre do título do art. 36 ('Règles particulières de circulation sur les autoroutes et semi-autoroutes')."
 
 - id: R-ARR-033
@@ -487,7 +551,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 18 al. 2 (nota do texto) remete a este art. 39 al. 3 para parar em túnel (R-ARR-006)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-034
   categoria: B-Arret-Stationnement
@@ -500,7 +566,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-035
   categoria: B-Arret-Stationnement
@@ -516,7 +584,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 30 al. 2: o sinal 2.49 à beira da pista vale também para a calçada adjacente (R-ARR-043)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-036
   categoria: B-Arret-Stationnement
@@ -529,7 +599,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O número 2.59.1 aparece assim no texto de OSR 2a al. 1 (o mesmo número é citado em OSR 22a para 'Zone 30'); não interpretei a diferença."
 
 - id: R-ARR-037
@@ -543,7 +615,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-038
   categoria: B-Arret-Stationnement
@@ -556,7 +630,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-039
   categoria: B-Arret-Stationnement
@@ -571,7 +647,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 30 al. 3: início, lembrança e fim da proibição são indicados pelas placas 5.05, 5.04 e 5.06 (R-ARR-044)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "A alínea também trata da velocidade (2.30, 2.31, 2.30.1) e das proibições de ultrapassar (2.44, 2.45); esses pontos foram omitidos de regra_pt por estarem fora do tema. Também menciona que o sinal será repetido na interseção se a validade deve se estender além."
 
 - id: R-ARR-040
@@ -587,7 +665,9 @@ rules:
     - "Ver R-PRIO-054 (OSR 22b al. 1: prioridade dos pedestres)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Esta é a al. 3 do art. 22b (Zone de rencontre, 2.59.5)."
 
 - id: R-ARR-041
@@ -603,7 +683,9 @@ rules:
     - "Ver R-PRIO-055 (OSR 22c al. 1: veículos autorizados no máximo a passo)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Esta é a al. 2 do art. 22c (Zone piétonne, 2.59.3); o texto da alínea é idêntico ao do art. 22b al. 3."
 
 - id: R-ARR-042
@@ -619,7 +701,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): derrogações temporárias: OSR 30 al. 4 (R-ARR-045)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Por esta alínea, 2.49 proíbe parar voluntariamente e 2.50 proíbe estacionar (o 2.50 não proíbe, por si, subir/descer passageiros ou carregar/descarregar: ver definição em OCR 19 al. 1). Esta leitura segue a definição da própria alínea."
 
 - id: R-ARR-043
@@ -633,7 +717,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto diz isso apenas para o sinal 2.49; não afirmo o mesmo para o 2.50."
 
 - id: R-ARR-044
@@ -647,7 +733,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Não descrevo o desenho das placas; o texto só dá número e nome."
 
 - id: R-ARR-045
@@ -661,7 +749,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Não descrevo o desenho das placas; o texto só dá número e nome. Ver também OSR 65 al. 2, que repete o conteúdo."
 
 - id: R-ARR-046
@@ -676,7 +766,9 @@ rules:
     - "Exceção: se as autoridades aduaneiras renunciam temporariamente ao controle, atravessa-se a área da alfândega a no máximo 20 km/h (OSR 31 al. 1, 2ª frase)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-047
   categoria: B-Arret-Stationnement
@@ -689,7 +781,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Não descrevo o desenho do sinal; o texto só dá número, nome e a inscrição."
 
 - id: R-ARR-048
@@ -703,7 +797,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-049
   categoria: B-Arret-Stationnement
@@ -717,7 +813,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): em caso de parada de emergência num local sinalizado 4.16, não é necessário colocar o sinal de pane (OCR 23 al. 2, R-ARR-026)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-050
   categoria: B-Arret-Stationnement
@@ -731,7 +829,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): os sinais 4.17, 4.18 e 4.20 podem figurar como sinal de zona (OSR 2a al. 1, R-ARR-036)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Não descrevo o desenho dos sinais; o texto só dá número e nome."
 
 - id: R-ARR-051
@@ -745,7 +845,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-052
   categoria: B-Arret-Stationnement
@@ -760,7 +862,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 48b al. 1 também prevê que as prescrições do parquímetro podem prever nova taxa antes do fim do tempo autorizado (R-ARR-058)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-053
   categoria: B-Arret-Stationnement
@@ -774,7 +878,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): marcas de símbolos nas vagas (OSR 79 al. 4, R-ARR-069); vagas reservadas a grupos de usuários são marcadas em amarelo (OSR 79 al. 5, R-ARR-070) e só podem ser usadas por quem o símbolo indica (OSR 79 al. 6, R-ARR-071)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-054
   categoria: B-Arret-Stationnement
@@ -788,7 +894,9 @@ rules:
     - "Exceção quanto aos veículos admitidos: ciclomotores de várias vias (« cyclomoteurs à voies multiples ») não estão incluídos (OSR 48a al. 1, 2ª frase)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Não descrevo o desenho do sinal nem do disco (anexo 3 n. 1 não usado aqui)."
 
 - id: R-ARR-055
@@ -805,7 +913,9 @@ rules:
     - "Anexo 3, ch. 1, OSR: « Entre 19.00 et 07.59, il n'est pas nécessaire d'apposer le disque de stationnement, pour autant que le véhicule soit de nouveau engagé dans la circulation avant 08.00. » (R-ARR-077)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "A duração na zona azul está regulada no disco do anexo 3, ch. 1, da OSR, que está no arquivo-fonte (seção 'Annexe 3' / '1 Disque de stationnement (art. 48a)'); ver R-ARR-075, R-ARR-076 e R-ARR-077. 'jours ouvrables' não é definido no texto: não traduzir como 'segunda a sexta'. Meia hora é o mínimo do tempo limitado quando há placa (let. b)."
 
 - id: R-ARR-056
@@ -819,7 +929,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-057
   categoria: B-Arret-Stationnement
@@ -832,7 +944,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-058
   categoria: B-Arret-Stationnement
@@ -845,7 +959,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Não descrevo o desenho do sinal; o texto só dá número e nome."
 
 - id: R-ARR-059
@@ -859,7 +975,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-060
   categoria: B-Arret-Stationnement
@@ -872,7 +990,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Não descrevo o desenho das placas; o texto só dá número e nome."
 
 - id: R-ARR-061
@@ -887,7 +1007,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 20a al. 4: o cartão deve estar bem visível atrás do para-brisa (R-ARR-017); al. 3: as facilidades não valem em áreas privadas (R-ARR-016)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Não descrevo o desenho do símbolo; o texto só dá número e nome."
 
 - id: R-ARR-062
@@ -901,7 +1023,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Contagem por posição, com a linha '…' contada como al. 8."
 
 - id: R-ARR-063
@@ -915,7 +1039,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-064
   categoria: B-Arret-Stationnement
@@ -928,7 +1054,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-065
   categoria: B-Arret-Stationnement
@@ -943,7 +1071,9 @@ rules:
     - "A linha não é traçada na superfície das interseções, perto de ciclofaixas, nem nos créneaux de parcage et d'arrêt antes da faixa (OSR 77 al. 2, 3ª frase)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto pede a linha com mínimo de 10 m; isso é regra de marcação (para a autoridade), não distância para o condutor. A distância do condutor é a da OCR 18 al. 2 let. e (5 m antes da faixa, quando não há linha)."
 
 - id: R-ARR-066
@@ -957,7 +1087,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-067
   categoria: B-Arret-Stationnement
@@ -970,7 +1102,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-068
   categoria: B-Arret-Stationnement
@@ -983,7 +1117,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Não descrevo o desenho além do que o texto diz (cores e posição da linha azul)."
 
 - id: R-ARR-069
@@ -997,7 +1133,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Não descrevo o desenho dos símbolos; o texto só dá número e nome."
 
 - id: R-ARR-070
@@ -1011,7 +1149,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-071
   categoria: B-Arret-Stationnement
@@ -1024,7 +1164,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-072
   categoria: B-Arret-Stationnement
@@ -1038,7 +1180,9 @@ rules:
     - "Se a vaga proibida ao estacionamento traz inscrição (como « Taxi » ou número de placa) ou os símbolos 5.34.4, 5.42 ou 5.44: parar para subir/descer passageiros ou carregar/descarregar só é permitido se os titulares do direito não forem atrapalhados (OSR 79a al. 1, 2ª frase)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto dá as cores/desenho dessas marcas entre parênteses (amarelo, x, diagonais); reproduzo apenas o que o texto diz."
 
 - id: R-ARR-073
@@ -1052,7 +1196,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-074
   categoria: B-Arret-Stationnement
@@ -1066,7 +1212,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 18 al. 3: a menos de 10 m das placas de parada do transporte público, parar só para embarque/desembarque (R-ARR-007)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-075
   categoria: B-Arret-Stationnement
@@ -1080,7 +1228,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 48a al. 3 repete a regra de ajuste da flecha (R-ARR-056)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O anexo 3 não numera alíneas; a frase é a primeira sob o título « Réglage du disque de stationnement sur toutes les aires de circulation indiquées par le signal Parcage avec disque de stationnement »."
 
 - id: R-ARR-076
@@ -1110,7 +1260,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O anexo 3 não numera alíneas; a frase fecha a tabela de durações da zona azul (ver R-ARR-076)."
 
 - id: R-ARR-078
@@ -1125,7 +1277,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): luzes de veículos estacionados em OCR 31 (R-ARR-029 a 031) e LCR 41 al. 2 (R-ARR-004)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-079
   categoria: B-Arret-Stationnement
@@ -1138,7 +1292,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-080
   categoria: B-Arret-Stationnement
@@ -1151,7 +1307,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-081
   categoria: B-Arret-Stationnement
@@ -1164,7 +1322,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-082
   categoria: B-Arret-Stationnement
@@ -1177,7 +1337,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-083
   categoria: B-Arret-Stationnement
@@ -1190,7 +1352,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O currículo (CURRICULO.md) aponta a categoria H (sistemas de assistência) para este tema; mantida em B por estar neste arquivo, com decisão de categoria pendente (ver docs/reviews/T-018-pendencias.md)."
 
 - id: R-ARR-084
@@ -1205,7 +1369,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 30 al. 3 também menciona a placa de direção 5.07 para indicar o campo de aplicação de uma proibição (R-ARR-044)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-085
   categoria: B-Arret-Stationnement
@@ -1219,7 +1385,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 17 al. 1: as exceções às prescrições indicadas por sinais são mencionadas em placa complementar."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "A alínea fala de sinais em geral; o relatório T-015 a aponta como útil para placas como « excepté riverains » sob o 2.50, mas o texto da alínea não cita o 2.50."
 
 - id: R-ARR-086
@@ -1234,7 +1402,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): parar ou estacionar na calçada: OCR 41 al. 1 e 2 (R-ARR-034, R-ARR-035)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-087
   categoria: B-Arret-Stationnement
@@ -1248,7 +1418,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 41 (R-ARR-034, R-ARR-035) regula o parcage e a parada na calçada."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-ARR-088
   categoria: B-Arret-Stationnement
@@ -1262,5 +1434,7 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 2a al. 1 (R-ARR-036): sinais de estacionamento como sinais de zona."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 

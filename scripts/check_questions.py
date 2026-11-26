@@ -57,8 +57,8 @@ def main() -> int:
         for k in bd.EXPLICACAO_FIELDS:
             if not q.get("explicacao", {}).get(k):
                 erros.append(f"{i}: explicacao.{k} vazio")
-        if q.get("status") == "aprovado":
-            erros.append(f"{i}: status aprovado (so o aluno aprova)")
+        if q.get("status") == "aprovado" and not (q.get("aprovado_por") and q.get("aprovado_em")):
+            erros.append(f"{i}: status aprovado exige aprovado_por e aprovado_em (aprovacao do Luan, direta ou delegada)")
         if q.get("etiqueta") not in ETIQ:
             erros.append(f"{i}: etiqueta invalida")
         if q.get("imagem") is not None:

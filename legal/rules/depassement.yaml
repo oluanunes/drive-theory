@@ -28,7 +28,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): nas estradas com várias faixas para o mesmo sentido, vale a obrigação de seguir a faixa externa da direita, com as exceções do OCR 8 al. 1 (R-DEP-023)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-002
   categoria: E-Depassement
@@ -44,7 +46,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 11 al. 3 (R-DEP-032) trata da ultrapassagem « à droite de la ligne de sécurité »."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-003
   categoria: E-Depassement
@@ -59,7 +63,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): nas faixas marcadas para o mesmo sentido, só se muda de faixa se não houver perigo para os outros usuários (LCR 44 al. 1, R-DEP-018)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-004
   categoria: E-Depassement
@@ -73,7 +79,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): veículos que se seguem: manter distância do veículo da frente para poder parar a tempo (OCR 12 al. 1, R-DEP-034)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto legal só diz « distance suffisante »; não fixa distância em metros nem distância lateral numérica para ultrapassar ciclistas ou outros usuários. Nenhum valor foi acrescentado."
 
 - id: R-DEP-005
@@ -92,7 +100,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): cruzamento de veículos em interseções onde ambos viram à esquerda: « ils se croiseront à gauche » (OCR 13 al. 4, R-DEP-040)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-006
   categoria: E-Depassement
@@ -107,7 +117,9 @@ rules:
     - "Ver R-PRIO-032 (OCR 9 al. 1): obstáculo na própria metade da pista → prioridade ao tráfego em sentido contrário."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-007
   categoria: E-Depassement
@@ -121,7 +133,9 @@ rules:
     - "Ver R-PRIO-036 (OCR 6 al. 5): ônibus escolar parado com pisca-alerta: só ultrapassar em velocidade reduzida e com prudência particular; se necessário, parar."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-008
   categoria: E-Depassement
@@ -136,7 +150,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 11 al. 4 (R-DEP-033): em interseção sem visibilidade suficiente sobre as desembocaduras, só ultrapassa quem está em via prioritária ou onde a circulação é regulada pela polícia ou por sinais luminosos."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O OCR 11 al. 3 (R-DEP-032) só permite, em curva ou perto do topo de subida, a ultrapassagem feita à direita da linha de segurança, isto é, sem cruzá-la (LCR 34 al. 2; OSR 73 al. 7 let. a). Não autoriza usar a metade esquerda numa curva sem visibilidade. (Leitura combinada de textos; ver T-020 §4, ponto 1.)"
 
 - id: R-DEP-009
@@ -153,7 +169,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): passar à frente (« devancer ») pela direita na circulação em filas paralelas e, dentro das localidades, nas estradas com várias faixas marcadas para o mesmo sentido não é permitido se os veículos páram para dar prioridade a pedestres (OCR 8 al. 3, R-DEP-025)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto desta alínea (proibido ultrapassar quem indica virar à esquerda) e o da al. 6 (quem está em présélection para a esquerda só pode ser ultrapassado pela direita) são registrados como estão; a lei não diz expressamente como se articulam. Nenhuma interpretação foi acrescentada."
 
 - id: R-DEP-010
@@ -169,7 +187,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): LCR 35 al. 5 (R-DEP-009): é proibido ultrapassar o veículo cujo condutor indica a intenção de virar à esquerda."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Ver a nota do R-DEP da LCR 35 al. 5: o texto não esclarece a articulação entre as duas alíneas; nenhuma interpretação foi afirmada."
 
 - id: R-DEP-011
@@ -185,7 +205,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): sinal Place d'évitement (4.15): veículos lentos devem se colocar ali para deixar passar veículos mais rápidos (OSR 47 al. 4, R-ARR-048 em arret-stationnement.yaml)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-012
   categoria: E-Depassement
@@ -199,7 +221,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): colocar-se a tempo em ordem de présélection ao virar (OCR 13 al. 1, R-DEP-037); ao se preparar para virar à esquerda, não usar a parte da pista reservada ao sentido contrário (OCR 13 al. 2, R-DEP-038)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-013
   categoria: E-Depassement
@@ -216,7 +240,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 26 al. 1 (R-DEP-056): o sinal 2.44 proíbe ultrapassar bondes em marcha."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O cabeçalho do OCR 25 remete ao art. 38 LCR; o texto do OCR 25 al. 1 não diz expressamente que detalha a segunda frase desta alínea. A relação não foi afirmada além do que está escrito. Prioridade do bonde: R-PRIO-024."
 
 - id: R-DEP-014
@@ -231,7 +257,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 25 al. 3 (R-DEP-045): nas paradas sem refúgio, se os passageiros devem descer do lado da circulação, os condutores que circulam na mesma metade da pista param até que os passageiros tenham liberado a pista."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-015
   categoria: E-Depassement
@@ -245,7 +273,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 25 al. 2 (R-DEP-044): se o tram ou chemin de fer routier roda pela esquerda, o condutor que circula na mesma direção deixa espaço suficiente para que os veículos em sentido contrário cruzem pela esquerda os veículos sobre trilhos."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-016
   categoria: E-Depassement
@@ -259,7 +289,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 28 al. 1 (R-DEP-046): anunciar toda mudança de direção, inclusive para a direita; o ciclista que quer sair da fila para ultrapassar outro também deve anunciar."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-017
   categoria: E-Depassement
@@ -272,7 +304,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-018
   categoria: E-Depassement
@@ -286,7 +320,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 8 al. 1 (R-DEP-023): seguir a faixa externa da direita, com as exceções ali previstas."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-019
   categoria: E-Depassement
@@ -300,7 +336,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 8 al. 2 e al. 3 (R-DEP-024, R-DEP-025) tratam da circulação em filas paralelas."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-020
   categoria: E-Depassement
@@ -314,7 +352,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 38 al. 1 (R-DEP-052) trata de veículos da mesma categoria, com redação própria (« sauf si l'autre véhicule se trouve près d'une place d'évitement », sem o « manifestement plus près » desta alínea); veículos de categorias diferentes: OCR 9 al. 2, primeira frase (R-PRIO-040)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-021
   categoria: E-Depassement
@@ -327,7 +367,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Regra geral de adaptação de velocidade (art. 32 al. 1 LCR, indicado no cabeçalho do OCR 4); incluída aqui só pela cláusula do cruzamento difícil. No arquivo, depois da al. 1 vêm as linhas « et … » e « … » e depois « Il est tenu de ne pas diminuer la fluidité du trafic… ». « et … » provavelmente corresponde a « 2 et 3 … » (duas alíneas revogadas); nesse caso a última alínea é a al. 5. Confirmar no HTML do Fedlex."
 
 - id: R-DEP-022
@@ -344,7 +386,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 24 al. 1 let. b (R-DEP-073): com os sinais « Obstacle à contourner par la droite » (2.34) e « Obstacle à contourner par la gauche » (2.35), « le conducteur doit contourner par la droite ou par la gauche l'obstacle devant lequel est placé le signal »."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-023
   categoria: E-Depassement
@@ -358,7 +402,9 @@ rules:
     - "Não se aplica quando o condutor ultrapassa, se coloca em présélection, circula em filas paralelas ou está dentro das localidades (OCR 8 al. 1, segunda frase)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-024
   categoria: E-Depassement
@@ -371,7 +417,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-025
   categoria: E-Depassement
@@ -386,7 +434,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): autoestradas e semiautoestradas: OCR 36 al. 5 (R-DEP-047); ciclistas em fila de automotores: OCR 42 al. 3 (R-DEP-055)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto usa dois verbos: « devancer » (passar à frente, permitido nas condições da alínea) e « dépasser » (ultrapassar); é « contourner [...] par la droite pour les dépasser » que é proibido. Os termos foram mantidos em francês; nenhuma diferença adicional foi afirmada. Na explicação ao aluno, usar sempre 'passar à frente pela direita' para « devancer » (permitido nas condições da alínea) e 'contornar pela direita para ultrapassar' para a manobra proibida."
 
 - id: R-DEP-026
@@ -401,7 +451,9 @@ rules:
     - "Os ciclistas podem derrogar da obrigação de circular à direita nas faixas de virar à esquerda (let. a) e nas faixas de virar à direita com marcação que permita aos ciclos seguir em frente (let. b)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Alinea 5 do mesmo artigo (zíper) já está em R-PRIO-051."
 
 - id: R-DEP-027
@@ -417,7 +469,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): condições gerais para ultrapassar: LCR 35 al. 2 (R-DEP-006); proibições: LCR 35 al. 4 e 5 (R-DEP-008, R-DEP-009)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O arquivo traz um asterisco de nota depois de « gauche » (nota: « Pour les signes, voir l'art. 28 »); o asterisco foi retirado do trecho."
 
 - id: R-DEP-028
@@ -431,7 +485,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "No arquivo, a alínea termina com « … » (marca de trecho omitido/revogado no texto consolidado); o « … » foi deixado fora do trecho. Nenhum número (distância, tempo) consta da alínea."
 
 - id: R-DEP-029
@@ -446,7 +502,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): sinal Place d'évitement (4.15), OSR 47 al. 4 (R-ARR-048), que remete a esta alínea."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-030
   categoria: E-Depassement
@@ -459,7 +517,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-031
   categoria: E-Depassement
@@ -474,7 +534,9 @@ rules:
     - "Exceção b): estrada com os dois sentidos separados e pelo menos três faixas no mesmo sentido (OCR 11 al. 2 let. b)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-032
   categoria: E-Depassement
@@ -490,7 +552,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): LCR 35 al. 4 (R-DEP-008): proibição de ultrapassar em curva sem visibilidade, ao cruzar passagem de nível sem barreiras ou perto do topo de subida."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Alínea de duas frases. O texto fala em ultrapassar « à droite de la ligne de sécurité » (isto é, no lado direito dessa linha); nenhuma interpretação adicional sobre quando isto é aplicável foi acrescentada. A relação com a LCR 35 al. 4 está descrita na nota do R-DEP correspondente. Leitura marcada: 'sem cruzar nem pisar a linha' vem da combinação com LCR 34 al. 2 e OSR 73 al. 7 let. a; não é frase expressa do OCR 11 al. 3 (ver T-020 §4, ponto 1)."
 
 - id: R-DEP-033
@@ -505,7 +569,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): LCR 35 al. 4, segunda parte (R-DEP-008): nas interseções a ultrapassagem só é permitida com boa visibilidade e sem ofensa ao direito de prioridade dos outros usuários."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-034
   categoria: E-Depassement
@@ -518,7 +584,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto não fixa distância em metros nem em segundos; só diz « distance suffisante ». Nenhum valor foi acrescentado."
 
 - id: R-DEP-035
@@ -532,7 +600,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-036
   categoria: E-Depassement
@@ -546,7 +616,9 @@ rules:
     - "Ver R-ARR-006 (OCR 18 al. 2: parada voluntária)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-037
   categoria: E-Depassement
@@ -559,7 +631,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-038
   categoria: E-Depassement
@@ -573,7 +647,9 @@ rules:
     - "Nas estradas de três faixas, marcadas ou não, pode usar a faixa central com as precauções necessárias (OCR 13 al. 2, segunda frase)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-039
   categoria: E-Depassement
@@ -588,7 +664,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): nas autoestradas, passar à frente pela direita é permitido nos trechos de présélection se cada faixa indica destinos diferentes (OCR 36 al. 5 let. b, R-DEP-047)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-040
   categoria: E-Depassement
@@ -602,7 +680,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): dar prioridade aos veículos que vêm em sentido contrário antes de virar à esquerda (LCR 36 al. 3, R-PRIO-029)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-041
   categoria: E-Depassement
@@ -615,7 +695,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-042
   categoria: E-Depassement
@@ -628,7 +710,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-043
   categoria: E-Depassement
@@ -642,7 +726,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): regra geral: bondes em marcha são ultrapassados pela direita; se não for possível, é permitido pela esquerda (LCR 38 al. 2, R-DEP-013)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto do OCR 25 al. 1 diz « seulement lorsqu'il n'y a pas d'intersection et que le trafic venant en sens inverse ne risque pas d'être entravé ». O arquivo não esclarece a relação com a segunda frase da LCR 38 al. 2 (« Si cela n'est pas possible »); nenhuma conciliação foi afirmada."
 
 - id: R-DEP-044
@@ -656,7 +742,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-045
   categoria: E-Depassement
@@ -670,7 +758,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): LCR 38 al. 3 (R-DEP-014): bonde parado só pode ser cruzado e ultrapassado em velocidade moderada; com refúgio, pela direita; sem refúgio, exclusivamente pela esquerda."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "A alínea 5 do OCR 25 (parar sobre trilhos) está em arret-stationnement.yaml."
 
 - id: R-DEP-046
@@ -685,7 +775,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): LCR 39 al. 1 let. b (R-DEP-016): sinalizar a tempo a intenção de ultrapassar."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-047
   categoria: E-Depassement
@@ -700,7 +792,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): fora das autoestradas, passar à frente pela direita: OCR 8 al. 3 (R-DEP-025); prioridade na entrada da autoestrada: R-PRIO-050."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O OCR 36 al. 4 (prioridade na entrada) já está em R-PRIO-050. O texto usa « dépasser » (proibido pela direita saindo e voltando) e « devancer » (permitido nas situações listadas)."
 
 - id: R-DEP-048
@@ -714,7 +808,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto não lista quais veículos podem rodar a mais de 100 km/h; nenhuma lista foi acrescentada."
 
 - id: R-DEP-049
@@ -728,7 +824,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-050
   categoria: E-Depassement
@@ -742,7 +840,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): circulação à direita: LCR 34 al. 1 (R-DEP-001)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-051
   categoria: E-Depassement
@@ -756,7 +856,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): nas pistas de dois sentidos, ilhas, superfícies interditas ao tráfego e obstáculos no meio da pista são contornados pela direita (OCR 7, R-DEP-022)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto do OCR 37 al. 2 fala em « il est permis de contourner » sem restringir expressamente o artigo a pistas de mão única na própria alínea; a restrição vem da posição da alínea no art. 37 « Chaussées à sens unique » (título do artigo no arquivo)."
 
 - id: R-DEP-052
@@ -772,7 +874,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): base legal: LCR 45 al. 1 (R-DEP-020)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Marcador de nota « *3*3 » depois de « catégorie » retirado, conforme o cabeçalho; o check_quotes.py aceita o trecho na variante sem_notas (testado no T-020 e no T-021)."
 
 - id: R-DEP-053
@@ -787,7 +891,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): sinal Route postale de montagne (4.05): OSR 45 al. 2 remete a este OCR 38 al. 3 (« art. 38, al. 3, OCR »); a placa descreve as vias onde o condutor deve observar os sinais e indicações desses condutores quando é difícil cruzar ou ultrapassar."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-054
   categoria: E-Depassement
@@ -801,7 +907,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 74a al. 1 (R-DEP-063): os veículos não devem pisar nem cruzar a linha contínua que delimita faixas cicláveis."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Alíneas 1, 4 e 5 do OCR 40 (prioridade) já estão em R-PRIO-047, 048 e 049."
 
 - id: R-DEP-055
@@ -815,7 +923,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Regra dirigida aos ciclistas, incluída por tratar de ultrapassagem/passagem à frente de filas de automotores; o texto não fixa distância lateral."
 
 - id: R-DEP-056
@@ -832,7 +942,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 16 al. 2 (R-ARR-039): o 2.44 « doivent être observés » até o sinal de fim (2.55 ou 2.58), « mais au plus jusqu'à la fin de la prochaine intersection ». (A citação literal da frase toda está em R-DEP-059.)"
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto não descreve o desenho do sinal; só o número (2.44) e o nome. Nenhuma descrição visual foi acrescentada. « Roues placées l'une à côté de l'autre » é mantido no francês: nenhum artigo define o termo (o OSR 42 al. 1 usa a expressão oposta, « l'une derrière l'autre »). A consequência para veículos de rodas uma atrás da outra é leitura, não frase expressa (T-020 §4, ponto 7)."
 
 - id: R-DEP-057
@@ -848,7 +960,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 16 al. 2 (R-ARR-039): o 2.45 « doivent être observés » até o sinal de fim (2.56 ou 2.58), « mais au plus jusqu'à la fin de la prochaine intersection ». (A citação literal da frase toda está em R-DEP-059.)"
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto não descreve o desenho do sinal; só o número (2.45) e o nome."
 
 - id: R-DEP-058
@@ -864,7 +978,9 @@ rules:
     - "Bondes e chemins de fer routiers em marcha podem ser « devancés » pela direita (OSR 26 al. 3, última frase)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto diz « devancer » (passar à frente) para os bondes na última frase; foi mantido o verbo em francês."
 
 - id: R-DEP-059
@@ -880,7 +996,9 @@ rules:
     - "Ver R-DEP-060 (OSR 32 al. 1)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto não descreve o desenho dos sinais; só números e nomes."
 
 - id: R-DEP-060
@@ -895,7 +1013,9 @@ rules:
     - "Ver R-DEP-059 (OSR 26 al. 4) e R-ARR-039 (OSR 16 al. 2)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Al. 2 do OSR 32 (« Libre circulation », 2.58) não menciona a proibição de ultrapassar, mas o OSR 16 al. 2 (R-ARR-039) lista o 2.58 entre os sinais de fim do 2.44/2.45 e limita a validade ao fim da próxima interseção (ver R-DEP-059). Al. 3 a 5 não tratam de ultrapassagem."
 
 - id: R-DEP-061
@@ -912,7 +1032,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 73 al. 8 (R-DEP-062): linha curta descontínua paralela à linha de segurança."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Os números 6.01, 6.03, 6.04, 6.05 só aparecem no texto das alíneas anteriores do artigo (al. 1, 4, 5, 6), que descrevem cor e finalidade das linhas (al. 1 e 6 foram acrescentadas no T-021 como R-DEP-071 e R-DEP-072; al. 4 e 5 não foram usadas). Nenhum desenho de linha foi descrito."
 
 - id: R-DEP-062
@@ -927,7 +1049,9 @@ rules:
     - "Se a linha curta descontínua é amarela, é só para ônibus públicos em serviço de linha, ciclistas e condutores de ciclomotores (OSR 73 al. 8, segunda frase)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
 
 - id: R-DEP-063
   categoria: E-Depassement
@@ -941,7 +1065,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 40 al. 3 (R-DEP-054): outros veículos podem rodar em faixas cicláveis delimitadas por linha descontínua, desde que a circulação dos ciclos não seja estorvada."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Alínea de três frases; só a segunda frase trata de comportamento sobre a linha contínua."
 
 - id: R-DEP-064
@@ -958,7 +1084,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 25 al. 4 (R-DEP-066): condutores que viram à esquerda podem entrar nos trilhos para se colocar em ordem de présélection quando nenhum bonde se aproxima."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto só dá o número (6.06) e a cor das flechas; nenhum desenho foi descrito. Fonte: lacuna L-02 do T-020."
 
 - id: R-DEP-065
@@ -973,7 +1101,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 74 al. 3 (R-DEP-064): flechas de présélection."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "« Placées de biais » (colocadas de través) é a descrição que o próprio texto dá; nenhum desenho foi acrescentado. Fonte: lacuna L-03 do T-020."
 
 - id: R-DEP-066
@@ -989,7 +1119,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 74 al. 3 (R-DEP-064): flechas de présélection."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Fonte: lacuna L-05 do T-020."
 
 - id: R-DEP-067
@@ -1003,7 +1135,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto não descreve o desenho dos sinais; só números e nomes. A al. 2 do artigo (regra para quem coloca os sinais) não foi usada. Fonte: lacuna L-07 do T-020."
 
 - id: R-DEP-068
@@ -1017,7 +1151,9 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto diz « tourner sur route »; « meia-volta » vem do nome do sinal. Nenhum desenho foi descrito. Fonte: lacuna L-07 do T-020."
 
 - id: R-DEP-069
@@ -1033,7 +1169,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): LCR 39 al. 1 (R-DEP-016): sinalizar a tempo a intenção de mudar de direção."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Fonte: lacuna L-08 do T-020. Contagem da alínea por posição no arquivo; o OCR 28 não tem linhas « … »."
 
 - id: R-DEP-070
@@ -1048,7 +1186,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 28 al. 1 (R-DEP-046) e LCR 39 al. 1 (R-DEP-016): dever de anunciar a mudança de direção."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "Fonte: lacuna L-08 do T-020. Contagem da alínea por posição no arquivo; o OCR 28 não tem linhas « … »."
 
 - id: R-DEP-071
@@ -1063,7 +1203,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): LCR 34 al. 2 (R-DEP-002): circular sempre à direita das linhas de segurança; OSR 73 al. 7 let. a (R-DEP-061): proibido cruzá-las ou pisar nelas."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto só dá número (6.01), cor e tipo; nenhum desenho foi descrito. Fonte: lacuna L-09 do T-020."
 
 - id: R-DEP-072
@@ -1078,7 +1220,9 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OSR 73 al. 7 let. b (R-DEP-061): as linhas de aviso podem ser cruzadas ou pisadas, com a prudência necessária."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto só dá número (6.05), cor e tipo; nenhum desenho foi descrito. Fonte: lacuna L-09 do T-020."
 
 - id: R-DEP-073
@@ -1093,5 +1237,7 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): OCR 7 al. 1 (R-DEP-022): obstáculos situados no meio da pista são contornados pela direita."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
+  validado_por: "validado por Claude, delegado por Luan em 2026-11-26 (sem revisão humana; Luan confere pelo app)"
   nota: "O texto não descreve o desenho dos sinais; só números e nomes. Fonte: lacuna L-06 do T-020."

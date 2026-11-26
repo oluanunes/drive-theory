@@ -53,3 +53,7 @@ Gargalo previsto: validação do Luan (~30-45 min por tema, ~5-6 h no total até
 
 ## Conflitos abertos
 - Nenhum.
+
+
+## 2026-11-26 — validação delegada
+Luan delegou a Claude a validação das regras (Arrêt 87/88, Dépassement 73/73) e a aprovação das 36 perguntas de Priorité; ele confere pelo app e aponta o que está incorreto. Marcadas com validado_por/aprovado_por. R-ARR-076 (tabela da zona azul) segue pendente até confirmar no Fedlex. H-01 (formato da prova): Luan confirma com o OCN Fribourg; o simulador usa o formato provisório até lá.
