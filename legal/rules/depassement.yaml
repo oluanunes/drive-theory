@@ -1,0 +1,934 @@
+# T-014 PESQ — categoria E (Dépassement: ultrapassagem, croisement, circulação em filas). Todas as regras com status: pendente (só o aluno valida).
+# Fonte única de texto legal: legal/sources/*.txt (Fedlex, baixado 2026-11-26).
+#   LCR (RS 741.01) État le 1er juillet 2026; OCR (RS 741.11) e OSR (RS 741.21) État le 1er octobre 2026.
+# trecho_literal_fr = alínea inteira copiada do arquivo, sem número de alínea, sem asterisco de nota e sem número de nota colado; trecho_completo: true,
+#   exceto R-DEP-052 (ver nota da regra). Alíneas com letras (a., b., ...) aparecem na mesma linha ("a. ...; b. ...").
+# A numeração das alíneas (alinea) é a ordem dos parágrafos no arquivo extraído (o arquivo não traz o número da alínea).
+#   Linhas só com títulos (ex.: "Croisement et dépassement" no fim do LCR 34) e linhas de nota ("* ...") não contam como alínea.
+#   Alíneas revogadas aparecem como "…" e contam na posição (confere com as remissões: OSR 47 cita « art. 10, al. 3, OCR » e OSR 45 cita « art. 38, al. 3, OCR »).
+#   OCR 10 al. 2: no arquivo a alínea termina com " …" (trecho omitido); o " …" foi deixado fora do trecho.
+# versao_lei_em_vigor_desde = data 'État le' do texto consolidado (NÃO é a data de entrada em vigor do artigo).
+# NÃO duplicadas (já em priorite.yaml / arret-stationnement.yaml): LCR 36 al. 2-4 (R-PRIO-001, 029, 030); LCR 38 al. 1 (R-PRIO-024); LCR 33 al. 2 e OCR 6 al. 1-5 (R-PRIO-023, 020, 021, 034-036);
+#   OCR 8 al. 5 zíper (R-PRIO-051); OCR 9 al. 1-2 (R-PRIO-032, 040); OCR 36 al. 4 (R-PRIO-050); OCR 40 al. 1, 4, 5 (R-PRIO-047-049); OCR 25 al. 5 (arret-stationnement); OSR 47 al. 4 / sinal 4.15 (R-ARR-048).
+# Fora do escopo: OCR 45 al. 1 última frase (regra para condutor de bonde); OCR 43 (ciclos lado a lado), OCR 85 (transportes especiais); OSR 73 al. 1-6 (descrevem cor/finalidade das linhas, não comportamento);
+#   OSR 45 al. 2 (sinal 4.05) citado só dentro do R-DEP do OCR 38 al. 3; OSR 47 al. 4 (sinal 4.15) já em R-ARR-048; desenho de qualquer sinal ou linha (só aparecem número e nome no texto).
+rules:
+
+- id: R-DEP-001
+  categoria: E-Depassement
+  subtema: conducao-a-direita
+  regra_pt: "Os veículos mantêm a direita e, se a estrada é larga, circulam na metade direita dela. Devem ir o mais possível rente à borda direita da pista, em especial se andam devagar ou se circulam num trecho sem visibilidade."
+  termos_fr: ["tiendront leur droite", "moitié droite", "bord droit de la chaussée", "dépourvu de visibilité"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "34", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Les véhicules tiendront leur droite et circuleront, si la route est large, sur la moitié droite de celle-ci. Ils longeront le plus possible le bord droit de la chaussée, en particulier s'ils roulent lentement ou circulent sur un tronçon dépourvu de visibilité."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): nas vias de mão única, a pista é equiparada à metade direita de uma pista de dois sentidos (OCR 37 al. 1, R-DEP-050)."
+    - "Regra de outra disposição (não consta desta alínea): nas estradas com várias faixas para o mesmo sentido, vale a obrigação de seguir a faixa externa da direita, com as exceções do OCR 8 al. 1 (R-DEP-023)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-002
+  categoria: E-Depassement
+  subtema: linhas-continuas
+  regra_pt: "Os veículos circulam sempre à direita das linhas de segurança (« lignes de sécurité ») traçadas na pista."
+  termos_fr: ["à droite des lignes de sécurité"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "34", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Les véhicules circuleront toujours à droite des lignes de sécurité tracées sur la chaussée."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 73 al. 7 let. a (R-DEP-061): é proibido aos veículos cruzar as linhas de segurança e as duplas linhas de segurança ou pisar nelas."
+    - "Regra de outra disposição (não consta desta alínea): OSR 73 al. 8 (R-DEP-062): onde uma linha branca descontínua curta está marcada paralelamente à linha de segurança, esta pode ser cruzada nesse ponto pelos veículos que estão do lado da linha descontínua."
+    - "Regra de outra disposição (não consta desta alínea): OCR 11 al. 3 (R-DEP-032) trata da ultrapassagem « à droite de la ligne de sécurité »."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-003
+  categoria: E-Depassement
+  subtema: mudar-de-direcao
+  regra_pt: "O condutor que quer mudar de direção — por exemplo para virar, ultrapassar, colocar-se em ordem de présélection ou passar de uma faixa para outra — deve ter consideração pelos usuários da via que vêm em sentido contrário e pelos veículos que o seguem."
+  termos_fr: ["modifier sa direction de marche", "dépasser", "ordre de présélection", "passer d'une voie à l'autre", "en sens inverse", "véhicules qui le suivent"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "34", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Le conducteur qui veut modifier sa direction de marche, par exemple pour obliquer, dépasser, se mettre en ordre de présélection ou passer d'une voie à l'autre, est tenu d'avoir égard aux usagers de la route qui viennent en sens inverse ainsi qu'aux véhicules qui le suivent."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): sinalizar a intenção antes de mudar de direção, inclusive para ultrapassar (LCR 39 al. 1 let. b, R-DEP-016)."
+    - "Regra de outra disposição (não consta desta alínea): nas faixas marcadas para o mesmo sentido, só se muda de faixa se não houver perigo para os outros usuários (LCR 44 al. 1, R-DEP-018)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-004
+  categoria: E-Depassement
+  subtema: distancia-lateral-e-longitudinal
+  regra_pt: "O condutor mantém distância suficiente em relação a todos os usuários da via, em especial ao cruzar, ao ultrapassar, ao circular lado a lado (« de front ») e quando veículos se seguem."
+  termos_fr: ["distance suffisante", "tous les usagers de la route", "croiser, dépasser et circuler de front"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "34", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Le conducteur observera une distance suffisante envers tous les usagers de la route, notamment pour croiser, dépasser et circuler de front ou lorsque des véhicules se suivent."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): veículos que se seguem: manter distância do veículo da frente para poder parar a tempo (OCR 12 al. 1, R-DEP-034)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto legal só diz « distance suffisante »; não fixa distância em metros nem distância lateral numérica para ultrapassar ciclistas ou outros usuários. Nenhum valor foi acrescentado."
+
+- id: R-DEP-005
+  categoria: E-Depassement
+  subtema: lado-do-cruzamento-e-ultrapassagem
+  regra_pt: "Os cruzamentos fazem-se pela direita; as ultrapassagens, pela esquerda."
+  termos_fr: ["croisements se font à droite", "dépassements à gauche"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "35", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Les croisements se font à droite, les dépassements à gauche."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): veículos em présélection para virar à esquerda só podem ser ultrapassados pela direita (LCR 35 al. 6, R-DEP-010)."
+    - "Regra de outra disposição (não consta desta alínea): bondes e chemins de fer routiers em marcha são ultrapassados pela direita; se isso não for possível, é permitido pela esquerda (LCR 38 al. 2, R-DEP-013)."
+    - "Regra de outra disposição (não consta desta alínea): ilhas, superfícies interditas ao tráfego e obstáculos no meio da pista são contornados pela direita (OCR 7, R-DEP-022)."
+    - "Regra de outra disposição (não consta desta alínea): passar à frente (« devancer ») pela direita em filas paralelas e dentro das localidades (OCR 8 al. 3, R-DEP-025); ultrapassar pela direita à direita da linha de segurança (OCR 11 al. 3, R-DEP-032); regras de autoestrada (OCR 36 al. 5, R-DEP-047)."
+    - "Regra de outra disposição (não consta desta alínea): cruzamento de veículos em interseções onde ambos viram à esquerda: « ils se croiseront à gauche » (OCR 13 al. 4, R-DEP-040)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-006
+  categoria: E-Depassement
+  subtema: condicoes-para-ultrapassar
+  regra_pt: "Só é permitido ultrapassar ou contornar um obstáculo se o espaço necessário está livre e bem visível e se os usuários que vêm em sentido contrário não são incomodados pela manobra. Na circulação em fila (« circulation à la file »), só pode ultrapassar quem tem a certeza de poder retomar lugar cedo o bastante na fila de veículos, sem atrapalhar a circulação deles."
+  termos_fr: ["espace nécessaire est libre et bien visible", "sens inverse ne sont pas gênés", "circulation à la file", "reprendre place assez tôt"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "35", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Il n'est permis d'exécuter un dépassement ou de contourner un obstacle que si l'espace nécessaire est libre et bien visible et que si les usagers de la route venant en sens inverse ne sont pas gênés par la manoeuvre. Dans la circulation à la file, seul peut effectuer un dépassement celui qui a la certitude de pouvoir reprendre place assez tôt dans la file des véhicules sans entraver leur circulation."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): depois da ultrapassagem, voltar à direita assim que for possível sem perigo para o ultrapassado (OCR 10 al. 2, R-DEP-028)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-007
+  categoria: E-Depassement
+  subtema: cuidado-ao-ultrapassar
+  regra_pt: "Quem ultrapassa deve ter consideração especial pelos outros usuários da via, em especial por aqueles que quer ultrapassar."
+  termos_fr: ["particulièrement égard", "ceux qu'il veut dépasser"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "35", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Celui qui dépasse doit avoir particulièrement égard aux autres usagers de la route, notamment à ceux qu'il veut dépasser."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-008
+  categoria: E-Depassement
+  subtema: onde-e-proibido-ultrapassar
+  regra_pt: "A ultrapassagem é proibida ao condutor que entra numa curva sem visibilidade, que cruza ou se prepara para cruzar uma passagem de nível sem barreiras, ou que se aproxima do topo de uma subida (« sommet d'une côte »). Nas interseções (« aux intersections »), a ultrapassagem só é permitida se a visibilidade é boa e se disso não resulta nenhuma ofensa ao direito de prioridade dos outros usuários."
+  termos_fr: ["tournant sans visibilité", "passage à niveau sans barrières", "sommet d'une côte", "aux intersections", "visibilité est bonne", "droit de priorité"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "35", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Le dépassement est interdit au conducteur qui s'engage dans un tournant sans visibilité, qui franchit ou s'apprête à franchir un passage à niveau sans barrières ou qui s'approche du sommet d'une côte; aux intersections, le dépassement n'est autorisé que si la visibilité est bonne et s'il n'en résulte aucune atteinte au droit de priorité des autres usagers."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 11 al. 3 (R-DEP-032): permite ultrapassar à direita da linha de segurança mesmo em curva ou perto do topo de uma subida, sob a condição do texto; e, em passagens de nível sem barreiras, só ultrapassar ciclistas, engins assimilés à veículos e pedestres, com boa visibilidade."
+    - "Regra de outra disposição (não consta desta alínea): OCR 11 al. 4 (R-DEP-033): em interseção sem visibilidade suficiente sobre as desembocaduras, só ultrapassa quem está em via prioritária ou onde a circulação é regulada pela polícia ou por sinais luminosos."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O cabeçalho do OCR 11 remete a « art. 35, al. 4, LCR ». O texto do OCR 11 al. 3 permite expressamente ultrapassar « à droite de la ligne de sécurité » mesmo em curva ou perto do topo de uma subida; o texto não explica como isso se combina com a proibição desta alínea em curva sem visibilidade. Nenhuma conciliação foi afirmada: cada texto está registrado como está escrito (ver R-DEP do OCR 11 al. 3)."
+
+- id: R-DEP-009
+  categoria: E-Depassement
+  subtema: proibido-ultrapassar-seta-e-passagem-de-pedestres
+  regra_pt: "É proibido ultrapassar um veículo quando o condutor dele indica a intenção de virar à esquerda ou quando ele pára diante de uma passagem de pedestres para permitir que os pedestres atravessem a via."
+  termos_fr: ["intention d'obliquer à gauche", "s'arrête devant un passage pour piétons", "permettre à ceux-ci de traverser"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "35", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Le dépassement d'un véhicule est interdit lorsque le conducteur manifeste son intention d'obliquer à gauche ou lorsqu'il s'arrête devant un passage pour piétons afin de permettre à ceux-ci de traverser la route."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o condutor deve dar prioridade ao pedestre que já está na passagem ou espera com intenção visível de usá-la, reduzir a velocidade a tempo e parar se necessário (OCR 6 al. 1, R-PRIO-020)."
+    - "Regra de outra disposição (não consta desta alínea): veículos em présélection para virar à esquerda só podem ser ultrapassados pela direita (LCR 35 al. 6, R-DEP-010)."
+    - "Regra de outra disposição (não consta desta alínea): passar à frente pela direita em filas paralelas ou dentro de localidades não é permitido se os veículos páram para dar prioridade a pedestres (OCR 8 al. 3, R-DEP-025)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto desta alínea (proibido ultrapassar quem indica virar à esquerda) e o da al. 6 (quem está em présélection para a esquerda só pode ser ultrapassado pela direita) são registrados como estão; a lei não diz expressamente como se articulam. Nenhuma interpretação foi acrescentada."
+
+- id: R-DEP-010
+  categoria: E-Depassement
+  subtema: ultrapassar-veiculo-em-preselecao
+  regra_pt: "Os veículos que se colocaram em ordem de présélection para virar à esquerda só podem ser ultrapassados pela direita."
+  termos_fr: ["ordre de présélection", "obliquer à gauche", "dépassés que par la droite"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "35", alinea: "6", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Les véhicules qui se sont mis en ordre de présélection en vue d'obliquer à gauche ne pourront être dépassés que par la droite."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 10 al. 1 (R-DEP-027): não se ultrapassa quando, diante do veículo que precede, há um obstáculo como um veículo em ordem de présélection."
+    - "Regra de outra disposição (não consta desta alínea): LCR 35 al. 5 (R-DEP-009): é proibido ultrapassar o veículo cujo condutor indica a intenção de virar à esquerda."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Ver a nota do R-DEP da LCR 35 al. 5: o texto não esclarece a articulação entre as duas alíneas; nenhuma interpretação foi afirmada."
+
+- id: R-DEP-011
+  categoria: E-Depassement
+  subtema: ceder-passagem-a-quem-ultrapassa
+  regra_pt: "A pista deve ser desobstruída para dar a possibilidade de ultrapassar aos veículos que andam mais depressa e sinalizam sua aproximação. O condutor não acelera no momento em que é ultrapassado."
+  termos_fr: ["chaussée doit être dégagée", "signalent leur approche", "n'accélérera pas son allure", "est dépassé"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "35", alinea: "7", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "La chaussée doit être dégagée pour donner la possibilité de dépasser aux véhicules qui roulent plus rapidement et signalent leur approche. Le conducteur n'accélérera pas son allure au moment où il est dépassé."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): fora das localidades, condutores de automotores pesados (e de outros veículos a motor lentos) facilitam a ultrapassagem mantendo-se à extrema direita, 100 m de distância entre si e parando em locais de desvio se necessário (OCR 10 al. 3, R-DEP-029)."
+    - "Regra de outra disposição (não consta desta alínea): sinal Place d'évitement (4.15): veículos lentos devem se colocar ali para deixar passar veículos mais rápidos (OSR 47 al. 4, R-ARR-048 em arret-stationnement.yaml)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-012
+  categoria: E-Depassement
+  subtema: preselecao
+  regra_pt: "O condutor que quer virar à direita encosta na borda direita da pista; quem quer virar à esquerda mantém-se perto do eixo da pista."
+  termos_fr: ["obliquer à droite", "bord droit de la chaussée", "obliquer à gauche", "axe de la chaussée"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "36", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Le conducteur qui veut obliquer à droite serrera le bord droit de la chaussée, celui qui veut obliquer à gauche se tiendra près de l'axe de la chaussée."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): colocar-se a tempo em ordem de présélection ao virar (OCR 13 al. 1, R-DEP-037); ao se preparar para virar à esquerda, não usar a parte da pista reservada ao sentido contrário (OCR 13 al. 2, R-DEP-038)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-013
+  categoria: E-Depassement
+  subtema: bonde-em-marcha
+  regra_pt: "Os bondes (« tramways ») ou chemins de fer routiers em marcha são ultrapassados pela direita. Se isso não for possível, é permitido ultrapassá-los pela esquerda."
+  termos_fr: ["tramways ou chemins de fer routiers en marche", "dépassés par la droite", "dépasser par la gauche"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "38", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Les tramways ou chemins de fer routiers en marche seront dépassés par la droite. Si cela n'est pas possible, il est permis de les dépasser par la gauche."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 25 al. 1 (R-DEP-043): um tram ou chemin de fer routier que não circula na borda da pista pode ser ultrapassado pela esquerda, somente quando não há interseção e o tráfego em sentido contrário não corre risco de ser estorvado."
+    - "Regra de outra disposição (não consta desta alínea): OSR 26 al. 3, última frase (R-DEP-058): bondes e chemins de fer routiers em marcha podem ser ultrapassados (« devancés ») pela direita mesmo com os sinais de proibição de ultrapassar."
+    - "Regra de outra disposição (não consta desta alínea): OCR 37 al. 2 (R-DEP-051): em via de mão única é permitido contornar pela direita ou pela esquerda bondes ou chemins de fer routiers em marcha."
+    - "Regra de outra disposição (não consta desta alínea): OSR 26 al. 1 (R-DEP-056): o sinal 2.44 proíbe ultrapassar bondes em marcha."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O cabeçalho do OCR 25 remete ao art. 38 LCR; o texto do OCR 25 al. 1 não diz expressamente que detalha a segunda frase desta alínea. A relação não foi afirmada além do que está escrito. Prioridade do bonde: R-PRIO-024."
+
+- id: R-DEP-014
+  categoria: E-Depassement
+  subtema: bonde-parado
+  regra_pt: "Os bondes ou chemins de fer routiers parados só podem ser cruzados e ultrapassados em velocidade moderada. Se existe um refúgio (« refuge »), são ultrapassados pela direita; caso contrário, exclusivamente pela esquerda."
+  termos_fr: ["à l'arrêt", "allure modérée", "refuge", "exclusivement"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "38", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Les tramways ou chemins de fer routiers à l'arrêt ne peuvent être croisés et dépassés qu'à une allure modérée. S'il existe un refuge, ils seront dépassés par la droite, sinon par la gauche exclusivement."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 25 al. 3 (R-DEP-045): nas paradas sem refúgio, se os passageiros devem descer do lado da circulação, os condutores que circulam na mesma metade da pista param até que os passageiros tenham liberado a pista."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-015
+  categoria: E-Depassement
+  subtema: bonde-em-sentido-contrario
+  regra_pt: "Se o condutor é impedido de circular pelo lado direito da estrada por um bonde ou chemin de fer routier que vem em sentido contrário, ele se desvia para a esquerda."
+  termos_fr: ["côté droit de la route", "sens inverse", "s'écartera vers la gauche"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "38", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "S'il est empêché de circuler sur le côté droit de la route par un tramway ou un chemin de fer routier venant en sens inverse, le conducteur s'écartera vers la gauche."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 25 al. 2 (R-DEP-044): se o tram ou chemin de fer routier roda pela esquerda, o condutor que circula na mesma direção deixa espaço suficiente para que os veículos em sentido contrário cruzem pela esquerda os veículos sobre trilhos."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-016
+  categoria: E-Depassement
+  subtema: sinalizar-antes-de-mudar-de-direcao
+  regra_pt: "Antes de mudar de direção, o condutor manifesta a tempo sua intenção por meio dos indicadores de direção ou fazendo sinais de mão inteligíveis. Esta regra vale em especial: a) para colocar-se em ordem de présélection, passar de uma faixa a outra ou virar; b) para ultrapassar ou fazer meia-volta; c) para entrar na circulação ou parar à beira da estrada."
+  termos_fr: ["indicateurs de direction", "signes intelligibles", "pour dépasser ou faire demi-tour"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "39", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Avant de changer de direction, le conducteur manifestera à temps son intention au moyen des indicateurs de direction ou en faisant de la main des signes intelligibles. Cette règle vaut notamment: a. pour se disposer en ordre de présélection, passer d'une voie à une autre ou pour obliquer; b. pour dépasser ou faire demi-tour; c. pour s'engager dans la circulation ou s'arrêter au bord de la route."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 28 al. 1 (R-DEP-046): anunciar toda mudança de direção, inclusive para a direita; o ciclista que quer sair da fila para ultrapassar outro também deve anunciar."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-017
+  categoria: E-Depassement
+  subtema: sinalizar-nao-dispensa-precaucao
+  regra_pt: "O condutor que sinaliza sua intenção aos outros usuários da via não fica por isso dispensado de observar as precauções necessárias."
+  termos_fr: ["signale son intention", "précautions nécessaires"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "39", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Le conducteur qui signale son intention aux autres usagers de la route n'est pas dispensé pour autant d'observer les précautions nécessaires."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-018
+  categoria: E-Depassement
+  subtema: mudanca-de-faixa
+  regra_pt: "Nas estradas marcadas com várias faixas para a mesma direção, o condutor só pode passar de uma faixa a outra se disso não resultar perigo para os outros usuários da via."
+  termos_fr: ["plusieurs voies pour une même direction", "passer d'une voie à une autre", "pas de danger"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "44", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Sur les routes marquées de plusieurs voies pour une même direction, le conducteur ne peut passer d'une voie à une autre que s'il n'en résulte pas de danger pour les autres usagers de la route."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 8 al. 1 (R-DEP-023): seguir a faixa externa da direita, com as exceções ali previstas."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-019
+  categoria: E-Depassement
+  subtema: filas-paralelas
+  regra_pt: "O mesmo princípio vale por analogia quando filas de veículos paralelas circulam na mesma direção em estradas largas cujas faixas não são marcadas."
+  termos_fr: ["files de véhicules placées parallèlement", "voies ne sont pas marquées"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "44", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Le même principe est applicable par analogie lorsque des files de véhicules placées parallèlement circulent dans la même direction sur des routes larges dont les voies ne sont pas marquées."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 8 al. 2 e al. 3 (R-DEP-024, R-DEP-025) tratam da circulação em filas paralelas."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-020
+  categoria: E-Depassement
+  subtema: croisement-montanha
+  regra_pt: "Nas estradas de forte declive e de montanha, o condutor deve circular de modo a não solicitar excessivamente os freios. Se um cruzamento se revela difícil, o veículo que desce deve parar a tempo primeiro. Se é impossível cruzar, o veículo que desce deve recuar, salvo se o outro veículo se encontra manifestamente mais perto de um local de desvio (« place d'évitement »)."
+  termos_fr: ["forte déclivité", "routes de montagne", "véhicule descendant", "reculer", "place d'évitement"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "45", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Sur les routes à forte déclivité et sur les routes de montagne, le conducteur doit circuler de manière à ne pas mettre excessivement les freins à contribution. Si un croisement se révèle difficile, le véhicule descendant doit s'arrêter à temps le premier. S'il est impossible de croiser, le véhicule descendant devra reculer, sauf si l'autre véhicule se trouve manifestement plus près d'une place d'évitement."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 38 al. 1 (R-DEP-052) repete a regra do recuo do veículo que desce para veículos da mesma categoria; veículos de categorias diferentes: OCR 9 al. 2, primeira frase (R-PRIO-040)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-021
+  categoria: E-Depassement
+  subtema: velocidade-e-croisement-malaise
+  regra_pt: "O condutor não deve circular a uma velocidade que o impeça de parar na distância a que alcança sua visibilidade; quando o cruzamento é difícil (« malaisé »), deve poder parar na metade dessa distância."
+  termos_fr: ["distance à laquelle porte sa visibilité", "croisement est malaisé", "moitié de cette distance"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "4", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le conducteur ne doit pas circuler à une vitesse qui l'empêcherait de s'arrêter sur la distance à laquelle porte sa visibilité; lorsque le croisement est malaisé, il doit pouvoir s'arrêter sur la moitié de cette distance."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Regra geral de adaptação de velocidade (art. 32 al. 1 LCR, indicado no cabeçalho do OCR 4); incluída aqui só pela cláusula do cruzamento difícil. A alínea 2 do artigo no arquivo é só « et … » e a al. 3 só « … » (trechos revogados/omitidos); nenhuma regra foi criada para elas."
+
+- id: R-DEP-022
+  categoria: E-Depassement
+  subtema: contornar-obstaculos
+  regra_pt: "Os condutores devem contornar pela direita as ilhas (« îlots »), as superfícies interditas ao tráfego e os obstáculos situados no meio da pista; os condutores que viram à esquerda podem, porém, contornar pela esquerda as ilhas situadas no meio de interseções."
+  termos_fr: ["contourner par la droite", "îlots", "surfaces interdites au trafic", "contourner par la gauche"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "7", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les conducteurs doivent contourner par la droite les îlots, les surfaces interdites au trafic et les obstacles situés au milieu de la chaussée; les conducteurs qui obliquent à gauche peuvent toutefois contourner par la gauche les îlots situés au milieu d'intersections."
+  trecho_completo: true
+  excecoes:
+    - "Os condutores que viram à esquerda podem contornar pela esquerda as ilhas situadas no meio de interseções (OCR 7, parte final)."
+    - "Regra de outra disposição (não consta desta alínea): em vias de mão única é permitido contornar pela direita ou pela esquerda as ilhas e os obstáculos, bem como bondes e chemins de fer routiers em marcha (OCR 37 al. 2, R-DEP-051)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-023
+  categoria: E-Depassement
+  subtema: varias-faixas-mesmo-sentido
+  regra_pt: "Nas estradas marcadas com várias faixas para o mesmo sentido, os condutores devem seguir a faixa externa da direita. Esta regra não se aplica quando ultrapassam, se colocam em ordem de présélection, circulam em filas paralelas ou dentro das localidades."
+  termos_fr: ["plusieurs voies pour une même direction", "voie extérieure de droite", "files parallèles", "à l'intérieur des localités"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "8", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur les routes marquées de plusieurs voies pour une même direction, les conducteurs doivent suivre la voie extérieure de droite. Cette règle ne s'applique pas lorsqu'ils dépassent, se mettent en ordre de présélection, circulent en files parallèles ou à l'intérieur des localités."
+  trecho_completo: true
+  excecoes:
+    - "Não se aplica quando o condutor ultrapassa, se coloca em présélection, circula em filas paralelas ou está dentro das localidades (OCR 8 al. 1, segunda frase)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-024
+  categoria: E-Depassement
+  subtema: filas-paralelas
+  regra_pt: "Quando o tráfego é denso, a circulação em filas paralelas é admitida se há espaço suficiente na metade direita da pista. Os veículos lentos circulam na fila da direita."
+  termos_fr: ["trafic est dense", "files parallèles", "moitié droite de la chaussée", "véhicules lents"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "8", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsque le trafic est dense, la circulation en files parallèles est admise s'il y a suffisamment de place sur la moitié droite de la chaussée. Les véhicules lents circuleront dans la file de droite."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-025
+  categoria: E-Depassement
+  subtema: devancer-pela-direita
+  regra_pt: "Na circulação em filas paralelas e, dentro das localidades, nas estradas marcadas com várias faixas para o mesmo sentido, é permitido passar à frente de veículos pela direita (« devancer »), exceto se esses veículos páram para dar prioridade a pedestres ou a usuários de engins assimilés à veículos. É porém proibido contornar veículos pela direita para ultrapassá-los."
+  termos_fr: ["devancer des véhicules par la droite", "s'arrêtent pour laisser la priorité à des piétons", "contourner des véhicules par la droite pour les dépasser"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "8", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Dans la circulation en files parallèles et, à l'intérieur des localités, sur les routes marquées de plusieurs voies pour une même direction, il est permis de devancer des véhicules par la droite, sauf si ces véhicules s'arrêtent pour laisser la priorité à des piétons ou à des utilisateurs d'engins assimilés à des véhicules. Il est cependant interdit de contourner des véhicules par la droite pour les dépasser."
+  trecho_completo: true
+  excecoes:
+    - "Não vale se os veículos páram para dar prioridade a pedestres ou usuários de engins assimilés à veículos (OCR 8 al. 3, primeira frase)."
+    - "Regra de outra disposição (não consta desta alínea): autoestradas e semiautoestradas: OCR 36 al. 5 (R-DEP-047); ciclistas em fila de automotores: OCR 42 al. 3 (R-DEP-055)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto usa dois verbos: « devancer » (passar à frente, permitido nas condições da alínea) e « dépasser » (ultrapassar); é « contourner [...] par la droite pour les dépasser » que é proibido. Os termos foram mantidos em francês; nenhuma diferença adicional foi afirmada."
+
+- id: R-DEP-026
+  categoria: E-Depassement
+  subtema: automotores-e-ciclos-na-mesma-faixa
+  regra_pt: "Quando veículos automotores de várias vias (« véhicules automobiles à voies multiples ») e ciclos usam a mesma faixa, os automotores circulam na parte esquerda dela e os ciclos na direita. Os ciclistas podem deixar de circular à direita: a) nas faixas que permitem virar à esquerda; b) nas faixas de conversão à direita onde os ciclos podem, conforme a marcação (OSR 74a al. 7 let. e), seguir em frente, ao contrário dos veículos em geral."
+  termos_fr: ["véhicules automobiles à voies multiples", "cycles", "partie gauche", "partie droite", "déroger à l'obligation de circuler à droite"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "8", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsque des véhicules automobiles à voies multiples et des cycles utilisent la même voie, les véhicules automobiles circuleront sur la partie gauche de celle-ci et les cycles sur la partie droite. Les cyclistes peuvent déroger à l'obligation de circuler à droite: a. sur les voies permettant d'obliquer à gauche; b. sur les voies obliquant à droite où les cycles peuvent, conformément au marquage (art. 74a, al. 7, let. e, OSR), continuer tout droit contrairement aux véhicules en général."
+  trecho_completo: true
+  excecoes:
+    - "Os ciclistas podem derrogar da obrigação de circular à direita nas faixas de virar à esquerda (let. a) e nas faixas de virar à direita com marcação que permita aos ciclos seguir em frente (let. b)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Alinea 5 do mesmo artigo (zíper) já está em R-PRIO-051."
+
+- id: R-DEP-027
+  categoria: E-Depassement
+  subtema: ultrapassar-em-geral
+  regra_pt: "Quem quer ultrapassar desloca-se com prudência para a esquerda, sem incomodar os veículos que o seguem. Não ultrapassa quando, diante do veículo que o precede, há um obstáculo como um canteiro de obras, um veículo em ordem de présélection ou pedestres atravessando a pista."
+  termos_fr: ["dépasser", "prudemment sur la gauche", "véhicules qui suivent", "chantier", "ordre de présélection", "piétons traversant la chaussée"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "10", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le conducteur qui veut dépasser, se déplacera prudemment sur la gauche sans gêner les véhicules qui suivent. Il ne dépassera pas lorsque, devant le véhicule qui le précède, se trouve un obstacle tel qu'un chantier, un véhicule en ordre de présélection ou des piétons traversant la chaussée."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): o artigo remete, quanto aos sinais, ao art. 28 OCR (OCR 28 al. 1, R-DEP-046) e à LCR 39 al. 1 let. b (R-DEP-016)."
+    - "Regra de outra disposição (não consta desta alínea): condições gerais para ultrapassar: LCR 35 al. 2 (R-DEP-006); proibições: LCR 35 al. 4 e 5 (R-DEP-008, R-DEP-009)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O arquivo traz um asterisco de nota depois de « gauche » (nota: « Pour les signes, voir l'art. 28 »); o asterisco foi retirado do trecho."
+
+- id: R-DEP-028
+  categoria: E-Depassement
+  subtema: voltar-a-direita-apos-ultrapassar
+  regra_pt: "Depois da ultrapassagem, o condutor volta para a direita assim que pode fazê-lo sem perigo para aquele que acabou de ultrapassar."
+  termos_fr: ["reviendra sur sa droite", "sans danger pour celui qu'il vient de dépasser"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "10", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Après le dépassement, le conducteur reviendra sur sa droite dès qu'il peut le faire sans danger pour celui qu'il vient de dépasser."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "No arquivo, a alínea termina com « … » (marca de trecho omitido/revogado no texto consolidado); o « … » foi deixado fora do trecho. Nenhum número (distância, tempo) consta da alínea."
+
+- id: R-DEP-029
+  categoria: E-Depassement
+  subtema: veiculos-pesados-e-lentos-fora-de-localidade
+  regra_pt: "Fora das localidades, os condutores de automotores pesados (« voitures automobiles lourdes ») facilitam a ultrapassagem aos condutores de veículos mais rápidos mantendo-se à extrema direita, mantendo entre si uma distância de pelo menos 100 m e, se necessário, parando em locais de desvio (« places d'évitement »). Esta regra vale também para os outros veículos a motor que circulam lentamente."
+  termos_fr: ["à l'extérieur des localités", "voitures automobiles lourdes", "l'extrême droite", "100 m au moins", "places d'évitement", "véhicules à moteur qui circulent lentement"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "10", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "À l'extérieur des localités, les conducteurs de voitures automobiles lourdes faciliteront le dépassement aux conducteurs des véhicules plus rapides en tenant l'extrême droite, en maintenant entre eux une distance de 100 m au moins et, au besoin, en s'arrêtant à des places d'évitement. Cette règle s'applique aussi aux autres véhicules à moteur qui circulent lentement."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): sinal Place d'évitement (4.15), OSR 47 al. 4 (R-ARR-048), que remete a esta alínea."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-030
+  categoria: E-Depassement
+  subtema: faixas-de-ultrapassagem-tres-ou-quatro-faixas
+  regra_pt: "Nas estradas cujos dois sentidos de circulação não são separados, o condutor não deve usar, para ultrapassar, a faixa externa da esquerda de uma pista de três faixas nem as duas faixas da esquerda de uma pista de quatro faixas."
+  termos_fr: ["deux sens de circulation ne sont pas séparés", "voie extérieure de gauche d'une chaussée à trois voies", "deux voies de gauche d'une chaussée à quatre voies"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "11", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur les routes dont les deux sens de circulation ne sont pas séparés, le conducteur ne doit pas emprunter, pour dépasser, la voie extérieure de gauche d'une chaussée à trois voies ou les deux voies de gauche d'une chaussée à quatre voies."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-031
+  categoria: E-Depassement
+  subtema: ultrapassar-quem-esta-ultrapassando
+  regra_pt: "O condutor não ultrapassa um veículo que está ultrapassando outro, exceto: a) se os dois veículos ultrapassados não têm mais de um metro de largura cada um e a estrada é larga, com visibilidade suficiente; b) se circula numa estrada cujos dois sentidos de circulação são separados e que tem pelo menos três faixas no mesmo sentido."
+  termos_fr: ["ne dépassera pas un véhicule qui en dépasse un autre", "pas larges de plus d'un mètre", "au moins trois voies dans le même sens"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "11", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le conducteur ne dépassera pas un véhicule qui en dépasse un autre, sauf: a. si les deux véhicules dépassés ne sont pas larges de plus d'un mètre chacun et si la route est large avec une visibilité suffisante; b. s'il circule sur une route dont les deux sens de circulation sont séparés et qui a au moins trois voies dans le même sens."
+  trecho_completo: true
+  excecoes:
+    - "Exceção a): os dois veículos ultrapassados não são largos de mais de um metro cada e a estrada é larga com visibilidade suficiente (OCR 11 al. 2 let. a)."
+    - "Exceção b): estrada com os dois sentidos separados e pelo menos três faixas no mesmo sentido (OCR 11 al. 2 let. b)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-032
+  categoria: E-Depassement
+  subtema: ultrapassar-a-direita-da-linha-de-seguranca-e-passagem-de-nivel
+  regra_pt: "É permitido ultrapassar à direita da linha de segurança, mesmo numa curva ou ao se aproximar do topo de uma subida, se a manobra puder ser feita sem incomodar quem usa a mesma metade da pista. Nas passagens de nível sem barreiras, o condutor só pode ultrapassar ciclistas, usuários de engins assimilés à veículos e pedestres, desde que a visibilidade seja boa."
+  termos_fr: ["à droite de la ligne de sécurité", "tournant", "sommet d'une côte", "passages à niveau sans barrières", "cyclistes", "piétons", "visibilité soit bonne"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "11", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Il est permis de dépasser à droite de la ligne de sécurité, même dans un tournant ou à l'approche du sommet d'une côte, si cette manœuvre peut être effectuée sans gêner ceux qui empruntent la même moitié de la chaussée. Aux passages à niveau sans barrières, le conducteur ne pourra dépasser que des cyclistes, des utilisateurs d'engins assimilés à des véhicules et des piétons, à condition que la visibilité soit bonne."
+  trecho_completo: true
+  excecoes:
+    - "Condição da primeira frase: a manobra deve poder ser feita sem incomodar quem usa a mesma metade da pista (OCR 11 al. 3)."
+    - "Passagens de nível sem barreiras: só se podem ultrapassar ciclistas, usuários de engins assimilés à veículos e pedestres, com boa visibilidade (OCR 11 al. 3, segunda frase)."
+    - "Regra de outra disposição (não consta desta alínea): LCR 35 al. 4 (R-DEP-008): proibição de ultrapassar em curva sem visibilidade, ao cruzar passagem de nível sem barreiras ou perto do topo de subida."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Alínea de duas frases. O texto fala em ultrapassar « à droite de la ligne de sécurité » (isto é, no lado direito dessa linha); nenhuma interpretação adicional sobre quando isto é aplicável foi acrescentada. A relação com a LCR 35 al. 4 está descrita na nota do R-DEP correspondente."
+
+- id: R-DEP-033
+  categoria: E-Depassement
+  subtema: interseccao-sem-visibilidade
+  regra_pt: "O condutor que chega a uma interseção sem ter visibilidade suficiente sobre as desembocaduras das vias só está autorizado a ultrapassar se estiver numa via prioritária ou se a circulação ali é regulada pela polícia ou por sinais luminosos."
+  termos_fr: ["intersection sans avoir une visibilité suffisante", "débouchés de routes", "route prioritaire", "police", "signaux lumineux"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "11", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le conducteur qui parvient à une intersection sans avoir une visibilité suffisante sur les débouchés de routes n'est autorisé à dépasser que s'il se trouve sur une route prioritaire ou si la circulation y est réglée par la police ou au moyen de signaux lumineux."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): LCR 35 al. 4, segunda parte (R-DEP-008): nas interseções a ultrapassagem só é permitida com boa visibilidade e sem ofensa ao direito de prioridade dos outros usuários."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-034
+  categoria: E-Depassement
+  subtema: distancia-entre-veiculos-que-se-seguem
+  regra_pt: "Quando veículos se seguem, o condutor mantém distância suficiente do veículo que o precede, para poder parar a tempo em caso de frenagem inesperada."
+  termos_fr: ["distance suffisante", "véhicule qui le précède", "freinage inattendu"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "12", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsque des véhicules se suivent, le conducteur se tiendra à une distance suffisante du véhicule qui le précède, afin de pouvoir s'arrêter à temps en cas de freinage inattendu."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto não fixa distância em metros nem em segundos; só diz « distance suffisante ». Nenhum valor foi acrescentado."
+
+- id: R-DEP-035
+  categoria: E-Depassement
+  subtema: freadas-bruscas
+  regra_pt: "Salvo necessidade, as freadas e paradas bruscas só são admitidas se nenhum veículo segue."
+  termos_fr: ["coups de frein", "arrêts brusques", "aucun véhicule ne suit"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "12", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sauf nécessité, les coups de frein et arrêts brusques ne sont admis que si aucun véhicule ne suit."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-036
+  categoria: E-Depassement
+  subtema: parada-da-circulacao
+  regra_pt: "Numa parada da circulação, o condutor não deve parar sobre uma passagem de pedestres nem bloquear, numa interseção, a via aos veículos que circulam no sentido transversal."
+  termos_fr: ["arrêt de la circulation", "passage pour piétons", "barrer, à une intersection", "sens transversal"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "12", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lors d'un arrêt de la circulation, le conducteur ne doit ni s'arrêter sur un passage pour piétons ni barrer, à une intersection, la voie aux véhicules circulant dans le sens transversal."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-037
+  categoria: E-Depassement
+  subtema: preselecao
+  regra_pt: "Os condutores devem colocar-se a tempo em ordem de présélection quando viram. Esta regra vale também fora das interseções e, na medida do possível, nas estradas estreitas."
+  termos_fr: ["ordre de présélection", "obliquent", "ailleurs qu'aux intersections", "routes étroites"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "13", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les conducteurs doivent se mettre à temps en ordre de présélection lorsqu'ils obliquent. Cette règle vaut également ailleurs qu'aux intersections et, dans la mesure du possible, sur les routes étroites."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-038
+  categoria: E-Depassement
+  subtema: preselecao-esquerda
+  regra_pt: "Ao colocar-se em présélection para virar à esquerda, o condutor não deve usar a parte da pista reservada à circulação em sentido contrário. Porém, nas estradas de três faixas, marcadas ou não, pode usar a faixa central tomando as precauções necessárias."
+  termos_fr: ["obliquer à gauche", "venant en sens inverse", "routes à trois voies", "voie centrale"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "13", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsqu'il se met en ordre de présélection pour obliquer à gauche, le conducteur ne doit pas utiliser la partie de la chaussée réservée à la circulation venant en sens inverse. Toutefois, sur les routes à trois voies marquées ou non, il peut utiliser la voie centrale en prenant les précautions nécessaires."
+  trecho_completo: true
+  excecoes:
+    - "Nas estradas de três faixas, marcadas ou não, pode usar a faixa central com as precauções necessárias (OCR 13 al. 2, segunda frase)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-039
+  categoria: E-Depassement
+  subtema: trocar-de-faixa-para-ultrapassar-em-preselecao
+  regra_pt: "Nos trechos que servem à présélection, é proibido mudar de faixa para ultrapassar, a menos que os destinos indicados nas faixas usadas pelo veículo ultrapassado e pelo veículo que ultrapassa sejam os mesmos."
+  termos_fr: ["tronçons qui servent à la présélection", "changer de voie pour effectuer un dépassement", "lieux de destination"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "13", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur les tronçons qui servent à la présélection, il est interdit de changer de voie pour effectuer un dépassement, à moins que les lieux de destination indiqués sur les voies empruntées par le véhicule dépassé et le véhicule qui dépasse soient les mêmes."
+  trecho_completo: true
+  excecoes:
+    - "Exceção: os destinos indicados nas faixas do veículo ultrapassado e do veículo que ultrapassa são os mesmos (OCR 13 al. 3)."
+    - "Regra de outra disposição (não consta desta alínea): nas autoestradas, passar à frente pela direita é permitido nos trechos de présélection se cada faixa indica destinos diferentes (OCR 36 al. 5 let. b, R-DEP-047)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-040
+  categoria: E-Depassement
+  subtema: virar-a-esquerda-e-cruzar
+  regra_pt: "Ao virar à esquerda numa interseção, o condutor não corta a curva (« virage à la corde »). Quando, numa interseção, veículos vindos de sentidos opostos viram cada um à sua esquerda, eles se cruzam pela esquerda."
+  termos_fr: ["obliquant à gauche", "virage à la corde", "sens opposés", "se croiseront à gauche"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "13", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "En obliquant à gauche à une intersection, le conducteur ne prendra pas le virage à la corde. Lorsqu'à une croisée, des véhicules venant de sens opposés obliquent à leur gauche, ils se croiseront à gauche."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): dar prioridade aos veículos que vêm em sentido contrário antes de virar à esquerda (LCR 36 al. 3, R-PRIO-029)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-041
+  categoria: E-Depassement
+  subtema: deslocamento-previo-ao-virar
+  regra_pt: "Se, antes de virar, o condutor é obrigado a se deslocar para o lado oposto por causa das dimensões do veículo ou da configuração dos lugares, ele deve tomar precauções especiais e, se necessário, parar."
+  termos_fr: ["côté opposé", "dimensions du véhicule", "précautions particulières", "s'arrêter"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "13", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Si, avant d'obliquer, le conducteur est obligé de se déplacer vers le côté opposé à cause des dimensions du véhicule ou de la configuration des lieux, il doit prendre des précautions particulières et, au besoin, s'arrêter."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-042
+  categoria: E-Depassement
+  subtema: carga-que-esconde-a-visibilidade
+  regra_pt: "Quando a carga de um veículo automotor ou de um reboque esconde a visibilidade, o condutor deve ter prudência especial ao colocar-se em présélection ou ao virar. Se necessário, deve recorrer à ajuda de uma terceira pessoa, que vigiará a manobra."
+  termos_fr: ["chargement", "masque la visibilité", "prudence particulière", "tierce personne"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "13", alinea: "6", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsque le chargement d'un véhicule automobile ou d'une remorque masque la visibilité, le conducteur doit faire preuve d'une prudence particulière au moment de se mettre en ordre de présélection ou d'obliquer. Au besoin, il doit avoir recours à l'aide d'une tierce personne, qui surveillera la manoeuvre."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-043
+  categoria: E-Depassement
+  subtema: bonde-ultrapassar-pela-esquerda
+  regra_pt: "Um tram ou chemin de fer routier que não circula na borda da pista pode ser ultrapassado pela esquerda, somente quando não há interseção e o tráfego em sentido contrário não corre risco de ser estorvado."
+  termos_fr: ["ne circulant pas au bord de la chaussée", "dépassé par la gauche", "pas d'intersection", "trafic venant en sens inverse"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "25", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Un tramway ou un chemin de fer routier ne circulant pas au bord de la chaussée peut être dépassé par la gauche, seulement lorsqu'il n'y a pas d'intersection et que le trafic venant en sens inverse ne risque pas d'être entravé."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): regra geral: bondes em marcha são ultrapassados pela direita; se não for possível, é permitido pela esquerda (LCR 38 al. 2, R-DEP-013)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto do OCR 25 al. 1 diz « seulement lorsqu'il n'y a pas d'intersection et que le trafic venant en sens inverse ne risque pas d'être entravé ». O arquivo não esclarece a relação com a segunda frase da LCR 38 al. 2 (« Si cela n'est pas possible »); nenhuma conciliação foi afirmada."
+
+- id: R-DEP-044
+  categoria: E-Depassement
+  subtema: bonde-na-esquerda
+  regra_pt: "Se o tram ou chemin de fer routier roda pela esquerda, o condutor que circula na mesma direção deixa espaço suficiente para que os veículos em sentido contrário cruzem pela esquerda os veículos sobre trilhos."
+  termos_fr: ["roule à gauche", "même direction", "sens inverse", "croiser à gauche"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "25", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Si le tramway ou le chemin de fer routier roule à gauche, le conducteur circulant dans la même direction laisse suffisamment de place pour permettre aux véhicules venant en sens inverse de croiser à gauche les véhicules sur rails."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-045
+  categoria: E-Depassement
+  subtema: bonde-parada-sem-refugio
+  regra_pt: "Se, nas paradas sem refúgio, os passageiros de um veículo sobre trilhos devem descer do lado da circulação, os condutores que circulam na mesma metade da pista param até que os passageiros tenham liberado a pista."
+  termos_fr: ["arrêts dépourvus de refuge", "descendre du côté de la circulation", "s'arrêteront"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "25", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Si, aux arrêts dépourvus de refuge, les passagers d'un véhicule sur rails doivent descendre du côté de la circulation, les conducteurs des véhicules circulant sur la même moitié de la chaussée s'arrêteront jusqu'à ce que les passagers aient évacué celle-ci."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): LCR 38 al. 3 (R-DEP-014): bonde parado só pode ser cruzado e ultrapassado em velocidade moderada; com refúgio, pela direita; sem refúgio, exclusivamente pela esquerda."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "A alínea 5 do OCR 25 (parar sobre trilhos) está em arret-stationnement.yaml."
+
+- id: R-DEP-046
+  categoria: E-Depassement
+  subtema: sinal-de-mudanca-de-direcao
+  regra_pt: "O condutor anuncia toda mudança de direção, inclusive para a direita. Mesmo o ciclista que quer sair da fila (« déboîter ») para ultrapassar outro deve anunciar sua intenção."
+  termos_fr: ["annoncera tout changement de direction", "y compris vers la droite", "déboîter", "dépasser"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "28", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le conducteur annoncera tout changement de direction, y compris vers la droite. Même le cycliste qui veut déboîter en vue d'en dépasser un autre doit annoncer son intention."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): LCR 39 al. 1 let. b (R-DEP-016): sinalizar a tempo a intenção de ultrapassar."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-047
+  categoria: E-Depassement
+  subtema: autoestrada-ultrapassar-pela-direita
+  regra_pt: "Nas autoestradas e semiautoestradas, é proibido ultrapassar veículos pela direita saindo da fila e voltando a ela (« en déboîtant puis en se rabattant »). Os condutores podem, porém, passar à frente (« devancer ») de outros veículos pela direita, com a prudência necessária, nas seguintes situações: a) em circulação em fila na faixa da esquerda ou do meio; b) nos trechos que servem à présélection, desde que sejam indicados destinos diferentes para cada faixa; c) se a faixa à esquerda é delimitada por uma linha de segurança (6.01) ou por uma linha dupla (6.04) com linha de segurança à esquerda, até o fim da marcação, em especial nas faixas de aceleração das entradas; d) nas faixas de desaceleração das saídas."
+  termos_fr: ["dépasser des véhicules par la droite", "déboîtant puis en se rabattant", "devancer d'autres véhicules par la droite", "circulation à la file", "tronçons servant à la présélection", "voies de décélération des sorties"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "36", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Il est interdit de dépasser des véhicules par la droite en déboîtant puis en se rabattant. Les conducteurs sont toutefois autorisés à devancer d'autres véhicules par la droite avec la prudence qui s'impose dans les situations suivantes: a. en cas de circulation à la file sur la voie de gauche ou du milieu; b. sur les tronçons servant à la présélection, pour autant que des lieux de destination différents soient indiqués pour chacune des voies; c. si la voie de circulation à gauche est délimitée par une ligne de sécurité (6.01) ou par une ligne double (6.04) avec ligne de sécurité à gauche, jusqu'à la fin dudit marquage, en particulier sur les voies d'accélération des entrées; d. sur les voies de décélération des sorties."
+  trecho_completo: true
+  excecoes:
+    - "Exceções (devancer pela direita com prudência): let. a (fila na faixa da esquerda ou do meio); let. b (présélection com destinos diferentes por faixa); let. c (faixa da esquerda delimitada por linha de segurança 6.01 ou linha dupla 6.04 com linha de segurança à esquerda, até o fim da marcação); let. d (faixas de desaceleração das saídas) (OCR 36 al. 5)."
+    - "Regra de outra disposição (não consta desta alínea): fora das autoestradas, passar à frente pela direita: OCR 8 al. 3 (R-DEP-025); prioridade na entrada da autoestrada: R-PRIO-050."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O OCR 36 al. 4 (prioridade na entrada) já está em R-PRIO-050. O texto usa « dépasser » (proibido pela direita saindo e voltando) e « devancer » (permitido nas situações listadas)."
+
+- id: R-DEP-048
+  categoria: E-Depassement
+  subtema: autoestrada-faixa-da-esquerda
+  regra_pt: "Nas autoestradas com pelo menos três faixas no mesmo sentido, a faixa externa da esquerda só pode ser usada pelos veículos com os quais é permitido rodar a mais de 100 km/h."
+  termos_fr: ["au moins trois voies dans le même sens", "voie extérieure de gauche", "plus de 100 km/h"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "36", alinea: "6", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Sur les autoroutes ayant au moins trois voies dans le même sens, la voie extérieure de gauche ne peut être utilisée que par les véhicules avec lesquels il est permis de rouler à plus de 100 km/h."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto não lista quais veículos podem rodar a mais de 100 km/h; nenhuma lista foi acrescentada."
+
+- id: R-DEP-049
+  categoria: E-Depassement
+  subtema: autoestrada-corredor-de-emergencia
+  regra_pt: "Se, em autoestradas ou semiautoestradas com pelo menos duas faixas por sentido, os veículos circulam a passo ou estão parados, eles devem deixar livre um corredor entre a faixa mais à esquerda e a faixa imediatamente à sua direita, para a passagem de veículos do serviço de bombeiros, de saúde, da polícia ou da alfândega e de veículos auxiliares."
+  termos_fr: ["au pas", "à l'arrêt", "couloir libre", "service du feu", "service de santé", "police", "douane"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "36", alinea: "7", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Si, sur des autoroutes ou semi-autoroutes ayant au moins deux voies par sens de circulation, les véhicules circulent au pas ou sont à l'arrêt, ces véhicules doivent laisser un couloir libre pour le passage des véhicules du service du feu, du service de santé, de la police ou de la douane et des véhicules auxiliaires entre la voie la plus à gauche et la voie située juste à sa droite."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-050
+  categoria: E-Depassement
+  subtema: via-de-mao-unica
+  regra_pt: "As pistas de mão única são equiparadas à metade direita de uma pista aberta à circulação nos dois sentidos."
+  termos_fr: ["chaussées à sens unique", "moitié droite"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "37", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les chaussées à sens unique sont assimilées à la moitié droite d'une chaussée ouverte à la circulation dans les deux sens."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): circulação à direita: LCR 34 al. 1 (R-DEP-001)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-051
+  categoria: E-Depassement
+  subtema: via-de-mao-unica-contornar
+  regra_pt: "Em via de mão única, é permitido contornar pela direita ou pela esquerda as ilhas e os obstáculos, bem como os bondes ou chemins de fer routiers em marcha."
+  termos_fr: ["contourner par la droite ou par la gauche", "îlots et les obstacles", "tramways ou chemins de fer routiers en marche"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "37", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Il est permis de contourner par la droite ou par la gauche les îlots et les obstacles ainsi que les tramways ou chemins de fer routiers en marche."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): nas pistas de dois sentidos, ilhas, superfícies interditas ao tráfego e obstáculos no meio da pista são contornados pela direita (OCR 7, R-DEP-022)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto do OCR 37 al. 2 fala em « il est permis de contourner » sem restringir expressamente o artigo a pistas de mão única na própria alínea; a restrição vem da posição da alínea no art. 37 « Chaussées à sens unique » (título do artigo no arquivo)."
+
+- id: R-DEP-052
+  categoria: E-Depassement
+  subtema: croisement-montanha-mesma-categoria
+  regra_pt: "Quando, numa estrada de forte declive ou de montanha, veículos da mesma categoria não podem se cruzar, o veículo que desce é quem deve recuar, salvo se o outro veículo estiver perto de um local de desvio (« place d'évitement »). O cruzamento de veículos de categorias diferentes é regido pelo OCR art. 9 al. 2, primeira frase."
+  termos_fr: []
+  fonte: { lei: OCR, rs: "741.11", artigo: "38", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_completo: false
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): categorias diferentes: OCR 9 al. 2, primeira frase (R-PRIO-040)."
+    - "Regra de outra disposição (não consta desta alínea): base legal: LCR 45 al. 1 (R-DEP-020)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "trecho_literal_fr omitido de propósito: no arquivo baixado, a expressão « de même catégorie » vem com marcador de nota colado (« catégorie*3*3 »); com o número da nota retirado o trecho não coincidiria literalmente com o arquivo. Regra pt, alínea e artigo conferidos no arquivo (741.11, art. 38, 1.º parágrafo). Só o aluno pode confirmar no HTML do Fedlex."
+
+- id: R-DEP-053
+  categoria: E-Depassement
+  subtema: estrada-postal-de-montanha
+  regra_pt: "Quando é difícil cruzar ou ultrapassar nas estradas postais de montanha (« routes postales de montagne »), é preciso seguir as instruções e os sinais dados pelos condutores dos veículos públicos em serviço de linha (« trafic de ligne »)."
+  termos_fr: ["routes postales de montagne", "difficile de croiser ou de dépasser", "véhicules publics en trafic de ligne"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "38", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsqu'il est difficile de croiser ou de dépasser sur les routes postales de montagne, il faut suivre les instructions et les signes donnés par les conducteurs des véhicules publics en trafic de ligne."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): sinal Route postale de montagne (4.05): OSR 45 al. 2 remete a este OCR 38 al. 3 (« art. 38, al. 3, OCR »); a placa descreve as vias onde o condutor deve observar os sinais e indicações desses condutores quando é difícil cruzar ou ultrapassar."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-054
+  categoria: E-Depassement
+  subtema: faixa-ciclavel-tracejada
+  regra_pt: "Os condutores de outros veículos podem rodar nas faixas cicláveis delimitadas por linha descontínua (6.09), desde que a circulação dos ciclos não seja estorvada por isso."
+  termos_fr: ["bandes cyclables", "ligne discontinue (6.09)", "circulation des cycles n'en soit pas entravée"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "40", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les conducteurs d'autres véhicules peuvent rouler sur les bandes cyclables délimitées par une ligne discontinue (6.09), pour autant que la circulation des cycles n'en soit pas entravée."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OSR 74a al. 1 (R-DEP-063): os veículos não devem pisar nem cruzar a linha contínua que delimita faixas cicláveis."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Alíneas 1, 4 e 5 do OCR 40 (prioridade) já estão em R-PRIO-047, 048 e 049."
+
+- id: R-DEP-055
+  categoria: E-Depassement
+  subtema: ciclista-devancer-fila
+  regra_pt: "Os ciclistas podem passar à frente (« devancer ») de uma fila de veículos automotores pela direita quando dispõem de espaço livre suficiente; é-lhes proibido passar à frente esgueirando-se entre os veículos. Eles não impedem a fila de avançar e, em especial, evitam colocar-se diante dos veículos parados."
+  termos_fr: ["devancer une file de véhicules automobiles par la droite", "espace libre suffisant", "se faufilant entre les véhicules", "véhicules arrêtés"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "42", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les cyclistes peuvent devancer une file de véhicules automobiles par la droite lorsqu'ils disposent d'un espace libre suffisant; il leur est interdit de la devancer en se faufilant entre les véhicules. Ils n'empêcheront pas la file de progresser et s'abstiendront notamment de se placer devant les véhicules arrêtés."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Regra dirigida aos ciclistas, incluída por tratar de ultrapassagem/passagem à frente de filas de automotores; o texto não fixa distância lateral."
+
+- id: R-DEP-056
+  categoria: E-Depassement
+  subtema: sinal-interdicao-de-ultrapassar
+  regra_pt: "O sinal « Interdiction de dépasser » (2.44) proíbe os condutores de veículos automotores de ultrapassar veículos de rodas dispostas lado a lado (« roues placées l'une à côté de l'autre »), bondes e chemins de fer routiers, quando esses veículos estão em marcha."
+  termos_fr: ["Interdiction de dépasser", "2.44", "roues placées l'une à côté de l'autre", "en marche"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "26", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Interdiction de dépasser\"(2.44) interdit aux conducteurs de véhicules automobiles de dépasser des véhicules ayant les roues placées l'une à côté de l'autre, les tramways et les chemins de fer routiers, lorsque ces véhicules sont en marche."
+  trecho_completo: true
+  excecoes:
+    - "Exceção do próprio artigo: veículos limitados a 30 km/h podem ser ultrapassados se disso não resultar perigo (OSR 26 al. 3, R-DEP-058)."
+    - "Bondes e chemins de fer routiers em marcha podem ser « devancés » pela direita (OSR 26 al. 3, última frase, R-DEP-058)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto não descreve o desenho do sinal; só o número (2.44) e o nome. Nenhuma descrição visual foi acrescentada. « Roues placées l'une à côté de l'autre » é mantido no francês porque o texto não explica o termo."
+
+- id: R-DEP-057
+  categoria: E-Depassement
+  subtema: sinal-interdicao-aos-caminhoes-de-ultrapassar
+  regra_pt: "O sinal « Interdiction aux camions de dépasser » (2.45) proíbe os condutores de automotores pesados afetados ao transporte de coisas e de automotores de trabalho pesados de ultrapassar veículos automotores de rodas dispostas lado a lado, bondes e chemins de fer routiers, quando esses veículos estão em marcha."
+  termos_fr: ["Interdiction aux camions de dépasser", "2.45", "voitures automobiles lourdes affectées au transport de choses", "voitures automobiles de travail lourdes"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "26", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Interdiction aux camions de dépasser\"(2.45) interdit aux conducteurs de voitures automobiles lourdes affectées au transport de choses et aux voitures automobiles de travail lourdes de dépasser des véhicules automobiles ayant les roues placées l'une à côté de l'autre, les tramways et les chemins de fer routiers, lorsque ces véhicules sont en marche."
+  trecho_completo: true
+  excecoes:
+    - "Exceção do próprio artigo: veículos limitados a 30 km/h podem ser ultrapassados se disso não resultar perigo (OSR 26 al. 3, R-DEP-058)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto não descreve o desenho do sinal; só o número (2.45) e o nome."
+
+- id: R-DEP-058
+  categoria: E-Depassement
+  subtema: excecoes-aos-sinais-de-ultrapassar
+  regra_pt: "Esses dois sinais não impedem os condutores de ultrapassar, se disso não resultar perigo, veículos cuja velocidade máxima é limitada a 30 km/h (monoeixos, carrinhos de mão equipados com motor, chariots à moteur, chariots de travail, veículos automotores agrícolas; art. 11 al. 2 let. g, 13 al. 3 let. b, 17 e 161 a 166 OETV). Os bondes e chemins de fer routiers em marcha podem ser ultrapassados (« devancés ») pela direita."
+  termos_fr: ["30 km/h", "monoaxes", "véhicules automobiles agricoles", "devancés par la droite"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "26", alinea: "3", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Ces deux signaux n'empêchent pas les conducteurs de dépasser, s'il n'en résulte aucun danger, des véhicules dont la vitesse maximale est limitée à 30 km/h (monoaxes, voitures à bras équipées d'un moteur, chariots à moteur, chariots de travail, véhicules automobiles agricoles; art. 11, al. 2, let. g, 13, al. 3, let. b, 17 et 161 à 166, OETV). Les tramways et chemins de fer routiers en marche peuvent être devancés par la droite."
+  trecho_completo: true
+  excecoes:
+    - "Veículos com velocidade máxima limitada a 30 km/h (monoeixos, voitures à bras équipées d'un moteur, chariots à moteur, chariots de travail, veículos automotores agrícolas): podem ser ultrapassados se não houver perigo (OSR 26 al. 3, primeira frase)."
+    - "Bondes e chemins de fer routiers em marcha podem ser « devancés » pela direita (OSR 26 al. 3, última frase)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto diz « devancer » (passar à frente) para os bondes na última frase; foi mantido o verbo em francês."
+
+- id: R-DEP-059
+  categoria: E-Depassement
+  subtema: fim-da-interdicao-de-ultrapassar
+  regra_pt: "As proibições de ultrapassar sinalizadas são suprimidas pelos sinais « Fin de l'interdiction de dépasser » (2.55) e « Fin de l'interdiction aux camions de dépasser » (2.56)."
+  termos_fr: ["Fin de l'interdiction de dépasser", "2.55", "Fin de l'interdiction aux camions de dépasser", "2.56"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "26", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les interdictions de dépasser signalées seront supprimées par les signaux\"Fin de l'interdiction de dépasser\"(2.55) et\"Fin de l'interdiction aux camions de dépasser\"(2.56)."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "O texto não descreve o desenho dos sinais; só números e nomes."
+
+- id: R-DEP-060
+  categoria: E-Depassement
+  subtema: sinais-de-fim-de-interdicao
+  regra_pt: "Os sinais « Fin de la vitesse maximale » (2.53), « Fin de la vitesse maximale 50, Limite générale » (2.53.1), « Fin de la vitesse minimale » (2.54), « Fin de l'interdiction de dépasser » (2.55) e « Fin de l'interdiction aux camions de dépasser » (2.56) indicam que a proibição sinalizada antes está suprimida."
+  termos_fr: ["Fin de l'interdiction de dépasser", "2.55", "2.56", "l'interdiction signalée auparavant est supprimée"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "32", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les signaux\"Fin de la vitesse maximale\"(2.53),\"Fin de la vitesse maximale 50, Limite générale\"(2.53.1),\"Fin de la vitesse minimale\"(2.54),\"Fin de l'interdiction de dépasser\"(2.55) et\"Fin de l'interdiction aux camions de dépasser\"(2.56) indiquent que l'interdiction signalée auparavant est supprimée."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Alínea 2 (« Libre circulation », 2.58), 3, 4 e 5 do mesmo artigo não foram usadas: o texto da al. 2 não menciona a proibição de ultrapassar expressamente."
+
+- id: R-DEP-061
+  categoria: E-Depassement
+  subtema: linhas-significado
+  regra_pt: "As diversas linhas têm o seguinte significado: a) é proibido aos veículos cruzar as linhas de segurança e as duplas linhas de segurança ou pisar nelas; b) é permitido aos veículos cruzar, com a prudência necessária, as linhas de direção e as linhas de aviso (« lignes d'avertissement »), ou pisar nelas; c) é proibido aos veículos que estão do lado da linha de segurança cruzar as linhas duplas ou pisar nelas."
+  termos_fr: ["lignes de sécurité", "lignes de direction", "lignes d'avertissement", "lignes doubles", "franchir", "empiéter"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "73", alinea: "7", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les diverses lignes ont la signification suivante: a. il est interdit aux véhicules de franchir les lignes de sécurité et les doubles lignes de sécurité ou d'empiéter sur elles; b. il est permis aux véhicules de franchir, avec la prudence qui s'impose, les lignes de direction et les lignes d'avertissement ou d'empiéter sur elles; c. il est interdit aux véhicules se trouvant du côté de la ligne de sécurité de franchir les lignes doubles ou d'empiéter sur elles."
+  trecho_completo: true
+  excecoes:
+    - "Let. b: linhas de direção e de aviso podem ser cruzadas ou pisadas, com a prudência necessária (OSR 73 al. 7 let. b)."
+    - "Let. c: nas linhas duplas, a proibição vale para os veículos do lado da linha de segurança (OSR 73 al. 7 let. c)."
+    - "Regra de outra disposição (não consta desta alínea): OSR 73 al. 8 (R-DEP-062): linha curta descontínua paralela à linha de segurança."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Os números 6.01, 6.03, 6.04, 6.05 só aparecem no texto das alíneas anteriores do artigo (al. 1, 4, 5, 6), que descrevem cor e finalidade das linhas e não foram usadas como regra de comportamento. Nenhum desenho de linha foi descrito."
+
+- id: R-DEP-062
+  categoria: E-Depassement
+  subtema: linha-descontinua-curta-ao-lado-da-linha-de-seguranca
+  regra_pt: "Quando uma linha curta descontínua (branca) é marcada paralelamente a uma linha de segurança, esta pode ser cruzada nesse ponto pelos veículos que estão do lado da linha descontínua. Se a linha curta descontínua é amarela, ela se destina exclusivamente aos ônibus públicos em serviço de linha e aos ciclistas e condutores de ciclomotores."
+  termos_fr: ["brève ligne discontinue", "parallèlement à une ligne de sécurité", "côté de la ligne discontinue", "bus publics en trafic de ligne"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "73", alinea: "8", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Lorsqu'une brève ligne (blanche) discontinue est marquée parallèlement à une ligne de sécurité, cette dernière peut être franchie à cet endroit par les véhicules se trouvant du côté de la ligne discontinue. Si la brève ligne discontinue est marquée en jaune, elle est destinée exclusivement aux bus publics en trafic de ligne ainsi qu'aux cyclistes et aux conducteurs de cyclomoteurs."
+  trecho_completo: true
+  excecoes:
+    - "Se a linha curta descontínua é amarela, é só para ônibus públicos em serviço de linha, ciclistas e condutores de ciclomotores (OSR 73 al. 8, segunda frase)."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+
+- id: R-DEP-063
+  categoria: E-Depassement
+  subtema: linha-continua-faixa-ciclavel
+  regra_pt: "As faixas cicláveis e as vias de circulação em pistas cicláveis são delimitadas por uma linha amarela descontínua ou contínua (6.09). Os veículos não devem pisar nem cruzar a linha contínua. Na área de uma interseção, a marcação de faixas cicláveis só é autorizada se a prioridade é retirada dos veículos que desembocam na interseção."
+  termos_fr: ["bandes cyclables", "ligne jaune discontinue ou continue", "6.09", "ne doivent pas empiéter sur la ligne continue ou la franchir"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "74a", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les bandes cyclables et les voies de circulation sur des pistes cyclables seront délimitées par une ligne jaune discontinue ou continue (6.09). Les véhicules ne doivent pas empiéter sur la ligne continue ou la franchir. Sur l'aire d'une intersection, le marquage des bandes cyclables n'est autorisé que si la priorité est retirée aux véhicules qui débouchent sur l'intersection."
+  trecho_completo: true
+  excecoes:
+    - "Regra de outra disposição (não consta desta alínea): OCR 40 al. 3 (R-DEP-054): outros veículos podem rodar em faixas cicláveis delimitadas por linha descontínua, desde que a circulação dos ciclos não seja estorvada."
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Alínea de três frases; só a segunda frase trata de comportamento sobre a linha contínua."
