@@ -1,0 +1,99 @@
+{
+ "schema": 1,
+ "gerado_em": "2026-11-26T00:56:05Z",
+ "modo": "seguro",
+ "categorias": [
+  {
+   "id": "A",
+   "nome": "Sinais e marcações",
+   "regras": 0,
+   "perguntas": 0,
+   "regras_pendentes": 0,
+   "perguntas_pendentes": 0
+  },
+  {
+   "id": "B",
+   "nome": "Parar e estacionar",
+   "regras": 0,
+   "perguntas": 0,
+   "regras_pendentes": 0,
+   "perguntas_pendentes": 0
+  },
+  {
+   "id": "C",
+   "nome": "Condutor e comportamento",
+   "regras": 0,
+   "perguntas": 0,
+   "regras_pendentes": 0,
+   "perguntas_pendentes": 0
+  },
+  {
+   "id": "D",
+   "nome": "Prioridade (priorité)",
+   "regras": 0,
+   "perguntas": 0,
+   "regras_pendentes": 46,
+   "perguntas_pendentes": 0
+  },
+  {
+   "id": "E",
+   "nome": "Ultrapassagem",
+   "regras": 0,
+   "perguntas": 0,
+   "regras_pendentes": 0,
+   "perguntas_pendentes": 0
+  },
+  {
+   "id": "F",
+   "nome": "Acidentes e panes",
+   "regras": 0,
+   "perguntas": 0,
+   "regras_pendentes": 0,
+   "perguntas_pendentes": 0
+  },
+  {
+   "id": "G",
+   "nome": "Velocidade, distância e outros usuários",
+   "regras": 0,
+   "perguntas": 0,
+   "regras_pendentes": 0,
+   "perguntas_pendentes": 0
+  },
+  {
+   "id": "H",
+   "nome": "Assistência à condução",
+   "regras": 0,
+   "perguntas": 0,
+   "regras_pendentes": 0,
+   "perguntas_pendentes": 0
+  },
+  {
+   "id": "I",
+   "nome": "Ferramentas",
+   "regras": 0,
+   "perguntas": 0,
+   "regras_pendentes": 0,
+   "perguntas_pendentes": 0
+  },
+  {
+   "id": "J",
+   "nome": "Extras",
+   "regras": 0,
+   "perguntas": 0,
+   "regras_pendentes": 0,
+   "perguntas_pendentes": 0
+  }
+ ],
+ "regras": [],
+ "perguntas": [],
+ "pendentes": {
+  "regras": 46,
+  "perguntas": 0,
+  "por_categoria": {
+   "D": {
+    "regras": 46,
+    "perguntas": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0f17">
+<meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="DRIVE THEORY">
+<title>DRIVE THEORY</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="draft-banner" class="draft-banner" role="alert" hidden>MODO RASCUNHO — conteúdo não validado</div>
+<header class="topbar">
+  <button id="back" class="icon-btn" type="button" aria-label="Voltar" hidden>&#8592;</button>
+  <h1 id="title" class="topbar-title">DRIVE THEORY</h1>
+</header>
+<main id="view" tabindex="-1" aria-live="polite"></main>
+<nav class="tabbar" aria-label="Navegação principal">
+  <a href="#/" data-tab="home"><span class="tab-ico" aria-hidden="true">&#9679;</span>Início</a>
+  <a href="#/aprender" data-tab="aprender"><span class="tab-ico" aria-hidden="true">&#9776;</span>Aprender</a>
+  <a href="#/praticar" data-tab="praticar"><span class="tab-ico" aria-hidden="true">&#10003;</span>Praticar</a>
+  <a href="#/erros" data-tab="erros"><span class="tab-ico" aria-hidden="true">&#8635;</span>Erros</a>
+</nav>
+<noscript><p class="empty">Este app precisa de JavaScript.</p></noscript>
+<script src="app.js"></script>
+</body>
+</html>
