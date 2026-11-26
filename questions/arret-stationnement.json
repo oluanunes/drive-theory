@@ -1,0 +1,1206 @@
+[
+  {
+    "id": "Q-ARR-001",
+    "regra_ids": [
+      "R-ARR-009"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "parar-vs-estacionar",
+    "competencia": "Distinguir parar de estacionar pela finalidade da permanência",
+    "nivel": 1,
+    "enunciado": "Um motorista quer entender quando a lei considera que ele estacionou, e não apenas parou. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Estacionar acontece quando o condutor desliga o motor; com o motor ligado, a permanência é apenas uma parada.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 19 al. 1 define estacionar pela finalidade da permanência do veículo. O texto não menciona o estado do motor."
+      },
+      {
+        "texto": "Parar apenas o tempo necessário para um passageiro descer do carro não é estacionar.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 19 al. 1: só é estacionamento a permanência que não serve unicamente para deixar subir ou descer passageiros ou para carregar ou descarregar mercadorias."
+      },
+      {
+        "texto": "Parar para descarregar mercadorias conta como estacionar, porque o veículo fica imobilizado na via durante a operação.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 19 al. 1 exclui expressamente a permanência que serve unicamente para carregar ou descarregar mercadorias."
+      },
+      {
+        "texto": "Deixar o carro parado enquanto o condutor faz compras numa loja é estacionar, pois a permanência não serve só para embarque ou carga.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 19 al. 1: a permanência que tem outra finalidade além de embarque, desembarque, carga ou descarga é estacionamento (« parcage »)."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Estacionar é ficar com o veículo por um motivo que não seja só deixar passageiros subir ou descer, ou carregar ou descarregar mercadorias.",
+      "por_que": "OCR art. 19 al. 1 define o parcage pela finalidade da permanência, e não pelo motor ligado ou desligado.",
+      "como_identificar": "Pergunte para quê o veículo ficou ali. Só embarque, desembarque, carga ou descarga: parada. Qualquer outra finalidade: estacionamento.",
+      "erro_comum": "Medir a diferença pelo motor ligado ou desligado, ou por ficar alguém ao volante. O texto da lei usa outro critério.",
+      "excecao": "A definição não diz quanto tempo a permanência dura. Outras regras exigem rapidez ou ausência de transtorno em casos específicos (por exemplo OCR art. 18 al. 4 e art. 21 al. 2).",
+      "palavras_fr": [
+        "parcage du véhicule — estacionamento do veículo",
+        "stationnement — permanência do veículo",
+        "laisser monter ou descendre des passagers — deixar passageiros subir ou descer",
+        "charger ou décharger des marchandises — carregar ou descarregar mercadorias"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-002",
+    "regra_ids": [
+      "R-ARR-006"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "locais-proibidos-parar",
+    "competencia": "Reconhecer lugares em que parar voluntariamente é proibido",
+    "nivel": 2,
+    "enunciado": "Um condutor avalia os lugares em que não pode parar voluntariamente. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Parar voluntariamente na faixa de pedestres é proibido quando há alguém atravessando, mas permitido se a faixa está livre.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 18 al. 2 let. e proíbe parar voluntariamente sobre as faixas de pedestres. O texto não condiciona a proibição à presença de pedestre."
+      },
+      {
+        "texto": "É proibido parar voluntariamente numa passagem de nível.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 18 al. 2 let. f."
+      },
+      {
+        "texto": "Parar voluntariamente no topo de uma lombada e nos arredores dela é proibido, porque ali falta visibilidade.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 18 al. 2 let. a: lugares sem visibilidade, em especial nas curvas e no topo das lombadas, e nas proximidades."
+      },
+      {
+        "texto": "Também é sempre proibido parar voluntariamente diante de um sinal que o veículo poderia encobrir.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 18 al. 2 let. g."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Parar voluntariamente é proibido em lugares sem visibilidade, passagens de nível, faixas de pedestres e diante de sinais que o veículo encobriria, entre outros da lista do OCR art. 18 al. 2.",
+      "por_que": "OCR art. 18 al. 2 lista os lugares em que o arrêt volontaire é interdito. A lista inclui lugares sem visibilidade (let. a), passagens de nível (let. f) e a frente de sinais (let. g).",
+      "como_identificar": "Pergunte se o lugar esconde o veículo de quem vem, se o veículo esconderia um sinal, ou se é um ponto de cruzamento (passagem de nível, faixa de pedestres).",
+      "erro_comum": "Achar que a proibição na faixa de pedestres depende de haver pedestre atravessando.",
+      "excecao": "A alínea trata só da parada voluntária. Numa parada imposta pelo trânsito (fila, semáforo) vale outra regra: OCR art. 12 al. 3 não permite parar sobre faixa de pedestres nem bloquear a via transversal.",
+      "palavras_fr": [
+        "arrêt volontaire — parada voluntária",
+        "aux endroits dépourvus de visibilité — em lugares sem visibilidade",
+        "passages à niveau — passagens de nível",
+        "signal que le véhicule pourrait masquer — sinal que o veículo poderia encobrir"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-003",
+    "regra_ids": [
+      "R-ARR-001",
+      "R-ARR-002",
+      "R-ARR-027"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "dever-geral-parar",
+    "competencia": "Aplicar os deveres gerais de quem vai parar",
+    "nivel": 1,
+    "enunciado": "Um condutor vai parar o carro numa via movimentada e quer cumprir os deveres gerais da lei. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Se a parada durar poucos instantes, pode ser feita onde atrapalhe a circulação, desde que o condutor ligue o pisca-alerta.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 37 al. 2 não prevê exceção por duração: não se para onde se possa atrapalhar ou pôr em perigo a circulação. O pisca-alerta num veículo parado só é permitido como complemento do sinal de pane (OCR art. 23 al. 3 let. a)."
+      },
+      {
+        "texto": "Os veículos devem ser estacionados sempre nos locais reservados para isso, sem nenhuma exceção.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 37 al. 2: os veículos são estacionados nos locais reservados « autant que possible », ou seja, na medida do possível."
+      },
+      {
+        "texto": "Quem quer parar deve, sempre que possível, ter consideração pelos veículos que vêm atrás.",
+        "correta": true,
+        "justificativa": "Correta. LCR art. 37 al. 1."
+      },
+      {
+        "texto": "O dever de ter consideração pelos veículos de trás vale para quem vai estacionar, e não para quem apenas para.",
+        "correta": false,
+        "justificativa": "Errada. LCR art. 37 al. 1 se dirige ao condutor que « veut s'arrêter », isto é, que quer parar."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Quem quer parar considera, na medida do possível, os veículos que o seguem, e não para onde possa atrapalhar ou pôr em perigo a circulação.",
+      "por_que": "LCR art. 37 al. 1 impõe a consideração por quem vem atrás, e al. 2 proíbe parar e estacionar onde se possa atrapalhar ou pôr em perigo a circulação.",
+      "como_identificar": "Antes de parar, olhe os retrovisores e pergunte se o lugar escolhido pode atrapalhar ou pôr alguém em perigo.",
+      "erro_comum": "Achar que uma parada curta ou o pisca-alerta ligado autoriza parar em qualquer lugar.",
+      "excecao": "O texto usa « dans la mesure du possible » e « autant que possible »: são deveres de esforço razoável, não proibições sem ressalva. Os lugares concretos proibidos estão no OCR art. 18 e 19.",
+      "palavras_fr": [
+        "s'arrêter — parar",
+        "véhicules qui le suivent — veículos que o seguem",
+        "gêner ou mettre en danger la circulation — atrapalhar ou pôr em perigo a circulação",
+        "emplacements réservés à cet effet — locais reservados para isso"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-004",
+    "regra_ids": [
+      "R-ARR-005"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "parar-na-borda",
+    "competencia": "Identificar quando se pode parar na borda esquerda",
+    "nivel": 3,
+    "enunciado": "Uma condutora precisa parar na borda esquerda da via. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Numa via larga com pouco movimento, ela pode parar na borda esquerda.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 18 al. 1 let. c admite a borda esquerda em vias estreitas de pouco tráfego, e não em qualquer via de pouco movimento."
+      },
+      {
+        "texto": "Ela pode parar na borda esquerda se houver à direita uma via de tramway.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 18 al. 1 let. a (via de tramway ou de chemin de fer routier à direita)."
+      },
+      {
+        "texto": "Ela pode parar na borda esquerda quando a borda direita estiver ocupada por veículos estacionados.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 18 al. 1: a parada na borda esquerda « n'est autorisée que » nos quatro casos da lista, e a borda direita ocupada por veículos não é um deles."
+      },
+      {
+        "texto": "Em via de sentido único, ela pode parar na borda esquerda.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 18 al. 1 let. d."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Na borda esquerda só se para nos quatro casos listados: tramway à direita, proibição de parar ou estacionar à direita, via estreita de pouco tráfego e via de sentido único.",
+      "por_que": "OCR art. 18 al. 1 usa « n'est autorisé que »: a lista é fechada. Fora dela, a parada na borda esquerda não é permitida.",
+      "como_identificar": "Confira se a situação se encaixa em uma das letras a, b, c ou d. Se não se encaixa em nenhuma, não é permitido.",
+      "erro_comum": "Tratar a lista como exemplos e incluir casos parecidos, como borda direita cheia ou via larga com pouco movimento.",
+      "excecao": "Os casos permitidos não anulam as proibições de outros artigos, por exemplo junto a tramway (OCR art. 25 al. 5).",
+      "palavras_fr": [
+        "bord gauche de la route — borda esquerda da via",
+        "voie de tramway — via de tramway",
+        "routes étroites à faible trafic — vias estreitas de pouco tráfego",
+        "routes à sens unique — vias de sentido único"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-005",
+    "regra_ids": [
+      "R-ARR-007"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "parada-transporte-publico",
+    "competencia": "Aplicar a restrição de parada junto a paradas de transporte público e bombeiros",
+    "nivel": 1,
+    "enunciado": "Um motorista quer parar perto de uma parada de transporte público e diante de um quartel de bombeiros. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "A menos de 10 m da placa de parada de transporte público, ele também pode parar para carregar mercadorias, se for rápido.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 18 al. 3: ali a parada só é autorizada para que passageiros subam ou desçam."
+      },
+      {
+        "texto": "Diante das instalações do serviço de bombeiros, é proibido parar, até para um passageiro descer.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 18 al. 3: diante dessas instalações a parada é autorizada para que passageiros subam ou desçam, sem atrapalhar os bombeiros."
+      },
+      {
+        "texto": "A restrição junto à parada de transporte público vale enquanto houver um veículo do transporte público parado no local.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 18 al. 3 vale a menos de 10 m das placas, sem condicionar à presença de veículo do transporte público."
+      },
+      {
+        "texto": "A menos de 10 m das placas de parada de transporte público, só se pode parar para passageiros subirem ou descerem, sem atrapalhar o transporte.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 18 al. 3."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "A menos de 10 m das placas de parada de transporte público e diante de instalações de bombeiros, só se para para passageiros subirem ou descerem.",
+      "por_que": "OCR art. 18 al. 3 restringe a parada nesses lugares ao embarque e desembarque de passageiros, sem atrapalhar o transporte público nem os bombeiros.",
+      "como_identificar": "Veja uma placa de parada de transporte público ou instalações de bombeiros: a única parada permitida ali é a de passageiros.",
+      "erro_comum": "Achar que parar rapidamente para carregar mercadorias também vale, ou que a parada é totalmente proibida.",
+      "excecao": "A mesma ideia vale para as linhas amarelas em zigue-zague (6.21), tratadas em OSR art. 79a al. 3.",
+      "palavras_fr": [
+        "panneaux indiquant un arrêt des transports publics — placas que indicam parada de transporte público",
+        "service du feu — serviço de bombeiros",
+        "monter dans le véhicule ou d'en descendre — subir no veículo ou descer dele"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-006",
+    "regra_ids": [
+      "R-ARR-008",
+      "R-ARR-020",
+      "R-ARR-021"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "carga-descarga",
+    "competencia": "Aplicar as regras de carga e descarga na via",
+    "nivel": 3,
+    "enunciado": "Um entregador precisa carregar e descarregar mercadorias numa rua com carros estacionados ao longo da borda da pista. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Ao lado de um carro estacionado, ele pode parar para carregar mesmo que a circulação fique entravada, se a operação for rápida.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 18 al. 4: ao lado de veículo estacionado, parar para carregar ou descarregar só é autorizado se a circulação não for entravada."
+      },
+      {
+        "texto": "Se alguém pedir, ele deve tornar imediatamente possível a saída do veículo estacionado ao lado do qual parou.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 18 al. 4, 2ª frase."
+      },
+      {
+        "texto": "Se a carga não puder ser feita fora da pista, ele pode ocupá-la pelo tempo que precisar, pois não há alternativa.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 21 al. 2: nesse caso deve evitar o máximo possível atrapalhar os outros e concluir as operações rapidamente."
+      },
+      {
+        "texto": "Numa estrada sinuosa de montanha, onde a circulação poderia ser posta em perigo, basta ligar o pisca-alerta durante a carga.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 21 al. 3 exige colocar os sinais de pane ou encarregar pessoas de avisar os usuários da via."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Carregar e descarregar na via exige não entravar a circulação, concluir rápido e, onde há perigo, sinalizar com sinais de pane ou pessoas.",
+      "por_que": "OCR art. 18 al. 4 e art. 21 al. 2 e 3 impõem condições: não entravar a circulação, rapidez e aviso aos usuários quando o lugar é perigoso.",
+      "como_identificar": "Pergunte: há veículo estacionado ao lado? A circulação fica entravada? O lugar é perigoso? Cada resposta ativa uma dessas condições.",
+      "erro_comum": "Achar que carga rápida dispensa as condições, ou que o pisca-alerta substitui os sinais de pane.",
+      "excecao": "O texto de OCR art. 21 al. 3 não fixa distância para o sinal de pane nesse caso.",
+      "palavras_fr": [
+        "véhicule parqué le long du bord de la chaussée — veículo estacionado ao longo da borda da pista",
+        "entravée — entravada",
+        "signaux de panne — sinais de pane",
+        "route sinueuse de montagne — estrada sinuosa de montanha"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-007",
+    "regra_ids": [
+      "R-ARR-010"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "locais-proibidos-estacionar",
+    "competencia": "Reconhecer lugares em que estacionar é proibido",
+    "nivel": 2,
+    "enunciado": "Um motorista quer estacionar em lugares diferentes e avalia o que a lei proíbe. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Estacionar sobre uma ponte é sempre proibido.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 19 al. 2 let. f."
+      },
+      {
+        "texto": "Dentro das localidades, estacionar numa via principal é sempre proibido, mesmo que dois carros ainda consigam se cruzar.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 19 al. 2 let. c proíbe estacionar nas vias principais dentro das localidades apenas quando dois automóveis não teriam mais espaço suficiente para se cruzar."
+      },
+      {
+        "texto": "Estacionar numa ciclofaixa, ou na pista contígua a ela, é proibido.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 19 al. 2 let. d."
+      },
+      {
+        "texto": "Estacionar diante do acesso a um edifício ou terreno de outra pessoa é proibido.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 19 al. 2 let. g."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "É proibido estacionar nas pontes, nas ciclofaixas e na pista contígua a elas e diante do acesso a edifícios ou terrenos de outrem, entre outros lugares da lista do OCR art. 19 al. 2.",
+      "por_que": "OCR art. 19 al. 2 lista os lugares em que estacionar é proibido. Alguns têm condição (let. c) e outros não (let. d, f, g).",
+      "como_identificar": "Procure o lugar na lista e leia a condição: ponte, ciclofaixa e acesso a terreno não têm condição; via principal dentro da localidade só quando faltaria espaço para dois carros se cruzarem.",
+      "erro_comum": "Generalizar a proibição das vias principais dentro das localidades, que depende de espaço para o cruzamento.",
+      "excecao": "O texto não define « routes principales » nessa alínea.",
+      "palavras_fr": [
+        "il est interdit de parquer — é proibido estacionar",
+        "ponts — pontes",
+        "bandes cyclables — ciclofaixas",
+        "accès à des bâtiments ou des terrains d'autrui — acesso a edifícios ou terrenos de outrem"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-008",
+    "regra_ids": [
+      "R-ARR-006",
+      "R-ARR-010"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "parar-implica-estacionar",
+    "competencia": "Relacionar a proibição de parar com a de estacionar",
+    "nivel": 4,
+    "enunciado": "Um aluno compara onde é proibido parar com onde é proibido estacionar, perto de interseções, pontes e passagens de nível. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Na própria interseção, o motorista pode estacionar, pois a lei proíbe parar ali, mas não estacionar.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 18 al. 2 let. d proíbe parar voluntariamente nas interseções, e OCR art. 19 al. 2 let. a proíbe estacionar em todo lugar onde parar não é permitido."
+      },
+      {
+        "texto": "Numa ponte, estacionar é permitido quando o veículo fica rente à borda da pista e sem atrapalhar.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 19 al. 2 let. f proíbe estacionar sobre as pontes, sem ressalva para veículo rente à borda."
+      },
+      {
+        "texto": "Estacionar a 3 m da pista transversal de uma interseção é proibido, porque ali nem parar voluntariamente é permitido.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 18 al. 2 let. d (a menos de 5 m da pista transversal, parar é proibido) e OCR art. 19 al. 2 let. a (onde parar é proibido, estacionar também)."
+      },
+      {
+        "texto": "A 15 m de uma passagem de nível, estacionar é permitido, pois a proibição de estacionar vale sobre os trilhos.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 19 al. 2 let. e proíbe estacionar a menos de 20 m das passagens de nível."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Onde parar voluntariamente é proibido, estacionar também é proibido. Além disso, há lugares onde só estacionar é proibido.",
+      "por_que": "OCR art. 19 al. 2 let. a estende ao estacionamento a proibição de parar do art. 18 al. 2. As outras letras do art. 19 al. 2 acrescentam proibições só de estacionar, como pontes e a menos de 20 m das passagens de nível.",
+      "como_identificar": "Primeiro pergunte se parar ali é proibido (OCR art. 18 al. 2). Se for, estacionar também é. Se não for, consulte a lista do art. 19 al. 2.",
+      "erro_comum": "Achar que a proibição de estacionar é mais branda e deixa de valer onde só parar é proibido.",
+      "excecao": "O inverso não vale: em pontes e a menos de 20 m de passagens de nível a lei proíbe estacionar sem dizer, nessas letras, que parar é proibido.",
+      "palavras_fr": [
+        "partout où l'arrêt n'est pas permis — em todo lugar onde parar não é permitido",
+        "intersections — interseções",
+        "chaussée transversale — pista transversal",
+        "passages à niveau — passagens de nível"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-009",
+    "regra_ids": [
+      "R-ARR-042",
+      "R-ARR-043"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "sinais-2-49-2-50",
+    "competencia": "Distinguir os sinais de proibição de parar (2.49) e de estacionar (2.50)",
+    "nivel": 2,
+    "enunciado": "Um condutor vê o sinal «Interdiction de s'arrêter» (2.49) numa rua e o sinal «Interdiction de parquer» (2.50) em outra. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Com o sinal 2.49, o motorista ainda pode parar rapidamente para carregar ou descarregar mercadorias.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 30 al. 1: o 2.49 defende a parada voluntária; como estacionar é a permanência que não serve só a carga e descarga, com o 2.49 nenhuma parada voluntária é permitida."
+      },
+      {
+        "texto": "Com o sinal 2.50, continua permitido parar apenas para deixar um passageiro descer.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 30 al. 1 com OCR art. 19 al. 1: o 2.50 proíbe o estacionamento, e parar só para passageiros descerem não é estacionar."
+      },
+      {
+        "texto": "O sinal 2.50 proíbe também parar para passageiros subirem ou descerem, porque não distingue parada de estacionamento.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 30 al. 1 defende o « parcage », definido como permanência que não serve unicamente a embarque, desembarque, carga ou descarga (OCR art. 19 al. 1)."
+      },
+      {
+        "texto": "Um sinal 2.49 colocado à beira da pista vale também para a calçada adjacente.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 30 al. 2."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "2.49 proíbe parar voluntariamente. 2.50 proíbe estacionar, mas deixa parar só para passageiros ou para carga e descarga.",
+      "por_que": "OSR art. 30 al. 1 diz que o 2.49 defende o arrêt volontaire e o 2.50 o parcage, e remete à definição de parcage do OCR art. 19 al. 1. Daí a diferença quanto a embarque e carga.",
+      "como_identificar": "Leia o nome do sinal: «s'arrêter» é parar, «parquer» é estacionar. Depois pergunte se a permanência serve só a embarque ou carga.",
+      "erro_comum": "Tratar os dois sinais como se tivessem o mesmo efeito.",
+      "excecao": "A lei prevê derrogações temporárias, anunciadas por placas complementares (5.10 para parar, 5.11 para estacionar; OSR art. 30 al. 4). O texto só afirma o efeito sobre a calçada para o 2.49.",
+      "palavras_fr": [
+        "Interdiction de s'arrêter (2.49) — proibição de parar",
+        "Interdiction de parquer (2.50) — proibição de estacionar",
+        "arrêt volontaire — parada voluntária",
+        "trottoir adjacent — calçada adjacente"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-010",
+    "regra_ids": [
+      "R-ARR-044",
+      "R-ARR-060"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "placas-proibicao",
+    "competencia": "Reconhecer as placas que marcam início, lembrança, fim e campo de uma proibição",
+    "nivel": 4,
+    "enunciado": "Um aluno estuda as placas que acompanham uma proibição de parar ou de estacionar. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "A «Plaque de rappel» (5.04) indica o fim da proibição.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 30 al. 3: a 5.04 indica a lembrança da proibição. O fim é indicado pela 5.06."
+      },
+      {
+        "texto": "A «Plaque indiquant le début d'une prescription» (5.05) indica o início da proibição.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 30 al. 3 e OSR art. 64 al. 3."
+      },
+      {
+        "texto": "A «Plaque de direction» (5.07) pode indicar o campo de aplicação da proibição, conforme as condições locais.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 30 al. 3, 2ª frase."
+      },
+      {
+        "texto": "A «Plaque indiquant la fin d'une prescription» (5.06) marca o fim do trecho com a proibição.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 30 al. 3 e OSR art. 64 al. 3."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "5.05 = início, 5.04 = lembrança, 5.06 = fim da prescrição. A 5.07 (direção) pode indicar o campo de aplicação.",
+      "por_que": "OSR art. 30 al. 3 e art. 64 al. 3 atribuem um papel a cada placa complementar da série 5.0x.",
+      "como_identificar": "Associe o número ao verbo: 5.04 lembra (rappel), 5.05 começa (début), 5.06 termina (fin), 5.07 aponta a direção.",
+      "erro_comum": "Trocar lembrança por fim, por causa do aspecto de repetição do sinal.",
+      "excecao": "O texto só dá número e nome das placas. Não é preciso saber o desenho, mas o nome e a função de cada uma.",
+      "palavras_fr": [
+        "plaque indiquant le début d'une prescription (5.05) — placa de início de prescrição",
+        "plaque de rappel (5.04) — placa de lembrança",
+        "plaque indiquant la fin d'une prescription (5.06) — placa de fim de prescrição",
+        "plaque de direction (5.07) — placa de direção"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-011",
+    "regra_ids": [
+      "R-ARR-045",
+      "R-ARR-085"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "derrogacoes-placas-complementares",
+    "competencia": "Interpretar placas complementares de derrogação e de exceção",
+    "nivel": 4,
+    "enunciado": "Um condutor encontra um sinal de proibição acompanhado de placas complementares. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "A placa complementar 5.10 anuncia derrogações temporárias à proibição de estacionar.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 30 al. 4: a 5.10 anuncia derrogações à proibição de parar. A derrogação à proibição de estacionar é a 5.11."
+      },
+      {
+        "texto": "Uma placa complementar com um símbolo faz o sinal valer para os demais transportes, e não para o representado.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 64 al. 5 let. a: com símbolo ou inscrição correspondente, o sinal se aplica apenas ao tipo de transporte representado."
+      },
+      {
+        "texto": "Uma placa complementar com «Excepté» ou «Autorisé» junto a um símbolo indica que o sinal não se aplica ao tipo de transporte correspondente.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 64 al. 5 let. b."
+      },
+      {
+        "texto": "As derrogações temporárias à proibição de parar são anunciadas pela placa complementar 5.11.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 30 al. 4: é a 5.10 que anuncia derrogações à proibição de parar."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Símbolo sozinho restringe o sinal àquele transporte. «Excepté» ou «Autorisé» com símbolo exclui aquele transporte. 5.10 é derrogação de parar e 5.11, de estacionar.",
+      "por_que": "OSR art. 64 al. 5 define o efeito das placas complementares, e OSR art. 30 al. 4 define as placas 5.10 e 5.11.",
+      "como_identificar": "Procure na placa uma palavra: «Excepté» ou «Autorisé» tira o transporte indicado do alcance do sinal. Símbolo sem essas palavras limita o sinal a ele.",
+      "erro_comum": "Inverter o efeito do símbolo, ou trocar 5.10 por 5.11.",
+      "excecao": "O texto cita reservas dos arts. 15 al. 1 e 46 al. 2 OSR para o caso do símbolo.",
+      "palavras_fr": [
+        "plaque complémentaire — placa complementar",
+        "Dérogation à l'interdiction de s'arrêter (5.10) — derrogação à proibição de parar",
+        "Dérogation à l'interdiction de parquer (5.11) — derrogação à proibição de estacionar",
+        "Excepté — exceto"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-012",
+    "regra_ids": [
+      "R-ARR-046",
+      "R-ARR-047"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "parada-obrigatoria",
+    "competencia": "Reconhecer os sinais que obrigam a parar (alfândega e polícia)",
+    "nivel": 1,
+    "enunciado": "Um condutor se aproxima de sinais que o obrigam a parar. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "O sinal «Police» (2.52) obriga o condutor a parar e é colocado pela polícia.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 31 al. 2."
+      },
+      {
+        "texto": "Se a alfândega renunciar temporariamente ao controle, o condutor deve parar mesmo assim ao lado do posto.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 31 al. 1, 2ª frase: nesse caso os condutores atravessam a área da alfândega a no máximo 20 km/h."
+      },
+      {
+        "texto": "O sinal «Arrêt à proximité d'un poste de douane» (2.51) obriga todos os condutores a parar perto da repartição aduaneira.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 31 al. 1, 1ª frase."
+      },
+      {
+        "texto": "Quando a alfândega renuncia temporariamente ao controle, o condutor atravessa a área aduaneira a no máximo 20 km/h.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 31 al. 1, 2ª frase."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "2.51 e 2.52 obrigam a parar. Se a alfândega renuncia ao controle por um tempo, passa-se a no máximo 20 km/h.",
+      "por_que": "OSR art. 31 al. 1 e 2 dão o dever de parar e a exceção da renúncia temporária ao controle aduaneiro.",
+      "como_identificar": "Leia o nome do sinal: «Arrêt» e «Police» são ordens de parar.",
+      "erro_comum": "Achar que o condutor pode passar sem parar, em qualquer velocidade, quando não vê agente no local. O texto só prevê a passagem a no máximo 20 km/h quando as autoridades aduaneiras renunciam temporariamente ao controle.",
+      "excecao": "A exceção dos 20 km/h está na al. 1, para a alfândega. Para o sinal Police, o texto não prevê essa exceção.",
+      "palavras_fr": [
+        "Arrêt à proximité d'un poste de douane (2.51) — parada perto de posto aduaneiro",
+        "Police (2.52) — polícia",
+        "bureau de douane — repartição aduaneira",
+        "20 km/h au plus — no máximo 20 km/h"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-013",
+    "regra_ids": [
+      "R-ARR-036",
+      "R-ARR-037",
+      "R-ARR-038",
+      "R-ARR-088"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "sinais-de-zona",
+    "competencia": "Aplicar as regras dos sinais de zona de estacionamento",
+    "nivel": 3,
+    "enunciado": "Um aluno estuda a sinalização por zonas, que pode incluir os sinais de estacionamento 4.17, 4.18 e 4.20. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "A sinalização por zonas também pode ser usada fora das localidades, desde que a via não seja principal.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 2a al. 2: a sinalização por zonas só é admitida em vias situadas dentro das localidades."
+      },
+      {
+        "texto": "Os direitos e obrigações do sinal de zona valem do início da sinalização por zonas até o sinal de fim, que restabelece as regras gerais.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 2a al. 3."
+      },
+      {
+        "texto": "Um sinal de zona pode indicar até cinco regulamentações do tráfego, desde que caibam no painel.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 2a al. 5: no máximo três regulamentações."
+      },
+      {
+        "texto": "O sinal de fim de zona mantém a última regulamentação em vigor até a próxima interseção.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 2a al. 3, 2ª frase: o sinal de fim de zona indica que as regras gerais voltam a valer."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Sinal de zona: só dentro das localidades, vale do início ao sinal de fim e indica no máximo três regulamentações.",
+      "por_que": "OSR art. 2a trata dos sinais de zona: limite à localidade (al. 2), duração da validade (al. 3) e número máximo de regulamentações (al. 5).",
+      "como_identificar": "Procure o painel retangular branco com a inscrição «ZONE» e depois o sinal de fim de zona.",
+      "erro_comum": "Achar que a validade termina na próxima interseção, como em outros sinais, ou que a zona vale fora das localidades.",
+      "excecao": "OSR art. 16 al. 2 fixa a validade de outros sinais de prescrição até a próxima interseção. Para os sinais de zona, a regra é a do art. 2a al. 3.",
+      "palavras_fr": [
+        "signaux de zone — sinais de zona",
+        "signalisation par zones — sinalização por zonas",
+        "à l'intérieur des localités — dentro das localidades",
+        "fin de zone — fim de zona"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-014",
+    "regra_ids": [
+      "R-ARR-050",
+      "R-ARR-051",
+      "R-ARR-052",
+      "R-ARR-053"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "sinais-de-parking",
+    "competencia": "Interpretar os sinais e as placas de parkings",
+    "nivel": 2,
+    "enunciado": "Um motorista chega a um parking sinalizado e lê o sinal e as placas ao lado. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "O sinal 4.17 «Parcage autorisé» designa o parking em que o estacionamento é pago no parquímetro.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 48 al. 1 dá ao parking pago o sinal 4.20 «Parcage contre paiement». O 4.17 é « Parcage autorisé »."
+      },
+      {
+        "texto": "O regulamento do parking e as restrições de duração constam de uma placa complementar.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 48 al. 2."
+      },
+      {
+        "texto": "A restrição a certos grupos de usuários pode ser indicada por uma marca na vaga, mas não no sinal.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 48 al. 4: é indicada no campo azul do sinal ou numa placa complementar. A marca na vaga é a alternativa na falta disso."
+      },
+      {
+        "texto": "Com estacionamento limitado no tempo, o veículo deve sair no máximo ao fim da duração autorizada, salvo se o parquímetro permitir nova taxa antes do fim.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 48 al. 3."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "O parking é sinalizado por 4.17, 4.18 ou 4.20. O regulamento e os limites de tempo estão em placa complementar, e o tempo autorizado é um limite que se respeita.",
+      "por_que": "OSR art. 48 al. 1 a 4 diz como os parkings são sinalizados e onde constam as regras e restrições.",
+      "como_identificar": "Leia o sinal (4.17, 4.18 ou 4.20) e depois a placa complementar: ela traz o regulamento, o limite de tempo e as restrições de grupo.",
+      "erro_comum": "Confundir 4.17 com o sinal de estacionamento pago, ou achar que a restrição a um grupo só pode vir pintada na vaga.",
+      "excecao": "Pode-se ficar além da duração só se o parquímetro permitir pagar nova taxa antes do fim do tempo autorizado.",
+      "palavras_fr": [
+        "Parcage autorisé (4.17) — estacionamento autorizado",
+        "Parcage contre paiement (4.20) — estacionamento pago",
+        "plaque complémentaire — placa complementar",
+        "parcomètre — parquímetro"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-015",
+    "regra_ids": [
+      "R-ARR-028",
+      "R-ARR-019"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "tram-e-portas",
+    "competencia": "Aplicar a proibição de parar junto ao tramway e o cuidado ao abrir portas",
+    "nivel": 2,
+    "enunciado": "Um condutor para o carro perto dos trilhos de um tramway e depois desce pela porta do lado da rua. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "A proibição de ficar a menos de 1 m 50 do trilho vale para estacionar; parar rapidamente é permitido.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 25 al. 5 proíbe parar (« arrêter ») sobre as vias do tramway e a menos de 1 m 50 do trilho mais próximo."
+      },
+      {
+        "texto": "Ele não pode parar sobre as vias do tramway nem a menos de 1 m 50 do trilho mais próximo.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 25 al. 5."
+      },
+      {
+        "texto": "Quem desce do veículo não deve pôr em perigo os usuários da via e, antes de abrir as portas, deve prestar particular atenção aos veículos que vêm por trás.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 21 al. 1."
+      },
+      {
+        "texto": "Antes de abrir as portas, só o condutor precisa prestar atenção aos veículos que vêm por trás; os passageiros não.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 21 al. 1 se dirige às pessoas que sobem no veículo ou descem dele, o que inclui os passageiros."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Não se para sobre as vias do tramway nem a menos de 1 m 50 do trilho. Quem desce olha os veículos que vêm por trás antes de abrir a porta.",
+      "por_que": "OCR art. 25 al. 5 fixa a distância mínima do trilho para parar. OCR art. 21 al. 1 impõe cuidado a quem sobe ou desce do veículo.",
+      "como_identificar": "Perto de trilhos, meça a distância ao trilho mais próximo. Antes de abrir a porta, olhe para trás.",
+      "erro_comum": "Achar que a proibição perto do trilho vale só para estacionar, ou que só o condutor deve olhar para trás ao abrir a porta.",
+      "excecao": "OCR art. 25 al. 5 usa o verbo parar, sem distinguir parada de estacionamento. Onde parar é proibido, estacionar também é (OCR art. 19 al. 2 let. a).",
+      "palavras_fr": [
+        "voies d'un tramway — vias de um tramway",
+        "rail le plus proche — trilho mais próximo",
+        "portières — portas do veículo",
+        "véhicules venant de derrière — veículos que vêm por trás"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-016",
+    "regra_ids": [
+      "R-ARR-061"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "vaga-pessoas-deficientes",
+    "competencia": "Aplicar as regras de uma vaga reservada a pessoas com mobilidade reduzida",
+    "nivel": 2,
+    "enunciado": "Uma vaga está reservada às pessoas com mobilidade reduzida por uma placa complementar «Handicapés» (5.34.4) junto ao sinal 4.17. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Se a vaga estiver livre, outro motorista pode usá-la por pouco tempo, pois o sinal 4.17 é de estacionamento autorizado.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 65 al. 5: só quem é deficiente ou acompanha uma pessoa com mobilidade reduzida tem o direito de estacionar nesses locais."
+      },
+      {
+        "texto": "Só o titular do cartão tem direito à vaga; quem apenas acompanha uma pessoa com mobilidade reduzida não pode usá-la.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 65 al. 5: tem direito também quem acompanha uma pessoa com mobilidade reduzida."
+      },
+      {
+        "texto": "O cartão de estacionamento para pessoas com deficiência deve ficar bem visível atrás do para-brisa.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 65 al. 5, última frase."
+      },
+      {
+        "texto": "A placa «Handicapés» já prova o direito do condutor à vaga, e por isso o cartão não precisa ser exibido.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 65 al. 5: o cartão deve ser colocado de forma bem visível atrás do para-brisa."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Na vaga com a placa «Handicapés» só estaciona quem é deficiente ou acompanha uma pessoa com mobilidade reduzida, com o cartão bem visível atrás do para-brisa.",
+      "por_que": "OSR art. 65 al. 5 liga a placa complementar 5.34.4 ao sinal 4.17 e exige o cartão visível.",
+      "como_identificar": "Procure o símbolo «Handicapés» perto da vaga e depois o cartão atrás do para-brisa.",
+      "erro_comum": "Achar que vaga livre pode ser usada por qualquer um, ou que a placa dispensa o cartão.",
+      "excecao": "Esta pergunta trata só da vaga sinalizada por OSR art. 65 al. 5.",
+      "palavras_fr": [
+        "Handicapés (5.34.4) — pessoas com deficiência",
+        "personnes à mobilité réduite — pessoas com mobilidade reduzida",
+        "carte de stationnement pour personnes handicapées — cartão de estacionamento para pessoas com deficiência",
+        "pare-brise — para-brisa"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-017",
+    "regra_ids": [
+      "R-ARR-067",
+      "R-ARR-070",
+      "R-ARR-071"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "marcas-de-vagas",
+    "competencia": "Aplicar as regras das marcas de vagas de estacionamento",
+    "nivel": 2,
+    "enunciado": "Um motorista estaciona num pátio com vagas marcadas no chão. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "As vagas comuns são delimitadas por linhas amarelas contínuas.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 79 al. 2: as marcas das vagas são brancas. O amarelo marca vagas reservadas a grupos de usuários (al. 5)."
+      },
+      {
+        "texto": "Onde há vagas marcadas, o veículo deve ficar dentro dos limites da vaga.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 79 al. 6, 1ª frase."
+      },
+      {
+        "texto": "As vagas reservadas a certos grupos de usuários são sempre marcadas em amarelo.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 79 al. 5, 1ª frase."
+      },
+      {
+        "texto": "Uma vaga reservada a um grupo de usuários só pode ser usada por esse grupo.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 79 al. 6, 3ª frase."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Marcas brancas delimitam as vagas, amarelo marca as reservadas a grupos, e o veículo fica dentro da vaga e só usa vaga da sua categoria ou grupo.",
+      "por_que": "OSR art. 79 al. 2 define a cor das marcas, al. 5 a cor das vagas reservadas e al. 6 as obrigações de quem estaciona.",
+      "como_identificar": "Observe a cor: branco, vaga comum; amarelo, vaga reservada. Depois confira se o veículo está dentro das linhas.",
+      "erro_comum": "Achar que as linhas amarelas são as comuns ou que uma vaga reservada vazia pode ser usada por qualquer veículo.",
+      "excecao": "OSR art. 79 al. 2 prevê vagas azuis na zona azul e al. 5 prevê que as vagas de ciclos e ciclomotores também podem ser amarelas.",
+      "palavras_fr": [
+        "cases de stationnement — vagas de estacionamento",
+        "marques blanches — marcas brancas",
+        "marquées en jaune — marcadas em amarelo",
+        "groupe d'utilisateurs — grupo de usuários"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-018",
+    "regra_ids": [
+      "R-ARR-065"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "marcas-linha-6-18",
+    "competencia": "Aplicar a linha amarela contínua que proíbe parar antes das faixas de pedestres",
+    "nivel": 3,
+    "enunciado": "Antes de uma faixa de pedestres há uma linha que proíbe parar (amarela, contínua; 6.18), paralela à borda da pista. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Ela proíbe estacionar; parar por pouco tempo continua permitido.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 77 al. 2: a linha 6.18 proíbe a parada voluntária."
+      },
+      {
+        "texto": "Em vias de sentido único, ela é traçada na borda direita da pista.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 77 al. 2, 2ª frase: nas vias de sentido único a linha é traçada nas bordas direita e esquerda."
+      },
+      {
+        "texto": "Ela proíbe a parada voluntária na pista e na calçada adjacente.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 77 al. 2, 1ª frase."
+      },
+      {
+        "texto": "Ela também é traçada na superfície das interseções, para reforçar a proibição.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 77 al. 2, 3ª frase: a linha não é traçada na superfície das interseções."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "A linha amarela contínua 6.18 antes da faixa proíbe a parada voluntária na pista e na calçada adjacente.",
+      "por_que": "OSR art. 77 al. 2 descreve a linha que proíbe parar e seu alcance, que inclui a calçada.",
+      "como_identificar": "Linha amarela contínua à borda da pista, antes da faixa: parada voluntária proibida, inclusive na calçada ao lado.",
+      "erro_comum": "Confundir com a linha que proíbe estacionar (6.22) e achar que parar rapidamente é permitido.",
+      "excecao": "Sem a linha, vale a regra do OCR art. 18 al. 2 let. e (5 m antes da faixa). A distância de 10 m da linha é regra de marcação, e não distância para o condutor.",
+      "palavras_fr": [
+        "ligne interdisant l'arrêt (6.18) — linha que proíbe parar",
+        "passages pour piétons — faixas de pedestres",
+        "trottoir adjacent — calçada adjacente",
+        "routes à sens unique — vias de sentido único"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-019",
+    "regra_ids": [
+      "R-ARR-072",
+      "R-ARR-073",
+      "R-ARR-074"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "marcas-amarelas-bordas",
+    "competencia": "Distinguir marcas amarelas à beira da pista (6.21, 6.23, 6.25)",
+    "nivel": 4,
+    "enunciado": "Um motorista encontra marcas amarelas à beira da pista: linha contínua (6.25), zigue-zague (6.21) e vaga com duas diagonais que se cruzam (6.23). Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Nos locais de zigue-zague (6.21), os veículos podem parar para carregar mercadorias, se não atrapalharem ninguém.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 79a al. 3: nesses locais a parada só é autorizada para passageiros subirem ou descerem."
+      },
+      {
+        "texto": "No zigue-zague amarelo (6.21), parar só é permitido para passageiros subirem ou descerem, sem atrapalhar o transporte público de linha.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 79a al. 3."
+      },
+      {
+        "texto": "Na vaga 6.23 com a inscrição «Taxi», parar para descarregar mercadorias é sempre permitido.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 79a al. 1: com inscrição como «Taxi», paradas para carga e descarga só são permitidas se os titulares do direito não forem atrapalhados."
+      },
+      {
+        "texto": "As linhas amarelas contínuas (6.25) à beira da pista proíbem a parada voluntária no local indicado.",
+        "correta": true,
+        "justificativa": "Correta. OSR art. 79a al. 2."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "6.25 proíbe parar. 6.21 reserva o local ao transporte público e só admite parar para passageiros. 6.23 proíbe estacionar, e com inscrição só admite parar sem atrapalhar os titulares.",
+      "por_que": "OSR art. 79a al. 1 a 3 atribui a cada marca amarela um efeito próprio.",
+      "como_identificar": "Linha contínua: parar proibido. Zigue-zague: ponto do transporte público. Vaga com diagonais: estacionar proibido.",
+      "erro_comum": "Tratar todas as marcas amarelas como proibição total de parar.",
+      "excecao": "Vaga 6.23 sem inscrição proíbe estacionar. Com inscrição ou símbolo, as paradas de passageiros e de carga são permitidas se não atrapalham os titulares.",
+      "palavras_fr": [
+        "lignes en zigzag (6.21) — linhas em zigue-zague",
+        "case interdite au parcage (6.23) — vaga proibida ao estacionamento",
+        "lignes (jaunes, continues; 6.25) — linhas amarelas contínuas",
+        "ayants droit — titulares do direito"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-020",
+    "regra_ids": [
+      "R-ARR-034",
+      "R-ARR-035",
+      "R-ARR-086"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "parcage-trottoir",
+    "competencia": "Aplicar as regras de parada e estacionamento na calçada",
+    "nivel": 2,
+    "enunciado": "Um condutor quer deixar o veículo na calçada. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Um ciclo pode ser estacionado na calçada apenas se restar espaço livre de pelo menos 1 m 50 para os pedestres.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 41 al. 1."
+      },
+      {
+        "texto": "Um automóvel pode ser estacionado na calçada desde que restem 1 m 50 livres, mesmo sem sinal ou marca.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 41 al. 2: o estacionamento dos outros veículos na calçada é proibido, a menos que sinais ou marcas o autorizem expressamente."
+      },
+      {
+        "texto": "Sem sinal ou marca que autorize, outros veículos só podem parar na calçada para carregar ou descarregar mercadorias ou para passageiros subirem ou descerem.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 41 al. 2, 2ª frase."
+      },
+      {
+        "texto": "Quem precisa usar a calçada com o veículo deve ter prudência particular com os pedestres e lhes dar a prioridade.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 41 al. 3."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Na calçada, ciclos podem estacionar com 1 m 50 livres. Outros veículos só estacionam se sinais ou marcas autorizarem, e sem isso só param para carga ou passageiros.",
+      "por_que": "OCR art. 41 distingue ciclos (al. 1) dos outros veículos (al. 2) e impõe prudência e prioridade aos pedestres (al. 3).",
+      "como_identificar": "Primeiro pergunte se é ciclo. Se não for, procure sinal ou marca que autorize. Em qualquer caso, mantenha 1 m 50 livres e dê prioridade aos pedestres.",
+      "erro_comum": "Achar que os 1 m 50 livres bastam para qualquer veículo estacionar na calçada.",
+      "excecao": "O sinal 2.49 à beira da pista também vale para a calçada adjacente (OSR art. 30 al. 2).",
+      "palavras_fr": [
+        "cycles — ciclos",
+        "parqués sur le trottoir — estacionados na calçada",
+        "signaux ou des marques — sinais ou marcas",
+        "prudence particulière — prudência particular"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-021",
+    "regra_ids": [
+      "R-ARR-011",
+      "R-ARR-012"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "estacionar-pistas-estreitas",
+    "competencia": "Aplicar como estacionar em pistas estreitas e ocupando pouco espaço",
+    "nivel": 1,
+    "enunciado": "Um condutor procura onde estacionar numa rua com pista estreita. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Em pista estreita, estacionar dos dois lados é permitido, porque assim se ocupa menos espaço.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 19 al. 3: só se estaciona dos dois lados se a circulação de outros veículos não for atrapalhada."
+      },
+      {
+        "texto": "Os veículos devem ser estacionados de modo a ocupar o menor espaço possível.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 19 al. 4, 1ª frase."
+      },
+      {
+        "texto": "Para ocupar o menor espaço, vale encostar no veículo da frente, mesmo que isso bloqueie a saída dele.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 19 al. 4, 2ª frase: os veículos devem ser colocados de modo a não atrapalhar a saída dos outros."
+      },
+      {
+        "texto": "Nas pistas estreitas, só se estaciona dos dois lados se a circulação de outros veículos não ficar atrapalhada.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 19 al. 3."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Estacione ocupando pouco espaço, sem atrapalhar a saída de outros veículos e, em pista estreita, sem atrapalhar a circulação.",
+      "por_que": "OCR art. 19 al. 3 e 4 equilibram dois deveres: ocupar pouco espaço e não atrapalhar.",
+      "como_identificar": "Antes de estacionar, pergunte se o seu veículo vai atrapalhar a circulação ou a saída de outro.",
+      "erro_comum": "Entender «ocupar o menor espaço» como permissão para encostar sem deixar saída.",
+      "excecao": "Estas regras valem onde estacionar é permitido. As proibições de OCR art. 19 al. 2 continuam valendo.",
+      "palavras_fr": [
+        "chaussées étroites — pistas estreitas",
+        "occuper le moins de place possible — ocupar o menor espaço possível",
+        "entraver le départ des autres véhicules — atrapalhar a saída dos outros veículos",
+        "entravée — atrapalhada"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-022",
+    "regra_ids": [
+      "R-ARR-003",
+      "R-ARR-022",
+      "R-ARR-023",
+      "R-ARR-024"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "como-imobilizar",
+    "competencia": "Aplicar as medidas ao deixar o veículo, inclusive em declives",
+    "nivel": 3,
+    "enunciado": "Uma condutora estaciona numa rua em declive e vai se afastar do carro. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Num declive, basta apertar o freio se o motor estiver desligado; nenhuma outra medida é exigida.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 22 al. 2: em declives o condutor aperta o freio e toma ainda uma segunda medida de segurança."
+      },
+      {
+        "texto": "Antes de se afastar, ela deve desligar o motor e se garantir contra movimento fortuito ou uso ilícito do veículo.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 22 al. 1, que detalha o dever de precaução de LCR art. 37 al. 3."
+      },
+      {
+        "texto": "Num declive, além de apertar o freio, ela deve tomar uma segunda medida, como engatar marcha inferior ou dirigir as rodas para um obstáculo na borda da pista.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 22 al. 2 (as medidas citadas são exemplos, « notamment »)."
+      },
+      {
+        "texto": "Ao partir, o condutor deve tirar da pista os objetos que usou como calços.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 22 al. 3, última frase."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Ao deixar o carro: desligar o motor e se garantir contra movimento e uso ilícito. Em declive, freio mais uma segunda medida. Calços usados saem da pista na partida.",
+      "por_que": "OCR art. 22 detalha o dever de precaução de LCR art. 37 al. 3, em três níveis: motor e proteção (al. 1), declive (al. 2) e calços (al. 3).",
+      "como_identificar": "Estacionou em subida ou descida? Freio mais uma segunda medida. Em declive forte, ainda calços.",
+      "erro_comum": "Achar que o freio sozinho basta em declive, ou esquecer de retirar os calços ao partir.",
+      "excecao": "Calços sob as rodas também são exigidos para automóveis pesados, trens rodoviários (trains routiers) e reboques desengatados estacionados, mesmo em declive fraco (OCR art. 22 al. 3, 2ª frase).",
+      "palavras_fr": [
+        "arrêter le moteur — desligar o motor",
+        "mise en mouvement fortuite — movimento fortuito",
+        "seconde mesure de sécurité — segunda medida de segurança",
+        "cales d'arrêt — calços"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-023",
+    "regra_ids": [
+      "R-ARR-025",
+      "R-ARR-026"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "sinal-de-pane",
+    "competencia": "Aplicar as regras do sinal de pane",
+    "nivel": 4,
+    "enunciado": "Um veículo fica parado na pista por razão imperiosa, contrariamente às prescrições. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "O sinal de pane só é necessário se o veículo estiver numa autoestrada.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 23 al. 2: o sinal é colocado assim que o veículo, por razão imperiosa, fica parado na pista contrariamente às prescrições, sem limitar a autoestradas."
+      },
+      {
+        "texto": "O sinal de pane deve ser colocado à beira da pista assim que o veículo fica parado nessas condições.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 23 al. 2, 1ª frase."
+      },
+      {
+        "texto": "O sinal de pane pode ficar guardado no fundo do porta-malas, sob a bagagem.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 23 al. 1: o sinal de pane deve estar em lugar de fácil acesso do veículo."
+      },
+      {
+        "texto": "Em parada de emergência num local para veículos em pane sinalizado (4.16), não é necessário colocar o sinal de pane.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 23 al. 2, última frase."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Veículo parado na pista por razão imperiosa: sinal de pane à beira da pista, guardado em lugar de fácil acesso. No local 4.16 ele não é necessário.",
+      "por_que": "OCR art. 23 al. 1 e 2 diz onde guardar o sinal e quando colocá-lo, com a exceção do local 4.16.",
+      "como_identificar": "Parou na pista contra as regras, por razão imperiosa? Coloque o sinal. Está num local sinalizado 4.16? Não precisa.",
+      "erro_comum": "Achar que o sinal só serve em autoestradas, ou que pode ficar em qualquer lugar do veículo.",
+      "excecao": "O texto fixa distâncias (50 m ou mais, e 100 m ou mais em vias de tráfego rápido), mas não define « routes à trafic rapide »: esta pergunta não cobra distâncias.",
+      "palavras_fr": [
+        "signal de panne — sinal de pane",
+        "raison impérieuse — razão imperiosa",
+        "place d'arrêt pour véhicules en panne signalée (4.16) — local de parada para veículos em pane sinalizado (4.16)",
+        "contrairement aux prescriptions — contrariamente às prescrições"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  },
+  {
+    "id": "Q-ARR-024",
+    "regra_ids": [
+      "R-ARR-032",
+      "R-ARR-033",
+      "R-ARR-049"
+    ],
+    "categoria": "B-Arret-Stationnement",
+    "subtema": "autoestrada-e-tunel",
+    "competencia": "Aplicar as regras de parada em autoestradas e túneis",
+    "nivel": 3,
+    "enunciado": "Um condutor tem um problema mecânico numa autoestrada e depois num túnel. Quais afirmações estão corretas?",
+    "imagem": null,
+    "alternativas": [
+      {
+        "texto": "Num local sinalizado 4.16, o condutor pode estacionar por um tempo se o problema for demorado.",
+        "correta": false,
+        "justificativa": "Errada. OSR art. 47 al. 5: no 4.16 a parada voluntária e o estacionamento são proibidos. O local é para paradas impostas pelas circunstâncias."
+      },
+      {
+        "texto": "Enquanto espera socorro, os ocupantes podem entrar na pista para sinalizar o veículo.",
+        "correta": false,
+        "justificativa": "Errada. OCR art. 36 al. 3, 2ª frase: os ocupantes do veículo não entram na pista."
+      },
+      {
+        "texto": "Nas autoestradas, só se usa a faixa de emergência ou o local para veículos em pane em caso de necessidade absoluta.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 36 al. 3, 1ª frase."
+      },
+      {
+        "texto": "Em túnel, só se pára em caso de necessidade, e o motor deve ser desligado imediatamente.",
+        "correta": true,
+        "justificativa": "Correta. OCR art. 39 al. 3."
+      }
+    ],
+    "explicacao": {
+      "regra_simples": "Em autoestrada, faixa de emergência só em necessidade absoluta. Em túnel, só se para em caso de necessidade e com o motor desligado de imediato.",
+      "por_que": "OCR art. 36 al. 3 e art. 39 al. 3 limitam as paradas nesses lugares, e OSR art. 47 al. 5 define o local 4.16.",
+      "como_identificar": "Autoestrada: parada só por necessidade absoluta, em faixa de emergência ou local 4.16. Túnel: só por necessidade, com o motor desligado.",
+      "erro_comum": "Achar que se pode esperar ou estacionar tranquilamente nesses locais, ou que os ocupantes podem sair para a pista.",
+      "excecao": "O 4.16 está nas autoestradas e semiautoestradas sem faixa de emergência. Em parada de emergência ali, o sinal de pane não é necessário (OCR art. 23 al. 2).",
+      "palavras_fr": [
+        "bande d'arrêt d'urgence — faixa de emergência",
+        "nécessité absolue — necessidade absoluta",
+        "tunnel — túnel",
+        "moteur doit être immédiatement arrêté — motor deve ser desligado imediatamente"
+      ]
+    },
+    "etiqueta": "questao_original",
+    "status": "rascunho"
+  }
+]
