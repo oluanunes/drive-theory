@@ -35,8 +35,10 @@ Gargalo previsto: validação do Luan (~30-45 min por tema, ~5-6 h no total até
 | T-007 | Revisão independente das perguntas | P1 | REV/Opus | T-006 | docs/reviews/ | Sem ambiguidade nem contradição com regra | TODO |
 | H-03 | Luan aprova amostra de perguntas | P1 | Luan | T-007 | — | status → aprovado | TODO |
 | T-008 | PWA mínimo: Aprender / Praticar / Erros, offline, progresso local | P2 | DEV/Sonnet | T-001 | app/*, scripts/build_data.py | Roda no iPhone; testes passam | DONE no código (17 testes; Chromium). Falta: H-05 (ativar Pages) e teste no iPhone |
-| T-011 | Corrigir/completar regras de Priorité com o texto completo de legal/sources/ | P0 | PESQ/Sonnet | H-05 | Luan ativa o GitHub Pages: repo → Settings → Pages → Source: GitHub Actions | P2 | Luan | T-008 | — | App abre em https://oluanunes.github.io/drive-theory/ | WAITING-LUAN |
-| T-005b | T-005 retomada após limite de uso (Opus) | P0 | REV/Opus | T-011 | docs/reviews/T-005-priorite.md | Relatório completo | DOING |
+| T-011 | Corrigir/completar regras de Priorité com o texto completo de legal/sources/ | P0 | PESQ/Sonnet | T-012 | Aplicar revisão do T-005: 10 correções, 1 realocação, 10 regras novas (047-056) | P0 | PESQ/Sonnet | T-005 | legal/rules/priorite.yaml | 56 regras, 0 trechos não encontrados | DONE |
+| H-02b | Luan valida as 56 regras de Priorité (bloco 1: ver docs/VALIDACAO-PRIORITE-1.md) | P0 | Luan | T-012 | — | status → validado | TODO |
+| H-05 | Luan ativa o GitHub Pages: repo → Settings → Pages → Source: GitHub Actions | P2 | Luan | T-008 | — | App abre em https://oluanunes.github.io/drive-theory/ | DONE (Pages ativado; instalado no iPhone) |
+| T-005b | T-005 retomada após limite de uso (Opus) | P0 | REV/Opus | T-011 | docs/reviews/T-005-priorite.md | Relatório completo | DONE (35 OK, 10 corrigir, 1 mover, lacunas) |
 | T-010 | legal/rules/priorite.yaml | 0 trechos não encontrados | DONE (46 regras, 46 OK no Actions) |
 | T-010 | Workflow fetch-laws: textos completos LCR/OCR/OSR/OAC/OETV em legal/sources/ | P0 | Orquestrador | T-004 | scripts/fetch_laws.py, .github/workflows/fetch-laws.yml | 5 leis salvas com versão e URL | DONE |
 | H-01 | Luan confirma formato da prova em asa.ch ou no OCN Friburgo | P0 | Luan | — | — | SPEC §3 → confirmado | TODO (não bloqueia até o simulador) |

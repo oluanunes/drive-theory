@@ -3,7 +3,11 @@
 #   LCR (RS 741.01) État le 1er juillet 2026; OCR (RS 741.11) e OSR (RS 741.21) État le 1er octobre 2026.
 # trecho_literal_fr = alínea(s) inteira(s) copiada(s) do arquivo, sem número de alínea; trecho_completo: true em todas.
 # versao_lei_em_vigor_desde = data 'État le' do texto consolidado (NÃO é a data de entrada em vigor do artigo).
-# Fora do escopo por falta de texto: OSR art. 41 e 43 (cabeçalho presente, corpo vazio no arquivo-fonte).
+# Fora do escopo por falta de texto: OSR art. 41 e 43 estão sem corpo no arquivo baixado (só o cabeçalho "## Art. 41" / "## Art. 43").
+#   docs/CURRICULO.md (índice do PDF oficial) os registra como revogados ("41 abrogé; 43 abrogé"): A CONFIRMAR no HTML do Fedlex
+#   (nota de rodapé de revogação); a nota de rodapé não existe no arquivo extraído. Nenhuma regra foi criada para eles.
+# T-012 PESQ: correções do relatório T-005 aplicadas (R-PRIO-001, 020, 024, 026, 028, 029, 030, 036, 040, 042, 043) e lacunas
+#   preenchidas (R-PRIO-047 a 056). Convenção de trecho: sem asterisco de nota, sem número de nota colado e sem número de alínea.
 rules:
 
 - id: R-PRIO-001
@@ -20,10 +24,14 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): quem sai de propriedade, pátio, garagem, caminho rural, ciclovia, estacionamento, posto etc. cede a quem está na via (OCR 15 al. 3, R-PRIO-017); esses locais não são interseções (OCR 1 al. 8, R-PRIO-046)."
     - "Regra de outra disposição (não consta desta alínea): vias com Stop/Cédez le passage que desembocam no mesmo ponto numa via prioritária aplicam entre si a regra da direita (OCR 15 al. 2, R-PRIO-016)."
     - "Regra de outra disposição (não consta desta alínea): via principal que muda de direção: quem sai dela só cede ao tráfego em sentido contrário (OCR 15 al. 1, R-PRIO-015)."
+    - "Regra de outra disposição (não consta desta alínea): tram (LCR 38 al. 1: « La voie ferrée doit être dégagée pour laisser passer les tramways ou chemins de fer routiers; la priorité leur sera accordée. »), mesmo vindo da esquerda. Ressalva do OCR 45 al. 2: o tram cede ao desembocar de via secundária em principal e a veículos prioritários (R-PRIO-024, R-PRIO-025)."
+    - "Regra de outra disposição (não consta desta alínea): veículos do serviço de bombeiros, de saúde, da polícia e da alfândega com luz azul e avisador de dois sons alternados « ont la priorité sur tous les usagers de la route » (OCR 16 al. 1, R-PRIO-027)."
+    - "Regra de outra disposição (não consta desta alínea): ciclista em pista ciclável que acompanha a via a no máximo 2 m: aos cruzamentos, está « soumis [...] aux mêmes règles de priorité que les conducteurs circulant sur la chaussée contiguë » (OCR 40 al. 5, R-PRIO-049)."
+    - "Regra de outra disposição (não consta desta alínea): rotatória sinalizada com 2.41.1 combinado com 3.02 na entrada: quem entra cede aos veículos que surgem à sua esquerda dentro do giratório; a priorité de droite não se aplica (OCR 41b al. 1, R-PRIO-018)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "Texto oficial Fedlex. A al. 2 não tem subdivisão em letras."
+  nota: "Texto oficial Fedlex. A al. 2 não tem subdivisão em letras. As exceções marcadas como 'regra de outra disposição' vêm de outros artigos e foram conferidas no texto oficial (T-012)."
 
 - id: R-PRIO-002
   categoria: D-Priorite
@@ -272,7 +280,7 @@ rules:
 - id: R-PRIO-020
   categoria: D-Priorite
   subtema: pedestres-passagem-nao-regulada
-  regra_pt: "Antes de chegar a uma faixa de pedestres onde o trânsito não é regulado, o condutor dá prioridade a todo pedestre ou usuário de engin assimilado a veículo (patins, patinete, rollers etc.) que já está engajado na faixa ou que espera diante dela com a intenção visível de usá-la. Deve reduzir a velocidade a tempo e parar, se necessário, para poder cumprir essa obrigação."
+  regra_pt: "Antes de chegar a uma faixa de pedestres onde o trânsito não é regulado, o condutor dá prioridade a todo pedestre ou usuário de um engin assimilé à un véhicule que já está engajado na faixa ou que espera diante dela com a intenção visível de usá-la. Deve reduzir a velocidade a tempo e parar, se necessário, para poder cumprir essa obrigação. Pela definição legal (OCR 1 al. 10), engins assimilés à des véhicules são os patins de rodas (patins à roulettes), os rollers, as trottinettes ou meios de locomoção análogos, com rodas ou rodinhas, movidos somente pela força muscular do usuário; as bicicletas infantis também são consideradas engins assimilés."
   termos_fr: ["passage pour piétons", "trafic non réglé", "intention visible de l'emprunter", "engin assimilé à un véhicule"]
   fonte: { lei: OCR, rs: "741.11", artigo: "6", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
   trecho_literal_fr: "Avant d'atteindre un passage pour piétons où le trafic n'est pas réglé, le conducteur accordera la priorité à tout piéton ou utilisateur d'un engin assimilé à un véhicule qui est déjà engagé sur le passage ou qui attend devant celui-ci avec l'intention visible de l'emprunter. Il réduira à temps sa vitesse et s'arrêtera, au besoin, afin de pouvoir satisfaire à cette obligation."
@@ -281,7 +289,7 @@ rules:
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "Correção: o trecho do rascunho terminava em 'passage.' (ponto inventado); a frase continua 'ou qui attend devant celui-ci avec l'intention visible de l'emprunter'. regra_pt estava incompleta: faltava o pedestre que espera com intenção visível e os usuários de engins assimilés."
+  nota: "Correção T-012: o trecho do rascunho terminava em 'passage.' (ponto inventado); a frase continua 'ou qui attend devant celui-ci avec l'intention visible de l'emprunter'. A definição de engin assimilé vem do OCR 1 al. 10 (« mus par la seule force musculaire des utilisateurs »): o critério da lei é a força muscular, então veículo com motor não entra nessa categoria. Por isso o texto em português não traduz 'trottinettes' (termo da lei) por um nome local que possa sugerir veículo motorizado. Mesmo dever do LCR 33 al. 2 (R-PRIO-023); o OCR é mais amplo (inclui quem espera com intenção visível). Ensinar com R-PRIO-020 como regra e R-PRIO-023 como base legal."
 
 - id: R-PRIO-021
   categoria: D-Priorite
@@ -334,10 +342,12 @@ rules:
   fonte: { lei: LCR, rs: "741.01", artigo: "38", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
   trecho_literal_fr: "La voie ferrée doit être dégagée pour laisser passer les tramways ou chemins de fer routiers; la priorité leur sera accordée."
   trecho_completo: true
-  excecoes: []
+  excecoes:
+    - "Regra de outra disposição (OCR 45 al. 2): « Ils céderont la priorité aux véhicules du service du feu, du service de santé, de la police et de la douane qui sont annoncés par des avertisseurs spéciaux. En débouchant d'une route secondaire sur une route principale, ils sont tenus d'accorder la priorité. » Ou seja, o tram cede a veículos prioritários anunciados por avisadores especiais e, ao desembocar de via secundária em principal, deve dar prioridade (R-PRIO-025)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
   status: pendente
+  nota: "A prioridade do tram não é absoluta: ver exceção (OCR 45 al. 2, R-PRIO-025). Complemento, não exceção: sinais luminosos e ordens da polícia continuam valendo (LCR 27 al. 1, R-PRIO-031; OSR 68 al. 1, R-PRIO-043). Esta alínea não diz expressamente como o tram se coloca em relação aos sinais luminosos."
 
 - id: R-PRIO-025
   categoria: D-Priorite
@@ -366,7 +376,7 @@ rules:
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "A regra do ônibus saindo de parada está no OCR art. 17 al. 5, NÃO no LCR art. 36 al. 4 (ver R-PRIO-030)."
+  nota: "Base legal indicada no título do OCR 17: LCR 36 al. 4. A al. 5 é exceção a esse princípio (normalmente quem entra na circulação cede; aqui quem vem atrás deve deixar o ônibus sair). Ver R-PRIO-030."
 
 - id: R-PRIO-027
   categoria: D-Priorite
@@ -385,8 +395,8 @@ rules:
 - id: R-PRIO-028
   categoria: D-Priorite
   subtema: veiculos-prioritarios
-  regra_pt: "Os condutores devem subir na calçada, com todas as precauções necessárias, quando for indispensável para liberar imediatamente a pista."
-  termos_fr: ["véhicules prioritaires", "empiéter sur le trottoir"]
+  regra_pt: "Para liberar imediatamente a pista a um veículo prioritário (luz azul e avisador de dois sons alternados), os condutores sobem na calçada com todas as precauções necessárias, quando isso for indispensável."
+  termos_fr: ["véhicules prioritaires", "empiéter sur le trottoir", "dégager immédiatement la chaussée"]
   fonte: { lei: OCR, rs: "741.11", artigo: "16", alinea: "2", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
   trecho_literal_fr: "Les conducteurs empiéteront sur le trottoir avec toutes les précautions nécessaires lorsqu'il est indispensable de dégager immédiatement la chaussée."
   trecho_completo: true
@@ -394,6 +404,7 @@ rules:
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
+  nota: "Contexto: a al. 2 do OCR 16 serve ao dever do LCR 27 al. 2 (R-PRIO-038): quando funcionam os avisadores especiais, « la chaussée doit être immédiatement dégagée » e, se necessário, os condutores param. Não é regra geral de usar a calçada."
 
 - id: R-PRIO-029
   categoria: D-Priorite
@@ -404,11 +415,12 @@ rules:
   trecho_literal_fr: "Avant d'obliquer à gauche, le conducteur accordera la priorité aux véhicules qui viennent en sens inverse."
   trecho_completo: true
   excecoes:
-    - "Regra de outra disposição (não consta desta alínea): via principal que muda de direção: quem sai dela só cede ao tráfego em sentido contrário (OCR 15 al. 1, R-PRIO-015)."
-    - "Regra de outra disposição (não consta desta alínea): com luz verde ou seta verde acompanhada de amarelo piscante, quem vira continua a ceder ao tráfego em sentido contrário (OSR 68 al. 3-4, R-PRIO-044)."
+    - "Se você segue a via principal que dobra à esquerda, o veículo em sentido contrário que segue reto sai da via principal e deve ceder a você (OCR 15 al. 1; OSR 65 al. 1: « accorder la priorité aux véhicules circulant sur la route principale ou à ceux qui la quittent »). Quem sai da via principal só cede ao tráfego em sentido contrário na via principal (R-PRIO-015, R-PRIO-052)."
+    - "Seta verde sem amarelo piscante (OSR 68 al. 4: « Les flèches vertes permettent de circuler dans le sens indiqué »): o texto só exige ceder aos veículos em sentido contrário quando um amarelo pisca ao lado da seta. Que não é preciso ceder sem o amarelo é inferência do texto, não frase expressa (para pedestres é expresso: OCR 6 al. 2, segunda frase, R-PRIO-021)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
   status: pendente
+  nota: "Confirmação (não é exceção): com luz verde, quem vira continua cedendo aos veículos em sentido contrário (OSR 68 al. 3) e, com seta verde acompanhada de amarelo piscante, também (OSR 68 al. 4, segunda frase) (R-PRIO-044). Dois veículos que viram à esquerda em sentidos opostos: OCR 13 al. 4, fora do escopo desta regra."
 
 - id: R-PRIO-030
   categoria: D-Priorite
@@ -418,11 +430,13 @@ rules:
   fonte: { lei: LCR, rs: "741.01", artigo: "36", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
   trecho_literal_fr: "Le conducteur qui veut engager son véhicule dans la circulation, faire demi-tour ou marche arrière ne doit pas entraver les autres usagers de la route; ces derniers bénéficient de la priorité."
   trecho_completo: true
-  excecoes: []
+  excecoes:
+    - "Ônibus em tráfego de linha (bus en trafic de ligne), dentro de localidade, em parada sinalizada, com a seta acionada para partir: quem vem atrás deve, se necessário, reduzir a velocidade ou parar para deixá-lo sair; a regra não vale se a parada fica na borda esquerda da pista; o ônibus deve esperar se quem vem atrás não conseguiria parar a tempo (OCR 17 al. 5, R-PRIO-026)."
+    - "Referências cruzadas: quem sai de propriedade, pátio, garagem etc. cede (OCR 15 al. 3, R-PRIO-017); cuidados ao partir, dar marcha à ré e fazer retorno (OCR 17 al. 1-4)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "LCR 36 al. 4 NÃO trata de ônibus saindo de parada (ver R-PRIO-026)."
+  nota: "Princípio geral: quem entra na circulação cede. A saída do ônibus de linha da parada (OCR 17 al. 5, que o OCR liga ao LCR 36 al. 4 no título do artigo) é exceção que inverte a resposta (R-PRIO-026)."
 
 - id: R-PRIO-031
   categoria: D-Priorite
@@ -491,10 +505,11 @@ rules:
   status: pendente
 
 - id: R-PRIO-036
-  categoria: D-Priorite
+  categoria: G-Danger
+  categoria_cruzada: E-Depassement
   subtema: onibus-escolar
-  regra_pt: "Quando ônibus escolares sinalizados como tais param com as luzes intermitentes ligadas (OCR 23 al. 3 let. a), os condutores só os ultrapassam em velocidade reduzida e com prudência particular; se necessário, devem parar."
-  termos_fr: ["bus scolaires", "feux clignotants", "allure réduite", "prudence particulière"]
+  regra_pt: "Quando ônibus escolares sinalizados como tais param com o pisca-alerta ligado (feux clignotants avertisseurs, OCR 23 al. 3 let. a: « pour laisser monter et descendre les écoliers »), os condutores só os ultrapassam em velocidade reduzida e com prudência particular; se necessário, devem parar."
+  termos_fr: ["bus scolaires", "feux clignotants avertisseurs", "allure réduite", "prudence particulière"]
   fonte: { lei: OCR, rs: "741.11", artigo: "6", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
   trecho_literal_fr: "Lorsque des bus scolaires signalés comme tels s'arrêtent et que leurs feux clignotants sont enclenchés (art. 23, al. 3, let. a), les conducteurs ne les dépasseront qu'à une allure réduite et en faisant preuve d'une prudence particulière; au besoin, ils s'arrêteront."
   trecho_completo: true
@@ -502,7 +517,7 @@ rules:
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "Não é regra de prioridade em sentido estrito; incluída por estar no mesmo artigo e por ser tema de pedestres/crianças. Remover se Luan preferir só prioridade."
+  nota: "Realocada de D para G (cuidado com crianças; currículo 1.4.1), com tag cruzada E (ultrapassagem): a regra trata de como ultrapassar um ônibus escolar parado e não dá prioridade a ninguém (revisão T-005)."
 
 - id: R-PRIO-037
   categoria: D-Priorite
@@ -558,7 +573,7 @@ rules:
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "O arquivo-fonte traz um asterisco de nota colado em 'reculer.'; mantido no trecho para casar com o texto do arquivo."
+  nota: "Vias de forte declive e de montanha (OCR 38 al. 1, primeira frase): entre veículos da mesma categoria que não conseguem se cruzar, quem desce deve recuar, salvo se o outro veículo está perto de um local de desvio. Categorias diferentes: vale o OCR 9 al. 2, primeira frase (esta regra)."
 
 - id: R-PRIO-041
   categoria: D-Priorite
@@ -583,11 +598,12 @@ rules:
   fonte: { lei: OSR, rs: "741.21", artigo: "67", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "Les usagers de la route sont tenus de se conformer aux signes et instructions donnés: a. par les agents en uniforme de la police et de la police auxiliaire; b. par les militaires chargés de régler la circulation et par le personnel en uniforme des services du feu et de la protection civile; c. par les patrouilleurs scolaires, le personnel des entreprises et les cadets chargés de régler la circulation lorsqu'ils portent les insignes de leur fonction; d. par le personnel des chantiers de construction des routes; e. par les douaniers près des bureaux de douane et, pour des contrôles douaniers, dans la zone proche de la frontière, ainsi que par le personnel de vente et de contrôle dûment identifié engagé auprès des bureaux de douane dans le cadre de l'exécution de la loi du 19 mars 2010 sur la vignette autoroutière; f. par le personnel d'exploitation près des voies ferrées; g. par les conducteurs des véhicules publics en trafic de ligne sur les routes postales de montagne (art. 38, al. 3, OCR); h. par les membres de services de circulation privés munis de signes distinctifs; i. par le personnel des véhicules convoyeurs signalés de véhicules spéciaux et de transports spéciaux."
   trecho_completo: true
-  excecoes: []
+  excecoes:
+    - "Complemento (OSR 67 al. 2): « Les signes et instructions donnés par d'autres personnes doivent être observés lorsqu'ils sont destinés à prévenir un danger ou à régler la circulation dans une situation difficile. » Vale para qualquer pessoa, mesmo fora da lista a-i."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
-  nota: "Alínea inclui lista a-i. Os sinais e instruções de outras pessoas devem ser observados quando destinados a prevenir um perigo ou regular a circulação numa situação difícil (OSR 67 al. 2, não incluída no trecho)."
+  nota: "A alínea inclui lista a-i. Os sinais e instruções de outras pessoas (OSR 67 al. 2, fora do trecho) estão na exceção acima."
 
 - id: R-PRIO-043
   categoria: D-Priorite
@@ -597,7 +613,10 @@ rules:
   fonte: { lei: OSR, rs: "741.21", artigo: "68", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
   trecho_literal_fr: "Les signaux lumineux priment les règles générales de priorité, les signaux de priorité et les marques routières."
   trecho_completo: true
-  excecoes: []
+  excecoes:
+    - "Acima dos sinais luminosos: ordens da polícia (LCR 27 al. 1: « les ordres de la police ont le pas sur les règles générales, les signaux et les marques »; os sinais luminosos entram em « signaux » por leitura do texto, não por frase expressa) (R-PRIO-031)."
+    - "Veículos com luz azul e avisador de dois sons alternados têm prioridade « même aux endroits où la circulation est réglée par des signaux lumineux » (OCR 16 al. 1, R-PRIO-027)."
+    - "Semáforo desligado ou com amarelo piscante: valem de novo os sinais Stop e Cédez le passage e a regra geral. OSR 36 al. 3: os sinais Stop e Cédez le passage só são observados « si le trafic n'est pas réglé par des signaux lumineux »; OSR 70 al. 1 let. b: o amarelo piscante é admitido quando as instalações estão desligadas (R-PRIO-007)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
@@ -622,7 +641,7 @@ rules:
   regra_pt: "O trânsito é dito 'regulado' quando a parada e a passagem dos veículos são ordenadas pela polícia ou por uma sinalização luminosa."
   termos_fr: ["trafic réglé", "police", "signalisation lumineuse"]
   fonte: { lei: OCR, rs: "741.11", artigo: "1", alinea: "9", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
-  trecho_literal_fr: "Le trafic est dit\"réglé\"* lorsque l'arrêt et le passage des véhicules sont ordonnés par la police ou une signalisation lumineuse."
+  trecho_literal_fr: "Le trafic est dit\"réglé\" lorsque l'arrêt et le passage des véhicules sont ordonnés par la police ou une signalisation lumineuse."
   trecho_completo: true
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
@@ -642,3 +661,147 @@ rules:
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
   status: pendente
+
+- id: R-PRIO-047
+  categoria: D-Priorite
+  subtema: ciclistas-pistas-bandas
+  regra_pt: "Os ciclistas devem dar prioridade quando saem de uma pista ou banda ciclável para entrar na pista contígua, ou quando deixam a banda ciclável para ultrapassar."
+  termos_fr: ["pistes et bandes cyclables", "céder la priorité", "débouchent d'une piste ou d'une bande cyclable"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "40", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les cyclistes doivent céder la priorité lorsqu'ils débouchent d'une piste ou d'une bande cyclable pour s'engager sur la chaussée contiguë ou quittent la bande cyclable pour dépasser."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Pista ciclável: separada da pista por construção; banda ciclável: faixa para ciclistas, normalmente delimitada por linha amarela (OCR 1 al. 6-7). Complementos: R-PRIO-048 e R-PRIO-049."
+
+- id: R-PRIO-048
+  categoria: D-Priorite
+  subtema: ciclistas-pistas-bandas
+  regra_pt: "Quem precisa atravessar uma pista ou banda ciclável fora de uma interseção, por exemplo para entrar numa propriedade, deve dar prioridade aos ciclistas."
+  termos_fr: ["traverser une piste ou une bande cyclable", "accéder à une propriété", "céder la priorité aux cyclistes"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "40", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "S'ils doivent traverser une piste ou une bande cyclable ailleurs qu'aux intersections, par exemple pour accéder à une propriété, les conducteurs d'autres véhicules doivent céder la priorité aux cyclistes."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Fora de interseção: o local onde uma pista ciclável desemboca na pista não é interseção (OCR 1 al. 8, R-PRIO-046). Quem sai de propriedade para a via cede aos usuários da via (OCR 15 al. 3, R-PRIO-017)."
+
+- id: R-PRIO-049
+  categoria: D-Priorite
+  subtema: ciclistas-pistas-bandas
+  regra_pt: "Ciclistas em pista ciclável que acompanha uma pista para automóveis a no máximo 2 m seguem, nas interseções, as mesmas regras de prioridade dos condutores da pista contígua. Quem dirige veículo automotor na pista contígua e vai virar (o caso típico é virar à direita cruzando a pista ciclável) deve dar prioridade aos ciclistas."
+  termos_fr: ["piste cyclable", "2 m au plus", "mêmes règles de priorité", "en obliquant", "accorder la priorité aux cyclistes"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "40", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les cyclistes circulant sur une piste cyclable qui longe une chaussée destinée au trafic automobile à une distance de 2 m au plus sont soumis, aux intersections aux mêmes règles de priorité que les conducteurs circulant sur la chaussée contiguë. En obliquant, les conducteurs de véhicules automobiles circulant sur la chaussée contiguë doivent accorder la priorité aux cyclistes."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "A segunda frase do trecho fala de « véhicules automobiles »; o texto não menciona a direção da curva. O caso de virar à direita é a aplicação típica em que a pista ciclável fica à direita da pista (leitura do texto, não frase expressa)."
+
+- id: R-PRIO-050
+  categoria: D-Priorite
+  subtema: entrada-em-autoestrada
+  regra_pt: "Os usuários de autoestradas e semiautoestradas têm prioridade sobre os veículos que vêm de uma via de acesso. Em caso de lentidão no trânsito, aplica-se a regra do zíper (OCR 8 al. 5)."
+  termos_fr: ["autoroutes et semi-autoroutes", "voie d'accès", "ralentissements", "art. 8, al. 5"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "36", alinea: "4", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les usagers des autoroutes et semi-autoroutes ont la priorité sur les véhicules venant d'une voie d'accès. L'art. 8, al. 5, s'applique en cas de ralentissements."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Na entrada de autoestrada o sinal Cédez le passage é colocado conforme o OSR 88 al. 1 (OSR 36 al. 5) e a linha de espera não é obrigatória nas vias de acesso (OSR 75 al. 4). Alternância: R-PRIO-051."
+
+- id: R-PRIO-051
+  categoria: D-Priorite
+  subtema: fermeture-eclair
+  regra_pt: "Se, numa pista de várias faixas no mesmo sentido, uma faixa não pode ser usada até o fim ou termina, deve-se, logo antes do estreitamento, deixar passar alternadamente na faixa vizinha os veículos que não podem continuar (princípio do zíper, fermeture éclair)."
+  termos_fr: ["fermeture éclair", "rétrécissement de voies", "passer alternativement"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "8", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Si, sur une route à plusieurs voies dans un sens de circulation, l'une des voies ne peut être empruntée sans interruption ou si une voie se termine, il convient, juste avant le rétrécissement de voies, de laisser passer alternativement sur la voie adjacente les véhicules qui ne peuvent poursuivre leur route."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Contagem de alíneas do OCR 8: a lista a-b pertence à al. 4; esta é a al. 5. A alínea não diz quem tem a prioridade em termos absolutos: ordena a alternância."
+
+- id: R-PRIO-052
+  categoria: D-Priorite
+  subtema: via-principal
+  regra_pt: "A placa complementar 'Direction de la route principale' (5.09), junto aos sinais Stop, Cédez le passage ou Route principale, mostra o traçado de uma via principal que muda de direção. Com Stop ou Cédez le passage, avisa quem circula numa via que perdeu a prioridade que deve dar prioridade aos veículos que circulam na via principal ou que saem dela. O traço largo representa a via principal."
+  termos_fr: ["direction de la route principale", "5.09", "route principale changeant de direction", "ceux qui la quittent"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "65", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Ajoutée aux signaux\"Stop\"(3.01),\"Cédez le passage\"(3.02) et\"Route principale\"(3.03), la plaque complémentaire\"Direction de la route principale\"(5.09) indique le tracé d'une route principale changeant de direction. En corrélation avec les signaux\"Stop\"et\"Cédez le passage\", elle annonce au conducteur circulant sur une route dont la priorité est supprimée, qu'il doit accorder la priorité aux véhicules circulant sur la route principale ou à ceux qui la quittent. Le trait large représente la route principale."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Par obrigatório de R-PRIO-015 (OCR 15 al. 1). O OSR 37 al. 3 remete a esta alínea para a sinalização de vias principais que mudam de direção."
+
+- id: R-PRIO-053
+  categoria: D-Priorite
+  subtema: pedestres-fora-da-faixa
+  regra_pt: "Fora das faixas de pedestres, os pedestres dão prioridade aos veículos."
+  termos_fr: ["hors des passages pour piétons", "accorderont la priorité aux véhicules"]
+  fonte: { lei: OCR, rs: "741.11", artigo: "47", alinea: "5", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Hors des passages pour piétons, les piétons accorderont la priorité aux véhicules."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Contagem de alíneas do OCR 47: a al. 4 está revogada (« … »). Lado do condutor: sem faixa, o condutor numa fila para se necessário quando pedestres esperam para atravessar (OCR 6 al. 3, R-PRIO-034)."
+
+- id: R-PRIO-054
+  categoria: D-Priorite
+  subtema: zona-de-encontro
+  regra_pt: "Na zona de encontro (sinal 2.59.5), os pedestres e usuários de engins assimilés à des véhicules podem usar toda a área de circulação e têm prioridade, mas não devem atrapalhar inutilmente os veículos."
+  termos_fr: ["zone de rencontre", "2.59.5", "bénéficient de la priorité", "gêner inutilement les véhicules"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "22b", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Le signal\"Zone de rencontre\"(2.59.5) désigne des routes situées dans des quartiers résidentiels ou commerciaux, sur lesquelles les piétons et les utilisateurs d'engins assimilés à des véhicules peuvent utiliser toute l'aire de circulation. Ils bénéficient de la priorité mais ne doivent toutefois pas gêner inutilement les véhicules."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "A velocidade máxima na zona de encontro é de 20 km/h (OSR 22b al. 2)."
+
+- id: R-PRIO-055
+  categoria: D-Priorite
+  subtema: zona-de-pedestres
+  regra_pt: "As zonas de pedestres (sinal 2.59.3) são reservadas a pedestres e usuários de engins assimilés à des véhicules. Quando uma placa complementar autoriza exceptionalmente tráfego restrito de veículos, estes circulam no máximo a passo, e os pedestres e usuários de engins assimilés têm prioridade."
+  termos_fr: ["zone piétonne", "2.59.3", "allure du pas", "bénéficient de la priorité"]
+  fonte: { lei: OSR, rs: "741.21", artigo: "22c", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
+  trecho_literal_fr: "Les\"Zones piétonnes\"(2.59.3) sont réservées aux piétons et aux utilisateurs d'engins assimilés à des véhicules. Lorsqu'une plaque complémentaire autorise exceptionnellement un trafic restreint de véhicules, ceux-ci peuvent circuler tout au plus à l'allure du pas; les piétons et les utilisateurs d'engins assimilés à des véhicules bénéficient de la priorité."
+  trecho_completo: true
+  excecoes: []
+  versao_lei_em_vigor_desde: "2026-10-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Só circulam veículos se uma placa complementar autorizar; sem placa, a zona é reservada."
+
+- id: R-PRIO-056
+  categoria: D-Priorite
+  tipo: sintese
+  subtema: hierarquia-das-regras
+  regra_pt: "Síntese montada só com citações da lei (não é um artigo único). Ordem entre as fontes de regra: (1) as ordens da polícia têm preferência sobre as regras gerais, os sinais e as marcas (LCR 27 al. 1). (2) Os sinais luminosos prevalecem sobre as regras gerais de prioridade, os sinais de prioridade e as marcas (OSR 68 al. 1). (3) Os sinais e as marcas prevalecem sobre as regras gerais (LCR 27 al. 1). (4) A regra geral é a priorité de droite (LCR 36 al. 2). O tram tem prioridade sobre o tráfego comum (LCR 38 al. 1), mas cede aos veículos prioritários e, ao desembocar de via secundária em principal, deve dar prioridade (OCR 45 al. 2). Veículos do serviço de bombeiros, de saúde, da polícia e da alfândega com luz azul e avisador de dois sons alternados têm prioridade sobre todos os usuários, mesmo onde há sinais luminosos (OCR 16 al. 1); quando funcionam os avisadores especiais, a pista deve ser liberada imediatamente (LCR 27 al. 2)."
+  termos_fr: ["les ordres de la police ont le pas", "les signaux lumineux priment", "les signaux et les marques priment les règles générales", "véhicules prioritaires"]
+  fonte: { lei: LCR, rs: "741.01", artigo: "27", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html" }
+  trecho_literal_fr: "Chacun se conformera aux signaux et aux marques ainsi qu'aux ordres de la police. Les signaux et les marques priment les règles générales; les ordres de la police ont le pas sur les règles générales, les signaux et les marques."
+  trecho_completo: true
+  excecoes:
+    - "Polícia x veículo prioritário: o texto legal consultado não diz quem vale mais entre as ordens da polícia e um veículo prioritário. Não há ordem legal expressa entre os dois; a síntese não afirma uma."
+    - "Polícia x sinais luminosos: o LCR 27 al. 1 coloca a polícia acima dos « signaux »; que isso inclui os sinais luminosos é leitura do texto, não frase expressa."
+    - "Semáforo desligado ou com amarelo piscante: valem Stop, Cédez le passage e a regra geral (OSR 36 al. 3; OSR 70 al. 1 let. b; R-PRIO-043, R-PRIO-007)."
+  versao_lei_em_vigor_desde: "2026-07-01"
+  verificado_em: "2026-11-26"
+  status: pendente
+  nota: "Regra-SÍNTESE. Fontes citadas: LCR 27 al. 1-2 (R-PRIO-031, R-PRIO-038), LCR 36 al. 2 (R-PRIO-001), LCR 38 al. 1 (R-PRIO-024), OCR 16 al. 1 (R-PRIO-027), OCR 45 al. 2 (R-PRIO-025), OSR 66-67 (R-PRIO-041, R-PRIO-042), OSR 68 al. 1 (R-PRIO-043). O texto legal não diz quem vale mais entre a polícia e o veículo prioritário; não foi encontrada ordem expressa e nenhuma é afirmada aqui. O texto também não diz como o tram se coloca em relação aos sinais luminosos. O trecho literal é a al. 1 do LCR 27; os demais dispositivos estão nas regras ligadas. Uso em perguntas: só com as regras ligadas validadas."
