@@ -23,8 +23,8 @@ Gargalo previsto: validação do Luan (H-02/H-03 de cada tema), ~30-45 min por t
 |---|---|---|---|---|---|---|---|
 | T-001 | Estrutura, SPEC, BOARD, DECISIONS, SOURCES | P0 | Orquestrador | — | docs/* | Docs existem e Luan aprova | DONE |
 | T-002 | Ler OAC art. 13 + anexo 11 ch. II.1 no Fedlex e mapear competências → categorias A-J | P0 | PESQ/Sonnet | T-001 | docs/CURRICULO.md | Cada competência com link Fedlex | DONE parcial: 15/15 itens; lacunas em H, 1.5.1, LCR, OETV |
-| T-003 | Mapear regras de Priorité (OCR, OSR) com trecho literal | P0 | PESQ/Sonnet | T-002 | legal/rules/priorite.yaml | Schema SPEC §5 completo | DOING |
-| T-004 | Script + workflow GitHub Actions que baixa o Fedlex e confere se cada `trecho_literal_fr` existe no texto | P0 | DEV/Haiku | T-001, H-04 | scripts/check_quotes.*, .github/workflows/* | Falha se algum trecho não bater | DOING |
+| T-003 | Mapear regras de Priorité (OCR, OSR) com trecho literal | P0 | PESQ/Sonnet | T-002 | legal/rules/priorite.yaml | Schema SPEC §5 completo | REVIEW (32 regras; corrigir R-PRIO-013/016/019/020/021) |
+| T-004 | Script + workflow GitHub Actions que baixa o Fedlex e confere se cada `trecho_literal_fr` existe no texto | P0 | DEV/Haiku | T-001, H-04 | scripts/check_quotes.*, .github/workflows/* | Falha se algum trecho não bater | DONE (Actions: 27 OK, 3 FALHA, 2 sem trecho) |
 | H-04 | Luan cria o repo vazio oluanunes/drive-theory (a integração do GitHub não tem permissão para criar) | P0 | Luan | — | — | Repo existe e Claude consegue fazer push | DONE |
 | T-005 | Revisão independente das regras de Priorité (exceções, omissões) | P0 | REV/Opus | T-003, T-004 | só comentários em docs/reviews/ | Relatório com veredito por regra | TODO |
 | H-02 | Luan valida as regras de Priorité | P0 | Luan | T-005 | — | status → validado | TODO |
