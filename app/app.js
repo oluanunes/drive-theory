@@ -43,8 +43,12 @@
         if (!window.indexedDB) throw new Error('IndexedDB indisponível');
         this.db = await new Promise((res, rej) => {
           const t = setTimeout(() => rej(new Error('tempo esgotado ao abrir o banco')), 4000);
-          const r = indexedDB.open(name, 1);
-          r.onupgradeneeded = () => { r.result.createObjectStore('progresso', { keyPath: 'id' }); };
+          const r = indexedDB.open(name, 2);
+          r.onupgradeneeded = () => {
+            const d = r.result;
+            if (!d.objectStoreNames.contains('progresso')) d.createObjectStore('progresso', { keyPath: 'id' });
+            if (!d.objectStoreNames.contains('marcacoes')) d.createObjectStore('marcacoes', { keyPath: 'chave' });
+          };
           r.onsuccess = () => { clearTimeout(t); res(r.result); };
           r.onerror = () => { clearTimeout(t); rej(r.error || new Error('erro ao abrir o banco')); };
           r.onblocked = () => { clearTimeout(t); rej(new Error('banco bloqueado')); };
@@ -55,6 +59,14 @@
           rq.onerror = () => rej(rq.error);
         });
         all.forEach((r) => this.map.set(r.id, r));
+        try {
+          const marks = await new Promise((res, rej) => {
+            const rq = this.db.transaction('marcacoes', 'readonly').objectStore('marcacoes').getAll();
+            rq.onsuccess = () => res(rq.result || []);
+            rq.onerror = () => rej(rq.error);
+          });
+          marks.forEach((m) => Marks.map.set(m.chave, m));
+        } catch (e2) { /* marcações ficam só em memória */ }
         this.mode = 'indexeddb';
       } catch (e) {
         this.db = null; this.mode = 'memoria'; this.problema = String((e && e.message) || e);
@@ -91,6 +103,66 @@
       }
     },
   };
+
+  // ------------------------------------------- marcações "incorreta" (IndexedDB)
+  const Marks = {
+    map: new Map(),
+    key: (tipo, id) => `${tipo}:${id}`,
+    get(tipo, id) { return this.map.get(this.key(tipo, id)) || null; },
+    list() { return Array.from(this.map.values()).sort((a, b) => (a.data || '').localeCompare(b.data || '')); },
+    async _tx(fn) {
+      if (!Store.db) return;
+      try {
+        await new Promise((res, rej) => {
+          const tx = Store.db.transaction('marcacoes', 'readwrite');
+          fn(tx.objectStore('marcacoes'));
+          tx.oncomplete = res;
+          tx.onerror = () => rej(tx.error);
+          tx.onabort = () => rej(tx.error || new Error('transação abortada'));
+        });
+      } catch (e) { /* fica só em memória */ }
+    },
+    async set(tipo, id, comentario) {
+      const rec = { chave: this.key(tipo, id), tipo, id, comentario: String(comentario || '').trim().slice(0, 500), data: new Date().toISOString() };
+      this.map.set(rec.chave, rec);
+      await this._tx((st) => st.put(rec));
+      return rec;
+    },
+    async remove(tipo, id) {
+      this.map.delete(this.key(tipo, id));
+      await this._tx((st) => st.delete(this.key(tipo, id)));
+    },
+    async clear() { this.map.clear(); await this._tx((st) => st.clear()); },
+    text() {
+      return this.list().map((m) => (m.comentario ? `${m.id} — ${m.comentario.replace(/\s*\n\s*/g, ' ')}` : m.id)).join('\n');
+    },
+  };
+
+  // Botão "Marcar como incorreta" + comentário opcional; tipo: 'pergunta' | 'regra'
+  let flagSeq = 0;
+  function flagBox(tipo, id, onChange) {
+    const box = h('div', { class: 'flag' });
+    const uid = `flag-${++flagSeq}`;
+    const draw = () => {
+      const m = Marks.get(tipo, id);
+      if (m) {
+        box.replaceChildren(
+          h('p', { class: 'flag-done', role: 'status' }, h('span', { 'aria-hidden': 'true' }, '⚑ '), 'Marcada como incorreta', m.comentario ? h('span', { class: 'flag-note' }, `“${m.comentario}”`) : null),
+          h('button', { class: 'btn flag-btn', type: 'button', 'aria-pressed': 'true', onclick: async () => { await Marks.remove(tipo, id); draw(); if (onChange) onChange(); } }, 'Marcada ✓ — toque para desfazer'));
+      } else {
+        const input = h('input', { class: 'flag-input', type: 'text', id: uid, maxlength: '300', enterkeyhint: 'done', autocomplete: 'off', autocapitalize: 'sentences', placeholder: 'O que está errado? (opcional)' });
+        const save = async () => { await Marks.set(tipo, id, input.value); draw(); if (onChange) onChange(); };
+        input.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') { ev.preventDefault(); save(); } });
+        box.replaceChildren(
+          h('label', { class: 'flag-label', for: uid }, 'Comentário curto'),
+          input,
+          h('button', { class: 'btn flag-btn', type: 'button', 'aria-pressed': 'false', onclick: save }, 'Marcar como incorreta'));
+      }
+    };
+    draw();
+    return box;
+  }
+  const flagTag = (tipo, id) => Marks.get(tipo, id) ? h('span', { class: 'flag-tag', title: 'Marcada como incorreta' }, '⚑ marcada') : null;
 
   // ------------------------------------------------------------------ dados
   let C = null; // content.json
@@ -232,13 +304,16 @@
     const url = safeUrl(r.fonte && r.fonte.url);
     const f = r.fonte || {};
     const ref = [f.lei, f.rs ? `RS ${f.rs}` : null, f.artigo ? `art. ${f.artigo}` : null, f.alinea ? `al. ${f.alinea}` : null].filter(Boolean).join(' · ');
+    const tagSlot = h('span', {}, flagTag('regra', r.id));
     return h('article', { class: 'card rule' },
-      h('p', { class: 'text' }, r.regra_pt, r.status !== 'validado' ? h('span', { class: 'badge' }, r.status) : null),
+      h('p', { class: 'text' }, r.regra_pt, tagSlot, r.status !== 'validado' ? h('span', { class: 'badge' }, r.status) : null),
       r.termos_fr && r.termos_fr.length ? h('div', {}, h('h3', {}, 'Em francês'), r.termos_fr.map((t) => h('span', { class: 'pill', lang: 'fr' }, `(${t})`))) : null,
       r.excecoes && r.excecoes.length ? h('div', {}, h('h3', {}, 'Exceções'), h('ul', {}, r.excecoes.map((e) => h('li', {}, e)))) : null,
       h('h3', {}, 'Fonte oficial'),
       url ? h('a', { href: url, target: '_blank', rel: 'noopener noreferrer' }, ref || 'Abrir fonte') : h('span', { class: 'muted' }, ref || 'Sem link'),
-      r.verificado_em ? h('div', { class: 'muted small' }, `Verificado em ${fmtDate(r.verificado_em)}${r.versao_lei_em_vigor_desde ? ` · texto da lei em vigor desde ${fmtDate(r.versao_lei_em_vigor_desde)}` : ''}`) : null);
+      r.verificado_em ? h('div', { class: 'muted small' }, `Verificado em ${fmtDate(r.verificado_em)}${r.versao_lei_em_vigor_desde ? ` · texto da lei em vigor desde ${fmtDate(r.versao_lei_em_vigor_desde)}` : ''}`) : null,
+      h('div', { class: 'muted small rule-id' }, r.id),
+      flagBox('regra', r.id, () => tagSlot.replaceChildren(flagTag('regra', r.id) || '')));
   }
 
   function viewLearnCat(letter) {
@@ -326,13 +401,14 @@
     const q = s.queue[s.i];
     if (!s.cur || s.cur.q !== q) s.cur = { q, order: shuffle(q.alternativas.map((_, i) => i)) };
     const rec = Store.get(q.id);
+    const qTag = h('span', {}, flagTag('pergunta', q.id));
     const info = h('div', { class: 'progress-line' },
       h('span', {}, `Pergunta ${s.i + 1} de ${s.queue.length}`),
       h('span', {}, `${catInfo(q.cat).nome}`));
     const head = [info, bar(((s.i) / s.queue.length) * 100, 'Progresso da sessão'),
       h('div', { style: 'height:14px' }),
       s.mode === 'erros' && rec ? h('div', { class: 'muted small' }, `Acertos seguidos: ${rec.sequencia} de 2`) : null,
-      h('h2', { class: 'q-text', id: 'q-text' }, q.enunciado),
+      h('h2', { class: 'q-text', id: 'q-text' }, q.enunciado, qTag),
       q.imagem ? h('img', { class: 'q-img', src: q.imagem, alt: 'Imagem da pergunta' }) : null];
 
     if (!s.feedback) {
@@ -389,6 +465,7 @@
     const last = s.i + 1 >= s.queue.length;
     mount(head, verdict, h('div', { class: 'alts' }, alts),
       h('section', { class: 'card' }, h('h2', {}, 'Explicação'), dl, refs.length ? h('div', { style: 'margin-top:12px' }, refs) : null),
+      h('section', { class: 'card' }, h('div', { class: 'muted small' }, q.id), flagBox('pergunta', q.id)),
       h('button', { class: 'btn primary', type: 'button', onclick: () => { s.i++; s.feedback = null; s.cur = null; if (s.i >= s.queue.length) s.done = true; viewSession(s.mode, s.cat); } }, last ? 'Ver resultado' : 'Próxima pergunta'),
       h('div', { class: 'btn-row' }, h('button', { class: 'btn', type: 'button', onclick: () => endSession(s) }, 'Encerrar sessão')));
   }
@@ -437,6 +514,43 @@
     mount(nodes);
   }
 
+  // ----------------------------------------------------------------- Revisão
+  function viewReview() {
+    setChrome('Revisão', '#/', 'revisao');
+    const list = Marks.list();
+    const nodes = [];
+    if (!list.length) {
+      mount(emptyState('Nenhuma marcação', 'Em Aprender e Praticar, use "Marcar como incorreta" no que parecer errado. As marcações aparecem aqui para você colar no chat.',
+        h('a', { class: 'btn', href: '#/aprender' }, 'Ir para Aprender')));
+      return;
+    }
+    nodes.push(h('p', { class: 'muted small' }, `${plural(list.length, 'marcação', 'marcações')}. Copie a lista e cole no chat para a correção.`));
+    const status = h('p', { class: 'small', role: 'status', 'aria-live': 'polite' });
+    const ta = h('textarea', { class: 'flag-copy', readonly: true, rows: String(Math.min(10, list.length + 1)), 'aria-label': 'Lista de marcações' });
+    ta.value = Marks.text();
+    nodes.push(h('div', { class: 'btn-row' },
+      h('button', { class: 'btn primary', type: 'button', onclick: async () => {
+        const txt = Marks.text();
+        let ok = false;
+        try { if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(txt); ok = true; } } catch (e) { /* tenta o plano B */ }
+        if (!ok) {
+          try { ta.removeAttribute('readonly'); ta.focus(); ta.select(); ta.setSelectionRange(0, txt.length); ok = document.execCommand('copy'); ta.setAttribute('readonly', ''); } catch (e) { ok = false; }
+        }
+        status.textContent = ok ? 'Lista copiada ✓' : 'Não consegui copiar. Selecione o texto abaixo e copie manualmente.';
+        if (!ok) { ta.focus(); ta.select(); }
+      } }, 'Copiar lista'),
+      status, ta));
+    nodes.push(h('div', { class: 'section-title' }, 'Marcadas'));
+    nodes.push(h('ul', { class: 'list' }, list.map((m) => h('li', { class: 'row flag-row' },
+      h('span', { class: 'grow' }, h('span', { class: 'name' }, m.id), h('span', { class: 'sub' }, `${m.tipo === 'regra' ? 'Regra' : 'Pergunta'}${m.comentario ? ` · ${m.comentario}` : ' · sem comentário'}`)),
+      h('button', { class: 'btn flag-rm', type: 'button', 'aria-label': `Desfazer marcação de ${m.id}`, onclick: async () => { await Marks.remove(m.tipo, m.id); viewReview(); } }, 'Desfazer')))));
+    nodes.push(h('button', { class: 'btn danger', type: 'button', style: 'margin-top:16px', onclick: async () => {
+      if (!window.confirm('Limpar todas as marcações?')) return;
+      await Marks.clear(); viewReview();
+    } }, 'Limpar lista'));
+    mount(nodes);
+  }
+
   // ----------------------------------------------------------------- rotas
   function route() {
     if (!C) return;
@@ -444,6 +558,7 @@
     const [a, b] = parts;
     if (!(a === 'praticar' || a === 'erros') || !b) session = null;
     if (!a) return viewHome();
+    if (a === 'revisao') return viewReview();
     if (a === 'aprender') return b ? viewLearnCat(b.toUpperCase()) : viewLearnIndex();
     if (a === 'praticar' || a === 'erros') return b ? viewSession(a, b === 'todas' ? 'todas' : b.toUpperCase()) : viewModeIndex(a);
     return viewHome();

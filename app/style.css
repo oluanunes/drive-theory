@@ -59,7 +59,7 @@ main {
 }
 
 .tabbar {
-  position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: grid; grid-template-columns: repeat(4, 1fr);
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: grid; grid-template-columns: repeat(5, 1fr);
   background: rgba(20, 26, 38, .96); border-top: 1px solid var(--line);
   padding: 0 var(--safe-r) var(--safe-b) var(--safe-l);
 }
@@ -178,3 +178,20 @@ a.row:active, button.row:active { background: var(--surface-2); }
 @media (min-width: 720px) {
   .mode-grid { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* marcação "incorreta" */
+.flag { margin-top: 14px; display: grid; gap: 8px; }
+.flag-label { font-size: 13px; color: var(--muted); }
+.flag-input, .flag-copy {
+  width: 100%; min-height: 48px; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--line);
+  background: var(--bg); color: var(--text); font: inherit; font-size: 16px; /* 16px evita zoom no iOS */
+}
+.flag-copy { resize: vertical; font-size: 14px; }
+.flag-btn { min-height: 48px; font-weight: 600; }
+.flag-btn[aria-pressed="true"] { border-color: var(--warn); color: var(--warn); }
+.flag-done { margin: 0; color: var(--warn); font-weight: 700; }
+.flag-note { display: block; color: var(--text); font-weight: 400; font-size: 15px; }
+.flag-tag { display: inline-block; margin-left: 8px; padding: 1px 8px; border-radius: 8px; font-size: 12px; font-weight: 700; color: var(--warn); border: 1px solid var(--warn); vertical-align: middle; }
+.rule-id { margin-top: 10px; }
+.flag-row .flag-rm { width: auto; min-width: 44px; min-height: 44px; padding: 8px 14px; }
+.tabbar a { font-size: 11px; }

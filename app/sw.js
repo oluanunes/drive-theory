@@ -1,5 +1,5 @@
 /* DRIVE THEORY - service worker. Mude CACHE ao alterar a lista de arquivos. */
-const CACHE = 'drive-theory-v1';
+const CACHE = 'drive-theory-v2';
 const SHELL = [
   './', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest',
   'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png',
