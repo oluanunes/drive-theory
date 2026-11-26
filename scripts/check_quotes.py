@@ -291,10 +291,40 @@ def pick_expression(rows: list[dict], today: str) -> tuple[str, str | None] | No
     return best
 
 
+# RS -> ELI do texto consolidado (cc). A busca por notacao RS no SPARQL devolve
+# atos modificadores (eli/oc/...), nao o texto consolidado; por isso o mapa fixo.
+RS_ELI = {
+    "741.01": ELI_PREFIX + "1959/679_705_685",    # LCR
+    "741.11": ELI_PREFIX + "1962/1364_1409_1420",  # OCR
+    "741.21": ELI_PREFIX + "1979/1961_1961_1961",  # OSR
+    "741.51": ELI_PREFIX + "1976/2423_2423_2423",  # OAC
+}
+
+# Consulta testada no Actions em 2026-11-26 (sonda scripts/debug/sparql_probe.py).
+QUERY_CONSOLIDATED_HTML = PREFIXES + """\
+SELECT ?date ?url WHERE {
+  ?cons jolux:isMemberOf <%(eli)s> ;
+        jolux:dateApplicability ?date ;
+        jolux:isRealizedBy ?expr .
+  ?expr jolux:language <http://publications.europa.eu/resource/authority/language/FRA> ;
+        jolux:isEmbodiedBy ?m .
+  ?m jolux:userFormat <https://fedlex.data.admin.ch/vocabulary/user-format/html> ;
+     jolux:isExemplifiedBy ?url .
+  FILTER(STR(?date) <= "%(today_iso)s")
+} ORDER BY DESC(?date) LIMIT 3
+"""
+
+
 def resolve_law_urls(rs: str, eli_hint: str | None, today: str) -> list[str]:
     """RS -> lista de URLs candidatas do HTML consolidado em frances (rede).
     Isolada para ser trocada/ajustada sem mexer no resto."""
-    eli = eli_hint
+    eli = eli_hint or RS_ELI.get(rs)
+    if eli:
+        today_iso = f"{today[:4]}-{today[4:6]}-{today[6:8]}" if len(today) == 8 else today
+        rows = sparql(QUERY_CONSOLIDATED_HTML % {"eli": eli, "today_iso": today_iso})
+        urls = [r["url"] for r in rows if r.get("url")]
+        if urls:
+            return urls[:1]
     if not eli:
         rows = sparql(QUERY_ELI_BY_RS % {"rs": rs})
         elis = [r["act"] for r in rows if r.get("act", "").startswith(ELI_PREFIX)]
