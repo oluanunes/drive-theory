@@ -34,12 +34,13 @@ Gargalo previsto: validação do Luan (~30-45 min por tema, ~5-6 h no total até
 | T-006 | ~20 perguntas originais de Priorité (múltipla resposta, níveis 1-4) | P1 | DEV/Sonnet | H-02 | questions/priorite.json | Schema SPEC §5, cada alternativa justificada | TODO |
 | T-007 | Revisão independente das perguntas | P1 | REV/Opus | T-006 | docs/reviews/ | Sem ambiguidade nem contradição com regra | TODO |
 | H-03 | Luan aprova amostra de perguntas | P1 | Luan | T-007 | — | status → aprovado | TODO |
-| T-008 | PWA mínimo: Aprender / Praticar / Erros, offline, progresso local | P2 | DEV/Sonnet | T-001 | app/* | Roda no iPhone; testes passam | TODO |
-| T-010 | Workflow fetch-laws: textos completos LCR/OCR/OSR/OAC/OETV em legal/sources/ | P0 | Orquestrador | T-004 | scripts/fetch_laws.py, .github/workflows/fetch-laws.yml | 5 leis salvas com versão e URL | DOING |
+| T-008 | PWA mínimo: Aprender / Praticar / Erros, offline, progresso local | P2 | DEV/Sonnet | T-001 | app/*, scripts/build_data.py | Roda no iPhone; testes passam | DOING |
+| T-011 | Corrigir/completar regras de Priorité com o texto completo de legal/sources/ | P0 | PESQ/Sonnet | T-010 | legal/rules/priorite.yaml | 0 trechos não encontrados | DOING |
+| T-010 | Workflow fetch-laws: textos completos LCR/OCR/OSR/OAC/OETV em legal/sources/ | P0 | Orquestrador | T-004 | scripts/fetch_laws.py, .github/workflows/fetch-laws.yml | 5 leis salvas com versão e URL | DONE |
 | H-01 | Luan confirma formato da prova em asa.ch ou no OCN Friburgo | P0 | Luan | — | — | SPEC §3 → confirmado | TODO (não bloqueia até o simulador) |
 
 ## Bloqueios abertos
-- Trechos literais: WebFetch e shell não leem o Fedlex completo; conferência real só via Actions (T-004, depende de H-04).
+- (resolvido) Trechos literais: leis completas agora em legal/sources/ via Actions (T-010).
 - Categoria H sem artigos confirmados: precisa de pesquisa dedicada (T-009, a criar).
 - Anexo 11 OAC: confirmar se mudou após 01/01/2026.
 
