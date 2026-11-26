@@ -1087,8 +1087,8 @@ rules:
   regra_pt: "Para indicar aos condutores o sentido a seguir obrigatoriamente, usam-se os sinais: a) « Sens obligatoire à droite » (2.32) e « Sens obligatoire à gauche » (2.33): o condutor deve virar, antes do sinal, para a direita ou para a esquerda; b) « Obstacle à contourner par la droite » (2.34) e « Obstacle à contourner par la gauche » (2.35): o condutor deve contornar pela direita ou pela esquerda o obstáculo diante do qual o sinal está colocado; c) « Circuler tout droit » (2.36): o condutor não pode virar nem para a direita nem para a esquerda."
   termos_fr: ["Sens obligatoire à droite", "2.32", "Obstacle à contourner par la droite", "2.34", "2.35", "Circuler tout droit", "2.36"]
   fonte: { lei: OSR, rs: "741.21", artigo: "24", alinea: "1", url: "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html" }
-  trecho_literal_fr: "Pour indiquer aux conducteurs le sens à suivre obligatoirement, on emploiera les signaux suivants: a. \"Sens obligatoire à droite\"(2.32),\"Sens obligatoire à gauche\"(2.33): le conducteur doit obliquer, avant le signal, vers la droite ou vers la gauche; b. \"Obstacle à contourner par la droite\"(2.34),\"Obstacle à contourner par la gauche\"(2.35): le conducteur doit contourner par la droite ou par la gauche l'obstacle devant lequel est placé le signal; c. \"Circuler tout droit\"(2.36): le conducteur ne peut obliquer ni à droite ni à gauche."
-  trecho_completo: true
+  trecho_literal_fr: "Pour indiquer aux conducteurs le sens à suivre obligatoirement, on emploiera les signaux suivants:"
+  trecho_completo: false
   excecoes:
     - "Regra de outra disposição (não consta desta alínea): OCR 7 al. 1 (R-DEP-022): obstáculos situados no meio da pista são contornados pela direita."
   versao_lei_em_vigor_desde: "2026-10-01"
