@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "gerado_em": "2026-11-26T02:31:45Z",
+ "gerado_em": "2026-11-26T02:53:16Z",
  "modo": "seguro",
  "categorias": [
   {
@@ -16,7 +16,7 @@
    "nome": "Parar e estacionar",
    "regras": 0,
    "perguntas": 0,
-   "regras_pendentes": 0,
+   "regras_pendentes": 74,
    "perguntas_pendentes": 0
   },
   {
@@ -33,14 +33,14 @@
    "regras": 55,
    "perguntas": 0,
    "regras_pendentes": 0,
-   "perguntas_pendentes": 0
+   "perguntas_pendentes": 36
   },
   {
    "id": "E",
    "nome": "Ultrapassagem",
    "regras": 0,
    "perguntas": 0,
-   "regras_pendentes": 0,
+   "regras_pendentes": 63,
    "perguntas_pendentes": 0
   },
   {
@@ -1448,8 +1448,21 @@
  ],
  "perguntas": [],
  "pendentes": {
-  "regras": 0,
-  "perguntas": 0,
-  "por_categoria": {}
+  "regras": 137,
+  "perguntas": 36,
+  "por_categoria": {
+   "B": {
+    "regras": 74,
+    "perguntas": 0
+   },
+   "D": {
+    "regras": 0,
+    "perguntas": 36
+   },
+   "E": {
+    "regras": 63,
+    "perguntas": 0
+   }
+  }
  }
 }

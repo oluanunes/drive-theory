@@ -208,5 +208,26 @@ def _write(yaml_text: str) -> Path:
     return d
 
 
+class CheckQuestionsLeak(unittest.TestCase):
+    """O enunciado nao pode entregar quantas alternativas marcar (T-016)."""
+
+    def setUp(self):
+        import check_questions as cq
+        self.cq = cq
+
+    def test_leak_patterns_are_caught(self):
+        for t in ("Qual afirmação está correta?", "Marque duas alternativas.", "Marque 3 alternativas corretas.",
+                  "Quais são as duas afirmações corretas?", "Qual alternativa está certa?", "Quantas estão certas?"):
+            self.assertTrue(self.cq.VAZAMENTO.search(t), t)
+
+    def test_neutral_wording_passes(self):
+        for t in ("Você chega a uma interseção. Quais afirmações estão corretas?",
+                  "Quais afirmações sobre veículos prioritários estão corretas?"):
+            self.assertIsNone(self.cq.VAZAMENTO.search(t), t)
+
+    def test_repo_questions_pass_all_checks(self):
+        self.assertEqual(self.cq.main(), 0)
+
+
 if __name__ == "__main__":
     unittest.main()

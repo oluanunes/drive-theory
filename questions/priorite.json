@@ -8,9 +8,14 @@
   "subtema": "priorite-de-droite",
   "competencia": "Aplicar a priorité de droite em interseção sem sinais",
   "nivel": 1,
-  "enunciado": "Você chega a uma interseção em que não há sinal de prioridade, semáforo nem policial. Um carro vem da sua direita e outro vem da sua esquerda. Nenhuma das vias é sinalizada como principal. Quem tem prioridade? Marque todas as alternativas corretas.",
+  "enunciado": "Você chega a uma interseção em que não há sinal de prioridade, semáforo nem policial. Um carro vem da sua direita e outro vem da sua esquerda. Nenhuma das vias é sinalizada como principal. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
+   {
+    "texto": "Tem prioridade o veículo que chegou à interseção com maior velocidade.",
+    "correta": false,
+    "justificativa": "Errada. LCR art. 36 al. 2 não usa a velocidade como critério; o critério é vir da direita."
+   },
    {
     "texto": "O carro que vem da direita tem prioridade sobre você.",
     "correta": true,
@@ -19,20 +24,15 @@
    {
     "texto": "O carro que vem da esquerda tem prioridade, porque está do lado oposto ao seu.",
     "correta": false,
-    "justificativa": "Errada. LCR art. 36 al. 2 dá a prioridade a quem vem da direita. A esquerda só ganha se a via for sinalizada como principal."
-   },
-   {
-    "texto": "Tem prioridade o veículo que chegou à interseção com maior velocidade.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 36 al. 2 não usa a velocidade como critério; o critério é vir da direita."
+    "justificativa": "Errada. LCR art. 36 al. 2 dá a prioridade a quem vem da direita; nada no enunciado dá prioridade ao carro da esquerda."
    }
   ],
   "explicacao": {
-   "regra_simples": "Sem sinais, quem vem da direita passa primeiro.",
-   "por_que": "É a regra geral da lei (LCR art. 36 al. 2). Sinais e polícia podem mudar isso.",
+   "regra_simples": "Em interseção sem sinais, quem vem da direita passa primeiro.",
+   "por_que": "É a regra geral da lei (LCR art. 36 al. 2). Sinais e polícia podem mudar isso (última frase da mesma alínea).",
    "como_identificar": "Pergunte: existe sinal, semáforo ou policial? Se não, olhe para a sua direita.",
    "erro_comum": "Achar que a prioridade é de quem chega primeiro ou de quem está mais rápido.",
-   "excecao": "Via sinalizada como principal: tem prioridade mesmo vindo da esquerda (mesmo artigo).",
+   "excecao": "Via sinalizada como principal: tem prioridade mesmo vindo da esquerda (LCR art. 36 al. 2). O tram (LCR art. 38 al. 1) e o veículo prioritário com luz azul e avisador (OCR art. 16 al. 1) também têm prioridade.",
    "palavras_fr": [
     "priorité de droite — prioridade da direita",
     "intersection — interseção",
@@ -52,31 +52,36 @@
   "subtema": "via-principal",
   "competencia": "Interpretar os sinais 3.03 e 3.04",
   "nivel": 1,
-  "enunciado": "Você dirige numa via com o sinal 3.03 «Route principale». Mais adiante aparece o sinal 3.04 «Fin de la route principale». Qual afirmação está correta? Marque todas as alternativas corretas.",
+  "enunciado": "Você dirige numa via com o sinal 3.03 «Route principale». Mais adiante aparece o sinal 3.04 «Fin de la route principale». Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
+   {
+    "texto": "Com o sinal 3.03 você deve continuar cedendo a quem vem da direita nas interseções.",
+    "correta": false,
+    "justificativa": "Errada. OSR art. 37 al. 1: com o 3.03 a priorité de droite é suprimida nas próximas interseções; você não cede a alguém só por ele vir da direita."
+   },
    {
     "texto": "O sinal 3.03 indica que a priorité de droite está suprimida nas próximas interseções.",
     "correta": true,
     "justificativa": "Correta. OSR art. 37 al. 1: o 3.03 designa as vias prioritárias e indica que a priorité de droite é suprimida nas próximas interseções."
    },
    {
-    "texto": "Com o sinal 3.03 você deve continuar cedendo a quem vem da direita nas interseções.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 37 al. 1: com o 3.03 a priorité de droite é suprimida; a prioridade é sua."
-   },
-   {
     "texto": "Depois do sinal 3.04, a priorité de droite continua suprimida.",
     "correta": false,
     "justificativa": "Errada. OSR art. 38 al. 1: o 3.04 indica que a via perde a prioridade e que a priorité de droite volta a se aplicar nas interseções."
+   },
+   {
+    "texto": "Nas vias sinalizadas com o 3.03 aplicam-se as regras de circulação específicas das vias principais (por exemplo, o OCR art. 19).",
+    "correta": true,
+    "justificativa": "Correta. OSR art. 37 al. 1, segunda frase: as regras de circulação que dizem respeito especialmente às vias principais (p. ex. OCR art. 19) são aplicáveis nessas vias."
    }
   ],
   "explicacao": {
-   "regra_simples": "3.03 = você tem prioridade. 3.04 = acabou, volta a regra da direita.",
+   "regra_simples": "3.03 = a priorité de droite deixa de valer contra você nas próximas interseções. 3.04 = ela volta.",
    "por_que": "Os dois sinais ligam e desligam a priorité de droite (OSR art. 37 al. 1 e art. 38 al. 1).",
    "como_identificar": "Veja qual dos dois sinais passou por último.",
    "erro_comum": "Esquecer que, depois do 3.04, a regra da direita volta.",
-   "excecao": "Nenhuma exceção nestes dois artigos.",
+   "excecao": "Mesmo na via principal, ao virar à esquerda você cede a quem vem em sentido contrário (LCR art. 36 al. 3); tram e veículos prioritários seguem regras próprias.",
    "palavras_fr": [
     "route principale — via principal",
     "fin de la route principale — fim da via principal",
@@ -96,9 +101,19 @@
   "subtema": "stop",
   "competencia": "Aplicar o sinal Stop (3.01)",
   "nivel": 1,
-  "enunciado": "Você está numa via secundária e chega a um sinal 3.01 «Stop». Na via que você vai cruzar passam carros. Qual afirmação está correta? Marque todas as alternativas corretas.",
+  "enunciado": "Você chega, por uma via secundária, a um sinal 3.01 «Stop». Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
+   {
+    "texto": "Numa interseção com semáforo regulando o trânsito, o Stop vale mais do que o semáforo.",
+    "correta": false,
+    "justificativa": "Errada. OSR art. 36 al. 3: nessas interseções só se observa o Stop se o trânsito não estiver regulado por sinais luminosos."
+   },
+   {
+    "texto": "O Stop só obriga a dar prioridade; parar é opcional.",
+    "correta": false,
+    "justificativa": "Errada. OSR art. 36 al. 1 diz que o sinal obriga a parar e a dar prioridade."
+   },
    {
     "texto": "O Stop obriga você a parar e a dar prioridade aos veículos que circulam na via da qual você se aproxima.",
     "correta": true,
@@ -108,20 +123,10 @@
     "texto": "Se a via estiver livre, você pode passar sem parar.",
     "correta": false,
     "justificativa": "Errada. OSR art. 36 al. 1: o Stop obriga a parar; o texto não condiciona isso à presença de trânsito."
-   },
-   {
-    "texto": "O Stop só obriga a dar prioridade; parar é opcional.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 36 al. 1 diz que o sinal obriga a parar e a dar prioridade."
-   },
-   {
-    "texto": "Numa interseção com semáforo regulando o trânsito, o Stop vale mais do que o semáforo.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 36 al. 3: nessas interseções só se observa o Stop se o trânsito não estiver regulado por sinais luminosos."
    }
   ],
   "explicacao": {
-   "regra_simples": "Stop = parar sempre e dar prioridade a quem passa na via à frente.",
+   "regra_simples": "Stop = parar e dar prioridade a quem circula na via da qual você se aproxima.",
    "por_que": "Está no OSR art. 36 al. 1: o sinal obriga a parar e a dar prioridade.",
    "como_identificar": "Sinal 3.01 «Stop»; a linha de parada (6.10) complementa o sinal.",
    "erro_comum": "Achar que dá para só reduzir quando não vem ninguém.",
@@ -145,18 +150,18 @@
   "subtema": "cedez-le-passage",
   "competencia": "Distinguir Cédez le passage (3.02) de Stop",
   "nivel": 1,
-  "enunciado": "Você se aproxima de um sinal 3.02 «Cédez le passage» e de uma linha de espera (6.13). Quais afirmações estão corretas? Marque todas as alternativas corretas.",
+  "enunciado": "Você se aproxima de um sinal 3.02 «Cédez le passage» e de uma linha de espera (6.13). Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
-   {
-    "texto": "O sinal obriga você a dar prioridade aos veículos que circulam na via da qual você se aproxima.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 36 al. 2: o 3.02 obriga o condutor a dar prioridade aos veículos que circulam na via da qual ele se aproxima."
-   },
    {
     "texto": "A linha de espera (6.13) complementa o sinal 3.02.",
     "correta": true,
     "justificativa": "Correta. OSR art. 36 al. 2: o art. 75 al. 3 a 5 se aplica à linha de espera (6.13) que completa o sinal."
+   },
+   {
+    "texto": "O sinal só obriga a dar prioridade a quem vem da sua direita.",
+    "correta": false,
+    "justificativa": "Errada. OSR art. 36 al. 2: a prioridade é dada aos veículos que circulam na via da qual você se aproxima, venham de onde vierem."
    },
    {
     "texto": "Como no Stop, o 3.02 obriga a parar sempre antes da interseção.",
@@ -164,9 +169,9 @@
     "justificativa": "Errada. OSR art. 36 al. 2 não manda parar sempre (só o Stop, al. 1). Você deve reduzir a velocidade a tempo e, se precisar esperar, parar antes da interseção (OCR art. 14 al. 1)."
    },
    {
-    "texto": "O sinal só obriga a dar prioridade a quem vem da sua direita.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 36 al. 2: a prioridade é dada aos veículos que circulam na via da qual você se aproxima, venham de onde vierem."
+    "texto": "O sinal obriga você a dar prioridade aos veículos que circulam na via da qual você se aproxima.",
+    "correta": true,
+    "justificativa": "Correta. OSR art. 36 al. 2: o 3.02 obriga o condutor a dar prioridade aos veículos que circulam na via da qual ele se aproxima."
    }
   ],
   "explicacao": {
@@ -178,7 +183,7 @@
    "palavras_fr": [
     "cédez le passage — ceda a passagem",
     "ligne d'attente — linha de espera",
-    "ralentir — reduzir a velocidade"
+    "réduire sa vitesse — reduzir a velocidade"
    ]
   },
   "etiqueta": "questao_original",
@@ -193,13 +198,13 @@
   "subtema": "rotatoria",
   "competencia": "Dar prioridade ao entrar numa rotatória",
   "nivel": 1,
-  "enunciado": "Você vai entrar numa rotatória (sinais 2.41.1 e 3.02 na entrada). Dentro dela há carros circulando. Qual afirmação está correta? Marque todas as alternativas corretas.",
+  "enunciado": "Você vai entrar numa rotatória (sinais 2.41.1 e 3.02 na entrada). Dentro dela há carros circulando. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
    {
-    "texto": "Você deve reduzir a velocidade e dar prioridade aos veículos que chegam dentro da rotatória pela sua esquerda.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 41b al. 1: antes de entrar, o condutor deve ralentir e dar prioridade aos veículos que, à sua esquerda, surgem dentro do giratoire."
+    "texto": "Só precisa reduzir a velocidade se houver carro dentro da rotatória.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 41b al. 1 diz que o condutor deve ralentir antes de entrar, sem condicionar a haver trânsito."
    },
    {
     "texto": "Você deve dar prioridade a quem vem da sua direita, na própria entrada, como numa interseção comum.",
@@ -212,9 +217,9 @@
     "justificativa": "Errada. OCR art. 41b al. 1: quem entra é que dá prioridade aos veículos que já circulam no giratoire."
    },
    {
-    "texto": "Só precisa reduzir a velocidade se houver carro dentro da rotatória.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 41b al. 1 diz que o condutor deve ralentir antes de entrar, sem condicionar a haver trânsito."
+    "texto": "Você deve reduzir a velocidade e dar prioridade aos veículos que chegam dentro da rotatória pela sua esquerda.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 41b al. 1: antes de entrar, o condutor deve ralentir e dar prioridade aos veículos que, à sua esquerda, surgem dentro do giratoire."
    }
   ],
   "explicacao": {
@@ -222,7 +227,7 @@
    "por_que": "OCR art. 41b al. 1. Na entrada há o sinal 3.02, então a priorité de droite não se aplica.",
    "como_identificar": "Sinais 2.41.1 + 3.02 na entrada.",
    "erro_comum": "Aplicar a regra da direita na entrada.",
-   "excecao": "Nenhuma exceção neste artigo.",
+   "excecao": "Esta alínea não traz exceção; ordens da polícia (LCR art. 27 al. 1) e veículos prioritários (OCR art. 16 al. 1) continuam valendo.",
    "palavras_fr": [
     "carrefour à sens giratoire — rotatória",
     "ralentir — reduzir a velocidade",
@@ -242,13 +247,13 @@
   "subtema": "veiculos-prioritarios",
   "competencia": "Reagir a veículo prioritário",
   "nivel": 1,
-  "enunciado": "Você está parado em um semáforo que está verde para você. Uma ambulância se aproxima com luz azul e avisador de dois sons alternados. Qual afirmação está correta? Marque todas as alternativas corretas.",
+  "enunciado": "Você se aproxima de um cruzamento com o semáforo verde para você. Uma ambulância se aproxima com luz azul e avisador de dois sons alternados. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
    {
-    "texto": "Você deve liberar a pista imediatamente e, se necessário, parar o veículo.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 27 al. 2: quando funcionam os avisadores especiais, a pista deve ser imediatamente liberada e, se necessário, os condutores param."
+    "texto": "A ambulância só tem prioridade onde não há semáforo.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 16 al. 1 diz expressamente que a prioridade vale também onde a circulação é regulada por sinais luminosos."
    },
    {
     "texto": "O verde é seu, então você mantém a posição e a ambulância espera.",
@@ -256,9 +261,9 @@
     "justificativa": "Errada. OCR art. 16 al. 1: o veículo prioritário tem prioridade sobre todos, mesmo onde a circulação é regulada por sinais luminosos."
    },
    {
-    "texto": "A ambulância só tem prioridade onde não há semáforo.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 16 al. 1 diz expressamente que a prioridade vale também onde a circulação é regulada por sinais luminosos."
+    "texto": "Você deve liberar a pista imediatamente e, se necessário, parar o veículo.",
+    "correta": true,
+    "justificativa": "Correta. LCR art. 27 al. 2: quando funcionam os avisadores especiais, a pista deve ser imediatamente liberada e, se necessário, os condutores param."
    }
   ],
   "explicacao": {
@@ -286,34 +291,34 @@
   "subtema": "saida-de-propriedade",
   "competencia": "Aplicar a regra da saída de propriedade",
   "nivel": 2,
-  "enunciado": "Você sai de um estacionamento de supermercado para uma rua. Um carro se aproxima pela sua direita nessa rua. Qual afirmação está correta? Marque todas as alternativas corretas.",
+  "enunciado": "Você sai de um estacionamento de supermercado para uma rua. Um carro se aproxima pela sua direita nessa rua. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
-   {
-    "texto": "Você deve dar prioridade aos usuários da rua.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 15 al. 3: quem sai de um estacionamento, pátio, garagem etc. e desemboca numa via deve dar prioridade aos usuários dessa via."
-   },
    {
     "texto": "A saída do estacionamento é uma interseção, então vale a priorité de droite.",
     "correta": false,
     "justificativa": "Errada. OCR art. 1 al. 8: os locais de onde se sai de estacionamentos, garagens, pátios etc. não são interseções."
    },
    {
-    "texto": "Se você não vê a rua, pode avançar devagar sem parar.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 15 al. 3: se o local não tem visibilidade, o condutor deve parar."
-   },
-   {
     "texto": "Se você sinalizar a manobra, os usuários da rua devem lhe dar passagem.",
     "correta": false,
     "justificativa": "Errada. OCR art. 15 al. 3 impõe o dever de ceder a quem sai; sinalizar não inverte a prioridade."
+   },
+   {
+    "texto": "Você deve dar prioridade aos usuários da rua.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 15 al. 3: quem sai de um estacionamento, pátio, garagem etc. e desemboca numa via deve dar prioridade aos usuários dessa via."
+   },
+   {
+    "texto": "Se você não vê a rua, pode avançar devagar sem parar.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 15 al. 3: se o local não tem visibilidade, o condutor deve parar."
    }
   ],
   "explicacao": {
    "regra_simples": "Saiu de estacionamento, garagem ou pátio? Dê prioridade a todos na rua.",
    "por_que": "OCR art. 15 al. 3; esses locais não são interseções (OCR art. 1 al. 8), então não vale a regra da direita.",
-   "como_identificar": "O sinal de que você está saindo de um lugar privado ou de um estacionamento para a via.",
+   "como_identificar": "O indício de que você está saindo de um lugar privado ou de um estacionamento para a via.",
    "erro_comum": "Aplicar a priorité de droite à saída de garagem.",
    "excecao": "Sem visibilidade: pare; se preciso, use a ajuda de uma terceira pessoa (OCR art. 15 al. 3).",
    "palavras_fr": [
@@ -336,7 +341,7 @@
   "subtema": "pedestres-passagem-nao-regulada",
   "competencia": "Ceder a pedestres na faixa sem regulação",
   "nivel": 2,
-  "enunciado": "Você se aproxima de uma faixa de pedestres (passage pour piétons) sem semáforo e sem policial. Um pedestre está parado na beira, de frente para a faixa, visivelmente querendo atravessar. Quais afirmações estão corretas? Marque todas as alternativas corretas.",
+  "enunciado": "Você se aproxima de uma faixa de pedestres (passage pour piétons) sem semáforo e sem policial. Um pedestre está parado na beira, de frente para a faixa, visivelmente querendo atravessar. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
    {
@@ -345,9 +350,9 @@
     "justificativa": "Correta. OCR art. 6 al. 1: o condutor dá prioridade ao pedestre já engajado ou que espera diante da faixa com a intenção visível de usá-la."
    },
    {
-    "texto": "Você deve reduzir a velocidade a tempo e parar, se necessário, para cumprir essa obrigação.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 6 al. 1 e LCR art. 33 al. 2: prudência particular, reduzir a tempo e parar se necessário."
+    "texto": "O pedestre pode se lançar na faixa mesmo que o carro já esteja tão perto que não consiga parar, porque sempre tem prioridade.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 47 al. 2: o pedestre não pode usar o direito de prioridade quando o veículo já está tão perto que não conseguiria parar a tempo."
    },
    {
     "texto": "Só quem já pisou na faixa tem prioridade; quem espera na beira não tem.",
@@ -355,9 +360,9 @@
     "justificativa": "Errada. OCR art. 6 al. 1 inclui quem espera diante da faixa com a intenção visível de usá-la."
    },
    {
-    "texto": "O pedestre pode se lançar na faixa mesmo que o carro já esteja tão perto que não consiga parar, porque sempre tem prioridade.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 47 al. 2: o pedestre não pode usar o direito de prioridade quando o veículo já está tão perto que não conseguiria parar a tempo."
+    "texto": "Você deve reduzir a velocidade a tempo e parar, se necessário, para cumprir essa obrigação.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 6 al. 1 e LCR art. 33 al. 2: prudência particular, reduzir a tempo e parar se necessário."
    }
   ],
   "explicacao": {
@@ -384,9 +389,14 @@
   "subtema": "tram",
   "competencia": "Dar passagem ao tram",
   "nivel": 2,
-  "enunciado": "Numa interseção sem semáforo nem policial, os trilhos de um tram (tramway) cruzam a pista. O tram vem pela sua esquerda, no momento em que você chega. Qual afirmação está correta? Marque todas as alternativas corretas.",
+  "enunciado": "Numa interseção sem semáforo, sem policial e sem sinais de prioridade (nenhuma via é sinalizada como principal), os trilhos de um tram (tramway) cruzam a pista. O tram vem pela sua esquerda, no momento em que você chega. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
+   {
+    "texto": "Só os trens rodoviários (chemins de fer routiers) têm essa prioridade, não o tram.",
+    "correta": false,
+    "justificativa": "Errada. LCR art. 38 al. 1 cita tramways e chemins de fer routiers juntos."
+   },
    {
     "texto": "A via férrea deve ser deixada livre; o tram tem prioridade.",
     "correta": true,
@@ -396,11 +406,6 @@
     "texto": "O tram vem da esquerda, então ele é que deve esperar, pela regra da direita.",
     "correta": false,
     "justificativa": "Errada. LCR art. 38 al. 1 concede a prioridade ao tram, mesmo que ele venha da esquerda."
-   },
-   {
-    "texto": "Só os trens rodoviários (chemins de fer routiers) têm essa prioridade, não o tram.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 38 al. 1 cita tramways e chemins de fer routiers juntos."
    }
   ],
   "explicacao": {
@@ -427,23 +432,23 @@
   "subtema": "virar-a-esquerda",
   "competencia": "Ceder ao virar à esquerda",
   "nivel": 2,
-  "enunciado": "Você vai virar à esquerda numa interseção. Um carro vem em sentido contrário e vai seguir reto. Quem deve dar prioridade? Marque todas as alternativas corretas.",
+  "enunciado": "Numa interseção sem semáforo, sem policial e sem a placa «Direction de la route principale» (5.09), você vai virar à esquerda. Um carro vem em sentido contrário e vai seguir em frente. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
-   {
-    "texto": "Você, que vai virar à esquerda, deve dar prioridade ao carro que vem em sentido contrário.",
-    "correta": true,
-    "justificativa": "Correta. LCR art. 36 al. 3: antes de virar à esquerda, o condutor dá prioridade aos veículos que vêm em sentido contrário."
-   },
-   {
-    "texto": "O carro que vem em sentido contrário, porque você já ligou a seta à esquerda.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 36 al. 3 não dá prioridade a quem vira por ter sinalizado."
-   },
    {
     "texto": "Ninguém precisa dar prioridade; os dois entram ao mesmo tempo.",
     "correta": false,
     "justificativa": "Errada. LCR art. 36 al. 3 impõe o dever a quem vira à esquerda."
+   },
+   {
+    "texto": "Se você ligou a seta à esquerda, quem vem em sentido contrário é que deve lhe dar passagem.",
+    "correta": false,
+    "justificativa": "Errada. LCR art. 36 al. 3 não dá prioridade a quem vira por ter sinalizado; quem vai virar à esquerda é quem cede."
+   },
+   {
+    "texto": "Você, que vai virar à esquerda, deve dar prioridade ao carro que vem em sentido contrário.",
+    "correta": true,
+    "justificativa": "Correta. LCR art. 36 al. 3: antes de virar à esquerda, o condutor dá prioridade aos veículos que vêm em sentido contrário."
    }
   ],
   "explicacao": {
@@ -453,7 +458,7 @@
    "erro_comum": "Achar que a seta dá o direito de passar.",
    "excecao": "Se você segue a via principal que dobra à esquerda, veja o OCR art. 15 al. 1 (Q-PRIO-021).",
    "palavras_fr": [
-    "virer à gauche — virar à esquerda",
+    "obliquer à gauche — virar à esquerda",
     "sens inverse — sentido contrário"
    ]
   },
@@ -470,7 +475,7 @@
   "subtema": "sinais-vs-semaforo",
   "competencia": "Hierarquia entre semáforo e sinais de prioridade",
   "nivel": 2,
-  "enunciado": "Uma interseção tem semáforo funcionando e, num poste ao lado, também um sinal 3.02 «Cédez le passage». O trânsito está regulado pelo semáforo. Qual afirmação está correta? Marque todas as alternativas corretas.",
+  "enunciado": "Uma interseção tem semáforo funcionando e, num poste ao lado, também um sinal 3.02 «Cédez le passage». O trânsito está regulado pelo semáforo. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
    {
@@ -484,14 +489,14 @@
     "justificativa": "Errada. OSR art. 68 al. 1: os sinais luminosos prevalecem sobre os sinais de prioridade."
    },
    {
-    "texto": "A priorité de droite vale mais do que a luz verde.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 68 al. 1: os sinais luminosos prevalecem sobre as regras gerais de prioridade."
-   },
-   {
     "texto": "As marcas no chão valem mais do que o semáforo.",
     "correta": false,
     "justificativa": "Errada. OSR art. 68 al. 1: os sinais luminosos prevalecem sobre as marcas rodoviárias."
+   },
+   {
+    "texto": "A priorité de droite vale mais do que a luz verde.",
+    "correta": false,
+    "justificativa": "Errada. OSR art. 68 al. 1: os sinais luminosos prevalecem sobre as regras gerais de prioridade."
    }
   ],
   "explicacao": {
@@ -499,7 +504,7 @@
    "por_que": "OSR art. 68 al. 1 e art. 36 al. 3.",
    "como_identificar": "Existem luzes e o trânsito está sendo comandado por elas.",
    "erro_comum": "Obedecer ao Stop ou ao Cédez mesmo com o semáforo comandando.",
-   "excecao": "A ordem da polícia é um caso à parte (LCR art. 27 al. 1); veja a Q-PRIO-023.",
+   "excecao": "A ordem da polícia é um caso à parte (LCR art. 27 al. 1); veja a Q-PRIO-023. Com o semáforo desligado o trânsito deixa de estar regulado por sinais luminosos: veja a Q-PRIO-033.",
    "palavras_fr": [
     "signaux lumineux — sinais luminosos",
     "trafic réglé — trânsito regulado",
@@ -519,7 +524,7 @@
   "subtema": "zona-de-encontro",
   "competencia": "Prioridade em zona de encontro e zona de pedestres",
   "nivel": 2,
-  "enunciado": "Você entra em uma zona de encontro (sinal 2.59.5). Mais adiante há uma zona de pedestres (sinal 2.59.3), sem nenhuma placa complementar. Qual afirmação está correta? Marque todas as alternativas corretas.",
+  "enunciado": "Você entra em uma zona de encontro (sinal 2.59.5). Mais adiante há uma zona de pedestres (sinal 2.59.3), sem nenhuma placa complementar. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
    {
@@ -528,14 +533,14 @@
     "justificativa": "Correta. OSR art. 22b al. 1."
    },
    {
-    "texto": "Na zona de encontro, os pedestres só podem andar nas laterais e os veículos têm prioridade.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 22b al. 1: os pedestres podem usar toda a área de circulação e têm prioridade."
-   },
-   {
     "texto": "Na zona de pedestres sem placa complementar, os veículos podem circular, mas a passo.",
     "correta": false,
     "justificativa": "Errada. OSR art. 22c al. 1: a zona é reservada a pedestres; veículos só circulam (no máximo a passo) quando uma placa complementar autoriza o tráfego restrito."
+   },
+   {
+    "texto": "Na zona de encontro, os pedestres só podem andar nas laterais e os veículos têm prioridade.",
+    "correta": false,
+    "justificativa": "Errada. OSR art. 22b al. 1: os pedestres podem usar toda a área de circulação e têm prioridade."
    }
   ],
   "explicacao": {
@@ -563,9 +568,14 @@
   "subtema": "tram",
   "competencia": "Perceber que o tram também cede",
   "nivel": 3,
-  "enunciado": "Você segue numa via principal. Um tram (tramway) está numa via secundária e vai desembocar na via principal em que você está. Qual afirmação está correta? Marque todas as alternativas corretas.",
+  "enunciado": "Você segue numa via sinalizada como principal (sinal 3.03). Um tram (tramway) está numa via secundária e vai desembocar na via principal em que você está. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
+   {
+    "texto": "O tram só cede a veículos prioritários com avisadores especiais; a nenhum outro.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 45 al. 2 prevê dois deveres: ceder aos veículos prioritários anunciados por avisadores especiais e dar prioridade ao desembocar de via secundária em principal."
+   },
    {
     "texto": "O tram deve dar prioridade, porque está desembocando de uma via secundária numa via principal.",
     "correta": true,
@@ -575,11 +585,6 @@
     "texto": "O tram tem prioridade absoluta, pois a via férrea deve ser sempre deixada livre.",
     "correta": false,
     "justificativa": "Errada. LCR art. 38 al. 1 dá prioridade ao tram, mas OCR art. 45 al. 2 estabelece esta exceção."
-   },
-   {
-    "texto": "O tram só cede a veículos prioritários com avisadores especiais; a nenhum outro.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 45 al. 2 prevê dois deveres: ceder aos veículos prioritários anunciados por avisadores especiais e dar prioridade ao desembocar de via secundária em principal."
    }
   ],
   "explicacao": {
@@ -600,34 +605,35 @@
  {
   "id": "Q-PRIO-014",
   "regra_ids": [
-   "R-PRIO-016"
+   "R-PRIO-016",
+   "R-PRIO-014"
   ],
   "categoria": "D-Priorite",
   "subtema": "vias-secundarias-no-mesmo-ponto",
   "competencia": "Aplicar a priorité de droite entre duas vias com Cédez",
   "nivel": 3,
-  "enunciado": "Duas vias secundárias, cada uma com um sinal 3.02 «Cédez le passage», desembocam no mesmo ponto numa via prioritária. Você e outro carro chegam ao mesmo tempo, cada um por uma dessas vias secundárias. Entre vocês dois, o que vale? Marque todas as alternativas corretas.",
+  "enunciado": "Duas vias secundárias, cada uma com um sinal 3.02 «Cédez le passage», desembocam no mesmo ponto numa via prioritária. Você e outro carro chegam ao mesmo tempo, cada um por uma dessas vias secundárias; a via do outro carro fica à sua direita. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
-   {
-    "texto": "Entre vocês, vale a regra da priorité de droite.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 15 al. 2: quando duas ou mais vias com Stop ou Cédez le passage desembocam no mesmo ponto numa via prioritária, os usuários delas respeitam entre si a priorité de droite."
-   },
    {
     "texto": "Tem prioridade quem chegou primeiro ao sinal.",
     "correta": false,
     "justificativa": "Errada. OCR art. 15 al. 2 manda aplicar entre eles a regra da direita, não a ordem de chegada."
    },
    {
-    "texto": "Ambos têm prioridade sobre a via prioritária, porque chegaram juntos.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 15 al. 2 trata da via prioritária como a que tem prioridade; as vias com sinal é que se ordenam entre si."
+    "texto": "Entre vocês, vale a regra da priorité de droite.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 15 al. 2: quando duas ou mais vias com Stop ou Cédez le passage desembocam no mesmo ponto numa via prioritária, os usuários delas respeitam entre si a priorité de droite."
    },
    {
     "texto": "Nenhuma regra se aplica; vocês combinam entre si.",
     "correta": false,
-    "justificativa": "Errada. OCR art. 15 al. 2 dá a regra (priorité de droite). O combinado (OCR art. 14 al. 5) é só para situações que nenhuma norma prevê."
+    "justificativa": "Errada. OCR art. 15 al. 2 dá a regra (priorité de droite). Combinar a ordem entre si (OCR art. 14 al. 5) é só para situações que nenhuma norma prevê."
+   },
+   {
+    "texto": "Entre vocês dois, o outro carro, que vem da sua direita, passa antes de você.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 15 al. 2: entre si, os usuários das vias não prioritárias respeitam a priorité de droite; a via do outro carro fica à sua direita."
    }
   ],
   "explicacao": {
@@ -635,7 +641,7 @@
    "por_que": "OCR art. 15 al. 2.",
    "como_identificar": "Duas vias secundárias com sinal, desembocando no mesmo ponto numa via prioritária.",
    "erro_comum": "Achar que quem chega primeiro passa.",
-   "excecao": "Em relação à via prioritária, ambos devem dar prioridade.",
+   "excecao": "Nada muda em relação à via prioritária: os dois devem ceder a ela (OCR art. 15 al. 2). A regra da direita só ordena vocês dois entre si.",
    "palavras_fr": [
     "débouchent au même endroit — desembocam no mesmo ponto",
     "route prioritaire — via prioritária",
@@ -655,40 +661,41 @@
   "subtema": "ciclistas-pistas-bandas",
   "competencia": "Prioridade com pista ou banda ciclável",
   "nivel": 3,
-  "enunciado": "Uma pista ciclável (piste cyclable) acompanha a rua. Você, de carro, precisa atravessá-la, fora de uma interseção, para entrar no pátio de uma casa. Vem um ciclista pela pista. Quais afirmações estão corretas? Marque todas as alternativas corretas.",
+  "enunciado": "Uma ciclovia (piste cyclable) acompanha a rua. Você, de carro, precisa atravessá-la, fora de uma interseção, para entrar no pátio de uma casa. Vem um ciclista pela ciclovia. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
    {
-    "texto": "Você deve dar prioridade ao ciclista.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 40 al. 4: quem atravessa uma pista ou banda ciclável fora de uma interseção, por exemplo para entrar numa propriedade, deve dar prioridade aos ciclistas."
+    "texto": "O ciclista que deixa a faixa ciclável (bande cyclable) para ultrapassar tem prioridade sobre os demais.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 40 al. 1: ao deixar a faixa ciclável para ultrapassar, o ciclista deve dar prioridade."
    },
    {
-    "texto": "Se um ciclista sai da pista ciclável para entrar na pista contígua, ele é que deve dar prioridade.",
+    "texto": "Você deve dar prioridade ao ciclista.",
     "correta": true,
-    "justificativa": "Correta. OCR art. 40 al. 1: os ciclistas dão prioridade quando saem de uma pista ou banda ciclável para entrar na pista contígua."
+    "justificativa": "Correta. OCR art. 40 al. 4: quem precisa atravessar uma ciclovia ou faixa ciclável fora de uma interseção, por exemplo para acessar uma propriedade, deve dar prioridade aos ciclistas."
+   },
+   {
+    "texto": "Se um ciclista sai da ciclovia para entrar na pista contígua, ele é que deve dar prioridade.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 40 al. 1: os ciclistas devem dar prioridade quando saem de uma ciclovia ou faixa ciclável para entrar na pista contígua."
    },
    {
     "texto": "O ciclista deve esperar, pois você vai entrar numa propriedade.",
     "correta": false,
-    "justificativa": "Errada. OCR art. 40 al. 4 manda quem atravessa a pista ciclável dar prioridade aos ciclistas."
-   },
-   {
-    "texto": "O ciclista que deixa a banda ciclável para ultrapassar tem prioridade sobre os demais.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 40 al. 1: ao deixar a banda ciclável para ultrapassar, o ciclista deve dar prioridade."
+    "justificativa": "Errada. OCR art. 40 al. 4 manda quem atravessa a ciclovia dar prioridade aos ciclistas."
    }
   ],
   "explicacao": {
-   "regra_simples": "Cruzando pista ciclável fora de interseção: ceda ao ciclista. O ciclista que sai da pista para a via contígua também cede.",
+   "regra_simples": "Cruzando uma ciclovia ou faixa ciclável fora de interseção: ceda ao ciclista. O ciclista que sai da ciclovia para a pista contígua também cede.",
    "por_que": "OCR art. 40 al. 1 e 4.",
-   "como_identificar": "Pista ciclável ao lado da rua e você vai atravessá-la.",
+   "como_identificar": "Ciclovia (separada da pista por construção) ou faixa ciclável (faixa para ciclistas, normalmente com linha amarela) ao lado da rua, e você vai atravessá-la.",
    "erro_comum": "Achar que o ciclista cede por estar 'entrando no seu caminho'.",
-   "excecao": "O ciclista que deixa a banda ciclável para ultrapassar também deve dar prioridade (OCR art. 40 al. 1).",
+   "excecao": "O ciclista que deixa a faixa ciclável para ultrapassar também deve dar prioridade (OCR art. 40 al. 1).",
    "palavras_fr": [
     "piste cyclable — ciclovia",
     "bande cyclable — faixa ciclável",
-    "intersection — interseção (a pista ciclável que desemboca não é interseção, OCR art. 1 al. 8)"
+    "chaussée contiguë — pista contígua",
+    "intersection — interseção (o ponto onde uma ciclovia desemboca na pista não é interseção, OCR art. 1 al. 8)"
    ]
   },
   "etiqueta": "questao_original",
@@ -700,17 +707,12 @@
    "R-PRIO-010"
   ],
   "categoria": "D-Priorite",
-  "subtema": "inversao-de-prioridade",
+  "subtema": "sinal-estreitamento",
   "competencia": "Aplicar os sinais 3.09 e 3.10 em estreitamento",
   "nivel": 3,
-  "enunciado": "Numa pista que estreita, você segue na direção da seta vermelha do sinal 3.09 «Laissez passer les véhicules venant en sens inverse». Um carro vem em sentido contrário, na direção da seta branca do sinal 3.10 «Priorité par rapport aux véhicules venant en sens inverse». Quais afirmações estão corretas? Marque todas as alternativas corretas.",
+  "enunciado": "Numa pista que estreita, você segue na direção da seta vermelha do sinal 3.09 «Laissez passer les véhicules venant en sens inverse». Um carro vem em sentido contrário, na direção da seta branca do sinal 3.10 «Priorité par rapport aux véhicules venant en sens inverse». Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
-   {
-    "texto": "Você deve ceder a passagem ao trânsito em sentido contrário, no ponto em que a pista estreita.",
-    "correta": true,
-    "justificativa": "Correta. OSR art. 42 al. 1: o 3.09 obriga quem circula na direção da seta vermelha a ceder o passo, onde a pista estreita, ao tráfego em sentido contrário."
-   },
    {
     "texto": "A obrigação do 3.09 não se aplica a veículos de rodas uma atrás da outra cujos condutores veem que há espaço suficiente para cruzar sem perigo.",
     "correta": true,
@@ -720,6 +722,11 @@
     "texto": "Quem tem o 3.10 pode seguir mesmo que os veículos de rodas lado a lado do outro sentido já estejam engajados no estreitamento.",
     "correta": false,
     "justificativa": "Errada. OSR art. 42 al. 2: se esses veículos já estão engajados no estreitamento, cabe a quem tem o 3.10 esperar."
+   },
+   {
+    "texto": "Você deve ceder a passagem ao trânsito em sentido contrário, no ponto em que a pista estreita.",
+    "correta": true,
+    "justificativa": "Correta. OSR art. 42 al. 1: o 3.09 obriga quem circula na direção da seta vermelha a ceder o passo, onde a pista estreita, ao tráfego em sentido contrário."
    }
   ],
   "explicacao": {
@@ -730,8 +737,9 @@
    "excecao": "Quem tem o 3.10 espera se os outros já estão engajados; o 3.09 não vale para rodas uma atrás da outra com espaço (OSR art. 42 al. 1 e 2).",
    "palavras_fr": [
     "laissez passer — deixar passar",
-    "chaussée rétrécie — pista que estreita",
-    "engagés — já dentro/engajados"
+    "là où la chaussée se rétrécit — onde a pista estreita",
+    "passage rétréci — passagem estreitada",
+    "engagés — já dentro (engajados)"
    ]
   },
   "etiqueta": "questao_original",
@@ -748,18 +756,13 @@
   "subtema": "rotatoria",
   "competencia": "Sinalização e circulação dentro da rotatória",
   "nivel": 3,
-  "enunciado": "Você está numa rotatória (sinais 2.41.1 e 3.02 na entrada). Quais afirmações estão corretas? Marque todas as alternativas corretas.",
+  "enunciado": "Você está numa rotatória (sinais 2.41.1 e 3.02 na entrada). Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
    {
-    "texto": "Você não é obrigado a sinalizar a direção na entrada da rotatória.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 41b al. 2: o condutor não é obrigado a sinalizar a direção na entrada."
-   },
-   {
-    "texto": "A intenção de sair da rotatória deve ser indicada.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 41b al. 2: a intenção de sair do giratoire deve ser indicada."
+    "texto": "Quem entra deve dar prioridade aos veículos que chegam pela sua direita, ainda fora da rotatória.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 41b al. 1: quem entra dá prioridade aos veículos que, à sua esquerda, surgem dentro do giratoire."
    },
    {
     "texto": "Os ciclistas podem derrogar a obrigação de manter a direita na rotatória.",
@@ -767,9 +770,14 @@
     "justificativa": "Correta. OCR art. 41b al. 3."
    },
    {
-    "texto": "Quem entra deve dar prioridade aos veículos que chegam pela sua direita, ainda fora da rotatória.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 41b al. 1: quem entra dá prioridade aos veículos que, à sua esquerda, surgem dentro do giratoire."
+    "texto": "A intenção de sair da rotatória deve ser indicada.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 41b al. 2: a intenção de sair do giratoire deve ser indicada."
+   },
+   {
+    "texto": "Você não é obrigado a sinalizar a direção na entrada da rotatória.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 41b al. 2: o condutor não é obrigado a sinalizar a direção na entrada."
    }
   ],
   "explicacao": {
@@ -797,9 +805,14 @@
   "subtema": "entrada-em-autoestrada",
   "competencia": "Entrar na autoestrada e regra do zíper",
   "nivel": 3,
-  "enunciado": "Você está numa via de acesso e vai entrar numa autoestrada. O trânsito na autoestrada está lento. Quais afirmações estão corretas? Marque todas as alternativas corretas.",
+  "enunciado": "Você está numa via de acesso e vai entrar numa autoestrada. O trânsito na autoestrada está lento. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
+   {
+    "texto": "Como há lentidão, os veículos da via de acesso passam a ter prioridade sobre os da autoestrada.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 36 al. 4 não inverte a prioridade; ele manda aplicar a alternância do OCR art. 8 al. 5."
+   },
    {
     "texto": "Os usuários da autoestrada têm prioridade sobre os veículos que vêm da via de acesso.",
     "correta": true,
@@ -809,11 +822,6 @@
     "texto": "Com a lentidão, aplica-se a regra do zíper (OCR art. 8 al. 5).",
     "correta": true,
     "justificativa": "Correta. OCR art. 36 al. 4, segunda frase: em caso de lentidões, aplica-se o OCR art. 8 al. 5, que manda deixar passar alternadamente na faixa vizinha, logo antes do estreitamento, os veículos que não podem continuar."
-   },
-   {
-    "texto": "Como há lentidão, os veículos da via de acesso passam a ter prioridade sobre os da autoestrada.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 36 al. 4 não inverte a prioridade; ele manda aplicar a alternância do OCR art. 8 al. 5."
    }
   ],
   "explicacao": {
@@ -841,18 +849,13 @@
   "subtema": "onibus-saindo-de-parada",
   "competencia": "Deixar o ônibus de linha sair da parada",
   "nivel": 4,
-  "enunciado": "Dentro de uma localidade, um ônibus de linha (bus en trafic de ligne) está numa parada sinalizada, com a seta ligada para partir. Você vem atrás. Quais afirmações estão corretas? Marque todas as alternativas corretas.",
+  "enunciado": "Dentro de uma localidade, um ônibus de linha (bus en trafic de ligne) está numa parada sinalizada, com a seta ligada para partir. Você vem atrás. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
    {
     "texto": "Você deve, se necessário, reduzir a velocidade ou parar para permitir a partida do ônibus.",
     "correta": true,
     "justificativa": "Correta. OCR art. 17 al. 5."
-   },
-   {
-    "texto": "Essa regra não vale se a parada fica na borda esquerda da pista.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 17 al. 5: a regra não se aplica quando a parada fica na borda esquerda da pista."
    },
    {
     "texto": "O ônibus deve ceder a você, porque está entrando na circulação.",
@@ -863,6 +866,11 @@
     "texto": "A regra vale em qualquer estrada, dentro ou fora de localidade.",
     "correta": false,
     "justificativa": "Errada. OCR art. 17 al. 5 diz 'dentro de uma localidade'."
+   },
+   {
+    "texto": "Essa regra não vale se a parada fica na borda esquerda da pista.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 17 al. 5: a regra não se aplica quando a parada fica na borda esquerda da pista."
    }
   ],
   "explicacao": {
@@ -890,35 +898,41 @@
   "subtema": "pedestres-cruzamento-regulado",
   "competencia": "Pedestres e virada com semáforo",
   "nivel": 4,
-  "enunciado": "Você vira numa interseção regulada por semáforo. Há pedestres atravessando a via transversal em que você vai entrar. Quais afirmações estão corretas? Marque todas as alternativas corretas.",
+  "enunciado": "Você vai virar numa interseção regulada por semáforo; há uma faixa de pedestres na via transversal em que você vai entrar. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
    {
-    "texto": "Com luz verde (não seta), quem vira deve dar prioridade aos pedestres engajados na via transversal.",
+    "texto": "Com seta verde sem amarelo piscante, a regra que obriga quem vira a dar prioridade aos pedestres da via transversal (OCR art. 6 al. 2) não se aplica.",
     "correta": true,
-    "justificativa": "Correta. OSR art. 68 al. 3 e OCR art. 6 al. 2."
-   },
-   {
-    "texto": "Com seta verde sem amarelo piscante, quem vira não precisa dar prioridade aos pedestres da via transversal.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 6 al. 2, segunda frase: a regra não se aplica quando a passagem é dada pela seta verde sem amarelo piscante (OSR art. 68 al. 4)."
+    "justificativa": "Correta. OCR art. 6 al. 2, segunda frase: essa prescrição não se aplica quando a passagem é dada pela seta verde e nenhum amarelo pisca (OSR art. 68 al. 4)."
    },
    {
     "texto": "Luz verde significa via livre; os pedestres devem esperar mesmo que o carro que vira os atrapalhe.",
     "correta": false,
     "justificativa": "Errada. OCR art. 6 al. 2: nas interseções reguladas, quem vira dá prioridade aos pedestres engajados na via transversal."
+   },
+   {
+    "texto": "Mesmo com seta verde sem amarelo piscante, continua valendo o dever geral de não atrapalhar nem pôr em perigo os outros usuários da via.",
+    "correta": true,
+    "justificativa": "Correta. LCR art. 26 al. 1: cada um deve se comportar de modo a não atrapalhar nem pôr em perigo quem usa a via conforme as regras; al. 2: prudência particular se um usuário vai se comportar de forma incorreta. O OCR art. 6 al. 2 só afasta a regra especial de prioridade aos pedestres."
+   },
+   {
+    "texto": "Com luz verde (não seta), quem vira deve dar prioridade aos pedestres engajados na via transversal.",
+    "correta": true,
+    "justificativa": "Correta. OSR art. 68 al. 3 e OCR art. 6 al. 2."
    }
   ],
   "explicacao": {
-   "regra_simples": "Luz verde: quem vira cede aos pedestres. Seta verde sem amarelo piscante: não cede aos pedestres.",
+   "regra_simples": "Luz verde: quem vira cede aos pedestres da via transversal. Seta verde sem amarelo piscante: essa regra especial não vale, mas o dever geral de não pôr ninguém em perigo continua (LCR art. 26).",
    "por_que": "OCR art. 6 al. 2 e OSR art. 68 al. 3-4.",
    "como_identificar": "Diferencie luz verde de seta verde, e veja se há amarelo piscante.",
-   "erro_comum": "Achar que 'verde = passo, pedestre espera'.",
-   "excecao": "Seta verde sem amarelo piscante: quem vira não precisa dar prioridade aos pedestres (OCR art. 6 al. 2, segunda frase).",
+   "erro_comum": "Achar que \"verde = passo, pedestre espera\", ou que a seta verde autoriza avançar sobre quem ainda está na faixa.",
+   "excecao": "Seta verde sem amarelo piscante: afasta-se só a regra de ceder aos pedestres (OCR art. 6 al. 2, segunda frase). Mesmo assim, se um pedestre ainda estiver na faixa, você não pode colocá-lo em perigo (LCR art. 26 al. 1-2).",
    "palavras_fr": [
     "flèche verte — seta verde",
-    "jaune clignotant — amarelo piscante",
-    "chaussée transversale — via transversal"
+    "feu jaune clignotant — amarelo piscante",
+    "chaussée transversale — via transversal",
+    "mettre en danger — pôr em perigo"
    ]
   },
   "etiqueta": "questao_original",
@@ -929,13 +943,14 @@
   "regra_ids": [
    "R-PRIO-015",
    "R-PRIO-052",
-   "R-PRIO-002"
+   "R-PRIO-005",
+   "R-PRIO-031"
   ],
   "categoria": "D-Priorite",
   "subtema": "via-principal-que-muda-de-direcao",
   "competencia": "Via principal que muda de direção",
   "nivel": 4,
-  "enunciado": "Você está numa via secundária, com sinal 3.01 «Stop» e, junto dele, a placa complementar 5.09 «Direction de la route principale», que mostra uma via principal mudando de direção. Qual afirmação está correta? Marque todas as alternativas corretas.",
+  "enunciado": "Você está numa via secundária, com sinal 3.01 «Stop» e, junto dele, a placa complementar 5.09 «Direction de la route principale», que mostra uma via principal mudando de direção. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
    {
@@ -944,14 +959,14 @@
     "justificativa": "Correta. OSR art. 65 al. 1: com Stop ou Cédez le passage, a placa 5.09 avisa que quem está na via que perdeu a prioridade deve dar prioridade aos veículos que circulam na via principal ou que saem dela."
    },
    {
+    "texto": "Vale a priorité de droite, ignorando a placa.",
+    "correta": false,
+    "justificativa": "Errada. Você tem um Stop: deve parar e ceder aos veículos da via da qual se aproxima (OSR art. 36 al. 1), e a placa 5.09 inclui quem sai da via principal (OSR art. 65 al. 1). Os sinais prevalecem sobre as regras gerais, como a priorité de droite (LCR art. 27 al. 1)."
+   },
+   {
     "texto": "Só deve dar prioridade aos veículos que seguem pela via principal, não aos que saem dela.",
     "correta": false,
     "justificativa": "Errada. OSR art. 65 al. 1 inclui os veículos que saem da via principal."
-   },
-   {
-    "texto": "Vale a priorité de droite, ignorando a placa.",
-    "correta": false,
-    "justificativa": "Errada. OSR art. 65 al. 1 manda dar prioridade ao tráfego da via principal; a priorité de droite foi suprimida nos sinais de via principal (OSR art. 37 al. 1)."
    }
   ],
   "explicacao": {
@@ -978,35 +993,35 @@
   "subtema": "ciclistas-pistas-bandas",
   "competencia": "Virar cruzando pista ciclável contígua",
   "nivel": 4,
-  "enunciado": "Você dirige um automóvel numa pista que tem, ao lado, uma pista ciclável a 1,5 m de distância, e vai virar numa interseção. Um ciclista vem pela pista ciclável. Quais afirmações estão corretas? Marque todas as alternativas corretas.",
+  "enunciado": "Você dirige um automóvel numa pista que tem, ao lado, uma ciclovia (piste cyclable) a 1,5 m de distância, e vai virar à direita numa interseção. Um ciclista vem atrás de você, pela ciclovia, seguindo em frente. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
    {
-    "texto": "O condutor de automóvel da pista contígua que vai virar deve dar prioridade aos ciclistas.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 40 al. 5: os condutores de veículos automotores da pista contígua devem dar prioridade aos ciclistas ao virar (« en obliquant »)."
+    "texto": "Como a ciclovia fica fora da pista, o ciclista sempre deve ceder.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 40 al. 5: a ciclovia a até 2 m segue as mesmas regras da pista contígua e quem vira com automóvel dá prioridade aos ciclistas."
    },
    {
-    "texto": "O ciclista na pista ciclável a até 2 m segue, nas interseções, as mesmas regras de prioridade dos condutores da pista contígua.",
+    "texto": "Você, que vai virar com o automóvel, deve dar prioridade ao ciclista que segue em frente pela ciclovia.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 40 al. 5, segunda frase: ao virar (« en obliquant »), os condutores de veículos automotores da pista contígua devem dar prioridade aos ciclistas."
+   },
+   {
+    "texto": "O ciclista na ciclovia a até 2 m da pista segue, nas interseções, as mesmas regras de prioridade dos condutores da pista contígua.",
     "correta": true,
     "justificativa": "Correta. OCR art. 40 al. 5, primeira frase."
-   },
-   {
-    "texto": "Como a pista ciclável fica fora da pista, o ciclista sempre deve ceder.",
-    "correta": false,
-    "justificativa": "Errada. OCR art. 40 al. 5: a pista a até 2 m segue as mesmas regras da pista contígua e quem vira com automóvel dá prioridade aos ciclistas."
    }
   ],
   "explicacao": {
-   "regra_simples": "Pista ciclável a até 2 m: o ciclista segue as regras da via ao lado; quem vira de carro cede a ele.",
+   "regra_simples": "Ciclovia a até 2 m da pista: o ciclista segue as regras da via ao lado; quem vira de carro cede a ele.",
    "por_que": "OCR art. 40 al. 5.",
-   "como_identificar": "Medir a distância entre a pista ciclável e a pista de carros: até 2 m.",
+   "como_identificar": "Medir a distância entre a ciclovia e a pista de carros: até 2 m.",
    "erro_comum": "Achar que quem está na pista de carros sempre passa antes.",
-   "excecao": "A regra vale para pista ciclável a no máximo 2 m da pista (OCR art. 40 al. 5).",
+   "excecao": "A regra vale para ciclovia a no máximo 2 m da pista (OCR art. 40 al. 5).",
    "palavras_fr": [
     "piste cyclable — ciclovia",
     "chaussée contiguë — pista contígua",
-    "obliquer — virar/inflectir"
+    "obliquer — virar (mudar de direção)"
    ]
   },
   "etiqueta": "questao_original",
@@ -1022,9 +1037,14 @@
   "subtema": "sinais-e-policia",
   "competencia": "Ordem da polícia acima do Stop",
   "nivel": 4,
-  "enunciado": "Você chega a um cruzamento onde há um sinal 3.01 «Stop» para a sua via. Um agente de polícia uniformizado, regulando o trânsito, faz sinal de avançar na sua direção com o antebraço. Quais afirmações estão corretas? Marque todas as alternativas corretas.",
+  "enunciado": "Você chega a um cruzamento onde há um sinal 3.01 «Stop» para a sua via. Um agente de polícia uniformizado, regulando o trânsito, faz sinal de avançar na sua direção com o antebraço. Quais afirmações estão corretas?",
   "imagem": null,
   "alternativas": [
+   {
+    "texto": "O Stop vale mais do que o agente; você deve parar de qualquer maneira.",
+    "correta": false,
+    "justificativa": "Errada. LCR art. 27 al. 1: as ordens da polícia prevalecem sobre os sinais."
+   },
    {
     "texto": "Você segue a ordem do agente, porque as ordens da polícia prevalecem sobre os sinais.",
     "correta": true,
@@ -1034,11 +1054,6 @@
     "texto": "Braço levantado do agente significa parar antes da interseção para os condutores vindos de todas as direções.",
     "correta": true,
     "justificativa": "Correta. OSR art. 66 al. 1."
-   },
-   {
-    "texto": "O Stop vale mais do que o agente; você deve parar de qualquer maneira.",
-    "correta": false,
-    "justificativa": "Errada. LCR art. 27 al. 1: as ordens da polícia prevalecem sobre os sinais."
    }
   ],
   "explicacao": {
@@ -1060,24 +1075,21 @@
   "id": "Q-PRIO-024",
   "regra_ids": [
    "R-PRIO-039",
-   "R-PRIO-028"
+   "R-PRIO-028",
+   "R-PRIO-027",
+   "R-PRIO-038"
   ],
   "categoria": "D-Priorite",
   "subtema": "veiculos-prioritarios",
   "competencia": "Luz azul só à noite e subir na calçada",
   "nivel": 4,
-  "enunciado": "Quais afirmações sobre veículos prioritários estão corretas? Marque todas as alternativas corretas.",
+  "enunciado": "Quais afirmações sobre veículos prioritários estão corretas?",
   "imagem": null,
   "alternativas": [
    {
     "texto": "À noite, em corrida oficial urgente, o veículo pode usar só a luz azul, mas então não pode se desviar de maneira significativa das regras nem fazer valer seu direito especial de prioridade.",
     "correta": true,
     "justificativa": "Correta. OCR art. 16 al. 4."
-   },
-   {
-    "texto": "Para liberar imediatamente a pista a um veículo prioritário, os condutores podem subir na calçada com todas as precauções necessárias, quando isso for indispensável.",
-    "correta": true,
-    "justificativa": "Correta. OCR art. 16 al. 2."
    },
    {
     "texto": "Só com a luz azul acesa, à noite, o veículo tem prioridade sobre todos, como se o avisador também estivesse ligado.",
@@ -1088,6 +1100,11 @@
     "texto": "A luz azul e o avisador de dois sons podem ser ligados em qualquer viagem do veículo.",
     "correta": false,
     "justificativa": "Errada. OCR art. 16 al. 3: só quando a corrida oficial é urgente e as regras de circulação não podem ser respeitadas."
+   },
+   {
+    "texto": "Para liberar imediatamente a pista a um veículo prioritário, os condutores devem subir na calçada, com todas as precauções necessárias, quando isso for indispensável.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 16 al. 2: os condutores subirão na calçada com todas as precauções necessárias quando for indispensável liberar imediatamente a pista."
    }
   ],
   "explicacao": {
@@ -1100,6 +1117,591 @@
     "feu bleu — luz azul",
     "courses officielles urgentes — corridas oficiais urgentes",
     "trottoir — calçada"
+   ]
+  },
+  "etiqueta": "questao_original",
+  "status": "rascunho"
+ },
+ {
+  "id": "Q-PRIO-025",
+  "regra_ids": [
+   "R-PRIO-001"
+  ],
+  "categoria": "D-Priorite",
+  "subtema": "ordem-de-passagem",
+  "competencia": "Ordem de passagem com três veículos pela priorité de droite",
+  "nivel": 3,
+  "enunciado": "Uma interseção em cruz não tem semáforo, policial, sinais de prioridade, tram nem via principal. Você chega pelo sul, indo para o norte. O carro A chega pelo leste, indo para o oeste, e vem pela sua direita. O carro B chega pelo norte, indo para o sul, de frente para você. Os três chegam ao mesmo tempo e todos vão seguir em frente. Quais afirmações estão corretas?",
+  "imagem": null,
+  "alternativas": [
+   {
+    "texto": "O carro A deve esperar o carro B passar, porque B vem da direita de A.",
+    "correta": true,
+    "justificativa": "Correta. LCR art. 36 al. 2. A vai para o oeste; a direita de quem segue para o oeste é o norte, de onde vem B."
+   },
+   {
+    "texto": "Como os três chegam juntos, nenhuma norma resolve e os condutores precisam combinar a ordem entre si.",
+    "correta": false,
+    "justificativa": "Errada. Há uma ordem: B não tem ninguém à direita e passa primeiro, depois A, depois você (LCR art. 36 al. 2). O OCR art. 14 al. 5 (combinar entre si) é para situação que nenhuma norma prevê, como veículos vindos de todas as direções ao mesmo tempo."
+   },
+   {
+    "texto": "Você deve esperar o carro A passar, porque A vem da sua direita.",
+    "correta": true,
+    "justificativa": "Correta. LCR art. 36 al. 2: nas interseções, o veículo que vem da direita tem a prioridade. A chega pelo leste, que é a sua direita."
+   },
+   {
+    "texto": "O carro B deve esperar você, porque você vem da direita de B.",
+    "correta": false,
+    "justificativa": "Errada. B vai para o sul e a direita dele é o oeste, de onde ninguém vem. Você vem de frente para B, não da direita dele (LCR art. 36 al. 2)."
+   }
+  ],
+  "explicacao": {
+   "regra_simples": "Para achar a ordem, veja quem tem alguém à direita: quem não tem ninguém à direita passa primeiro.",
+   "por_que": "LCR art. 36 al. 2 vale para cada par de veículos. Aqui você espera A, A espera B e B não espera ninguém: a ordem é B, A, você.",
+   "como_identificar": "Desenhe a interseção e, para cada veículo, olhe quem está à direita dele (a direita de quem vai para o oeste é o norte, e assim por diante).",
+   "erro_comum": "Achar que a direita é a mesma para todos, ou que dois veículos de frente um para o outro se dão prioridade pela direita.",
+   "excecao": "Se viesse um veículo de cada direção ao mesmo tempo, a regra da direita não daria uma ordem (veja a Q-PRIO-026). Sinais, polícia, tram e veículos prioritários mudariam a ordem.",
+   "palavras_fr": [
+    "priorité de droite — prioridade da direita",
+    "le véhicule qui vient de droite — o veículo que vem da direita",
+    "intersection — interseção"
+   ]
+  },
+  "etiqueta": "questao_original",
+  "status": "rascunho"
+ },
+ {
+  "id": "Q-PRIO-026",
+  "regra_ids": [
+   "R-PRIO-014",
+   "R-PRIO-001"
+  ],
+  "categoria": "D-Priorite",
+  "subtema": "casos-sem-regra",
+  "competencia": "Chegada simultânea de veículos de todas as direções",
+  "nivel": 4,
+  "enunciado": "Quatro carros chegam ao mesmo tempo a uma interseção em cruz, um vindo de cada direção, e todos vão seguir em frente. Não há semáforo, policial, sinais de prioridade, tram nem via principal. Cada carro tem outro à sua direita. Quais afirmações estão corretas?",
+  "imagem": null,
+  "alternativas": [
+   {
+    "texto": "Os condutores devem ter atenção particular e combinar entre si a ordem de prioridade.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 14 al. 5."
+   },
+   {
+    "texto": "Passa primeiro quem ligar a seta antes dos outros.",
+    "correta": false,
+    "justificativa": "Errada. Nenhum dos textos dá a seta como critério de prioridade; OCR art. 14 al. 5 manda os condutores regularem a ordem entre si."
+   },
+   {
+    "texto": "Passa primeiro quem chegar mais rápido ao centro da interseção.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 14 al. 5 manda os condutores regularem a ordem entre si; a velocidade não é critério da lei."
+   },
+   {
+    "texto": "A lei dá esse caso (veículos vindos de todas as direções chegando juntos a uma interseção) como exemplo de situação que nenhuma norma prevê.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 14 al. 5: a lei cita « des véhicules venant de toutes les directions parviennent simultanément à une intersection » como exemplo de situação não prevista por nenhuma prescrição."
+   }
+  ],
+  "explicacao": {
+   "regra_simples": "Chegada simultânea de todas as direções: a lei não dá uma ordem; exige atenção particular e acordo entre os condutores.",
+   "por_que": "OCR art. 14 al. 5 trata esse exemplo como situação não prevista por nenhuma prescrição.",
+   "como_identificar": "Cada veículo tem outro à direita, então a regra da direita não indica quem começa.",
+   "erro_comum": "Inventar um critério (velocidade, seta, tamanho do veículo) em vez de combinar a ordem com os outros condutores.",
+   "excecao": "Basta faltar um dos quatro carros para existir uma ordem pela regra da direita (veja a Q-PRIO-025). Sinais, polícia, tram e veículos prioritários mudam o quadro.",
+   "palavras_fr": [
+    "régleront entre eux l'ordre de priorité — combinarão entre si a ordem de prioridade",
+    "feront particulièrement attention — terão atenção particular",
+    "venant de toutes les directions — vindo de todas as direções"
+   ]
+  },
+  "etiqueta": "questao_original",
+  "status": "rascunho"
+ },
+ {
+  "id": "Q-PRIO-027",
+  "regra_ids": [
+   "R-PRIO-002",
+   "R-PRIO-005",
+   "R-PRIO-006",
+   "R-PRIO-001"
+  ],
+  "categoria": "D-Priorite",
+  "subtema": "ordem-de-passagem",
+  "competencia": "Ordem de passagem numa via principal com Stop e Cédez le passage",
+  "nivel": 3,
+  "enunciado": "Você segue em frente por uma via sinalizada com o sinal 3.03 «Route principale» e chega a uma interseção sem semáforo nem policial. O carro B vem de frente, também seguindo em frente pela mesma via principal. O carro A chega pela sua direita, por uma via secundária com um sinal 3.01 «Stop». O carro C chega pela sua esquerda, por uma via secundária com um sinal 3.02 «Cédez le passage». A e C vão atravessar a via principal em frente. Quais afirmações estão corretas?",
+  "imagem": null,
+  "alternativas": [
+   {
+    "texto": "Você não precisa ceder ao carro A, embora ele venha da sua direita, porque o 3.03 suprime a priorité de droite nas próximas interseções.",
+    "correta": true,
+    "justificativa": "Correta. OSR art. 37 al. 1: o 3.03 designa as vias prioritárias e suprime a priorité de droite; os sinais prevalecem sobre as regras gerais (LCR art. 27 al. 1)."
+   },
+   {
+    "texto": "Você deve esperar o carro A, porque ele vem da sua direita.",
+    "correta": false,
+    "justificativa": "Errada. A regra da direita (LCR art. 36 al. 2) é suprimida pelo 3.03 (OSR art. 37 al. 1), e A ainda tem um Stop (OSR art. 36 al. 1)."
+   },
+   {
+    "texto": "O carro C deve dar prioridade a você e ao carro B, que circulam na via principal.",
+    "correta": true,
+    "justificativa": "Correta. OSR art. 36 al. 2: o Cédez le passage obriga a dar prioridade aos veículos que circulam na via da qual o condutor se aproxima."
+   },
+   {
+    "texto": "O carro A deve parar no Stop e dar prioridade aos veículos que circulam na via principal.",
+    "correta": true,
+    "justificativa": "Correta. OSR art. 36 al. 1: o Stop obriga a parar e a dar prioridade aos veículos que circulam na via da qual o condutor se aproxima."
+   }
+  ],
+  "explicacao": {
+   "regra_simples": "Na via com 3.03 você passa antes de quem vem das vias secundárias com Stop ou Cédez, venham da direita ou da esquerda.",
+   "por_que": "OSR art. 37 al. 1 (3.03) e art. 36 al. 1-2 (Stop e Cédez le passage).",
+   "como_identificar": "Primeiro identifique a via principal (3.03) e quem tem Stop ou Cédez; só depois olhe direita e esquerda.",
+   "erro_comum": "Aplicar a regra da direita ao carro que vem da via secundária à sua direita.",
+   "excecao": "Ao virar à esquerda na via principal, você ainda cede a quem vem em sentido contrário (LCR art. 36 al. 3); aqui todos seguem em frente. Tram, polícia e veículos prioritários seguem regras próprias.",
+   "palavras_fr": [
+    "route principale — via principal",
+    "accorder la priorité — dar prioridade",
+    "s'arrêter — parar"
+   ]
+  },
+  "etiqueta": "questao_original",
+  "status": "rascunho"
+ },
+ {
+  "id": "Q-PRIO-028",
+  "regra_ids": [
+   "R-PRIO-009"
+  ],
+  "categoria": "D-Priorite",
+  "subtema": "sinal-intersecao-via-sem-prioridade",
+  "competencia": "Entender o sinal 3.05",
+  "nivel": 2,
+  "enunciado": "Você circula por uma via secundária e vê o sinal 3.05 «Intersection avec une route sans priorité» antes de uma interseção. Quais afirmações estão corretas?",
+  "imagem": null,
+  "alternativas": [
+   {
+    "texto": "O sinal indica que você terá a prioridade na próxima interseção.",
+    "correta": true,
+    "justificativa": "Correta. OSR art. 39 al. 1: o 3.05 indica ao condutor que circula em vias secundárias que ele « bénéficiera de la priorité » na próxima interseção."
+   },
+   {
+    "texto": "Dentro de localidades o sinal não precisa ser colocado onde o condutor consegue constatar a tempo que os veículos que desembocam da direita não têm prioridade, por exemplo por causa de um Stop ou de um Cédez le passage.",
+    "correta": true,
+    "justificativa": "Correta. OSR art. 39 al. 2."
+   },
+   {
+    "texto": "O sinal indica que você deverá dar prioridade a quem vem da direita na próxima interseção.",
+    "correta": false,
+    "justificativa": "Errada. OSR art. 39 al. 1: o 3.05 indica que o condutor tem a prioridade. É o 3.06 que anuncia uma interseção com priorité de droite (OSR art. 40 al. 1)."
+   },
+   {
+    "texto": "Quando várias interseções se sucedem a curtas distâncias, a placa «Longueur du tronçon» (5.03) pode indicar o comprimento do trecho em que você tem prioridade.",
+    "correta": true,
+    "justificativa": "Correta. OSR art. 39 al. 1, segunda frase."
+   }
+  ],
+  "explicacao": {
+   "regra_simples": "3.05 numa via secundária: na próxima interseção a prioridade é sua.",
+   "por_que": "OSR art. 39 al. 1 e 2.",
+   "como_identificar": "O nome do sinal diz que a interseção é com uma via sem prioridade: quem cede é a via que cruza.",
+   "erro_comum": "Confundir o 3.05 (você tem prioridade) com o 3.06 (vale a priorité de droite).",
+   "excecao": "Dentro de localidades o sinal pode faltar onde o condutor percebe a tempo que a via da direita não tem prioridade (OSR art. 39 al. 2).",
+   "palavras_fr": [
+    "intersection avec une route sans priorité — interseção com via sem prioridade (3.05)",
+    "bénéficiera de la priorité — terá a prioridade",
+    "longueur du tronçon — comprimento do trecho (5.03)"
+   ]
+  },
+  "etiqueta": "questao_original",
+  "status": "rascunho"
+ },
+ {
+  "id": "Q-PRIO-029",
+  "regra_ids": [
+   "R-PRIO-008"
+  ],
+  "categoria": "D-Priorite",
+  "subtema": "sinal-prioridade-de-direita",
+  "competencia": "Entender o sinal 3.06",
+  "nivel": 3,
+  "enunciado": "Você circula por uma via secundária e vê o sinal 3.06 «Intersection comportant la priorité de droite». Quais afirmações estão corretas?",
+  "imagem": null,
+  "alternativas": [
+   {
+    "texto": "O sinal indica que a priorité de droite foi suprimida na próxima interseção e que você tem a prioridade.",
+    "correta": false,
+    "justificativa": "Errada. OSR art. 40 al. 1: o 3.06 anuncia uma interseção onde a priorité de droite se aplica. Quem suprime a priorité de droite é o 3.03 (OSR art. 37 al. 1) e quem dá a prioridade ao condutor da via secundária é o 3.05 (OSR art. 39 al. 1)."
+   },
+   {
+    "texto": "O sinal anuncia, nas vias secundárias, uma interseção onde se aplica a priorité de droite prevista em lei.",
+    "correta": true,
+    "justificativa": "Correta. OSR art. 40 al. 1."
+   },
+   {
+    "texto": "O sinal é colocado em toda interseção em que vale a priorité de droite.",
+    "correta": false,
+    "justificativa": "Errada. OSR art. 40 al. 2: o sinal « ne sera placé que » nos dois casos das letras a e b."
+   },
+   {
+    "texto": "O sinal só é colocado em dois casos: quando o condutor não tem como avistar a tempo a via que desemboca da direita, ou quando uma interseção com priorité de droite legal sucede várias interseções com o sinal 3.05.",
+    "correta": true,
+    "justificativa": "Correta. OSR art. 40 al. 2, let. a e b."
+   }
+  ],
+  "explicacao": {
+   "regra_simples": "3.06: na próxima interseção vale a regra da direita.",
+   "por_que": "OSR art. 40 al. 1 e 2.",
+   "como_identificar": "O sinal aparece em vias secundárias e avisa que a priorité de droite vale na interseção seguinte.",
+   "erro_comum": "Confundir com o 3.05 (que dá a prioridade a você) ou com o 3.03 (que suprime a priorité de droite).",
+   "excecao": "O sinal só existe nos dois casos do OSR art. 40 al. 2; sem sinal, a regra geral da direita vale em qualquer interseção (LCR art. 36 al. 2).",
+   "palavras_fr": [
+    "intersection comportant la priorité de droite — interseção com priorité de droite (3.06)",
+    "routes secondaires — vias secundárias",
+    "apercevoir à temps — avistar a tempo"
+   ]
+  },
+  "etiqueta": "questao_original",
+  "status": "rascunho"
+ },
+ {
+  "id": "Q-PRIO-030",
+  "regra_ids": [
+   "R-PRIO-035",
+   "R-PRIO-053"
+  ],
+  "categoria": "D-Priorite",
+  "subtema": "pedestres-cegos",
+  "competencia": "Prioridade do pedestre cego com bengala branca",
+  "nivel": 1,
+  "enunciado": "Numa rua sem faixa de pedestres e sem semáforo, você vê uma pessoa cega, sem acompanhante, levantar a bengala branca para indicar que quer atravessar a pista. Quais afirmações estão corretas?",
+  "imagem": null,
+  "alternativas": [
+   {
+    "texto": "Como não há faixa de pedestres, ela deve esperar: fora das faixas os pedestres cedem aos veículos.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 47 al. 5 é a regra geral para pedestres fora das faixas, mas OCR art. 6 al. 4 dá ao cego desacompanhado que levanta a bengala branca a prioridade « toujours »."
+   },
+   {
+    "texto": "Se você consegue passar antes de ela entrar na pista, pode passar.",
+    "correta": false,
+    "justificativa": "Errada. Quem tem a prioridade é a pessoa cega (OCR art. 6 al. 4, « toujours »); o condutor é que dá passagem."
+   },
+   {
+    "texto": "A pessoa cega tem sempre a prioridade, porque, ao levantar a bengala branca, indicou a intenção de atravessar a pista.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 6 al. 4: os cegos desacompanhados « bénéficieront toujours de la priorité » quando, levantando a bengala branca, indicam a intenção de atravessar a pista."
+   },
+   {
+    "texto": "A pessoa só tem prioridade se já tiver pisado na pista.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 6 al. 4: a prioridade vem de levantar a bengala branca para indicar a intenção de atravessar."
+   }
+  ],
+  "explicacao": {
+   "regra_simples": "Cego desacompanhado levantando a bengala branca para atravessar: prioridade sempre.",
+   "por_que": "OCR art. 6 al. 4. Fora das faixas os demais pedestres em geral cedem aos veículos (OCR art. 47 al. 5), mas o texto do art. 6 al. 4 diz « toujours » para o cego desacompanhado.",
+   "como_identificar": "Pessoa desacompanhada com a bengala branca levantada, indicando que vai atravessar.",
+   "erro_comum": "Aplicar ao cego a regra geral de que o pedestre cede fora da faixa.",
+   "excecao": "A regra descreve o cego desacompanhado que levanta a bengala branca; o texto não trata aqui de outras situações.",
+   "palavras_fr": [
+    "les aveugles non accompagnés — cegos desacompanhados",
+    "canne blanche — bengala branca",
+    "toujours — sempre",
+    "traverser la chaussée — atravessar a pista"
+   ]
+  },
+  "etiqueta": "questao_original",
+  "status": "rascunho"
+ },
+ {
+  "id": "Q-PRIO-031",
+  "regra_ids": [
+   "R-PRIO-032",
+   "R-PRIO-001"
+  ],
+  "categoria": "D-Priorite",
+  "subtema": "cruzamento-em-sentido-contrario",
+  "competencia": "Obstáculo na sua metade da pista",
+  "nivel": 2,
+  "enunciado": "Numa rua de mão dupla, longe de qualquer interseção e sem sinais, há um obstáculo (por exemplo, um veículo parado) na metade da pista que você usa. Esse obstáculo dificultaria o cruzamento com um carro que vem em sentido contrário. Quais afirmações estão corretas?",
+  "imagem": null,
+  "alternativas": [
+   {
+    "texto": "O dever recai sobre quem tem o obstáculo na sua metade da pista; se o obstáculo estivesse na metade do outro sentido, seria o outro condutor a ceder.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 9 al. 1: a condição é o obstáculo estar na metade da pista que o próprio condutor usa."
+   },
+   {
+    "texto": "A priorité de droite não é o critério aqui, porque a lei a aplica às interseções.",
+    "correta": true,
+    "justificativa": "Correta. LCR art. 36 al. 2: « Aux intersections, le véhicule qui vient de droite a la priorité »."
+   },
+   {
+    "texto": "Tem prioridade quem chegou primeiro ao obstáculo.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 9 al. 1 usa como critério a metade da pista em que está o obstáculo, não a ordem de chegada."
+   },
+   {
+    "texto": "Você deve dar prioridade ao carro que vem em sentido contrário.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 9 al. 1: o condutor dá prioridade à circulação em sentido contrário se um obstáculo que dificultaria o cruzamento está na metade da pista que ele usa."
+   }
+  ],
+  "explicacao": {
+   "regra_simples": "Obstáculo na sua metade da pista, dificultando o cruzamento: você cede a quem vem em sentido contrário.",
+   "por_que": "OCR art. 9 al. 1.",
+   "como_identificar": "Veja em qual metade da pista está o obstáculo: se é a sua, você cede.",
+   "erro_comum": "Achar que quem chegou primeiro passa, ou aplicar a regra da direita fora de interseção.",
+   "excecao": "Vale quando o obstáculo dificultaria o cruzamento. Se a estrada é tão estreita que ninguém cruza, valem outros critérios (OCR art. 9 al. 2; veja a Q-PRIO-032).",
+   "palavras_fr": [
+    "obstacle — obstáculo",
+    "croisement — cruzamento (de veículos em sentidos opostos)",
+    "moitié de la chaussée — metade da pista",
+    "sens inverse — sentido contrário"
+   ]
+  },
+  "etiqueta": "questao_original",
+  "status": "rascunho"
+ },
+ {
+  "id": "Q-PRIO-032",
+  "regra_ids": [
+   "R-PRIO-040"
+  ],
+  "categoria": "D-Priorite",
+  "subtema": "cruzamento-em-sentido-contrario",
+  "competencia": "Via estreita que não permite o cruzamento",
+  "nivel": 3,
+  "enunciado": "Numa estrada estreita, que não é de montanha nem tem forte declive, dois veículos que vêm em sentidos opostos não conseguem se cruzar. Quais afirmações estão corretas?",
+  "imagem": null,
+  "alternativas": [
+   {
+    "texto": "Um automóvel leve tem prioridade sobre um veículo automotor pesado, porque é mais fácil de manobrar.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 9 al. 2: os veículos automotores pesados têm prioridade sobre os leves."
+   },
+   {
+    "texto": "Entre dois veículos da mesma categoria, recua quem chegou por último ao trecho estreito.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 9 al. 2: o critério é a proximidade de um local de desvio, não a ordem de chegada."
+   },
+   {
+    "texto": "Um ônibus de turismo (autocar) tem prioridade sobre um caminhão.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 9 al. 2: os autocars têm prioridade sobre os caminhões."
+   },
+   {
+    "texto": "Entre dois veículos da mesma categoria, deve recuar quem estiver mais perto de um local de desvio.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 9 al. 2, segunda frase."
+   }
+  ],
+  "explicacao": {
+   "regra_simples": "Via estreita sem como cruzar: trens rodoviários, pesados sobre leves e ônibus de turismo sobre caminhões passam antes; na mesma categoria, recua quem está mais perto de um local de desvio.",
+   "por_que": "OCR art. 9 al. 2.",
+   "como_identificar": "Compare a categoria dos dois veículos; se for igual, veja quem está mais perto de um local de desvio.",
+   "erro_comum": "Dar prioridade ao veículo menor ou a quem chegou primeiro.",
+   "excecao": "Em estradas de forte declive e de montanha o cruzamento é regido pelo OCR art. 38 al. 1, primeira frase (OCR art. 9 al. 2, última frase).",
+   "palavras_fr": [
+    "route étroite — via estreita",
+    "autocar — ônibus de turismo",
+    "place d'évitement — local de desvio",
+    "véhicules de même catégorie — veículos da mesma categoria"
+   ]
+  },
+  "etiqueta": "questao_original",
+  "status": "rascunho"
+ },
+ {
+  "id": "Q-PRIO-033",
+  "regra_ids": [
+   "R-PRIO-006",
+   "R-PRIO-007",
+   "R-PRIO-045"
+  ],
+  "categoria": "D-Priorite",
+  "subtema": "sinais-vs-semaforo",
+  "competencia": "Semáforo desligado e sinal Cédez le passage",
+  "nivel": 4,
+  "enunciado": "Você chega a uma interseção que tem semáforo, mas ele está desligado, sem nenhuma luz acesa. Na sua via há um sinal 3.02 «Cédez le passage» e não há policial no local. Quais afirmações estão corretas?",
+  "imagem": null,
+  "alternativas": [
+   {
+    "texto": "Semáforo desligado equivale a luz vermelha: você deve parar sempre.",
+    "correta": false,
+    "justificativa": "Errada. O texto liga o « Arrêt » ao feu rouge aceso (OSR art. 68 al. 2); um semáforo desligado não tem luz alguma. Vale o 3.02: dar prioridade aos veículos da via da qual você se aproxima (OSR art. 36 al. 2)."
+   },
+   {
+    "texto": "Você deve observar o 3.02, porque o trânsito não está regulado por sinais luminosos.",
+    "correta": true,
+    "justificativa": "Correta. OSR art. 36 al. 3: os sinais Stop e Cédez le passage só devem ser observados se o trânsito não estiver regulado por sinais luminosos. Pelo OCR art. 1 al. 9, o trânsito é « réglé » quando a parada e a passagem são ordenadas pela polícia ou por sinalização luminosa; um semáforo desligado não ordena nada."
+   },
+   {
+    "texto": "Como a interseção tem semáforo, o 3.02 não vale, mesmo com o semáforo desligado.",
+    "correta": false,
+    "justificativa": "Errada. OSR art. 36 al. 3 depende de o trânsito estar de fato regulado por sinais luminosos; com o semáforo desligado nada ordena a parada ou a passagem (OCR art. 1 al. 9)."
+   }
+  ],
+  "explicacao": {
+   "regra_simples": "Semáforo desligado não regula o trânsito: o 3.02 (ou o Stop) volta a valer.",
+   "por_que": "OSR art. 36 al. 3 (Stop e Cédez só se observam se o trânsito não está regulado por sinais luminosos) e OCR art. 1 al. 9 (trânsito regulado = parada e passagem ordenadas pela polícia ou por sinalização luminosa).",
+   "como_identificar": "Pergunte: alguma luz ou algum policial está ordenando a parada e a passagem? Se não, o trânsito não está regulado.",
+   "erro_comum": "Achar que a simples existência do semáforo cancela os sinais de prioridade.",
+   "excecao": "Se um agente de polícia estivesse regulando o trânsito, o trânsito estaria regulado (OCR art. 1 al. 9). Esta pergunta não trata do amarelo piscante.",
+   "palavras_fr": [
+    "installation de signaux lumineux — semáforo",
+    "le trafic n'est pas réglé — o trânsito não está regulado",
+    "feu rouge — luz vermelha"
+   ]
+  },
+  "etiqueta": "questao_original",
+  "status": "rascunho"
+ },
+ {
+  "id": "Q-PRIO-034",
+  "regra_ids": [
+   "R-PRIO-031",
+   "R-PRIO-001",
+   "R-PRIO-002"
+  ],
+  "categoria": "D-Priorite",
+  "subtema": "hierarquia-das-regras",
+  "competencia": "Polícia, sinais de prioridade e regra geral",
+  "nivel": 3,
+  "enunciado": "A regra geral da lei dá a prioridade a quem vem da direita. Numa interseção, porém, também podem existir sinais de prioridade (como o 3.03 «Route principale» ou o Stop) e um agente de polícia regulando o trânsito. Quais afirmações sobre qual dessas fontes prevalece estão corretas?",
+  "imagem": null,
+  "alternativas": [
+   {
+    "texto": "A própria regra da direita ressalva qualquer regulação diferente imposta por sinais ou pela polícia.",
+    "correta": true,
+    "justificativa": "Correta. LCR art. 36 al. 2, última frase."
+   },
+   {
+    "texto": "Um sinal de prioridade prevalece sobre a regra geral: com o 3.03 você não cede a quem vem da direita nas interseções seguintes.",
+    "correta": true,
+    "justificativa": "Correta. LCR art. 27 al. 1: os sinais e as marcas prevalecem sobre as regras gerais. OSR art. 37 al. 1: o 3.03 suprime a priorité de droite."
+   },
+   {
+    "texto": "A regra da direita prevalece sobre as ordens do agente de polícia, porque é a regra geral da lei.",
+    "correta": false,
+    "justificativa": "Errada. LCR art. 27 al. 1: as ordens da polícia prevalecem sobre as regras gerais."
+   },
+   {
+    "texto": "As ordens da polícia prevalecem sobre as regras gerais, sobre os sinais e sobre as marcas.",
+    "correta": true,
+    "justificativa": "Correta. LCR art. 27 al. 1."
+   }
+  ],
+  "explicacao": {
+   "regra_simples": "Polícia, depois sinais e marcas, depois regras gerais (como a priorité de droite).",
+   "por_que": "LCR art. 27 al. 1; a mesma ideia aparece no fim do LCR art. 36 al. 2.",
+   "como_identificar": "Pergunte: há agente regulando? Há sinal de prioridade? Só sem eles vale a regra geral.",
+   "erro_comum": "Aplicar a priorité de droite mesmo quando um sinal ou a ordem da polícia diz outra coisa.",
+   "excecao": "Esta pergunta compara polícia, sinais e regra geral. A relação entre ordem da polícia e sinais luminosos não é tratada aqui, e o tram e os veículos prioritários têm regras próprias (LCR art. 38 al. 1; OCR art. 16 al. 1).",
+   "palavras_fr": [
+    "ordres de la police — ordens da polícia",
+    "signaux et marques — sinais e marcas",
+    "règles générales — regras gerais",
+    "ont le pas sur — têm precedência sobre"
+   ]
+  },
+  "etiqueta": "questao_original",
+  "status": "rascunho"
+ },
+ {
+  "id": "Q-PRIO-035",
+  "regra_ids": [
+   "R-PRIO-027",
+   "R-PRIO-038",
+   "R-PRIO-028"
+  ],
+  "categoria": "D-Priorite",
+  "subtema": "veiculos-prioritarios",
+  "competencia": "Ambulância chegando por trás na via principal",
+  "nivel": 2,
+  "enunciado": "Você segue por uma via sinalizada com o sinal 3.03 «Route principale». Pelo retrovisor, vê uma ambulância com luz azul e avisador de dois sons alternados se aproximando por trás. Não há semáforo nem policial. Quais afirmações estão corretas?",
+  "imagem": null,
+  "alternativas": [
+   {
+    "texto": "Estar na via principal não lhe dá prioridade sobre a ambulância, que tem prioridade sobre todos os usuários da via.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 16 al. 1: os veículos de saúde com luz azul e avisador de dois sons alternados « ont la priorité sur tous les usagers de la route »."
+   },
+   {
+    "texto": "Para liberar a pista, você pode subir na calçada sempre que isso for mais cômodo.",
+    "correta": false,
+    "justificativa": "Errada. OCR art. 16 al. 2: subir na calçada, com todas as precauções necessárias, só quando for indispensável liberar imediatamente a pista."
+   },
+   {
+    "texto": "Você deve liberar a pista imediatamente e, se necessário, parar o veículo.",
+    "correta": true,
+    "justificativa": "Correta. LCR art. 27 al. 2: quando funcionam os avisadores especiais, a pista deve ser imediatamente liberada e, se necessário, os condutores param."
+   }
+  ],
+  "explicacao": {
+   "regra_simples": "Luz azul e avisador de dois sons: libere a pista na hora; subir na calçada só se for indispensável.",
+   "por_que": "LCR art. 27 al. 2 (dever dos demais usuários), OCR art. 16 al. 1 (prioridade sobre todos) e al. 2 (calçada).",
+   "como_identificar": "Luz azul e avisador de dois sons alternados funcionando.",
+   "erro_comum": "Achar que quem está na via principal mantém a vez diante de um veículo prioritário.",
+   "excecao": "Só a luz azul, de noite e sem avisador, não dá o direito especial de prioridade (OCR art. 16 al. 4); veja a Q-PRIO-024.",
+   "palavras_fr": [
+    "feu bleu — luz azul",
+    "avertisseur à deux sons alternés — avisador de dois sons alternados",
+    "la chaussée doit être immédiatement dégagée — a pista deve ser liberada imediatamente",
+    "empiéteront sur le trottoir — subirão na calçada"
+   ]
+  },
+  "etiqueta": "questao_original",
+  "status": "rascunho"
+ },
+ {
+  "id": "Q-PRIO-036",
+  "regra_ids": [
+   "R-PRIO-024",
+   "R-PRIO-001",
+   "R-PRIO-025"
+  ],
+  "categoria": "D-Priorite",
+  "subtema": "tram",
+  "competencia": "Tram e carro da direita na mesma interseção",
+  "nivel": 4,
+  "enunciado": "Numa interseção sem semáforo, sem policial e sem sinais de prioridade (nenhuma via é sinalizada como principal), os trilhos de um tram cruzam a pista. Você vai seguir em frente. O tram vem pela sua esquerda e um carro B vem pela sua direita, também seguindo em frente. Quais afirmações estão corretas?",
+  "imagem": null,
+  "alternativas": [
+   {
+    "texto": "Se um veículo do serviço de saúde anunciado por avisadores especiais chegasse, o tram também teria de lhe dar prioridade.",
+    "correta": true,
+    "justificativa": "Correta. OCR art. 45 al. 2: os condutores de tramways cedem a prioridade aos veículos do serviço de saúde, dos bombeiros, da polícia e da alfândega anunciados por avisadores especiais."
+   },
+   {
+    "texto": "O tram deve esperar você, porque pela regra da direita quem vem da esquerda cede.",
+    "correta": false,
+    "justificativa": "Errada. LCR art. 38 al. 1 concede a prioridade ao tram. Ele só cede nos casos do OCR art. 45 al. 2."
+   },
+   {
+    "texto": "O carro B, que vem da sua direita, tem prioridade sobre você.",
+    "correta": true,
+    "justificativa": "Correta. LCR art. 36 al. 2: nas interseções, o veículo que vem da direita tem a prioridade."
+   },
+   {
+    "texto": "O tram tem prioridade sobre você, mesmo vindo da esquerda.",
+    "correta": true,
+    "justificativa": "Correta. LCR art. 38 al. 1: a via férrea deve ser deixada livre para a passagem de tramways e trens rodoviários; a prioridade lhes será concedida."
+   }
+  ],
+  "explicacao": {
+   "regra_simples": "O tram tem prioridade sobre o trânsito comum, mesmo vindo da esquerda; você ainda cede a quem vem da direita.",
+   "por_que": "LCR art. 38 al. 1 (tram), LCR art. 36 al. 2 (direita) e OCR art. 45 al. 2 (o tram também cede).",
+   "como_identificar": "Trilhos na pista e um tram se aproximando: ele passa antes de você; depois aplique a regra da direita aos demais veículos.",
+   "erro_comum": "Aplicar a priorité de droite ao tram ou achar que o tram tem prioridade absoluta.",
+   "excecao": "O tram cede a veículos prioritários anunciados por avisadores especiais e, ao desembocar de via secundária em principal, deve dar prioridade (OCR art. 45 al. 2; veja a Q-PRIO-013). Esta pergunta não trata de semáforo.",
+   "palavras_fr": [
+    "tramway — tram",
+    "voie ferrée — via férrea",
+    "avertisseurs spéciaux — avisadores especiais"
    ]
   },
   "etiqueta": "questao_original",
