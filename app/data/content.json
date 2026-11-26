@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "gerado_em": "2026-11-26T00:56:05Z",
+ "gerado_em": "2026-11-26T02:31:45Z",
  "modo": "seguro",
  "categorias": [
   {
@@ -30,9 +30,9 @@
   {
    "id": "D",
    "nome": "Prioridade (priorité)",
-   "regras": 0,
+   "regras": 55,
    "perguntas": 0,
-   "regras_pendentes": 46,
+   "regras_pendentes": 0,
    "perguntas_pendentes": 0
   },
   {
@@ -54,7 +54,7 @@
   {
    "id": "G",
    "nome": "Velocidade, distância e outros usuários",
-   "regras": 0,
+   "regras": 1,
    "perguntas": 0,
    "regras_pendentes": 0,
    "perguntas_pendentes": 0
@@ -84,16 +84,1372 @@
    "perguntas_pendentes": 0
   }
  ],
- "regras": [],
+ "regras": [
+  {
+   "id": "R-PRIO-001",
+   "categoria": "D-Priorite",
+   "subtema": "priorite-de-droite",
+   "regra_pt": "Em interseções, o veículo que vem da direita tem prioridade. Os veículos que circulam numa via sinalizada como principal têm prioridade, mesmo vindo da esquerda. Fica ressalvada qualquer regulação diferente da circulação imposta por sinais ou pela polícia.",
+   "termos_fr": [
+    "priorité de droite",
+    "le véhicule qui vient de droite",
+    "route signalée comme principale"
+   ],
+   "fonte": {
+    "lei": "LCR",
+    "rs": "741.01",
+    "artigo": "36",
+    "alinea": "2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html"
+   },
+   "excecoes": [
+    "Regulação diferente imposta por sinais ou pela polícia (LCR 36 al. 2, última frase).",
+    "Via sinalizada como principal: tem prioridade mesmo vindo da esquerda (LCR 36 al. 2, segunda frase).",
+    "Regra de outra disposição (não consta desta alínea): quem sai de propriedade, pátio, garagem, caminho rural, ciclovia, estacionamento, posto etc. cede a quem está na via (OCR 15 al. 3, R-PRIO-017); esses locais não são interseções (OCR 1 al. 8, R-PRIO-046).",
+    "Regra de outra disposição (não consta desta alínea): vias com Stop/Cédez le passage que desembocam no mesmo ponto numa via prioritária aplicam entre si a regra da direita (OCR 15 al. 2, R-PRIO-016).",
+    "Regra de outra disposição (não consta desta alínea): via principal que muda de direção: quem sai dela só cede ao tráfego em sentido contrário (OCR 15 al. 1, R-PRIO-015).",
+    "Regra de outra disposição (não consta desta alínea): tram (LCR 38 al. 1: « La voie ferrée doit être dégagée pour laisser passer les tramways ou chemins de fer routiers; la priorité leur sera accordée. »), mesmo vindo da esquerda. Ressalva do OCR 45 al. 2: o tram cede ao desembocar de via secundária em principal e a veículos prioritários (R-PRIO-024, R-PRIO-025).",
+    "Regra de outra disposição (não consta desta alínea): veículos do serviço de bombeiros, de saúde, da polícia e da alfândega com luz azul e avisador de dois sons alternados « ont la priorité sur tous les usagers de la route » (OCR 16 al. 1, R-PRIO-027).",
+    "Regra de outra disposição (não consta desta alínea): ciclista em pista ciclável que acompanha a via a no máximo 2 m: aos cruzamentos, está « soumis [...] aux mêmes règles de priorité que les conducteurs circulant sur la chaussée contiguë » (OCR 40 al. 5, R-PRIO-049).",
+    "Regra de outra disposição (não consta desta alínea): rotatória sinalizada com 2.41.1 combinado com 3.02 na entrada: quem entra cede aos veículos que surgem à sua esquerda dentro do giratório; a priorité de droite não se aplica (OCR 41b al. 1, R-PRIO-018)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-07-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-002",
+   "categoria": "D-Priorite",
+   "subtema": "via-principal",
+   "regra_pt": "O sinal 'Route principale' (3.03) designa as vias prioritárias e indica ao condutor que a priorité de droite prevista em lei (LCR 36 al. 2) é suprimida nas próximas interseções. As regras de circulação que dizem respeito especialmente às vias principais (por ex. OCR 19) aplicam-se nessas vias.",
+   "termos_fr": [
+    "route principale",
+    "signal Route principale (3.03)",
+    "routes prioritaires"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "37",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-003",
+   "categoria": "D-Priorite",
+   "subtema": "via-principal",
+   "regra_pt": "O sinal 'Fin de la route principale' (3.04) indica que a via perde a prioridade e que a priorité de droite prevista em lei (LCR 36 al. 2) volta a aplicar-se nas interseções.",
+   "termos_fr": [
+    "fin de la route principale",
+    "signal 3.04",
+    "priorité de droite"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "38",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-004",
+   "categoria": "D-Priorite",
+   "subtema": "sinais-de-prioridade",
+   "regra_pt": "Os sinais de prioridade avisam o condutor de que ele deve dar prioridade aos outros veículos ou de que ele tem prioridade em relação a eles. Têm a forma de sinais de perigo, de prescrição ou de indicação; os princípios dos capítulos 2, 3 e 5 da OSR aplicam-se por analogia.",
+   "termos_fr": [
+    "signaux de priorité",
+    "accorder la priorité",
+    "bénéficie de la priorité"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "35",
+    "alinea": "1-2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-005",
+   "categoria": "D-Priorite",
+   "subtema": "stop",
+   "regra_pt": "O sinal 'Stop' (3.01) obriga o condutor a parar e a dar prioridade aos veículos que circulam na via da qual ele se aproxima. A linha de parada (6.10) complementa o sinal (OSR 75 al. 1, 2 e 5).",
+   "termos_fr": [
+    "signal Stop (3.01)",
+    "s'arrêter",
+    "accorder la priorité",
+    "ligne d'arrêt"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "36",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "Em interseções com semáforo, Stop e Cédez le passage só valem se o trânsito não estiver regulado por sinais luminosos (OSR 36 al. 3, ver R-PRIO-007)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-006",
+   "categoria": "D-Priorite",
+   "subtema": "cedez-le-passage",
+   "regra_pt": "O sinal 'Cédez le passage' (3.02) obriga o condutor a dar prioridade aos veículos que circulam na via da qual ele se aproxima. A linha de espera (6.13) complementa o sinal (OSR 75 al. 3 a 5).",
+   "termos_fr": [
+    "signal Cédez le passage (3.02)",
+    "accorder la priorité",
+    "ligne d'attente"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "36",
+    "alinea": "2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "Em interseções com semáforo, Stop e Cédez le passage só valem se o trânsito não estiver regulado por sinais luminosos (OSR 36 al. 3, ver R-PRIO-007)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-007",
+   "categoria": "D-Priorite",
+   "subtema": "sinais-vs-semaforo",
+   "regra_pt": "Em interseções com semáforo (instalação de sinais luminosos), os sinais Stop e Cédez le passage só devem ser observados se o trânsito não estiver regulado por sinais luminosos.",
+   "termos_fr": [
+    "installation de signaux lumineux",
+    "Stop",
+    "Cédez le passage",
+    "trafic réglé"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "36",
+    "alinea": "3",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-008",
+   "categoria": "D-Priorite",
+   "subtema": "sinal-prioridade-de-direita",
+   "regra_pt": "O sinal 'Intersection comportant la priorité de droite' (3.06) anuncia, nas vias secundárias, uma interseção onde se aplica a priorité de droite prevista em lei (LCR 36 al. 2). O sinal só é colocado: (a) se o condutor não tem a possibilidade de avistar a tempo a via que desemboca à direita; (b) se uma interseção com priorité de droite legal sucede várias interseções com o sinal 'Intersection avec une route sans priorité' (3.05).",
+   "termos_fr": [
+    "intersection comportant la priorité de droite",
+    "signal 3.06",
+    "routes secondaires"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "40",
+    "alinea": "1-2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-009",
+   "categoria": "D-Priorite",
+   "subtema": "sinal-intersecao-via-sem-prioridade",
+   "regra_pt": "O sinal 'Intersection avec une route sans priorité' (3.05) indica ao condutor que circula em vias secundárias que ele terá prioridade na próxima interseção. Quando várias interseções se sucedem a curtas distâncias, o comprimento do trecho em que ele tem prioridade pode ser indicado pela placa 'Longueur du tronçon' (5.03). Dentro das localidades não é necessário colocar o sinal onde o condutor pode constatar a tempo que os veículos que desembocam da direita não têm prioridade (por ex. por causa de Stop, Cédez le passage, linha de parada ou linha de espera).",
+   "termos_fr": [
+    "intersection avec une route sans priorité",
+    "signal 3.05",
+    "à l'intérieur des localités"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "39",
+    "alinea": "1-2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "Dentro das localidades o sinal não precisa ser colocado onde o condutor pode constatar a tempo que os veículos vindos da direita não têm prioridade (por ex. Stop, Cédez le passage, linha de parada 6.10 ou linha de espera 6.13) (al. 2)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-010",
+   "categoria": "D-Priorite",
+   "subtema": "sinal-estreitamento",
+   "regra_pt": "Em estreitamentos da pista: o sinal 'Laissez passer les véhicules venant en sens inverse' (3.09) obriga quem circula no sentido da seta vermelha a ceder a passagem ao tráfego em sentido contrário; no outro extremo coloca-se o sinal 'Priorité par rapport aux véhicules venant en sens inverse' (3.10). O 3.10 indica a quem circula no sentido da seta branca que pode continuar, e que os veículos de rodas lado a lado devem esperar que ele passe; se esses veículos já estão engajados no estreitamento, cabe a ele esperar.",
+   "termos_fr": [
+    "laissez passer les véhicules venant en sens inverse",
+    "priorité par rapport aux véhicules venant en sens inverse",
+    "signaux 3.09 et 3.10"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "42",
+    "alinea": "1-2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "A obrigação do 3.09 não se aplica a veículos com rodas uma atrás da outra (por ex. duas rodas) cujos condutores podem constatar que há espaço suficiente para cruzar sem perigo (al. 1).",
+    "Se os veículos de rodas lado a lado já estão engajados no estreitamento, quem tem o 3.10 é que deve esperar (al. 2)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-011",
+   "categoria": "D-Priorite",
+   "subtema": "exercicio-da-prioridade",
+   "regra_pt": "Quem é obrigado a dar prioridade não deve atrapalhar a marcha do condutor que tem prioridade. Deve reduzir a velocidade a tempo e, se precisar esperar, parar antes do início da interseção.",
+   "termos_fr": [
+    "exercice du droit de priorité",
+    "celui qui est tenu d'accorder la priorité",
+    "gêner"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "14",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-012",
+   "categoria": "D-Priorite",
+   "subtema": "exercicio-da-prioridade",
+   "regra_pt": "Quem tem prioridade deve ter consideração pelos usuários da via que chegaram à interseção antes de poderem avistar o veículo dele.",
+   "termos_fr": [
+    "bénéficiaire de la priorité",
+    "usagers de la route qui ont atteint l'intersection"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "14",
+    "alinea": "2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-013",
+   "categoria": "D-Priorite",
+   "subtema": "exercicio-da-prioridade",
+   "regra_pt": "Quando veículos em filas paralelas têm prioridade, essa prioridade deve ser respeitada mesmo que a fila mais próxima esteja parada.",
+   "termos_fr": [
+    "files parallèles",
+    "priorité"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "14",
+    "alinea": "3",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-014",
+   "categoria": "D-Priorite",
+   "subtema": "casos-sem-regra",
+   "regra_pt": "Em situação não prevista por nenhuma norma (por exemplo, veículos vindos de todas as direções chegando ao mesmo tempo a uma interseção), os condutores devem ter atenção particular e combinar entre si a ordem de prioridade.",
+   "termos_fr": [
+    "régler entre eux l'ordre de priorité",
+    "particulièrement attention"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "14",
+    "alinea": "5",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-015",
+   "categoria": "D-Priorite",
+   "subtema": "via-principal-que-muda-de-direcao",
+   "regra_pt": "Quando uma via principal muda de direção num ponto onde desembocam vias secundárias, o condutor que sai da via principal deve dar prioridade apenas aos veículos que circulam em sentido contrário na via principal.",
+   "termos_fr": [
+    "route principale qui change de direction",
+    "véhicules circulant en sens inverse"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "15",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-016",
+   "categoria": "D-Priorite",
+   "subtema": "vias-secundarias-no-mesmo-ponto",
+   "regra_pt": "Quando duas ou mais vias com o sinal Stop (3.01) ou Cédez le passage (3.02) desembocam no mesmo ponto numa via prioritária, os usuários dessas vias não prioritárias devem respeitar entre si a regra da priorité de droite.",
+   "termos_fr": [
+    "priorité dans des cas particuliers",
+    "Stop",
+    "Cédez le passage",
+    "priorité de droite"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "15",
+    "alinea": "2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-017",
+   "categoria": "D-Priorite",
+   "subtema": "saida-de-propriedade",
+   "regra_pt": "Quem, saindo de fábrica, pátio, garagem, caminho rural, ciclovia, estacionamento, posto de gasolina etc., ou atravessando uma calçada, desemboca numa via principal ou secundária deve dar prioridade aos usuários dessa via. Se o local não tem visibilidade, o condutor deve parar; se necessário, deve recorrer à ajuda de uma terceira pessoa, que vigiará a manobra.",
+   "termos_fr": [
+    "sortant d'une fabrique, d'une cour, d'un garage, d'un chemin rural, d'une piste cyclable",
+    "accorder la priorité aux usagers de cette route"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "15",
+    "alinea": "3",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "Regra de outra disposição (não consta desta alínea): esses locais não são interseções (OCR 1 al. 8, R-PRIO-046); por isso a priorité de droite (LCR 36 al. 2) não se aplica a quem sai deles."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-018",
+   "categoria": "D-Priorite",
+   "subtema": "rotatoria",
+   "regra_pt": "Antes de entrar numa rotatória (sinal 2.41.1 combinado com o sinal 3.02), o condutor deve reduzir a velocidade e dar prioridade aos veículos que, à sua esquerda, chegam dentro da rotatória.",
+   "termos_fr": [
+    "carrefour à sens giratoire",
+    "giratoire",
+    "accorder la priorité aux véhicules qui, sur sa gauche"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "41b",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-019",
+   "categoria": "D-Priorite",
+   "subtema": "rotatoria",
+   "regra_pt": "O condutor não é obrigado a sinalizar a direção na entrada da rotatória nem, desde que não mude de faixa, dentro dela. A intenção de sair da rotatória deve ser indicada.",
+   "termos_fr": [
+    "carrefour à sens giratoire",
+    "signaler sa direction"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "41b",
+    "alinea": "2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-020",
+   "categoria": "D-Priorite",
+   "subtema": "pedestres-passagem-nao-regulada",
+   "regra_pt": "Antes de chegar a uma faixa de pedestres onde o trânsito não é regulado, o condutor dá prioridade a todo pedestre ou usuário de um engin assimilé à un véhicule que já está engajado na faixa ou que espera diante dela com a intenção visível de usá-la. Deve reduzir a velocidade a tempo e parar, se necessário, para poder cumprir essa obrigação. Pela definição legal (OCR 1 al. 10), engins assimilés à des véhicules são os patins de rodas (patins à roulettes), os rollers, as trottinettes ou meios de locomoção análogos, com rodas ou rodinhas, movidos somente pela força muscular do usuário; as bicicletas infantis também são consideradas engins assimilés.",
+   "termos_fr": [
+    "passage pour piétons",
+    "trafic non réglé",
+    "intention visible de l'emprunter",
+    "engin assimilé à un véhicule"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "6",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-021",
+   "categoria": "D-Priorite",
+   "subtema": "pedestres-cruzamento-regulado",
+   "regra_pt": "Em interseções onde o trânsito é regulado (por polícia ou sinais luminosos), os condutores que viram são obrigados a dar prioridade aos pedestres e usuários de engins assimilés a veículos que estão engajados na via transversal.",
+   "termos_fr": [
+    "intersections où le trafic est réglé",
+    "conducteurs qui obliquent",
+    "piétons"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "6",
+    "alinea": "2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "Não se aplica quando a passagem é dada pela seta verde de um semáforo e nenhum amarelo está piscando (al. 2, segunda frase)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-022",
+   "categoria": "D-Priorite",
+   "subtema": "pedestres-passagem-nao-regulada",
+   "regra_pt": "Nas faixas de pedestres onde o trânsito não é regulado, os pedestres têm prioridade, exceto em relação a bondes (tramways) e trens rodoviários (chemins de fer routiers). Os pedestres não podem, porém, usar o direito de prioridade quando o veículo já está tão perto da faixa que não conseguiria mais parar a tempo.",
+   "termos_fr": [
+    "passages pour piétons où le trafic n'est pas réglé",
+    "les piétons ont la priorité",
+    "tramways"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "47",
+    "alinea": "2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "Tram e trem rodoviário: o pedestre não tem prioridade sobre eles (al. 2, primeira frase).",
+    "O pedestre não pode usar o direito de prioridade quando o veículo já está tão perto da faixa que não conseguiria mais parar a tempo (al. 2, segunda frase)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-023",
+   "categoria": "D-Priorite",
+   "subtema": "pedestres-passagem-nao-regulada",
+   "regra_pt": "Antes das faixas de pedestres, o condutor deve circular com prudência particular e, se necessário, parar para dar prioridade aos pedestres que já estão na faixa ou que se engajam nela.",
+   "termos_fr": [
+    "obligations à l'égard des piétons",
+    "passage pour piétons",
+    "laisser la priorité aux piétons"
+   ],
+   "fonte": {
+    "lei": "LCR",
+    "rs": "741.01",
+    "artigo": "33",
+    "alinea": "2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-07-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-024",
+   "categoria": "D-Priorite",
+   "subtema": "tram",
+   "regra_pt": "A via férrea deve ser deixada livre para a passagem de tramways e trens rodoviários (chemins de fer routiers); a prioridade lhes será concedida.",
+   "termos_fr": [
+    "tramways et chemins de fer routiers",
+    "la priorité leur sera accordée"
+   ],
+   "fonte": {
+    "lei": "LCR",
+    "rs": "741.01",
+    "artigo": "38",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html"
+   },
+   "excecoes": [
+    "Regra de outra disposição (OCR 45 al. 2): « Ils céderont la priorité aux véhicules du service du feu, du service de santé, de la police et de la douane qui sont annoncés par des avertisseurs spéciaux. En débouchant d'une route secondaire sur une route principale, ils sont tenus d'accorder la priorité. » Ou seja, o tram cede a veículos prioritários anunciados por avisadores especiais e, ao desembocar de via secundária em principal, deve dar prioridade (R-PRIO-025)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-07-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-025",
+   "categoria": "D-Priorite",
+   "subtema": "tram",
+   "regra_pt": "Os condutores de tramways e trens rodoviários devem ceder a prioridade aos veículos dos bombeiros, do serviço de saúde, da polícia e da alfândega anunciados por avisadores especiais. Ao desembocar de uma via secundária numa via principal, são obrigados a dar prioridade.",
+   "termos_fr": [
+    "tramways et chemins de fer routiers",
+    "véhicules du service du feu",
+    "route secondaire",
+    "route principale"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "45",
+    "alinea": "2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-026",
+   "categoria": "D-Priorite",
+   "subtema": "onibus-saindo-de-parada",
+   "regra_pt": "Dentro de uma localidade, quando o condutor de um ônibus de linha (bus en trafic de ligne) está numa parada sinalizada e aciona a seta para indicar que vai partir, os condutores que vêm atrás devem, se necessário, reduzir a velocidade ou parar para permitir a partida; essa regra não se aplica quando a parada fica na borda esquerda da pista. O condutor do ônibus só deve acionar a seta quando estiver pronto para partir e é obrigado a esperar quando veículos vindos atrás não conseguiriam parar a tempo.",
+   "termos_fr": [
+    "bus en trafic de ligne",
+    "arrêt signalé",
+    "clignoteurs de direction",
+    "réduire leur vitesse ou s'arrêter"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "17",
+    "alinea": "5",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "Não se aplica quando a parada fica na borda esquerda da pista (al. 5).",
+    "O ônibus deve esperar se os veículos de trás não conseguem parar a tempo (al. 5)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-027",
+   "categoria": "D-Priorite",
+   "subtema": "veiculos-prioritarios",
+   "regra_pt": "Os veículos dos bombeiros, do serviço de saúde, da polícia e da alfândega anunciados por luz azul e avisador de dois sons alternados têm prioridade sobre todos os usuários da via, mesmo onde a circulação é regulada por sinais luminosos.",
+   "termos_fr": [
+    "véhicules prioritaires",
+    "feu bleu",
+    "avertisseur à deux sons alternés",
+    "service du feu",
+    "service de santé",
+    "police",
+    "douane"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "16",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-028",
+   "categoria": "D-Priorite",
+   "subtema": "veiculos-prioritarios",
+   "regra_pt": "Para liberar imediatamente a pista a um veículo prioritário (luz azul e avisador de dois sons alternados), os condutores sobem na calçada com todas as precauções necessárias, quando isso for indispensável.",
+   "termos_fr": [
+    "véhicules prioritaires",
+    "empiéter sur le trottoir",
+    "dégager immédiatement la chaussée"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "16",
+    "alinea": "2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-029",
+   "categoria": "D-Priorite",
+   "subtema": "virar-a-esquerda",
+   "regra_pt": "Antes de virar à esquerda, o condutor dá prioridade aos veículos que vêm em sentido contrário.",
+   "termos_fr": [
+    "obliquer à gauche",
+    "véhicules qui viennent en sens inverse"
+   ],
+   "fonte": {
+    "lei": "LCR",
+    "rs": "741.01",
+    "artigo": "36",
+    "alinea": "3",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html"
+   },
+   "excecoes": [
+    "Se você segue a via principal que dobra à esquerda, o veículo em sentido contrário que segue reto sai da via principal e deve ceder a você (OCR 15 al. 1; OSR 65 al. 1: « accorder la priorité aux véhicules circulant sur la route principale ou à ceux qui la quittent »). Quem sai da via principal só cede ao tráfego em sentido contrário na via principal (R-PRIO-015, R-PRIO-052).",
+    "Seta verde sem amarelo piscante (OSR 68 al. 4: « Les flèches vertes permettent de circuler dans le sens indiqué »): o texto só exige ceder aos veículos em sentido contrário quando um amarelo pisca ao lado da seta. Que não é preciso ceder sem o amarelo é inferência do texto, não frase expressa (para pedestres é expresso: OCR 6 al. 2, segunda frase, R-PRIO-021)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-07-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-030",
+   "categoria": "D-Priorite",
+   "subtema": "entrar-na-circulacao",
+   "regra_pt": "O condutor que quer entrar na circulação, fazer retorno ou dar marcha à ré não deve atrapalhar os demais usuários da via; estes têm prioridade.",
+   "termos_fr": [
+    "engager son véhicule dans la circulation",
+    "demi-tour",
+    "marche arrière",
+    "entraver les autres usagers de la route"
+   ],
+   "fonte": {
+    "lei": "LCR",
+    "rs": "741.01",
+    "artigo": "36",
+    "alinea": "4",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html"
+   },
+   "excecoes": [
+    "Ônibus em tráfego de linha (bus en trafic de ligne), dentro de localidade, em parada sinalizada, com a seta acionada para partir: quem vem atrás deve, se necessário, reduzir a velocidade ou parar para deixá-lo sair; a regra não vale se a parada fica na borda esquerda da pista; o ônibus deve esperar se quem vem atrás não conseguiria parar a tempo (OCR 17 al. 5, R-PRIO-026).",
+    "Referências cruzadas: quem sai de propriedade, pátio, garagem etc. cede (OCR 15 al. 3, R-PRIO-017); cuidados ao partir, dar marcha à ré e fazer retorno (OCR 17 al. 1-4)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-07-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-031",
+   "categoria": "D-Priorite",
+   "subtema": "sinais-e-policia",
+   "regra_pt": "Todos devem obedecer aos sinais e às marcas, assim como às ordens da polícia. Os sinais e as marcas prevalecem sobre as regras gerais; as ordens da polícia prevalecem sobre as regras gerais, os sinais e as marcas.",
+   "termos_fr": [
+    "signaux",
+    "marques",
+    "ordres de la police"
+   ],
+   "fonte": {
+    "lei": "LCR",
+    "rs": "741.01",
+    "artigo": "27",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-07-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-032",
+   "categoria": "D-Priorite",
+   "subtema": "cruzamento-em-sentido-contrario",
+   "regra_pt": "O condutor dá prioridade à circulação que vem em sentido contrário se um obstáculo que tornaria difícil o cruzamento se encontra na metade da pista que ele usa.",
+   "termos_fr": [
+    "croisement",
+    "circulation venant en sens inverse",
+    "obstacle"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "9",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-033",
+   "categoria": "D-Priorite",
+   "subtema": "exercicio-da-prioridade",
+   "regra_pt": "Cavaleiros e condutores de cavalos e de outros animais grandes são equiparados aos condutores de veículos no que diz respeito à prioridade.",
+   "termos_fr": [
+    "cavaliers",
+    "gros animaux",
+    "assimilés aux conducteurs de véhicules"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "14",
+    "alinea": "4",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-034",
+   "categoria": "D-Priorite",
+   "subtema": "pedestres-sem-faixa",
+   "regra_pt": "Numa pista sem faixa de pedestres, o condutor que circula numa coluna deve parar, se necessário, quando pedestres ou usuários de engins assimilés a veículos esperam para atravessar.",
+   "termos_fr": [
+    "chaussée dépourvue de passage pour piétons",
+    "colonne",
+    "piétons attendent de pouvoir traverser"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "6",
+    "alinea": "3",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-035",
+   "categoria": "D-Priorite",
+   "subtema": "pedestres-cegos",
+   "regra_pt": "Os cegos desacompanhados têm sempre prioridade quando, levantando a bengala branca, indicam a intenção de atravessar a pista.",
+   "termos_fr": [
+    "aveugles non accompagnés",
+    "canne blanche",
+    "priorité"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "6",
+    "alinea": "4",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-036",
+   "categoria": "G-Danger",
+   "subtema": "onibus-escolar",
+   "regra_pt": "Quando ônibus escolares sinalizados como tais param com o pisca-alerta ligado (feux clignotants avertisseurs, OCR 23 al. 3 let. a: « pour laisser monter et descendre les écoliers »), os condutores só os ultrapassam em velocidade reduzida e com prudência particular; se necessário, devem parar.",
+   "termos_fr": [
+    "bus scolaires",
+    "feux clignotants avertisseurs",
+    "allure réduite",
+    "prudence particulière"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "6",
+    "alinea": "5",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "G"
+  },
+  {
+   "id": "R-PRIO-037",
+   "categoria": "D-Priorite",
+   "subtema": "rotatoria",
+   "regra_pt": "Nas rotatórias, os ciclistas podem derrogar a obrigação de manter a direita.",
+   "termos_fr": [
+    "carrefour à sens giratoire",
+    "cyclistes",
+    "tenir leur droite"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "41b",
+    "alinea": "3",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-038",
+   "categoria": "D-Priorite",
+   "subtema": "veiculos-prioritarios",
+   "regra_pt": "Quando funcionam os avisadores especiais dos veículos dos bombeiros, do serviço de ambulâncias, da polícia ou da alfândega, a pista deve ser imediatamente liberada. Se necessário, os condutores param o veículo.",
+   "termos_fr": [
+    "avertisseurs spéciaux",
+    "chaussée doit être immédiatement dégagée",
+    "arrêtent leur véhicule"
+   ],
+   "fonte": {
+    "lei": "LCR",
+    "rs": "741.01",
+    "artigo": "27",
+    "alinea": "2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-07-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-039",
+   "categoria": "D-Priorite",
+   "subtema": "veiculos-prioritarios",
+   "regra_pt": "A luz azul e o avisador de dois sons alternados só são acionados quando a corrida oficial é urgente e as regras de circulação não podem ser respeitadas. Em corridas oficiais urgentes feitas de noite, a luz azul pode ser usada sem o avisador, desde que o condutor não se desvie de maneira significativa das regras de circulação e não faça valer seu direito especial de prioridade.",
+   "termos_fr": [
+    "feu bleu",
+    "avertisseur à deux sons alternés",
+    "course officielle urgente"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "16",
+    "alinea": "3-4",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "De noite, luz azul sem avisador: só se o condutor não se desvia de maneira significativa das regras e não faz valer o direito especial de prioridade (al. 4)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-040",
+   "categoria": "D-Priorite",
+   "subtema": "cruzamento-em-sentido-contrario",
+   "regra_pt": "Quando uma via estreita não permite o cruzamento, os trens rodoviários têm prioridade sobre os outros veículos, os veículos automotores pesados sobre os leves e os ônibus de turismo (autocars) sobre os caminhões. No encontro de veículos da mesma categoria, quem estiver mais perto de um local de desvio deve recuar. O cruzamento em vias de forte declive e de montanha é regido pelo OCR art. 38 al. 1, primeira frase.",
+   "termos_fr": [
+    "route étroite",
+    "trains routiers",
+    "véhicules automobiles lourds",
+    "autocars",
+    "place d'évitement"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "9",
+    "alinea": "2",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "Mesma categoria: recua quem está mais perto de um local de desvio (al. 2).",
+    "Vias de forte declive e de montanha: regidas pelo OCR art. 38 al. 1, primeira frase (al. 2, última frase)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-041",
+   "categoria": "D-Priorite",
+   "subtema": "sinais-e-policia",
+   "regra_pt": "Quando a circulação é regulada pela polícia, os usuários esperam que o agente lhes faça sinal, salvo se estiverem numa fila em movimento que o agente não pare. Significado dos sinais de mão: braço levantado = parar antes da interseção para os condutores vindos de todas as direções; braço estendido de lado = parar para os condutores vindos de trás; dois braços estendidos de lado = parar para os condutores vindos da frente e de trás; antebraço fazendo sinal de avançar = via livre na direção indicada; movimentos repetidos do antebraço de cima para baixo = reduzir a velocidade.",
+   "termos_fr": [
+    "signes de la main",
+    "agent",
+    "bras levé",
+    "bras tendu de côté"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "66",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "Ficam reservados os sinais especiais de mão dados a pedestres e a veículos públicos em tráfego de linha (OSR 66 al. 2)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-042",
+   "categoria": "D-Priorite",
+   "subtema": "sinais-e-policia",
+   "regra_pt": "Os usuários da via devem obedecer aos sinais e instruções dados: por agentes uniformizados da polícia e da polícia auxiliar; por militares encarregados de regular a circulação e pelo pessoal uniformizado dos bombeiros e da proteção civil; por patrulheiros escolares, pessoal de empresas e cadetes encarregados de regular a circulação, quando usam os distintivos da função; pelo pessoal de canteiros de obras rodoviárias; por aduaneiros perto dos postos da alfândega e, em controles aduaneiros, na zona próxima da fronteira, e pelo pessoal de venda e controle da vinheta de autoestrada devidamente identificado; pelo pessoal de exploração perto das vias férreas; pelos condutores de veículos públicos em tráfego de linha nas estradas postais de montanha (OCR 38 al. 3); pelos membros de serviços de circulação privados com sinais distintivos; pelo pessoal dos veículos acompanhantes sinalizados de veículos e transportes especiais.",
+   "termos_fr": [
+    "signes et instructions",
+    "agents en uniforme de la police",
+    "patrouilleurs scolaires"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "67",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "Complemento (OSR 67 al. 2): « Les signes et instructions donnés par d'autres personnes doivent être observés lorsqu'ils sont destinés à prévenir un danger ou à régler la circulation dans une situation difficile. » Vale para qualquer pessoa, mesmo fora da lista a-i."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-043",
+   "categoria": "D-Priorite",
+   "subtema": "sinais-vs-semaforo",
+   "regra_pt": "Os sinais luminosos prevalecem sobre as regras gerais de prioridade, sobre os sinais de prioridade e sobre as marcas rodoviárias.",
+   "termos_fr": [
+    "signaux lumineux",
+    "priment",
+    "règles générales de priorité",
+    "signaux de priorité"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "68",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "Acima dos sinais luminosos: ordens da polícia (LCR 27 al. 1: « les ordres de la police ont le pas sur les règles générales, les signaux et les marques »; os sinais luminosos entram em « signaux » por leitura do texto, não por frase expressa) (R-PRIO-031).",
+    "Veículos com luz azul e avisador de dois sons alternados têm prioridade « même aux endroits où la circulation est réglée par des signaux lumineux » (OCR 16 al. 1, R-PRIO-027).",
+    "Semáforo desligado ou com amarelo piscante: valem de novo os sinais Stop e Cédez le passage e a regra geral. OSR 36 al. 3: os sinais Stop e Cédez le passage só são observados « si le trafic n'est pas réglé par des signaux lumineux »; OSR 70 al. 1 let. b: o amarelo piscante é admitido quando as instalações estão desligadas (R-PRIO-007)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-044",
+   "categoria": "D-Priorite",
+   "subtema": "sinais-vs-semaforo",
+   "regra_pt": "Luz verde significa via livre; quem vira deve dar prioridade aos veículos que vêm em sentido contrário (LCR 36 al. 3) e aos pedestres ou usuários de engins assimilés engajados na via transversal (OCR 6 al. 2). As setas verdes permitem circular no sentido indicado; quando, ao lado delas, um amarelo pisca simultaneamente, os veículos que viram devem dar prioridade aos veículos em sentido contrário e aos pedestres engajados na via transversal.",
+   "termos_fr": [
+    "feu vert",
+    "flèches vertes",
+    "feu jaune clignote",
+    "accorder la priorité"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "68",
+    "alinea": "3-4",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [
+    "Seta verde sem amarelo piscante: quem vira não precisa dar prioridade aos pedestres da via transversal (OCR 6 al. 2, R-PRIO-021)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-045",
+   "categoria": "D-Priorite",
+   "subtema": "trafego-regulado",
+   "regra_pt": "O trânsito é dito 'regulado' quando a parada e a passagem dos veículos são ordenadas pela polícia ou por uma sinalização luminosa.",
+   "termos_fr": [
+    "trafic réglé",
+    "police",
+    "signalisation lumineuse"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "1",
+    "alinea": "9",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-046",
+   "categoria": "D-Priorite",
+   "subtema": "definicao-intersecao",
+   "regra_pt": "Interseções são cruzamentos, bifurcações ou desembocaduras de pistas. Não são interseções os locais onde desembocam na pista ciclovias, caminhos rurais ou saídas de garagens, estacionamentos, fábricas, pátios etc.",
+   "termos_fr": [
+    "intersections",
+    "croisées",
+    "bifurcations",
+    "débouchés de chaussées"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "1",
+    "alinea": "8",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-047",
+   "categoria": "D-Priorite",
+   "subtema": "ciclistas-pistas-bandas",
+   "regra_pt": "Os ciclistas devem dar prioridade quando saem de uma pista ou banda ciclável para entrar na pista contígua, ou quando deixam a banda ciclável para ultrapassar.",
+   "termos_fr": [
+    "pistes et bandes cyclables",
+    "céder la priorité",
+    "débouchent d'une piste ou d'une bande cyclable"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "40",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-048",
+   "categoria": "D-Priorite",
+   "subtema": "ciclistas-pistas-bandas",
+   "regra_pt": "Quem precisa atravessar uma pista ou banda ciclável fora de uma interseção, por exemplo para entrar numa propriedade, deve dar prioridade aos ciclistas.",
+   "termos_fr": [
+    "traverser une piste ou une bande cyclable",
+    "accéder à une propriété",
+    "céder la priorité aux cyclistes"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "40",
+    "alinea": "4",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-049",
+   "categoria": "D-Priorite",
+   "subtema": "ciclistas-pistas-bandas",
+   "regra_pt": "Ciclistas em pista ciclável que acompanha uma pista para automóveis a no máximo 2 m seguem, nas interseções, as mesmas regras de prioridade dos condutores da pista contígua. Quem dirige veículo automotor na pista contígua e vai virar (o caso típico é virar à direita cruzando a pista ciclável) deve dar prioridade aos ciclistas.",
+   "termos_fr": [
+    "piste cyclable",
+    "2 m au plus",
+    "mêmes règles de priorité",
+    "en obliquant",
+    "accorder la priorité aux cyclistes"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "40",
+    "alinea": "5",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-050",
+   "categoria": "D-Priorite",
+   "subtema": "entrada-em-autoestrada",
+   "regra_pt": "Os usuários de autoestradas e semiautoestradas têm prioridade sobre os veículos que vêm de uma via de acesso. Em caso de lentidão no trânsito, aplica-se a regra do zíper (OCR 8 al. 5).",
+   "termos_fr": [
+    "autoroutes et semi-autoroutes",
+    "voie d'accès",
+    "ralentissements",
+    "art. 8, al. 5"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "36",
+    "alinea": "4",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-051",
+   "categoria": "D-Priorite",
+   "subtema": "fermeture-eclair",
+   "regra_pt": "Se, numa pista de várias faixas no mesmo sentido, uma faixa não pode ser usada até o fim ou termina, deve-se, logo antes do estreitamento, deixar passar alternadamente na faixa vizinha os veículos que não podem continuar (princípio do zíper, fermeture éclair).",
+   "termos_fr": [
+    "fermeture éclair",
+    "rétrécissement de voies",
+    "passer alternativement"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "8",
+    "alinea": "5",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-052",
+   "categoria": "D-Priorite",
+   "subtema": "via-principal",
+   "regra_pt": "A placa complementar 'Direction de la route principale' (5.09), junto aos sinais Stop, Cédez le passage ou Route principale, mostra o traçado de uma via principal que muda de direção. Com Stop ou Cédez le passage, avisa quem circula numa via que perdeu a prioridade que deve dar prioridade aos veículos que circulam na via principal ou que saem dela. O traço largo representa a via principal.",
+   "termos_fr": [
+    "direction de la route principale",
+    "5.09",
+    "route principale changeant de direction",
+    "ceux qui la quittent"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "65",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-053",
+   "categoria": "D-Priorite",
+   "subtema": "pedestres-fora-da-faixa",
+   "regra_pt": "Fora das faixas de pedestres, os pedestres dão prioridade aos veículos.",
+   "termos_fr": [
+    "hors des passages pour piétons",
+    "accorderont la priorité aux véhicules"
+   ],
+   "fonte": {
+    "lei": "OCR",
+    "rs": "741.11",
+    "artigo": "47",
+    "alinea": "5",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-054",
+   "categoria": "D-Priorite",
+   "subtema": "zona-de-encontro",
+   "regra_pt": "Na zona de encontro (sinal 2.59.5), os pedestres e usuários de engins assimilés à des véhicules podem usar toda a área de circulação e têm prioridade, mas não devem atrapalhar inutilmente os veículos.",
+   "termos_fr": [
+    "zone de rencontre",
+    "2.59.5",
+    "bénéficient de la priorité",
+    "gêner inutilement les véhicules"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "22b",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-055",
+   "categoria": "D-Priorite",
+   "subtema": "zona-de-pedestres",
+   "regra_pt": "As zonas de pedestres (sinal 2.59.3) são reservadas a pedestres e usuários de engins assimilés à des véhicules. Quando uma placa complementar autoriza exceptionalmente tráfego restrito de veículos, estes circulam no máximo a passo, e os pedestres e usuários de engins assimilés têm prioridade.",
+   "termos_fr": [
+    "zone piétonne",
+    "2.59.3",
+    "allure du pas",
+    "bénéficient de la priorité"
+   ],
+   "fonte": {
+    "lei": "OSR",
+    "rs": "741.21",
+    "artigo": "22c",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1961_1961_1961/20261001/fr/html/fedlex-data-admin-ch-eli-cc-1979-1961_1961_1961-20261001-fr-html-2.html"
+   },
+   "excecoes": [],
+   "versao_lei_em_vigor_desde": "2026-10-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  },
+  {
+   "id": "R-PRIO-056",
+   "categoria": "D-Priorite",
+   "subtema": "hierarquia-das-regras",
+   "regra_pt": "Síntese montada só com citações da lei (não é um artigo único). Ordem entre as fontes de regra: (1) as ordens da polícia têm preferência sobre as regras gerais, os sinais e as marcas (LCR 27 al. 1). (2) Os sinais luminosos prevalecem sobre as regras gerais de prioridade, os sinais de prioridade e as marcas (OSR 68 al. 1). (3) Os sinais e as marcas prevalecem sobre as regras gerais (LCR 27 al. 1). (4) A regra geral é a priorité de droite (LCR 36 al. 2). O tram tem prioridade sobre o tráfego comum (LCR 38 al. 1), mas cede aos veículos prioritários e, ao desembocar de via secundária em principal, deve dar prioridade (OCR 45 al. 2). Veículos do serviço de bombeiros, de saúde, da polícia e da alfândega com luz azul e avisador de dois sons alternados têm prioridade sobre todos os usuários, mesmo onde há sinais luminosos (OCR 16 al. 1); quando funcionam os avisadores especiais, a pista deve ser liberada imediatamente (LCR 27 al. 2).",
+   "termos_fr": [
+    "les ordres de la police ont le pas",
+    "les signaux lumineux priment",
+    "les signaux et les marques priment les règles générales",
+    "véhicules prioritaires"
+   ],
+   "fonte": {
+    "lei": "LCR",
+    "rs": "741.01",
+    "artigo": "27",
+    "alinea": "1",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1959/679_705_685/20260701/fr/html/fedlex-data-admin-ch-eli-cc-1959-679_705_685-20260701-fr-html.html"
+   },
+   "excecoes": [
+    "Polícia x veículo prioritário: o texto legal consultado não diz quem vale mais entre as ordens da polícia e um veículo prioritário. Não há ordem legal expressa entre os dois; a síntese não afirma uma.",
+    "Polícia x sinais luminosos: o LCR 27 al. 1 coloca a polícia acima dos « signaux »; que isso inclui os sinais luminosos é leitura do texto, não frase expressa.",
+    "Semáforo desligado ou com amarelo piscante: valem Stop, Cédez le passage e a regra geral (OSR 36 al. 3; OSR 70 al. 1 let. b; R-PRIO-043, R-PRIO-007)."
+   ],
+   "versao_lei_em_vigor_desde": "2026-07-01",
+   "verificado_em": "2026-11-26",
+   "status": "validado",
+   "cat": "D"
+  }
+ ],
  "perguntas": [],
  "pendentes": {
-  "regras": 46,
+  "regras": 0,
   "perguntas": 0,
-  "por_categoria": {
-   "D": {
-    "regras": 46,
-    "perguntas": 0
-   }
-  }
+  "por_categoria": {}
  }
 }

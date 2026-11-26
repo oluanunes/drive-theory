@@ -30,7 +30,7 @@
 
 **Texto da lei (FR):** _Aux intersections, le véhicule qui vient de droite a la priorité. Les véhicules circulant sur une route signalée comme principale ont la priorité, même s'ils viennent de gauche. Est réservée toute réglementation différente de la circulation imposée par des signaux ou par la police._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-002 · via-principal
 
@@ -40,7 +40,7 @@
 
 **Texto da lei (FR):** _Le signal"Route principale"(3.03) désigne les routes prioritaires et indique au conducteur que la priorité de droite prévue par la loi (art. 36, al. 2, LCR) est supprimée aux prochaines intersections. Les règles de circulation concernant spécialement les routes principales (p. ex. l'art. 19 OCR) sont applicables sur de telles routes._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-003 · via-principal
 
@@ -50,7 +50,7 @@
 
 **Texto da lei (FR):** _Le signal"Fin de la route principale"(3.04) indique que la route perd sa priorité et que la priorité de droite prévue par la loi (art. 36, al. 2, LCR) s'applique de nouveau dans les intersections._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-004 · sinais-de-prioridade
 
@@ -60,7 +60,7 @@
 
 **Texto da lei (FR):** _Les signaux de priorité annoncent au conducteur qu'il doit accorder la priorité aux autres véhicules ou qu'il bénéfice de la priorité par rapport à eux. Les signaux de priorité ont la forme des signaux de danger, des signaux de prescription ou d'indication; les principes établis aux chap. 2, 3 et 5 sont applicables par analogie._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-005 · stop
 
@@ -73,7 +73,7 @@
 
 **Texto da lei (FR):** _Le signal"Stop"(3.01) oblige le conducteur à s'arrêter et à accorder la priorité aux véhicules circulant sur la route dont il s'approche. L'art. 75, al. 1, 2 et 5 est applicable en ce qui concerne la ligne d'arrêt (6.10) complétant le signal._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-006 · cedez-le-passage
 
@@ -86,7 +86,7 @@
 
 **Texto da lei (FR):** _Le signal"Cédez le passage"(3.02) oblige le conducteur à accorder la priorité aux véhicules circulant sur la route dont il s'approche. L'art. 75, al. 3 à 5 est applicable en ce qui concerne la ligne d'attente (6.13) complétant le signal._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-007 · sinais-vs-semaforo
 
@@ -96,7 +96,7 @@
 
 **Texto da lei (FR):** _Aux intersections munies d'une installation de signaux lumineux, il ne faut observer les signaux"Stop"et"Cédez le passage"que si le trafic n'est pas réglé par des signaux lumineux._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-008 · sinal-prioridade-de-direita
 
@@ -106,7 +106,7 @@
 
 **Texto da lei (FR):** _Le signal"Intersection comportant la priorité de droite"(3.06) annonce, sur les routes secondaires, une intersection où s'applique la priorité de droite prévue par la loi (art. 36, al. 2, LCR). Le signal"Intersection comportant la priorité de droite"ne sera placé que: a. si le conducteur n'a pas la possibilité d'apercevoir à temps la route qui débouche de droite; b. si une intersection où s'applique la priorité de droite prévue par la loi succède à plusieurs intersections munies du signal"Intersection avec une route sans priorité"(3.05)._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-009 · sinal-intersecao-via-sem-prioridade
 
@@ -119,7 +119,7 @@
 
 **Texto da lei (FR):** _Le signal"Intersection avec une route sans priorité"(3.05) indique au conducteur circulant sur des routes secondaires qu'il bénéficiera de la priorité à la prochaine intersection. Lorsque plusieurs intersections se suivent à de courtes distances, la longueur du tronçon, sur lequel le conducteur bénéfice de la priorité, peut être indiquée par la plaque complémentaire"Longueur du tronçon"(5.03). À l'intérieur des localités, il n'est pas nécessaire de placer le signal"Intersection avec une route sans priorité"là où le conducteur est en mesure de constater à temps que les véhicules débouchant de droite ne bénéficient pas de la priorité, par exemple, à cause de la présence d'un signal"Stop"(3.01) ou"Cédez le passage"(3.02), d'une ligne d'arrêt (6.10) ou d'une ligne d'attente (6.13)._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-010 · sinal-estreitamento
 
@@ -133,7 +133,7 @@
 
 **Texto da lei (FR):** _Le signal"Laissez passer les véhicules venant en sens inverse"(3.09) oblige le conducteur circulant dans la direction de la flèche rouge à céder le passage, là où la chaussée se rétrécit, au trafic venant en sens inverse. Cette obligation ne s'applique pas aux véhicules dont les roues sont placées l'une derrière l'autre et dont les conducteurs peuvent constater qu'ils ont suffisamment de place pour croiser sans danger les véhicules venant en sens inverse. À l'autre bout du passage rétréci, il y a lieu de placer le signal"Priorité par rapport aux véhicules venant en sens inverse"(3.10). Le signal"Priorité par rapport aux véhicules venant en sens inverse"(3.10) indique au conducteur circulant dans la direction de la flèche blanche qu'il peut continuer de circuler, là où la chaussée se rétrécit, et que les véhicules dont les roues sont placées l'une à côté de l'autre doivent attendre qu'il ait passé. Si ces véhicules sont déjà engagés dans le passage rétréci, c'est à lui qu'il incombe d'attendre._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 
 ## Bloco 2 (R-PRIO-011 a R-PRIO-020)
@@ -146,7 +146,7 @@
 
 **Texto da lei (FR):** _Celui qui est tenu d'accorder la priorité ne doit pas gêner dans sa marche le conducteur bénéficiaire de la priorité. Il réduira sa vitesse à temps et, s'il doit attendre, s'arrêtera avant le début de l'intersection._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-012 · exercicio-da-prioridade
 
@@ -156,7 +156,7 @@
 
 **Texto da lei (FR):** _Le bénéficiaire de la priorité aura égard aux usagers de la route qui ont atteint l'intersection avant d'avoir pu apercevoir son véhicule._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-013 · exercicio-da-prioridade
 
@@ -166,7 +166,7 @@
 
 **Texto da lei (FR):** _Lorsque des véhicules circulant en files parallèles ont la priorité, cette dernière doit être respectée même si la file la plus rapprochée est arrêtée._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-014 · casos-sem-regra
 
@@ -176,7 +176,7 @@
 
 **Texto da lei (FR):** _Les conducteurs feront particulièrement attention et régleront entre eux l'ordre de priorité lorsque se présente une situation qui n'est prévue par aucune prescription, par exemple lorsque des véhicules venant de toutes les directions parviennent simultanément à une intersection._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-015 · via-principal-que-muda-de-direcao
 
@@ -186,7 +186,7 @@
 
 **Texto da lei (FR):** _Lorsqu'une route principale change de direction à un endroit où débouchent des routes secondaires, le conducteur sortant de la route principale doit accorder la priorité seulement aux véhicules circulant en sens inverse sur la route principale._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-016 · vias-secundarias-no-mesmo-ponto
 
@@ -196,7 +196,7 @@
 
 **Texto da lei (FR):** _Lorsque deux routes ou plus, munies du signal"Stop"(3.01) ou"Cédez le passage"(3.02), débouchent au même endroit sur une route prioritaire, les usagers des routes non-prioritaires doivent, entre eux, respecter la règle de la priorité de droite._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-017 · saida-de-propriedade
 
@@ -209,7 +209,7 @@
 
 **Texto da lei (FR):** _Celui qui, sortant d'une fabrique, d'une cour, d'un garage, d'un chemin rural, d'une piste cyclable, d'une place de stationnement, d'une station d'essence, etc., ou traversant un trottoir, débouche sur une route principale ou secondaire, est tenu d'accorder la priorité aux usagers de cette route. Si l'endroit est sans visibilité, le conducteur doit s'arrêter; au besoin, il doit avoir recours à l'aide d'une tierce personne, qui surveillera la manœuvre._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-018 · rotatoria
 
@@ -219,7 +219,7 @@
 
 **Texto da lei (FR):** _Avant d'entrer dans un carrefour à sens giratoire (signal 2.41.1 combiné avec le signal 3.02), le conducteur doit ralentir et accorder la priorité aux véhicules qui, sur sa gauche, surviennent dans le giratoire._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-019 · rotatoria
 
@@ -229,7 +229,7 @@
 
 **Texto da lei (FR):** _Le conducteur n'est pas tenu de signaler sa direction à l'entrée du carrefour à sens giratoire ni, pour autant qu'il ne change pas de voie, à l'intérieur du giratoire. L'intention de quitter le giratoire doit être indiquée._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-020 · pedestres-passagem-nao-regulada
 
@@ -239,7 +239,7 @@
 
 **Texto da lei (FR):** _Avant d'atteindre un passage pour piétons où le trafic n'est pas réglé, le conducteur accordera la priorité à tout piéton ou utilisateur d'un engin assimilé à un véhicule qui est déjà engagé sur le passage ou qui attend devant celui-ci avec l'intention visible de l'emprunter. Il réduira à temps sa vitesse et s'arrêtera, au besoin, afin de pouvoir satisfaire à cette obligation._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 
 ## Bloco 3 (R-PRIO-021 a R-PRIO-030)
@@ -255,7 +255,7 @@
 
 **Texto da lei (FR):** _Aux intersections où le trafic est réglé, les conducteurs qui obliquent sont tenus d'accorder la priorité aux piétons et aux utilisateurs d'engins assimilés à des véhicules engagés sur la chaussée transversale. Cette prescription ne s'applique pas lorsque le passage est donné par la flèche verte d'une signalisation lumineuse et qu'aucun feu jaune ne clignote._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-022 · pedestres-passagem-nao-regulada
 
@@ -269,7 +269,7 @@
 
 **Texto da lei (FR):** _Sur les passages pour piétons où le trafic n'est pas réglé, les piétons ont la priorité, sauf à l'égard des tramways et des chemins de fer routiers. Ils ne peuvent toutefois user du droit de priorité lorsque le véhicule est déjà si près du passage qu'il ne lui serait plus possible de s'arrêter à temps._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-023 · pedestres-passagem-nao-regulada
 
@@ -279,7 +279,7 @@
 
 **Texto da lei (FR):** _Avant les passages pour piétons, le conducteur circulera avec une prudence particulière et, au besoin, s'arrêtera pour laisser la priorité aux piétons qui se trouvent déjà sur le passage ou s'y engagent._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-024 · tram
 
@@ -292,7 +292,7 @@
 
 **Texto da lei (FR):** _La voie ferrée doit être dégagée pour laisser passer les tramways ou chemins de fer routiers; la priorité leur sera accordée._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-025 · tram
 
@@ -302,7 +302,7 @@
 
 **Texto da lei (FR):** _Ils céderont la priorité aux véhicules du service du feu, du service de santé, de la police et de la douane qui sont annoncés par des avertisseurs spéciaux. En débouchant d'une route secondaire sur une route principale, ils sont tenus d'accorder la priorité._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-026 · onibus-saindo-de-parada
 
@@ -316,7 +316,7 @@
 
 **Texto da lei (FR):** _Lorsque, à l'intérieur d'une localité, le conducteur d'un bus en trafic de ligne se trouve à un arrêt signalé comme tel et actionne ses clignoteurs de direction pour indiquer qu'il va prendre le départ, les conducteurs de véhicules qui arrivent derrière lui doivent au besoin réduire leur vitesse ou s'arrêter pour lui permettre de partir; cette règle n'est pas applicable lorsque l'arrêt se trouve au bord gauche de la chaussée. Le conducteur de bus ne doit actionner ses clignoteurs de direction qu'au moment où il est prêt à partir; il est tenu d'attendre lorsque des véhicules qui arrivent derrière lui ne pourraient pas s'arrêter à temps._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-027 · veiculos-prioritarios
 
@@ -326,7 +326,7 @@
 
 **Texto da lei (FR):** _Les véhicules du service du feu, du service de santé, de la police et de la douane qui sont annoncés par le feu bleu et leur avertisseur à deux sons alternés ont la priorité sur tous les usagers de la route, même aux endroits où la circulation est réglée par des signaux lumineux._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-028 · veiculos-prioritarios
 
@@ -336,7 +336,7 @@
 
 **Texto da lei (FR):** _Les conducteurs empiéteront sur le trottoir avec toutes les précautions nécessaires lorsqu'il est indispensable de dégager immédiatement la chaussée._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-029 · virar-a-esquerda  ⚠️
 
@@ -352,7 +352,7 @@
 
 **Texto da lei (FR):** _Avant d'obliquer à gauche, le conducteur accordera la priorité aux véhicules qui viennent en sens inverse._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-030 · entrar-na-circulacao
 
@@ -366,7 +366,7 @@
 
 **Texto da lei (FR):** _Le conducteur qui veut engager son véhicule dans la circulation, faire demi-tour ou marche arrière ne doit pas entraver les autres usagers de la route; ces derniers bénéficient de la priorité._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 
 ## Bloco 4 (R-PRIO-031 a R-PRIO-040)
@@ -379,7 +379,7 @@
 
 **Texto da lei (FR):** _Chacun se conformera aux signaux et aux marques ainsi qu'aux ordres de la police. Les signaux et les marques priment les règles générales; les ordres de la police ont le pas sur les règles générales, les signaux et les marques._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-032 · cruzamento-em-sentido-contrario
 
@@ -389,7 +389,7 @@
 
 **Texto da lei (FR):** _Le conducteur accordera la priorité à la circulation venant en sens inverse si un obstacle qui rendrait le croisement difficile se trouve sur la moitié de la chaussée qu'il emprunte._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-033 · exercicio-da-prioridade
 
@@ -399,7 +399,7 @@
 
 **Texto da lei (FR):** _Les cavaliers et les conducteurs de chevaux et d'autres gros animaux sont assimilés aux conducteurs de véhicules en ce qui concerne la priorité._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-034 · pedestres-sem-faixa
 
@@ -409,7 +409,7 @@
 
 **Texto da lei (FR):** _Sur une chaussée dépourvue de passage pour piétons, le conducteur circulant dans une colonne s'arrêtera au besoin lorsque des piétons ou des utilisateurs d'engins assimilés à des véhicules attendent de pouvoir traverser._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-035 · pedestres-cegos
 
@@ -419,7 +419,7 @@
 
 **Texto da lei (FR):** _Les aveugles non accompagnés bénéficieront toujours de la priorité, lorsqu'en levant leur canne blanche ils indiquent leur intention de traverser la chaussée._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-036 · onibus-escolar
 
@@ -429,7 +429,7 @@
 
 **Texto da lei (FR):** _Lorsque des bus scolaires signalés comme tels s'arrêtent et que leurs feux clignotants sont enclenchés (art. 23, al. 3, let. a), les conducteurs ne les dépasseront qu'à une allure réduite et en faisant preuve d'une prudence particulière; au besoin, ils s'arrêteront._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-037 · rotatoria
 
@@ -439,7 +439,7 @@
 
 **Texto da lei (FR):** _Dans les carrefours à sens giratoire, les cyclistes peuvent déroger à l'obligation de tenir leur droite._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-038 · veiculos-prioritarios
 
@@ -449,7 +449,7 @@
 
 **Texto da lei (FR):** _Lorsque fonctionnent les avertisseurs spéciaux des voitures du service du feu, du service d'ambulances, de la police ou de la douane, la chaussée doit être immédiatement dégagée. S'il le faut, les conducteurs arrêtent leur véhicule._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-039 · veiculos-prioritarios
 
@@ -462,7 +462,7 @@
 
 **Texto da lei (FR):** _Le feu bleu et l'avertisseur à deux sons alternés seront actionnés seulement lorsque la course officielle est urgente et que les règles de la circulation ne peuvent pas être respectées. Lors de courses officielles urgentes effectuées de nuit, le feu bleu peut être utilisé sans l'avertisseur à deux sons alternés, pour autant que le conducteur du véhicule ne déroge pas de manière significative aux règles de la circulation et qu'il ne fasse pas valoir son droit spécial de priorité._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-040 · cruzamento-em-sentido-contrario
 
@@ -476,7 +476,7 @@
 
 **Texto da lei (FR):** _Lorsqu'une route étroite ne permet pas de croiser, les trains routiers ont la priorité sur les autres véhicules, les véhicules automobiles lourds sur les véhicules automobiles légers et les autocars sur les camions. En cas de rencontre de véhicules de même catégorie, celui qui se trouve le plus proche d'une place d'évitement devra reculer. Le croisement sur les routes à forte déclivité et les routes de montagne est régi par l'art. 38, al. 1, première phrase._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 
 ## Bloco 5 (R-PRIO-041 a R-PRIO-050)
@@ -492,7 +492,7 @@
 
 **Texto da lei (FR):** _Si la circulation est réglée par la police, les usagers de la route attendront que l'agent leur fasse signe, sauf s'ils se trouvent dans une file en mouvement que l'agent n'arrête pas. La signification des signes de la main est la suivante: a. bras levé: arrêt avant l'intersection pour les conducteurs venant de toutes les directions; b. bras tendu de côté: arrêt pour tous les conducteurs venant de derrière; c. deux bras tendus de côté: arrêt pour les conducteurs venant de devant et de derrière; d. avant-bras faisant signe aux conducteurs d'avancer: route libre dans la direction indiquée; e. mouvements répétés de l'avant-bras, de haut en bas: ralentir._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-042 · sinais-e-policia
 
@@ -505,7 +505,7 @@
 
 **Texto da lei (FR):** _Les usagers de la route sont tenus de se conformer aux signes et instructions donnés: a. par les agents en uniforme de la police et de la police auxiliaire; b. par les militaires chargés de régler la circulation et par le personnel en uniforme des services du feu et de la protection civile; c. par les patrouilleurs scolaires, le personnel des entreprises et les cadets chargés de régler la circulation lorsqu'ils portent les insignes de leur fonction; d. par le personnel des chantiers de construction des routes; e. par les douaniers près des bureaux de douane et, pour des contrôles douaniers, dans la zone proche de la frontière, ainsi que par le personnel de vente et de contrôle dûment identifié engagé auprès des bureaux de douane dans le cadre de l'exécution de la loi du 19 mars 2010 sur la vignette autoroutière; f. par le personnel d'exploitation près des voies ferrées; g. par les conducteurs des véhicules publics en trafic de ligne sur les routes postales de montagne (art. 38, al. 3, OCR); h. par les membres de services de circulation privés munis de signes distinctifs; i. par le personnel des véhicules convoyeurs signalés de véhicules spéciaux et de transports spéciaux._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-043 · sinais-vs-semaforo  ⚠️
 
@@ -522,7 +522,7 @@
 
 **Texto da lei (FR):** _Les signaux lumineux priment les règles générales de priorité, les signaux de priorité et les marques routières._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-044 · sinais-vs-semaforo
 
@@ -535,7 +535,7 @@
 
 **Texto da lei (FR):** _Le feu vert signifie route libre. Ceux qui obliquent doivent accorder la priorité aux véhicules venant en sens inverse (art. 36, al. 3, LCR) et aux piétons ou aux utilisateurs d'engins assimilés à des véhicules engagés sur la chaussée transversale (art. 6, al. 2, OCR). Les flèches vertes permettent de circuler dans le sens indiqué. Lorsqu'à côté de celles-ci un feu jaune clignote simultanément, les véhicules qui obliquent doivent accorder la priorité aux véhicules venant en sens inverse (art. 36, al. 3, LCR) et aux piétons ou aux utilisateurs d'engins assimilés à des véhicules engagés sur la chaussée transversale (art. 6, al. 2, OCR)._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-045 · trafego-regulado
 
@@ -545,7 +545,7 @@
 
 **Texto da lei (FR):** _Le trafic est dit"réglé" lorsque l'arrêt et le passage des véhicules sont ordonnés par la police ou une signalisation lumineuse._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-046 · definicao-intersecao
 
@@ -555,7 +555,7 @@
 
 **Texto da lei (FR):** _Les intersections sont des croisées, des bifurcations ou des débouchés de chaussées. Ne sont pas des intersections, les endroits où débouchent sur la chaussée des pistes cyclables, des chemins ruraux ou des sorties de garages, de places de stationnement, de fabriques, de cours, etc._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-047 · ciclistas-pistas-bandas
 
@@ -565,7 +565,7 @@
 
 **Texto da lei (FR):** _Les cyclistes doivent céder la priorité lorsqu'ils débouchent d'une piste ou d'une bande cyclable pour s'engager sur la chaussée contiguë ou quittent la bande cyclable pour dépasser._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-048 · ciclistas-pistas-bandas
 
@@ -575,7 +575,7 @@
 
 **Texto da lei (FR):** _S'ils doivent traverser une piste ou une bande cyclable ailleurs qu'aux intersections, par exemple pour accéder à une propriété, les conducteurs d'autres véhicules doivent céder la priorité aux cyclistes._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-049 · ciclistas-pistas-bandas  ⚠️
 
@@ -587,7 +587,7 @@
 
 **Texto da lei (FR):** _Les cyclistes circulant sur une piste cyclable qui longe une chaussée destinée au trafic automobile à une distance de 2 m au plus sont soumis, aux intersections aux mêmes règles de priorité que les conducteurs circulant sur la chaussée contiguë. En obliquant, les conducteurs de véhicules automobiles circulant sur la chaussée contiguë doivent accorder la priorité aux cyclistes._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-050 · entrada-em-autoestrada
 
@@ -597,7 +597,7 @@
 
 **Texto da lei (FR):** _Les usagers des autoroutes et semi-autoroutes ont la priorité sur les véhicules venant d'une voie d'accès. L'art. 8, al. 5, s'applique en cas de ralentissements._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 
 ## Bloco 6 (R-PRIO-051 a R-PRIO-056)
@@ -610,7 +610,7 @@
 
 **Texto da lei (FR):** _Si, sur une route à plusieurs voies dans un sens de circulation, l'une des voies ne peut être empruntée sans interruption ou si une voie se termine, il convient, juste avant le rétrécissement de voies, de laisser passer alternativement sur la voie adjacente les véhicules qui ne peuvent poursuivre leur route._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-052 · via-principal
 
@@ -620,7 +620,7 @@
 
 **Texto da lei (FR):** _Ajoutée aux signaux"Stop"(3.01),"Cédez le passage"(3.02) et"Route principale"(3.03), la plaque complémentaire"Direction de la route principale"(5.09) indique le tracé d'une route principale changeant de direction. En corrélation avec les signaux"Stop"et"Cédez le passage", elle annonce au conducteur circulant sur une route dont la priorité est supprimée, qu'il doit accorder la priorité aux véhicules circulant sur la route principale ou à ceux qui la quittent. Le trait large représente la route principale._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-053 · pedestres-fora-da-faixa
 
@@ -630,7 +630,7 @@
 
 **Texto da lei (FR):** _Hors des passages pour piétons, les piétons accorderont la priorité aux véhicules._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-054 · zona-de-encontro
 
@@ -640,7 +640,7 @@
 
 **Texto da lei (FR):** _Le signal"Zone de rencontre"(2.59.5) désigne des routes situées dans des quartiers résidentiels ou commerciaux, sur lesquelles les piétons et les utilisateurs d'engins assimilés à des véhicules peuvent utiliser toute l'aire de circulation. Ils bénéficient de la priorité mais ne doivent toutefois pas gêner inutilement les véhicules._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-055 · zona-de-pedestres
 
@@ -650,7 +650,7 @@
 
 **Texto da lei (FR):** _Les"Zones piétonnes"(2.59.3) sont réservées aux piétons et aux utilisateurs d'engins assimilés à des véhicules. Lorsqu'une plaque complémentaire autorise exceptionnellement un trafic restreint de véhicules, ceux-ci peuvent circuler tout au plus à l'allure du pas; les piétons et les utilisateurs d'engins assimilés à des véhicules bénéficient de la priorité._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)
 
 ### R-PRIO-056 · hierarquia-das-regras  ⚠️
 
@@ -667,4 +667,4 @@
 
 **Texto da lei (FR):** _Chacun se conformera aux signaux et aux marques ainsi qu'aux ordres de la police. Les signaux et les marques priment les règles générales; les ordres de la police ont le pas sur les règles générales, les signaux et les marques._
 
-- [ ] OK
+- [x] OK (validada pelo Luan em 2026-11-26)

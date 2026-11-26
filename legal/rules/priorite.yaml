@@ -1,4 +1,4 @@
-# T-011 PESQ — categoria D (Priorité). Todas as regras: status pendente.
+# T-011 PESQ — categoria D (Priorité). Regras validadas pelo Luan em 2026-11-26 ("Ok para todos", no documento VALIDACAO-PRIORITE.md).
 # Fonte única de texto legal: legal/sources/*.txt (Fedlex, baixado 2026-11-26).
 #   LCR (RS 741.01) État le 1er juillet 2026; OCR (RS 741.11) e OSR (RS 741.21) État le 1er octobre 2026.
 # trecho_literal_fr = alínea(s) inteira(s) copiada(s) do arquivo, sem número de alínea; trecho_completo: true em todas.
@@ -30,7 +30,8 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): rotatória sinalizada com 2.41.1 combinado com 3.02 na entrada: quem entra cede aos veículos que surgem à sua esquerda dentro do giratório; a priorité de droite não se aplica (OCR 41b al. 1, R-PRIO-018)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Texto oficial Fedlex. A al. 2 não tem subdivisão em letras. As exceções marcadas como 'regra de outra disposição' vêm de outros artigos e foram conferidas no texto oficial (T-012)."
 
 - id: R-PRIO-002
@@ -44,7 +45,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-003
   categoria: D-Priorite
@@ -57,7 +59,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-004
   categoria: D-Priorite
@@ -70,7 +73,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-005
   categoria: D-Priorite
@@ -84,7 +88,8 @@ rules:
     - "Em interseções com semáforo, Stop e Cédez le passage só valem se o trânsito não estiver regulado por sinais luminosos (OSR 36 al. 3, ver R-PRIO-007)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-006
   categoria: D-Priorite
@@ -98,7 +103,8 @@ rules:
     - "Em interseções com semáforo, Stop e Cédez le passage só valem se o trânsito não estiver regulado por sinais luminosos (OSR 36 al. 3, ver R-PRIO-007)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "A alínea não diz que é preciso parar sempre (diferente do Stop, al. 1); a obrigação de reduzir e, se preciso, parar antes da interseção vem da regra geral do OCR 14 al. 1 (R-PRIO-011)."
 
 - id: R-PRIO-007
@@ -112,7 +118,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Ver também OSR 68 al. 1 (R-PRIO-043): sinais luminosos prevalecem sobre sinais de prioridade."
 
 - id: R-PRIO-008
@@ -126,7 +133,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-009
   categoria: D-Priorite
@@ -140,7 +148,8 @@ rules:
     - "Dentro das localidades o sinal não precisa ser colocado onde o condutor pode constatar a tempo que os veículos vindos da direita não têm prioridade (por ex. Stop, Cédez le passage, linha de parada 6.10 ou linha de espera 6.13) (al. 2)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Correção: o rascunho dizia que o sinal informa 'cruzamento com via sem prioridade'; o texto diz que quem circula na via secundária BENEFICIA da prioridade na próxima interseção. Dispensa de colocar o sinal não muda a prioridade."
 
 - id: R-PRIO-010
@@ -156,7 +165,8 @@ rules:
     - "Se os veículos de rodas lado a lado já estão engajados no estreitamento, quem tem o 3.10 é que deve esperar (al. 2)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-011
   categoria: D-Priorite
@@ -169,7 +179,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-012
   categoria: D-Priorite
@@ -182,7 +193,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-013
   categoria: D-Priorite
@@ -195,7 +207,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Correção do trecho: o rascunho terminava em 'respectée.' (ponto final inventado); a frase continua 'même si la file la plus rapprochée est arrêtée'. regra_pt já estava correta em substância."
 
 - id: R-PRIO-014
@@ -209,7 +222,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-015
   categoria: D-Priorite
@@ -222,7 +236,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-016
   categoria: D-Priorite
@@ -235,7 +250,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-017
   categoria: D-Priorite
@@ -249,7 +265,8 @@ rules:
     - "Regra de outra disposição (não consta desta alínea): esses locais não são interseções (OCR 1 al. 8, R-PRIO-046); por isso a priorité de droite (LCR 36 al. 2) não se aplica a quem sai deles."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-018
   categoria: D-Priorite
@@ -262,7 +279,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-019
   categoria: D-Priorite
@@ -275,7 +293,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-020
   categoria: D-Priorite
@@ -288,7 +307,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Correção T-012: o trecho do rascunho terminava em 'passage.' (ponto inventado); a frase continua 'ou qui attend devant celui-ci avec l'intention visible de l'emprunter'. A definição de engin assimilé vem do OCR 1 al. 10 (« mus par la seule force musculaire des utilisateurs »): o critério da lei é a força muscular, então veículo com motor não entra nessa categoria. Por isso o texto em português não traduz 'trottinettes' (termo da lei) por um nome local que possa sugerir veículo motorizado. Mesmo dever do LCR 33 al. 2 (R-PRIO-023); o OCR é mais amplo (inclui quem espera com intenção visível). Ensinar com R-PRIO-020 como regra e R-PRIO-023 como base legal."
 
 - id: R-PRIO-021
@@ -303,7 +323,8 @@ rules:
     - "Não se aplica quando a passagem é dada pela seta verde de um semáforo e nenhum amarelo está piscando (al. 2, segunda frase)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Correção: o trecho do rascunho terminava em 'aux piétons.' (ponto inventado); o texto continua 'et aux utilisateurs d'engins assimilés à des véhicules engagés sur la chaussée transversale'. regra_pt corrigida: os pedestres são os da via transversal (a em que o condutor entra). 'Trafic réglé' = ordenado pela polícia ou sinalização luminosa (OCR 1 al. 9, R-PRIO-045)."
 
 - id: R-PRIO-022
@@ -319,7 +340,8 @@ rules:
     - "O pedestre não pode usar o direito de prioridade quando o veículo já está tão perto da faixa que não conseguiria mais parar a tempo (al. 2, segunda frase)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-023
   categoria: D-Priorite
@@ -332,7 +354,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-024
   categoria: D-Priorite
@@ -346,7 +369,8 @@ rules:
     - "Regra de outra disposição (OCR 45 al. 2): « Ils céderont la priorité aux véhicules du service du feu, du service de santé, de la police et de la douane qui sont annoncés par des avertisseurs spéciaux. En débouchant d'une route secondaire sur une route principale, ils sont tenus d'accorder la priorité. » Ou seja, o tram cede a veículos prioritários anunciados por avisadores especiais e, ao desembocar de via secundária em principal, deve dar prioridade (R-PRIO-025)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "A prioridade do tram não é absoluta: ver exceção (OCR 45 al. 2, R-PRIO-025). Complemento, não exceção: sinais luminosos e ordens da polícia continuam valendo (LCR 27 al. 1, R-PRIO-031; OSR 68 al. 1, R-PRIO-043). Esta alínea não diz expressamente como o tram se coloca em relação aos sinais luminosos."
 
 - id: R-PRIO-025
@@ -360,7 +384,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-026
   categoria: D-Priorite
@@ -375,7 +400,8 @@ rules:
     - "O ônibus deve esperar se os veículos de trás não conseguem parar a tempo (al. 5)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Base legal indicada no título do OCR 17: LCR 36 al. 4. A al. 5 é exceção a esse princípio (normalmente quem entra na circulação cede; aqui quem vem atrás deve deixar o ônibus sair). Ver R-PRIO-030."
 
 - id: R-PRIO-027
@@ -389,7 +415,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Dever correspondente dos demais usuários: LCR 27 al. 2 (R-PRIO-038). Uso restrito a viagens urgentes: OCR 16 al. 3-4 (R-PRIO-039)."
 
 - id: R-PRIO-028
@@ -403,7 +430,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Contexto: a al. 2 do OCR 16 serve ao dever do LCR 27 al. 2 (R-PRIO-038): quando funcionam os avisadores especiais, « la chaussée doit être immédiatement dégagée » e, se necessário, os condutores param. Não é regra geral de usar a calçada."
 
 - id: R-PRIO-029
@@ -419,7 +447,8 @@ rules:
     - "Seta verde sem amarelo piscante (OSR 68 al. 4: « Les flèches vertes permettent de circuler dans le sens indiqué »): o texto só exige ceder aos veículos em sentido contrário quando um amarelo pisca ao lado da seta. Que não é preciso ceder sem o amarelo é inferência do texto, não frase expressa (para pedestres é expresso: OCR 6 al. 2, segunda frase, R-PRIO-021)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Confirmação (não é exceção): com luz verde, quem vira continua cedendo aos veículos em sentido contrário (OSR 68 al. 3) e, com seta verde acompanhada de amarelo piscante, também (OSR 68 al. 4, segunda frase) (R-PRIO-044). Dois veículos que viram à esquerda em sentidos opostos: OCR 13 al. 4, fora do escopo desta regra."
 
 - id: R-PRIO-030
@@ -435,7 +464,8 @@ rules:
     - "Referências cruzadas: quem sai de propriedade, pátio, garagem etc. cede (OCR 15 al. 3, R-PRIO-017); cuidados ao partir, dar marcha à ré e fazer retorno (OCR 17 al. 1-4)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Princípio geral: quem entra na circulação cede. A saída do ônibus de linha da parada (OCR 17 al. 5, que o OCR liga ao LCR 36 al. 4 no título do artigo) é exceção que inverte a resposta (R-PRIO-026)."
 
 - id: R-PRIO-031
@@ -449,7 +479,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-032
   categoria: D-Priorite
@@ -462,7 +493,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Correção: regra_pt anterior tinha a condição incompleta; a condição é 'obstáculo que dificultaria o cruzamento na metade da pista usada pelo condutor'."
 
 - id: R-PRIO-033
@@ -476,7 +508,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-034
   categoria: D-Priorite
@@ -489,7 +522,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-035
   categoria: D-Priorite
@@ -502,7 +536,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-036
   categoria: G-Danger
@@ -516,7 +551,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Realocada de D para G (cuidado com crianças; currículo 1.4.1), com tag cruzada E (ultrapassagem): a regra trata de como ultrapassar um ônibus escolar parado e não dá prioridade a ninguém (revisão T-005)."
 
 - id: R-PRIO-037
@@ -530,7 +566,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-038
   categoria: D-Priorite
@@ -543,7 +580,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-039
   categoria: D-Priorite
@@ -557,7 +595,8 @@ rules:
     - "De noite, luz azul sem avisador: só se o condutor não se desvia de maneira significativa das regras e não faz valer o direito especial de prioridade (al. 4)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-040
   categoria: D-Priorite
@@ -572,7 +611,8 @@ rules:
     - "Vias de forte declive e de montanha: regidas pelo OCR art. 38 al. 1, primeira frase (al. 2, última frase)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Vias de forte declive e de montanha (OCR 38 al. 1, primeira frase): entre veículos da mesma categoria que não conseguem se cruzar, quem desce deve recuar, salvo se o outro veículo está perto de um local de desvio. Categorias diferentes: vale o OCR 9 al. 2, primeira frase (esta regra)."
 
 - id: R-PRIO-041
@@ -587,7 +627,8 @@ rules:
     - "Ficam reservados os sinais especiais de mão dados a pedestres e a veículos públicos em tráfego de linha (OSR 66 al. 2)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Alínea inclui lista a-e; texto copiado em linha contínua."
 
 - id: R-PRIO-042
@@ -602,7 +643,8 @@ rules:
     - "Complemento (OSR 67 al. 2): « Les signes et instructions donnés par d'autres personnes doivent être observés lorsqu'ils sont destinés à prévenir un danger ou à régler la circulation dans une situation difficile. » Vale para qualquer pessoa, mesmo fora da lista a-i."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "A alínea inclui lista a-i. Os sinais e instruções de outras pessoas (OSR 67 al. 2, fora do trecho) estão na exceção acima."
 
 - id: R-PRIO-043
@@ -619,7 +661,8 @@ rules:
     - "Semáforo desligado ou com amarelo piscante: valem de novo os sinais Stop e Cédez le passage e a regra geral. OSR 36 al. 3: os sinais Stop e Cédez le passage só são observados « si le trafic n'est pas réglé par des signaux lumineux »; OSR 70 al. 1 let. b: o amarelo piscante é admitido quando as instalações estão desligadas (R-PRIO-007)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-044
   categoria: D-Priorite
@@ -633,7 +676,8 @@ rules:
     - "Seta verde sem amarelo piscante: quem vira não precisa dar prioridade aos pedestres da via transversal (OCR 6 al. 2, R-PRIO-021)."
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-045
   categoria: D-Priorite
@@ -646,7 +690,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Definição usada em OCR 6 al. 1-2 e OCR 47 al. 2. O arquivo-fonte traz um asterisco de nota colado em 'réglé'; mantido no trecho para casar com o texto do arquivo."
 
 - id: R-PRIO-046
@@ -660,7 +705,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
 
 - id: R-PRIO-047
   categoria: D-Priorite
@@ -673,7 +719,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Pista ciclável: separada da pista por construção; banda ciclável: faixa para ciclistas, normalmente delimitada por linha amarela (OCR 1 al. 6-7). Complementos: R-PRIO-048 e R-PRIO-049."
 
 - id: R-PRIO-048
@@ -687,7 +734,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Fora de interseção: o local onde uma pista ciclável desemboca na pista não é interseção (OCR 1 al. 8, R-PRIO-046). Quem sai de propriedade para a via cede aos usuários da via (OCR 15 al. 3, R-PRIO-017)."
 
 - id: R-PRIO-049
@@ -701,7 +749,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "A segunda frase do trecho fala de « véhicules automobiles »; o texto não menciona a direção da curva. O caso de virar à direita é a aplicação típica em que a pista ciclável fica à direita da pista (leitura do texto, não frase expressa)."
 
 - id: R-PRIO-050
@@ -715,7 +764,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Na entrada de autoestrada o sinal Cédez le passage é colocado conforme o OSR 88 al. 1 (OSR 36 al. 5) e a linha de espera não é obrigatória nas vias de acesso (OSR 75 al. 4). Alternância: R-PRIO-051."
 
 - id: R-PRIO-051
@@ -729,7 +779,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Contagem de alíneas do OCR 8: a lista a-b pertence à al. 4; esta é a al. 5. A alínea não diz quem tem a prioridade em termos absolutos: ordena a alternância."
 
 - id: R-PRIO-052
@@ -743,7 +794,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Par obrigatório de R-PRIO-015 (OCR 15 al. 1). O OSR 37 al. 3 remete a esta alínea para a sinalização de vias principais que mudam de direção."
 
 - id: R-PRIO-053
@@ -757,7 +809,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Contagem de alíneas do OCR 47: a al. 4 está revogada (« … »). Lado do condutor: sem faixa, o condutor numa fila para se necessário quando pedestres esperam para atravessar (OCR 6 al. 3, R-PRIO-034)."
 
 - id: R-PRIO-054
@@ -771,7 +824,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "A velocidade máxima na zona de encontro é de 20 km/h (OSR 22b al. 2)."
 
 - id: R-PRIO-055
@@ -785,7 +839,8 @@ rules:
   excecoes: []
   versao_lei_em_vigor_desde: "2026-10-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Só circulam veículos se uma placa complementar autorizar; sem placa, a zona é reservada."
 
 - id: R-PRIO-056
@@ -803,5 +858,6 @@ rules:
     - "Semáforo desligado ou com amarelo piscante: valem Stop, Cédez le passage e a regra geral (OSR 36 al. 3; OSR 70 al. 1 let. b; R-PRIO-043, R-PRIO-007)."
   versao_lei_em_vigor_desde: "2026-07-01"
   verificado_em: "2026-11-26"
-  status: pendente
+  status: validado
+  validado_em: "2026-11-26"
   nota: "Regra-SÍNTESE. Fontes citadas: LCR 27 al. 1-2 (R-PRIO-031, R-PRIO-038), LCR 36 al. 2 (R-PRIO-001), LCR 38 al. 1 (R-PRIO-024), OCR 16 al. 1 (R-PRIO-027), OCR 45 al. 2 (R-PRIO-025), OSR 66-67 (R-PRIO-041, R-PRIO-042), OSR 68 al. 1 (R-PRIO-043). O texto legal não diz quem vale mais entre a polícia e o veículo prioritário; não foi encontrada ordem expressa e nenhuma é afirmada aqui. O texto também não diz como o tram se coloca em relação aos sinais luminosos. O trecho literal é a al. 1 do LCR 27; os demais dispositivos estão nas regras ligadas. Uso em perguntas: só com as regras ligadas validadas."

@@ -9,3 +9,4 @@
 | D-005 | 2026-11-26 | ~~Escopo reduzido até o exame~~ REJEITADA | — | Luan |
 | D-006 | 2026-11-26 | Escopo completo (categorias A-J) até o exame. A regra de qualidade não muda: só entra no treino o que tiver fonte conferida e o OK do Luan; o resto fica visível como "pendente" | Pedido do Luan; precisão jurídica continua prioridade 1 | Luan |
 | D-007 | 2026-11-26 | A checagem de citações (T-004) roda no GitHub Actions, que baixa o texto do Fedlex. O workspace do Claude não acessa fedlex.admin.ch | Proxy recusou fedlex.admin.ch e fedlex.data.admin.ch (403); Actions é gratuito em repo público | Orquestrador |
+| D-008 | 2026-11-26 | As 56 regras de Priorité estão `validado` ("Ok para todos"). As 4 marcadas ⚠️ (029, 043, 049, 056) mantêm a nota de que contêm interpretação | O Luan validou o documento inteiro; reversível pelo campo status | Luan |

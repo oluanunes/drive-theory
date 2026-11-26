@@ -30,13 +30,13 @@ Gargalo previsto: validação do Luan (~30-45 min por tema, ~5-6 h no total até
 | T-004 | Script + workflow GitHub Actions que baixa o Fedlex e confere se cada `trecho_literal_fr` existe no texto | P0 | DEV/Haiku | T-001, H-04 | scripts/check_quotes.*, .github/workflows/* | Falha se algum trecho não bater | DONE (Actions: 27 OK, 3 FALHA, 2 sem trecho) |
 | H-04 | Luan cria o repo vazio oluanunes/drive-theory (a integração do GitHub não tem permissão para criar) | P0 | Luan | — | — | Repo existe e Claude consegue fazer push | DONE |
 | T-005 | Revisão independente das regras de Priorité (exceções, omissões) | P0 | REV/Opus | T-003, T-004 | só comentários em docs/reviews/ | Relatório com veredito por regra | TODO |
-| H-02 | Luan valida as regras de Priorité | P0 | Luan | T-005 | — | status → validado | TODO |
-| T-006 | ~20 perguntas originais de Priorité (múltipla resposta, níveis 1-4) | P1 | DEV/Sonnet | H-02 | questions/priorite.json | Schema SPEC §5, cada alternativa justificada | TODO |
+| H-02 | Luan valida as regras de Priorité | P0 | Luan | T-005 | — | status → validado | DONE (56 regras, 'Ok para todos', 26/11 03:3x) |
+| T-006 | ~24 perguntas originais de Priorité (múltipla resposta, níveis 1-4) | P1 | DEV/Sonnet | H-02 | questions/priorite.json | Schema SPEC §5, cada alternativa justificada | DOING |
 | T-007 | Revisão independente das perguntas | P1 | REV/Opus | T-006 | docs/reviews/ | Sem ambiguidade nem contradição com regra | TODO |
 | H-03 | Luan aprova amostra de perguntas | P1 | Luan | T-007 | — | status → aprovado | TODO |
 | T-008 | PWA mínimo: Aprender / Praticar / Erros, offline, progresso local | P2 | DEV/Sonnet | T-001 | app/*, scripts/build_data.py | Roda no iPhone; testes passam | DONE no código (17 testes; Chromium). Falta: H-05 (ativar Pages) e teste no iPhone |
 | T-011 | Corrigir/completar regras de Priorité com o texto completo de legal/sources/ | P0 | PESQ/Sonnet | T-012 | Aplicar revisão do T-005: 10 correções, 1 realocação, 10 regras novas (047-056) | P0 | PESQ/Sonnet | T-005 | legal/rules/priorite.yaml | 56 regras, 0 trechos não encontrados | DONE |
-| H-02b | Luan valida as 56 regras de Priorité (bloco 1: ver docs/VALIDACAO-PRIORITE-1.md) | P0 | Luan | T-012 | — | status → validado | TODO |
+| H-02b | Luan valida as 56 regras de Priorité (bloco 1: ver docs/VALIDACAO-PRIORITE-1.md) | P0 | Luan | T-012 | — | status → validado | DONE (56 regras, 'Ok para todos', 26/11 03:3x) |
 | H-05 | Luan ativa o GitHub Pages: repo → Settings → Pages → Source: GitHub Actions | P2 | Luan | T-008 | — | App abre em https://oluanunes.github.io/drive-theory/ | DONE (Pages ativado; instalado no iPhone) |
 | T-005b | T-005 retomada após limite de uso (Opus) | P0 | REV/Opus | T-011 | docs/reviews/T-005-priorite.md | Relatório completo | DONE (35 OK, 10 corrigir, 1 mover, lacunas) |
 | T-010 | legal/rules/priorite.yaml | 0 trechos não encontrados | DONE (46 regras, 46 OK no Actions) |
